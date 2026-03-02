@@ -2,14 +2,14 @@
 
 
 
-WG Working Group                                              Y. N. Here
-Internet-Draft                                    Your Organization Here
+RASPRG                                                        C. Perkins
+Internet-Draft                                     University of Glasgow
 Intended status: Informational                              2 March 2026
 Expires: 3 September 2026
 
 
-                           TODO - Your title
-                  draft-todo-yourname-protocol-latest
+       Analysing Internet Standards Development Organisation Data
+                draft-perkins-analysing-sdo-data-latest
 
 Abstract
 
@@ -20,16 +20,18 @@ About This Document
    This note is to be removed before publishing as an RFC.
 
    The latest revision of this draft can be found at
-   https://example.com/LATEST.  Status information for this document may
-   be found at https://datatracker.ietf.org/doc/draft-todo-yourname-
-   protocol/.
+   https://csperkins.github.io/draft-analysing-sdo-data/draft-perkins-
+   analysing-sdo-data.html.  Status information for this document may be
+   found at https://datatracker.ietf.org/doc/draft-perkins-analysing-
+   sdo-data/.
 
-   Discussion of this document takes place on the WG Working Group
-   mailing list (mailto:WG@example.com), which is archived at
-   https://example.com/WG.
+   Discussion of this document takes place on the RASPRG Research Group
+   mailing list (mailto:rasprg@irtf.org), which is archived at
+   https://mailarchive.ietf.org/arch/browse/rasprg/.  Subscribe at
+   https://www.ietf.org/mailman/listinfo/rasprg/.
 
    Source for this draft and an issue tracker can be found at
-   https://github.com/USER/REPO.
+   https://github.com/csperkins/draft-analysing-sdo-data.
 
 Status of This Memo
 
@@ -57,18 +59,25 @@ Copyright Notice
    Provisions Relating to IETF Documents (https://trustee.ietf.org/
    license-info) in effect on the date of publication of this document.
    Please review these documents carefully, as they describe your rights
-   and restrictions with respect to this document.  Code Components
-   extracted from this document must include Revised BSD License text as
-   described in Section 4.e of the Trust Legal Provisions and are
-   provided without warranty as described in the Revised BSD License.
+   and restrictions with respect to this document.
 
 Table of Contents
 
    1.  Introduction
-   2.  Conventions and Definitions
-   3.  Security Considerations
-   4.  IANA Considerations
-   5.  Normative References
+   2.  Goals of Analysing Standards Data
+   3.  Conventions and Definitions
+   4.  Data Availability
+     4.1.  IETF Data Tracker
+     4.2.  Session Recordings
+     4.3.  Mailing List Archives
+     4.4.  RFC Editor
+     4.5.  GitHub
+   5.  Data Processing
+   6.  Ethics and Data Protection
+   7.  Recommendations
+   8.  Security Considerations
+   9.  IANA Considerations
+   10. Normative References
    Acknowledgments
    Author's Address
 
@@ -76,7 +85,9 @@ Table of Contents
 
    TODO Introduction
 
-2.  Conventions and Definitions
+2.  Goals of Analysing Standards Data
+
+3.  Conventions and Definitions
 
    The key words "MUST", "MUST NOT", "REQUIRED", "SHALL", "SHALL NOT",
    "SHOULD", "SHOULD NOT", "RECOMMENDED", "NOT RECOMMENDED", "MAY", and
@@ -84,15 +95,132 @@ Table of Contents
    BCP 14 [RFC2119] [RFC8174] when, and only when, they appear in all
    capitals, as shown here.
 
-3.  Security Considerations
+4.  Data Availability
+
+4.1.  IETF Data Tracker
+
+   People * Names * Pronouns * Biography and photo in some cases
+
+   Person Alias * Mapping names to people
+
+   Person Event * Not useful?
+
+   External Resources * Website, GitHub profiles, Orcid, etc
+
+   Email addresses * Mapped to people and documents
+
+   Documents * Many different types * Name, title, version, date,
+   abstract, type, * RFC number * AD, Shepherd * Group, stream, state *
+   Standard status
+
+   Document submissions * Document name, version, date, title, abstract
+   * Authors * Group * Replaces
+
+   Document Events * Person * Document, version * Date * Event type
+
+   Document relations * Replaces, updates, cites, cited by, …
+
+   Document authors * Document, person, email, affiliation, coumtry
+
+   IESG ballot positions and comments/discuss text
+
+   Groups * Name, acronym, type, state, parent * Mailing list * Charter
+   text * AD
+
+   Group events * Person, group, date, type, event
+
+   Group roles * Chair, secretary, AD, … * With history
+
+   Group milestones with history
+
+   Meetings * Plenary and interim * Venues, dates, Times * Groups
+   meeting in what slot
+
+   Meeting registration Meeting attendance
+
+   IPR disclosures * Person making disclosure * Document * Details of
+   the disclosure
+
+   Directorate reviews * Documents, reviewer, outcomes, dates, link to
+   review text * Membership of direcorates
+
+   Available email lists
+
+4.2.  Session Recordings
+
+4.3.  Mailing List Archives
+
+   Recent archives essentially complete Some historical lists entirely
+   missing Significant data quality problems * Don’t expect to throw the
+   Python email parsing classes at them without significant cleanup
+
+   A significant number of the email addresses in the archive are not in
+   the data tracker.
+
+4.4.  RFC Editor
+
+   RFC index Errata
+
+4.5.  GitHub
+
+5.  Data Processing
+
+   Entity resolution is a significant challenge * People * Organisations
+
+   Affiliations are a significant challenge * Dual affiliations
+
+   Document history is non-trivial
+
+   Role history is non trivial (e.g., who chaired what group when) Group
+   history is non trivial
+
+   Challenges with working with message contents
+
+   Incomplete or increasingly messy historical data
+
+6.  Ethics and Data Protection
+
+   This is all personal data, subject to legal restrictions on
+   processing in many jurisdictions
+
+   Research will need ethics approval * Results are potentially
+   sensitive and need to be handled with care * The data is public, but
+   the implications of it are not always obvious * e.g., one can derive
+   measures of the effectiveness of individuals in certain roles that,
+   if presented out of context, might be considered sensitive
+
+   Care with data access to avoid disruption to the standards process
+
+7.  Recommendations
+
+   IETF can usefully spend effort to ensure all data is available from
+   the datatracker with a stable API
+
+   Spend effort on cleaning the data (e.g., event data is messy because
+   the format changes)
+
+   Backfill historical data where it is known correct
+
+   Where backfilled data is derived from primary sources, document
+   provenance (e.g., if using LLM to parse handwritten blue sheets to
+   get authors names and affiliations, scans of the original blue sheets
+   must be retained and it must be clear what is derived from them so
+   the derived versions and be checked and updated if necessary) * There
+   are examples where data has been incorrectly back filled
+
+   Process for corrections?
+
+   How to handle derived data? * This is for researchers, not IETF
+
+8.  Security Considerations
 
    TODO Security
 
-4.  IANA Considerations
+9.  IANA Considerations
 
    This document has no IANA actions.
 
-5.  Normative References
+10.  Normative References
 
    [RFC2119]  Bradner, S., "Key words for use in RFCs to Indicate
               Requirement Levels", BCP 14, RFC 2119,
@@ -109,6 +237,6 @@ Acknowledgments
 
 Author's Address
 
-   Your Name Here
-   Your Organization Here
-   Email: your.email@example.com
+   Colin Perkins
+   University of Glasgow
+   Email: csp@csperkins.org
