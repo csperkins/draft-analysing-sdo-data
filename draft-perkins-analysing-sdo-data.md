@@ -53,7 +53,7 @@ TODO Introduction
 
 {::boilerplate bcp14-tagged}
 
-# Data Availability 
+# Data Availability
 
 ## IETF Data Tracker
 
@@ -63,7 +63,7 @@ People
 * Biography and photo in some cases
 
 Person Alias
-* Mapping names to people 
+* Mapping names to people
 
 Person Event
 * Not useful?
@@ -72,20 +72,20 @@ External Resources
 * Website, GitHub profiles, Orcid, etc
 
 Email addresses
-* Mapped to people and documents 
+* Mapped to people and documents
 
 
 Documents
 * Many different types
-* Name, title, version, date, abstract, type, 
+* Name, title, version, date, abstract, type,
 * RFC number
 * AD, Shepherd
 * Group, stream, state
 * Standard status
 
-Document submissions 
+Document submissions
 * Document name, version, date, title, abstract
-* Authors 
+* Authors
 * Group
 * Replaces
 
@@ -116,7 +116,7 @@ Group roles
 * Chair, secretary, AD, …
 * With history
 
-Group milestones with history 
+Group milestones with history
 
 Meetings
 * Plenary and interim
@@ -124,7 +124,7 @@ Meetings
 * Groups meeting in what slot
 
 Meeting registration
-Meeting attendance 
+Meeting attendance
 
 IPR disclosures
 * Person making disclosure
@@ -147,7 +147,7 @@ Significant data quality problems
   significant cleanup
 
 A significant number of the email addresses in the archive are not in the
-data tracker. 
+data tracker.
 
 ## RFC Editor
 RFC index
@@ -156,38 +156,38 @@ Errata
 ## GitHub
 
 # Data Processing
-Entity resolution is a significant challenge 
+Entity resolution is a significant challenge
 * People
-* Organisations 
+* Organisations
 
-Affiliations are a significant challenge 
+Affiliations are a significant challenge
 * Dual affiliations
 
 Document history is non-trivial
 
 Role history is non trivial (e.g., who chaired what group when)
-Group history is non trivial 
+Group history is non trivial
 
 Challenges with working with message contents
 
 Incomplete or increasingly messy historical data
 
-# Ethics and Data Protection 
+# Ethics and Data Protection
 
 This is all personal data, subject to legal restrictions on processing in
-many jurisdictions 
+many jurisdictions
 
 Research will need ethics approval
 * Results are potentially sensitive and need to be handled with care
 * The data is public, but the implications of it are not always obvious
 * e.g., one can derive measures of the effectiveness of individuals in
   certain roles that, if presented out of context, might be considered
-  sensitive 
+  sensitive
 
-Care with data access to avoid disruption to the standards process 
+Care with data access to avoid disruption to the standards process
 
 
-# Recommendations 
+# Recommendations
 
 IETF can usefully spend effort to ensure all data is available from the
 datatracker with a stable API
