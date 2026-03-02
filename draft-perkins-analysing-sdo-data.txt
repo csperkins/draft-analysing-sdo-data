@@ -65,19 +65,17 @@ Table of Contents
 
    1.  Introduction
    2.  Goals of Analysing Standards Data
-   3.  Conventions and Definitions
-   4.  Data Availability
-     4.1.  IETF Data Tracker
-     4.2.  Session Recordings
-     4.3.  Mailing List Archives
-     4.4.  RFC Editor
-     4.5.  GitHub
-   5.  Data Processing
-   6.  Ethics and Data Protection
-   7.  Recommendations
-   8.  Security Considerations
-   9.  IANA Considerations
-   10. Normative References
+   3.  Data Availability
+     3.1.  IETF Data Tracker
+     3.2.  Session Recordings
+     3.3.  Mailing List Archives
+     3.4.  RFC Editor
+     3.5.  GitHub
+   4.  Data Processing
+   5.  Ethics and Data Protection
+   6.  Recommendations
+   7.  Security Considerations
+   8.  IANA Considerations
    Acknowledgments
    Author's Address
 
@@ -87,54 +85,107 @@ Table of Contents
 
 2.  Goals of Analysing Standards Data
 
-3.  Conventions and Definitions
+3.  Data Availability
 
-   The key words "MUST", "MUST NOT", "REQUIRED", "SHALL", "SHALL NOT",
-   "SHOULD", "SHOULD NOT", "RECOMMENDED", "NOT RECOMMENDED", "MAY", and
-   "OPTIONAL" in this document are to be interpreted as described in
-   BCP 14 [RFC2119] [RFC8174] when, and only when, they appear in all
-   capitals, as shown here.
+3.1.  IETF Data Tracker
 
-4.  Data Availability
+   People
 
-4.1.  IETF Data Tracker
+   *  Names
 
-   People * Names * Pronouns * Biography and photo in some cases
+   *  Pronouns
 
-   Person Alias * Mapping names to people
+   *  Biography and photo in some cases
 
-   Person Event * Not useful?
+   Person Alias
 
-   External Resources * Website, GitHub profiles, Orcid, etc
+   *  Mapping names to people
 
-   Email addresses * Mapped to people and documents
+   Person Event
 
-   Documents * Many different types * Name, title, version, date,
-   abstract, type, * RFC number * AD, Shepherd * Group, stream, state *
-   Standard status
+   *  Not useful?
 
-   Document submissions * Document name, version, date, title, abstract
-   * Authors * Group * Replaces
+   External Resources
 
-   Document Events * Person * Document, version * Date * Event type
+   *  Website, GitHub profiles, Orcid, etc
 
-   Document relations * Replaces, updates, cites, cited by, …
+   Email addresses
 
-   Document authors * Document, person, email, affiliation, coumtry
+   *  Mapped to people and documents
+
+   Documents
+
+   *  Many different types
+
+   *  Name, title, version, date, abstract, type,
+
+   *  RFC number
+
+   *  AD, Shepherd
+
+   *  Group, stream, state
+
+   *  Standard status
+
+   Document submissions
+
+   *  Document name, version, date, title, abstract
+
+   *  Authors
+
+   *  Group
+
+   *  Replaces
+
+   Document Events
+
+   *  Person
+
+   *  Document, version
+
+   *  Date
+
+   *  Event type
+
+   Document relations
+
+   *  Replaces, updates, cites, cited by, …
+
+   Document authors
+
+   *  Document, person, email, affiliation, coumtry
 
    IESG ballot positions and comments/discuss text
 
-   Groups * Name, acronym, type, state, parent * Mailing list * Charter
-   text * AD
+   Groups
 
-   Group events * Person, group, date, type, event
+   *  Name, acronym, type, state, parent
 
-   Group roles * Chair, secretary, AD, … * With history
+   *  Mailing list
+
+   *  Charter text
+
+   *  AD
+
+   Group events
+
+   *  Person, group, date, type, event
+
+   Group roles
+
+   *  Chair, secretary, AD, …
+
+   *  With history
 
    Group milestones with history
 
-   Meetings * Plenary and interim * Venues, dates, Times * Groups
-   meeting in what slot
+   Meetings
+
+   *  Plenary and interim
+
+   *  Venues, dates, Times
+
+   *  Groups meeting in what slot
 
    Meeting registration Meeting attendance
 
@@ -146,9 +197,9 @@ Table of Contents
 
    Available email lists
 
-4.2.  Session Recordings
+3.2.  Session Recordings
 
-4.3.  Mailing List Archives
+3.3.  Mailing List Archives
 
    Recent archives essentially complete Some historical lists entirely
    missing Significant data quality problems * Don’t expect to throw the
@@ -157,13 +208,13 @@ Table of Contents
    A significant number of the email addresses in the archive are not in
    the data tracker.
 
-4.4.  RFC Editor
+3.4.  RFC Editor
 
    RFC index Errata
 
-4.5.  GitHub
+3.5.  GitHub
 
-5.  Data Processing
+4.  Data Processing
 
    Entity resolution is a significant challenge * People * Organisations
 
@@ -178,7 +229,7 @@ Table of Contents
 
    Incomplete or increasingly messy historical data
 
-6.  Ethics and Data Protection
+5.  Ethics and Data Protection
 
    This is all personal data, subject to legal restrictions on
    processing in many jurisdictions
@@ -191,7 +242,7 @@ Table of Contents
 
    Care with data access to avoid disruption to the standards process
 
-7.  Recommendations
+6.  Recommendations
 
    IETF can usefully spend effort to ensure all data is available from
    the datatracker with a stable API
@@ -212,24 +263,13 @@ Table of Contents
 
    How to handle derived data? * This is for researchers, not IETF
 
-8.  Security Considerations
+7.  Security Considerations
 
    TODO Security
 
-9.  IANA Considerations
+8.  IANA Considerations
 
    This document has no IANA actions.
-
-10.  Normative References
-
-   [RFC2119]  Bradner, S., "Key words for use in RFCs to Indicate
-              Requirement Levels", BCP 14, RFC 2119,
-              DOI 10.17487/RFC2119, March 1997,
-              <https://www.rfc-editor.org/rfc/rfc2119>.
-
-   [RFC8174]  Leiba, B., "Ambiguity of Uppercase vs Lowercase in RFC
-              2119 Key Words", BCP 14, RFC 8174, DOI 10.17487/RFC8174,
-              May 2017, <https://www.rfc-editor.org/rfc/rfc8174>.
 
 Acknowledgments
 
