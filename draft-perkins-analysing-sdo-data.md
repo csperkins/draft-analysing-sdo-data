@@ -9,7 +9,7 @@ number:
 date:
 consensus: true
 v: 3
-area: AREA
+#area: AREA
 workgroup: RASPRG
 keyword:
  - Scientometrics
@@ -18,9 +18,8 @@ venue:
   group: RASPRG
   type: Research Group
   mail: rasprg@irtf.org
-  #arch: https://example.com/WG
-  #github: USER/REPO
-  #latest: https://example.com/LATEST
+  github: "csperkins/draft-analysing-sdo-data"
+  latest: "https://csperkins.github.io/draft-analysing-sdo-data/draft-perkins-analysing-sdo-data.html"
 
 author:
  -
