@@ -49,33 +49,36 @@ TODO Introduction
 
 
 
-# Conventions and Definitions
-
-{::boilerplate bcp14-tagged}
-
 # Data Availability
 
 ## IETF Data Tracker
 
 People
+
 * Names
 * Pronouns
 * Biography and photo in some cases
 
 Person Alias
+
 * Mapping names to people
 
 Person Event
+
 * Not useful?
 
+
 External Resources
+
 * Website, GitHub profiles, Orcid, etc
 
 Email addresses
+
 * Mapped to people and documents
 
 
 Documents
+
 * Many different types
 * Name, title, version, date, abstract, type,
 * RFC number
@@ -84,41 +87,49 @@ Documents
 * Standard status
 
 Document submissions
+
 * Document name, version, date, title, abstract
 * Authors
 * Group
 * Replaces
 
 Document Events
+
 * Person
 * Document, version
 * Date
 * Event type
 
 Document relations
+
 * Replaces, updates, cites, cited by, …
 
 Document authors
+
 * Document, person, email, affiliation, coumtry
 
 IESG ballot positions and comments/discuss text
 
 Groups
+
 * Name, acronym, type, state, parent
 * Mailing list
 * Charter text
 * AD
 
 Group events
+
 * Person, group, date, type, event
 
 Group roles
+
 * Chair, secretary, AD, …
 * With history
 
 Group milestones with history
 
 Meetings
+
 * Plenary and interim
 * Venues, dates, Times
 * Groups meeting in what slot
