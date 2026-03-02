@@ -53,118 +53,116 @@ TODO Introduction
 
 ## IETF Data Tracker
 
-People
+The IETF Data Tracker (https://datatracker.ietf.org/) is a major source of
+day-to-day and historical data about the operation of the IETF. It can be
+accessed via the website or programmatically using a REST API and provides:
 
-* Names
-* Pronouns
-* Biography and photo in some cases
+* Information about people including names, email addresses, pronouns,
+  biography, and photo, and external resources such as personal websites,
+  GitHub usernames, Orcid identifiers, etc. The data tracker maintains a
+  record of the different names and email addresses used by individuals.
 
-Person Alias
+* Information about documents such as RFCs, Internet-drafts, agendas, blue
+  sheets, working group charters, conflict reviews, shepherd write-ups,
+  liaison statements, minutes, presentation slides, etc., including:
 
-* Mapping names to people
+  * Document metadata such as the title, name ("draft-ietf-..."), revision,
+    date, state, and where appropriate abstract, working group, RFC number
+    and publication stream, status on the standards track, area director,
+    and document shepherd.
 
-Person Event
+  * Document submissions (e.g., different revisions of internet-drafts)
+    with document name, revision, date, title, abstract, authors, group,
+    and metadata about documents the submission replaces.
 
-* Not useful?
+  * Document authors with email address, affiliation, and country.
+
+  * Document events such as state changes state, expiration, details of
+    IESG processing, IETF last call, directorate reviews, IANA reviews,
+    etc., with the document name, revision, date, and responsible person.
+
+  * Document relations including normative and informative references,
+    and document replaced, updated, or obsoleted.
+
+* Information about working groups, research groups, area, directorates,
+  and leadership bodies such as the IESG, IRSG, and IAB, including the
+  group name and acronym, group state, relationships between groups (e.g.,
+  working groups are organised in areas), the mailing list, charter text,
+  milestones, and who occupies key roles in the group.
+
+* Information about IESG processing, including ballot positions, the text
+  of comments and discusses, and scheduling of the IESG review.
+
+* Information about directorate membership and directorate reviews,
+  including the document, reviewer, outcome, data, and the review text.
+
+* Information about meetings, including both plenary and interim meetings,
+  with venues, dates, and times, and details of what groups met in what
+  time slots. Registration and attendance data.
+
+* Information about IPR disclosures including the document that the IPR
+  relates to, the person making disclosure, details of the patent, and
+  licensing terms.
+
+The data tracker has been developed piecemeal over time, and the data it
+provides reflects that with more recent data being significantly more
+complete than earlier data.
+
+## RFC Editor
+
+The RFC Editor makes the RFC index available in machine readable form at
+https://www.rfc-editor.org/rfc-index.xml. The RFC index includes title,
+authors, publication date, status, abstract, publication stream, name of
+the precursor Internet-draft, and the IETF area and working group that
+developed the RFC, if appropriate. This information is also available
+in the IETF Data tracker.
+
+Information about RFC errata is available on the RFC Editor website at
+https://www.rfc-editor.org/errata.php. This data is also available in
+machine readable form.
 
 
-External Resources
+## Mailing List Archives
 
-* Website, GitHub profiles, Orcid, etc
+The IETF maintains public mail archives at https://mailarchive.ietf.org/
+that are also available in machine readable form via IMAP from
+imap.ietf.org. The recent mail archives are essentially complete, but some
+historical lists that were not originally hosted on ietf.org are missing.
+Spam emails have largely, but not entirely, been removed from the archive.
+As of March 2026, the IETF mail archive contains approximately 3 million
+messages from almost 1400 mailing lists, around 40GB of data, with some
+messages dating back to the late 1980s.
 
-Email addresses
+The are significant data quality problems with older messages in the IETF
+mail archive, due to problems with the original messages rather than the
+archive, that make them difficult to process without significant clean-up.
 
-* Mapped to people and documents
-
-
-Documents
-
-* Many different types
-* Name, title, version, date, abstract, type,
-* RFC number
-* AD, Shepherd
-* Group, stream, state
-* Standard status
-
-Document submissions
-
-* Document name, version, date, title, abstract
-* Authors
-* Group
-* Replaces
-
-Document Events
-
-* Person
-* Document, version
-* Date
-* Event type
-
-Document relations
-
-* Replaces, updates, cites, cited by, …
-
-Document authors
-
-* Document, person, email, affiliation, coumtry
-
-IESG ballot positions and comments/discuss text
-
-Groups
-
-* Name, acronym, type, state, parent
-* Mailing list
-* Charter text
-* AD
-
-Group events
-
-* Person, group, date, type, event
-
-Group roles
-
-* Chair, secretary, AD, …
-* With history
-
-Group milestones with history
-
-Meetings
-
-* Plenary and interim
-* Venues, dates, Times
-* Groups meeting in what slot
-
-Meeting registration
-Meeting attendance
-
-IPR disclosures
-* Person making disclosure
-* Document
-* Details of the disclosure
-
-Directorate reviews
-* Documents, reviewer, outcomes, dates, link to review text
-* Membership of direcorates
-
-Available email lists
+The W3C...
 
 ## Session Recordings
 
-## Mailing List Archives
-Recent archives essentially complete
-Some historical lists entirely missing
-Significant data quality problems
-* Don’t expect to throw the Python email parsing classes at them without
-  significant cleanup
+The IETF makes video recordings of its plenary meetings available on
+YouTube (https://www.youtube.com/user/ietf). Audio recordings of IETF
+sessions from IETF 49 through to IETF 106 are available at
+https://get.ietf.org/archive/audio.
 
-A significant number of the email addresses in the archive are not in the
-data tracker.
+## Chat Archives
 
-## RFC Editor
-RFC index
-Errata
+The IETF makes chat logs available. Jabber was used prior to 2021, with
+archives at https://get.ietf.org/archive/jabber/. More recently, Zulip
+has been used accessible at zulip.ietf.org.
+
 
 ## GitHub
+
+Some IETF working groups, and some individuals, make extensive use of
+GitHub for document development and issue tracking. The IETF does not
+maintain a complete list of GitHub repositories associated with its
+work. The IETF data tracker contains pointers to some repositories.
+
+
+The W3C...
+
 
 # Data Processing
 Entity resolution is a significant challenge
