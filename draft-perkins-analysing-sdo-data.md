@@ -35,14 +35,50 @@ informative:
 
 --- abstract
 
-TODO Abstract
+
+   This document outlines a framework for measuring Internet standards
+   development in the IETF and its relationship with other related standard 
+   development organisations standards development
+   organizations (SDOs). It identifies observable components of
+   standards development processes, proposes a taxonomy of possible
+   measurements, and discusses methodological, interpretive, and ethical
+   considerations.
+
+   The framework is intended to support a range of uses, including
+   understanding technology deployment, monitoring SDOs, evaluating 
+   the evolution of technical work, and informing community, leadership,
+   and governance discussions.
+
 
 
 --- middle
 
 # Introduction
 
-TODO Introduction
+   Internet technologies are developed through a range of standards
+   development organizations (SDOs), including organizations such as
+   the IETF, W3C, IEEE, 3GPP, ITU-T, and others.
+
+   These processes underpin the interoperability and architectural
+   evolution of the Internet and the Web. Understanding how standards are 
+   developed, including participation, collaboration, governance, and 
+   technical outputs, can  can help to  monitor
+   standards development organizations, understanding technology
+   evolution and deployment, evaluating the evolution of technical work, and informing
+   the community and its leadership, civil society and policy makers, as well as researchers from a wide range of disciplines.
+
+   This document outlines a framework for measuring such systems.
+
+   Goals:
+
+   * Identify observable components of standards ecosystems
+   * Provide a taxonomy of possible measurements
+   * Highlight methodological considerations and limitations
+   * Encourage reproducible measurement and analysis
+
+   This document does not prescribe metrics or evaluation methods.
+
+
 
 
 # Goals of Analysing Standards Data
@@ -50,6 +86,42 @@ TODO Introduction
 
 
 # Data Availability
+
+Standards development processes can be modeled as socio-technical
+   systems composed of interacting elements.
+
+
+   Key components include:
+
+   Participants: 
+      Individual contributors including engineers, operators,
+      researchers, and independent contributors.
+	
+
+   Organizations: 
+      Organizations (companies, academic institutions, civil society organizations,
+      and governments associated) that participants are affiliated with.
+
+
+   Technical Groups:
+      Working groups, task forces, committees, or other technical bodies
+      responsible for developing specifications.
+
+   Artifacts:
+      Technical documents such as drafts, specifications,
+      recommendations, revisions, and related materials.
+
+   Communication Infrastructure:
+      Mailing lists, repositories, issue trackers, meetings, and
+      collaborative platforms.
+
+   Governance Structures:
+      Review processes, editorial roles, leadership positions,
+      consensus mechanisms, and decision-making processes.
+
+Information on each of these components is available or can be partially inferred through different sources  discussed below.
+
+
 
 ## IETF Data Tracker
 
@@ -137,7 +209,7 @@ The are significant data quality problems with older messages in the IETF
 mail archive, due to problems with the original messages rather than the
 archive, that make them difficult to process without significant clean-up.
 
-The W3C...
+
 
 ## Session Recordings
 
@@ -161,7 +233,7 @@ maintain a complete list of GitHub repositories associated with its
 work. The IETF data tracker contains pointers to some repositories.
 
 
-The W3C...
+
 
 
 # Data Processing
@@ -180,6 +252,50 @@ Group history is non trivial
 Challenges with working with message contents
 
 Incomplete or increasingly messy historical data
+
+# Interpretation and Limitations: Governance, Power, and Culture
+
+   Standards development processes involve both formal and informal
+   governance structures, cultural norms and relationships of relative power.
+
+   Measurement may consider:
+
+   * Distribution of leadership roles (chairs, editors)
+   * Concentration of authorship or editorial control
+   * Organizational representation
+   * Participation inequality
+
+   There is in fact a wide range of aspects that these metrics are unlikely to capture influence, authority, or cultural aspects.
+   A range of techniques including graph theory and natural languaje processing can help extract additional information from the existing data but in manyy cases alternative data sources such as interviews and survey will be necessary.
+
+
+# Cross-SDO Ecosystems
+
+
+   Internet technologies are frequently developed across multiple
+   standards organizations.
+   Different SDOs may focus on different layers of the technology stack
+   or different aspects of a system. This document has so far focused on the IETF, we now consider its relationship in the broader context of INternet SDOs.
+   Particularly relevant to the Internet and the IETF are W3C, ITU-T, and 3GPP.
+
+   Measurement can therefore extend beyond a single organization to
+   examine broader standards ecosystems.
+
+   Examples of cross-SDO measurements include:
+
+   * Overlap of participants across organizations
+   * Organizational participation across multiple SDOs
+   * Cross-references between technical specifications
+   * Dependency relationships between standards produced in
+     different organizations
+   * Liaison relationships and coordination mechanisms
+
+   Cross-SDO analysis can help identify ecosystem structures,
+   collaboration patterns, dependencies across standards bodies, strategic behavior by standard developers.
+   
+   A broader perspective that takes into account an even wider ecosystem could consider other forums including policy oriented ones such as IGF as well as operational ones like Regional Registries, Network operator lists (NOGs) and ICANN.
+   The goal of this document is not to cover any of these in detail but to highlight that a comprehensive understanding is possible and that data is available.
+
 
 # Ethics and Data Protection
 
