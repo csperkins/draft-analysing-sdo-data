@@ -198,6 +198,7 @@ Care with data access to avoid disruption to the standards process
 
 # Recommendations
 
+## for the IETF
 IETF can usefully spend effort to ensure all data is available from the
 datatracker with a stable API
 
@@ -217,6 +218,13 @@ Process for corrections?
 
 How to handle derived data?
 * This is for researchers, not IETF
+
+## for the Researchers
+* Work with a snapshot of the data instead of working with the live data
+
+* Engage with the community (the picture you get from the data and analysis are often incomplete)
+
+TODO complete (there are more for sure...)
 
 # Security Considerations
 
