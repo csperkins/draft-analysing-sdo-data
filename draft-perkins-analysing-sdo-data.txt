@@ -4,8 +4,8 @@
 
 RASPRG                                                        C. Perkins
 Internet-Draft                                     University of Glasgow
-Intended status: Informational                              8 March 2026
-Expires: 9 September 2026
+Intended status: Informational                             12 March 2026
+Expires: 13 September 2026
 
 
        Analysing Internet Standards Development Organisation Data
@@ -48,7 +48,7 @@ Status of This Memo
    time.  It is inappropriate to use Internet-Drafts as reference
    material or to cite them other than as "work in progress."
 
-   This Internet-Draft will expire on 9 September 2026.
+   This Internet-Draft will expire on 13 September 2026.
 
 Copyright Notice
 
@@ -75,6 +75,8 @@ Table of Contents
    4.  Data Processing
    5.  Ethics and Data Protection
    6.  Recommendations
+     6.1.  for the IETF
+     6.2.  for the Researchers
    7.  Security Considerations
    8.  IANA Considerations
    Acknowledgments
@@ -237,6 +239,8 @@ Table of Contents
 
 6.  Recommendations
 
+6.1.  for the IETF
+
    IETF can usefully spend effort to ensure all data is available from
    the datatracker with a stable API
 
@@ -255,6 +259,16 @@ Table of Contents
    Process for corrections?
 
    How to handle derived data? * This is for researchers, not IETF
+
+6.2.  for the Researchers
+
+   *  Work with a snapshot of the data instead of working with the live
+      data
+
+   *  Engage with the community (the picture you get from the data and
+      analysis are often incomplete)
+
+   TODO complete (there are more for sure...)
 
 7.  Security Considerations
 
