@@ -185,6 +185,9 @@ Table of Contents
    *  Information about affiliations, such as their name, and their
       member status.
 
+   *  Information about groups, such as name, participants in the group,
+      chair, charter and etc.
+
 3.4.  Mailing List Archives
 
    The IETF maintains public mail archives at
