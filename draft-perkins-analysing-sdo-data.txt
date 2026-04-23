@@ -4,8 +4,8 @@
 
 RASPRG                                                        C. Perkins
 Internet-Draft                                     University of Glasgow
-Intended status: Informational                             12 March 2026
-Expires: 13 September 2026
+Intended status: Informational                             23 April 2026
+Expires: 25 October 2026
 
 
        Analysing Internet Standards Development Organisation Data
@@ -48,7 +48,7 @@ Status of This Memo
    time.  It is inappropriate to use Internet-Drafts as reference
    material or to cite them other than as "work in progress."
 
-   This Internet-Draft will expire on 13 September 2026.
+   This Internet-Draft will expire on 25 October 2026.
 
 Copyright Notice
 
@@ -66,12 +66,13 @@ Table of Contents
    1.  Introduction
    2.  Goals of Analysing Standards Data
    3.  Data Availability
-     3.1.  IETF Data Tracker
-     3.2.  RFC Editor
-     3.3.  Mailing List Archives
-     3.4.  Session Recordings
-     3.5.  Chat Archives
-     3.6.  GitHub
+     3.1.  IETF: Data Tracker
+     3.2.  IETF: RFC Editor
+     3.3.  W3C: The W3C API
+     3.4.  Mailing List Archives
+     3.5.  Session Recordings
+     3.6.  Chat Archives
+     3.7.  GitHub
    4.  Data Processing
    5.  Ethics and Data Protection
    6.  Recommendations
@@ -90,7 +91,7 @@ Table of Contents
 
 3.  Data Availability
 
-3.1.  IETF Data Tracker
+3.1.  IETF: Data Tracker
 
    The IETF Data Tracker (https://datatracker.ietf.org/) is a major
    source of day-to-day and historical data about the operation of the
@@ -154,7 +155,7 @@ Table of Contents
    it provides reflects that with more recent data being significantly
    more complete than earlier data.
 
-3.2.  RFC Editor
+3.2.  IETF: RFC Editor
 
    The RFC Editor makes the RFC index available in machine readable form
    at https://www.rfc-editor.org/rfc-index.xml.  The RFC index includes
@@ -167,7 +168,24 @@ Table of Contents
    at https://www.rfc-editor.org/errata.php.  This data is also
    available in machine readable form.
 
-3.3.  Mailing List Archives
+3.3.  W3C: The W3C API
+
+   The W3C provides API endpoints providing access to a range of
+   information available.  The overview of the API can be found at
+   https://www.w3.org/api/ and their endpoints are available at
+   https://api.w3.org/doc.  The information available in the API
+   includes:
+
+   *  Information about documents, such as ID, date, URI, title, status,
+      document types (recommendation, and etc.), and its version.
+
+   *  Information about participants, such as their names, and
+      affiliations
+
+   *  Information about affiliations, such as their name, and their
+      member status.
+
+3.4.  Mailing List Archives
 
    The IETF maintains public mail archives at
    https://mailarchive.ietf.org/ that are also available in machine
@@ -184,22 +202,24 @@ Table of Contents
    than the archive, that make them difficult to process without
    significant clean-up.
 
-   The W3C...
+   The W3C also maintains public mail archives at
+   https://lists.w3.org/Archives/Public/. However these are not readily
+   available in formats other than the HTML rendered email threads.
 
-3.4.  Session Recordings
+3.5.  Session Recordings
 
    The IETF makes video recordings of its plenary meetings available on
    YouTube (https://www.youtube.com/user/ietf).  Audio recordings of
    IETF sessions from IETF 49 through to IETF 106 are available at
    https://get.ietf.org/archive/audio.
 
-3.5.  Chat Archives
+3.6.  Chat Archives
 
    The IETF makes chat logs available.  Jabber was used prior to 2021,
    with archives at https://get.ietf.org/archive/jabber/. More recently,
    Zulip has been used accessible at zulip.ietf.org.
 
-3.6.  GitHub
+3.7.  GitHub
 
    Some IETF working groups, and some individuals, make extensive use of
    GitHub for document development and issue tracking.  The IETF does
@@ -207,7 +227,18 @@ Table of Contents
    its work.  The IETF data tracker contains pointers to some
    repositories.
 
-   The W3C...
+   The W3C also make use of the GitHub...
+
+   Using an appropriate GitHub API access, the following information are
+   available from Github:
+
+   *  Information about users contributing through Github (Username,
+      email address, and etc.)
+
+   *  Contributions those users make directly to the document via
+      commits
+
+   *  Discourse through comments and issues
 
 4.  Data Processing
 
@@ -267,6 +298,12 @@ Table of Contents
 
    *  Engage with the community (the picture you get from the data and
       analysis are often incomplete)
+
+   *  Contribute the effort put into cleaning the data back to the IETF
+      (potentially?)
+
+   *  As per the Ethics and Data Protection section, be cautious about
+      the implication of the outcomes.
 
    TODO complete (there are more for sure...)
 
