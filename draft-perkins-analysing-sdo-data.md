@@ -136,6 +136,9 @@ The information available in the API includes:
 * Information about affiliations, such as their name, and their member
   status.
 
+* Information about groups, such as name, participants in the group,
+  chair, charter and etc.
+
 ## Mailing List Archives
 
 The IETF maintains public mail archives at https://mailarchive.ietf.org/
