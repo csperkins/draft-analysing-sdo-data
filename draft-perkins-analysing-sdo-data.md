@@ -51,7 +51,7 @@ TODO Introduction
 
 # Data Availability
 
-## IETF Data Tracker
+## IETF: Data Tracker
 
 The IETF Data Tracker (https://datatracker.ietf.org/) is a major source of
 day-to-day and historical data about the operation of the IETF. It can be
@@ -108,7 +108,7 @@ The data tracker has been developed piecemeal over time, and the data it
 provides reflects that with more recent data being significantly more
 complete than earlier data.
 
-## RFC Editor
+## IETF: RFC Editor
 
 The RFC Editor makes the RFC index available in machine readable form at
 https://www.rfc-editor.org/rfc-index.xml. The RFC index includes title,
@@ -121,6 +121,20 @@ Information about RFC errata is available on the RFC Editor website at
 https://www.rfc-editor.org/errata.php. This data is also available in
 machine readable form.
 
+## W3C: The W3C API
+
+The W3C provides API endpoints providing access to a range of information
+available. The overview of the API can be found at https://www.w3.org/api/
+and their endpoints are available at https://api.w3.org/doc.
+The information available in the API includes:
+
+* Information about documents, such as ID, date, URI, title, status,
+  document types (recommendation, and etc.), and its version.
+
+* Information about participants, such as their names, and affiliations
+
+* Information about affiliations, such as their name, and their member
+  status.
 
 ## Mailing List Archives
 
@@ -137,7 +151,10 @@ The are significant data quality problems with older messages in the IETF
 mail archive, due to problems with the original messages rather than the
 archive, that make them difficult to process without significant clean-up.
 
-The W3C...
+The W3C also maintains public mail archives at https://lists.w3.org/Archives/Public/.
+However these are not readily available in formats other than the HTML
+rendered email threads.
+
 
 ## Session Recordings
 
@@ -160,9 +177,18 @@ GitHub for document development and issue tracking. The IETF does not
 maintain a complete list of GitHub repositories associated with its
 work. The IETF data tracker contains pointers to some repositories.
 
+The W3C also make use of the GitHub...
 
-The W3C...
+Using an appropriate GitHub API access, the following information
+are available from Github:
 
+* Information about users contributing through Github (Username,
+  email address, and etc.)
+
+* Contributions those users make directly to the document via
+  commits
+
+* Discourse through comments and issues
 
 # Data Processing
 Entity resolution is a significant challenge
@@ -223,6 +249,11 @@ How to handle derived data?
 * Work with a snapshot of the data instead of working with the live data
 
 * Engage with the community (the picture you get from the data and analysis are often incomplete)
+
+* Contribute the effort put into cleaning the data back to the IETF (potentially?)
+
+* As per the Ethics and Data Protection section, be cautious about the
+  implication of the outcomes.
 
 TODO complete (there are more for sure...)
 
