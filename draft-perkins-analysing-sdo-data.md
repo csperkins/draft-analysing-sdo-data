@@ -26,10 +26,6 @@ author:
     fullname: Colin Perkins
     organization: University of Glasgow
     email: csp@csperkins.org
- -
-    fullname: Ignacio Castro
-    organization: Queen Mary University of London
-    email: i.castro@qmul.ac.uk
 
  -
     fullname: Ryo Yanagida
@@ -169,7 +165,7 @@ groups. These organisations may provide forms of support including funding, staf
 The relationship between participants and organisations is not equally
 visible across SDOs. In open participation models such as the IETF,
 participation is individual rather than membership-based, so any
-recorded affiliation may be incomplete and it is declaration is voluntary (exceptions to this norm exist for specifc aspects such as draft authorship and intellectual property rights disclosures). In membership-based models, the institutional link is clearer: for example, W3C participation in formal groups is generally through member
+recorded affiliation may be incomplete and it is declaration is voluntary (exceptions to this norm exist for specific aspects such as draft authorship and intellectual property rights disclosures). In membership-based models, the institutional link is clearer: for example, W3C participation in formal groups is generally through member
 organisations, and ITU-T participation is structured through membership
 categories and the rights associated with them.
 
@@ -307,7 +303,7 @@ possible, considered alongside complementary indicators.
 
 ## Data Availability
 
-### IETF: Data Tracker
+### Data Tracker
 
 The IETF Data Tracker (https://datatracker.ietf.org/) is a major source of
 day-to-day and historical data about the operation of the IETF. It can be
@@ -364,7 +360,7 @@ The data tracker has been developed piecemeal over time, and the data it
 provides reflects that with more recent data being significantly more
 complete than earlier data.
 
-### IETF: RFC Editor
+### RFC Editor
 
 The RFC Editor makes the RFC index available in machine readable form at
 https://www.rfc-editor.org/rfc-index.xml. The RFC index includes title,
@@ -394,11 +390,6 @@ The are significant data quality problems with older messages in the IETF
 mail archive, due to problems with the original messages rather than the
 archive, that make them difficult to process without significant clean-up.
 
-The W3C also maintains public mail archives at https://lists.w3.org/Archives/Public/.
-However these are not readily available in formats other than the HTML
-rendered email threads.
-
-
 ## Session Recordings
 
 The IETF makes video recordings of its plenary meetings available on
@@ -419,8 +410,6 @@ Some IETF working groups, and some individuals, make extensive use of
 GitHub for document development and issue tracking. The IETF does not
 maintain a complete list of GitHub repositories associated with its
 work. The IETF data tracker contains pointers to some repositories.
-
-The W3C also make use of the GitHub...
 
 Using an appropriate GitHub API access, the following information
 are available from Github:
@@ -473,7 +462,7 @@ In this section we discuss several such SDOs with a specific focus in W3C and th
 
 ## W3C
 
-### W3C: The W3C API
+### The W3C API
 
 The W3C provides API endpoints providing access to a range of information
 available. The overview of the API can be found at https://www.w3.org/api/
@@ -494,6 +483,15 @@ The information available in the API includes:
 This might seem similar to the IETF Datatracker in some aspects, however
 there are a numerous differences in terms of process, structure, and etc.
 such that they are not necessarily directly comparable to one another.
+
+### W3C Mailing List Archive
+
+The W3C maintains public mail archives at https://lists.w3.org/Archives/Public/
+These are available as HTML renders of emails.
+
+### Other sources
+
+The W3C participants are active on GitHub as well...
 
 ## Integrating data across SDOs
 
