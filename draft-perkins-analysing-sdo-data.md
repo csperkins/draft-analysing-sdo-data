@@ -28,6 +28,11 @@ author:
     email: csp@csperkins.org
 
  -
+    fullname: Ignacio Castro
+    organization: Queen Mary University of London
+    email: i.castro@qmul.ac.uk
+
+ -
     fullname: Ryo Yanagida
     organization: University of St Andrews
     email: ryo@htonl.net
