@@ -262,7 +262,7 @@ unavailable.
 
 ## Implications for Measurement
 
-MMeasuring SDO activity is challenging. Observable metrics such as
+Measuring SDO activity is challenging. Observable metrics such as
 publication counts, message volume, attendance figures, authorship, or
 leadership roles can provide useful evidence, but each captures only
 part of the standards process.
@@ -455,9 +455,12 @@ Research will need ethics approval
 
 Care with data access to avoid disruption to the standards process
 
-# Analysing OTher SDOs
+# Analysing Other SDOs
 
-
+Standardization efforts happen across an array of SDOs and therefore a comprehensive analysis requires
+covering multiple such SDOs. Each SDO brings its own peculiarities and challenges. An additional 
+and  important challenge is the integration of data across multiple SDOs to understand the standardizationn landscape.
+In this section we discuss several such SDOs with a specific focus in W3C and the challenges of data integration across the IETF and W3C.
 
 ## W3C
 
@@ -478,6 +481,10 @@ The information available in the API includes:
 
 * Information about groups, such as name, participants in the group,
   chair, charter and etc.
+
+## Integrating data across SDOs
+
+
 
 # Recommendations
 
