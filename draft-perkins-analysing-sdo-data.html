@@ -7,7 +7,15 @@
 <title>Analysing Internet Standards Development Organisation Data</title>
 <meta content="Colin Perkins" name="author">
 <meta content="
-       TODO Abstract 
+       This document outlines a framework for measuring Internet standards
+development ecosystems. It identifies observable components of
+standards development processes, proposes a taxonomy of possible
+measurements, and highlights methodological, interpretive, and ethical
+considerations. 
+       The framework is intended to support a range of uses, including
+understanding technology deployment, monitoring standards development
+organizations (SDOs), evaluating the evolution of technical work, and
+informing community, leadership, and governance discussions. 
     " name="description">
 <meta content="xml2rfc 3.33.0" name="generator">
 <meta content="Scientometrics" name="keyword">
@@ -1050,7 +1058,7 @@ svg :is([fill="white"], [fill^="#fff"]) {
 </tr></thead>
 <tfoot><tr>
 <td class="left">Perkins</td>
-<td class="center">Expires 25 October 2026</td>
+<td class="center">Expires 26 October 2026</td>
 <td class="right">[Page]</td>
 </tr></tfoot>
 </table>
@@ -1063,12 +1071,12 @@ svg :is([fill="white"], [fill^="#fff"]) {
 <dd class="internet-draft">draft-perkins-analysing-sdo-data-latest</dd>
 <dt class="label-published">Published:</dt>
 <dd class="published">
-<time datetime="2026-04-23" class="published">23 April 2026</time>
+<time datetime="2026-04-24" class="published">24 April 2026</time>
     </dd>
 <dt class="label-intended-status">Intended Status:</dt>
 <dd class="intended-status">Informational</dd>
 <dt class="label-expires">Expires:</dt>
-<dd class="expires"><time datetime="2026-10-25">25 October 2026</time></dd>
+<dd class="expires"><time datetime="2026-10-26">26 October 2026</time></dd>
 <dt class="label-authors">Author:</dt>
 <dd class="authors">
 <div class="author">
@@ -1081,7 +1089,15 @@ svg :is([fill="white"], [fill^="#fff"]) {
 <h1 id="title">Analysing Internet Standards Development Organisation Data</h1>
 <section id="section-abstract">
       <h2 id="abstract"><a href="#abstract" class="selfRef">Abstract</a></h2>
-<p id="section-abstract-1">TODO Abstract<a href="#section-abstract-1" class="pilcrow">¶</a></p>
+<p id="section-abstract-1">This document outlines a framework for measuring Internet standards
+development ecosystems. It identifies observable components of
+standards development processes, proposes a taxonomy of possible
+measurements, and highlights methodological, interpretive, and ethical
+considerations.<a href="#section-abstract-1" class="pilcrow">¶</a></p>
+<p id="section-abstract-2">The framework is intended to support a range of uses, including
+understanding technology deployment, monitoring standards development
+organizations (SDOs), evaluating the evolution of technical work, and
+informing community, leadership, and governance discussions.<a href="#section-abstract-2" class="pilcrow">¶</a></p>
 </section>
 <section class="note rfcEditorRemove" id="section-note.1">
       <h2 id="name-about-this-document">
@@ -1118,7 +1134,7 @@ svg :is([fill="white"], [fill^="#fff"]) {
         time. It is inappropriate to use Internet-Drafts as reference
         material or to cite them other than as "work in progress."<a href="#section-boilerplate.1-3" class="pilcrow">¶</a></p>
 <p id="section-boilerplate.1-4">
-        This Internet-Draft will expire on 25 October 2026.<a href="#section-boilerplate.1-4" class="pilcrow">¶</a></p>
+        This Internet-Draft will expire on 26 October 2026.<a href="#section-boilerplate.1-4" class="pilcrow">¶</a></p>
 </section>
 </div>
 <div id="copyright">
@@ -1151,59 +1167,106 @@ svg :is([fill="white"], [fill^="#fff"]) {
             <p id="section-toc.1-1.2.1" class="keepWithNext"><a href="#section-2" class="auto internal xref">2</a>.  <a href="#name-goals-of-analysing-standard" class="internal xref">Goals of Analysing Standards Data</a></p>
 </li>
           <li class="compact toc ulBare ulEmpty" id="section-toc.1-1.3">
-            <p id="section-toc.1-1.3.1"><a href="#section-3" class="auto internal xref">3</a>.  <a href="#name-data-availability" class="internal xref">Data Availability</a></p>
+            <p id="section-toc.1-1.3.1"><a href="#section-3" class="auto internal xref">3</a>.  <a href="#name-standards-development-as-a-" class="internal xref">Standards Development as a Socio-Technical System</a></p>
 <ul class="compact toc ulBare ulEmpty">
 <li class="compact toc ulBare ulEmpty" id="section-toc.1-1.3.2.1">
-                <p id="section-toc.1-1.3.2.1.1" class="keepWithNext"><a href="#section-3.1" class="auto internal xref">3.1</a>.  <a href="#name-ietf-data-tracker" class="internal xref">IETF: Data Tracker</a></p>
+                <p id="section-toc.1-1.3.2.1.1" class="keepWithNext"><a href="#section-3.1" class="auto internal xref">3.1</a>.  <a href="#name-participants" class="internal xref">Participants</a></p>
 </li>
               <li class="compact toc ulBare ulEmpty" id="section-toc.1-1.3.2.2">
-                <p id="section-toc.1-1.3.2.2.1"><a href="#section-3.2" class="auto internal xref">3.2</a>.  <a href="#name-ietf-rfc-editor" class="internal xref">IETF: RFC Editor</a></p>
+                <p id="section-toc.1-1.3.2.2.1"><a href="#section-3.2" class="auto internal xref">3.2</a>.  <a href="#name-organisations" class="internal xref">Organisations</a></p>
 </li>
               <li class="compact toc ulBare ulEmpty" id="section-toc.1-1.3.2.3">
-                <p id="section-toc.1-1.3.2.3.1"><a href="#section-3.3" class="auto internal xref">3.3</a>.  <a href="#name-w3c-the-w3c-api" class="internal xref">W3C: The W3C API</a></p>
+                <p id="section-toc.1-1.3.2.3.1"><a href="#section-3.3" class="auto internal xref">3.3</a>.  <a href="#name-technical-groups" class="internal xref">Technical Groups</a></p>
 </li>
               <li class="compact toc ulBare ulEmpty" id="section-toc.1-1.3.2.4">
-                <p id="section-toc.1-1.3.2.4.1"><a href="#section-3.4" class="auto internal xref">3.4</a>.  <a href="#name-mailing-list-archives" class="internal xref">Mailing List Archives</a></p>
+                <p id="section-toc.1-1.3.2.4.1"><a href="#section-3.4" class="auto internal xref">3.4</a>.  <a href="#name-artifacts" class="internal xref">Artifacts</a></p>
 </li>
               <li class="compact toc ulBare ulEmpty" id="section-toc.1-1.3.2.5">
-                <p id="section-toc.1-1.3.2.5.1"><a href="#section-3.5" class="auto internal xref">3.5</a>.  <a href="#name-session-recordings" class="internal xref">Session Recordings</a></p>
+                <p id="section-toc.1-1.3.2.5.1"><a href="#section-3.5" class="auto internal xref">3.5</a>.  <a href="#name-25-communication-infrastruc" class="internal xref">2.5. Communication Infrastructure</a></p>
 </li>
               <li class="compact toc ulBare ulEmpty" id="section-toc.1-1.3.2.6">
-                <p id="section-toc.1-1.3.2.6.1"><a href="#section-3.6" class="auto internal xref">3.6</a>.  <a href="#name-chat-archives" class="internal xref">Chat Archives</a></p>
+                <p id="section-toc.1-1.3.2.6.1"><a href="#section-3.6" class="auto internal xref">3.6</a>.  <a href="#name-governance-structures" class="internal xref">Governance Structures</a></p>
 </li>
               <li class="compact toc ulBare ulEmpty" id="section-toc.1-1.3.2.7">
-                <p id="section-toc.1-1.3.2.7.1"><a href="#section-3.7" class="auto internal xref">3.7</a>.  <a href="#name-github" class="internal xref">GitHub</a></p>
+                <p id="section-toc.1-1.3.2.7.1"><a href="#section-3.7" class="auto internal xref">3.7</a>.  <a href="#name-external-deployment-ecosyst" class="internal xref">External Deployment Ecosystem</a></p>
+</li>
+              <li class="compact toc ulBare ulEmpty" id="section-toc.1-1.3.2.8">
+                <p id="section-toc.1-1.3.2.8.1"><a href="#section-3.8" class="auto internal xref">3.8</a>.  <a href="#name-implications-for-measuremen" class="internal xref">Implications for Measurement</a></p>
 </li>
             </ul>
 </li>
           <li class="compact toc ulBare ulEmpty" id="section-toc.1-1.4">
-            <p id="section-toc.1-1.4.1"><a href="#section-4" class="auto internal xref">4</a>.  <a href="#name-data-processing" class="internal xref">Data Processing</a></p>
-</li>
-          <li class="compact toc ulBare ulEmpty" id="section-toc.1-1.5">
-            <p id="section-toc.1-1.5.1"><a href="#section-5" class="auto internal xref">5</a>.  <a href="#name-ethics-and-data-protection" class="internal xref">Ethics and Data Protection</a></p>
-</li>
-          <li class="compact toc ulBare ulEmpty" id="section-toc.1-1.6">
-            <p id="section-toc.1-1.6.1"><a href="#section-6" class="auto internal xref">6</a>.  <a href="#name-recommendations" class="internal xref">Recommendations</a></p>
+            <p id="section-toc.1-1.4.1"><a href="#section-4" class="auto internal xref">4</a>.  <a href="#name-analysing-the-ietf" class="internal xref">Analysing the IETF</a></p>
 <ul class="compact toc ulBare ulEmpty">
-<li class="compact toc ulBare ulEmpty" id="section-toc.1-1.6.2.1">
-                <p id="section-toc.1-1.6.2.1.1"><a href="#section-6.1" class="auto internal xref">6.1</a>.  <a href="#name-for-the-ietf" class="internal xref">for the IETF</a></p>
+<li class="compact toc ulBare ulEmpty" id="section-toc.1-1.4.2.1">
+                <p id="section-toc.1-1.4.2.1.1"><a href="#section-4.1" class="auto internal xref">4.1</a>.  <a href="#name-data-availability" class="internal xref">Data Availability</a></p>
+<ul class="compact toc ulBare ulEmpty">
+<li class="compact toc ulBare ulEmpty" id="section-toc.1-1.4.2.1.2.1">
+                    <p id="section-toc.1-1.4.2.1.2.1.1"><a href="#section-4.1.1" class="auto internal xref">4.1.1</a>.  <a href="#name-ietf-data-tracker" class="internal xref">IETF: Data Tracker</a></p>
 </li>
-              <li class="compact toc ulBare ulEmpty" id="section-toc.1-1.6.2.2">
-                <p id="section-toc.1-1.6.2.2.1"><a href="#section-6.2" class="auto internal xref">6.2</a>.  <a href="#name-for-the-researchers" class="internal xref">for the Researchers</a></p>
+                  <li class="compact toc ulBare ulEmpty" id="section-toc.1-1.4.2.1.2.2">
+                    <p id="section-toc.1-1.4.2.1.2.2.1"><a href="#section-4.1.2" class="auto internal xref">4.1.2</a>.  <a href="#name-ietf-rfc-editor" class="internal xref">IETF: RFC Editor</a></p>
+</li>
+                </ul>
+</li>
+              <li class="compact toc ulBare ulEmpty" id="section-toc.1-1.4.2.2">
+                <p id="section-toc.1-1.4.2.2.1"><a href="#section-4.2" class="auto internal xref">4.2</a>.  <a href="#name-mailing-list-archives" class="internal xref">Mailing List Archives</a></p>
+</li>
+              <li class="compact toc ulBare ulEmpty" id="section-toc.1-1.4.2.3">
+                <p id="section-toc.1-1.4.2.3.1"><a href="#section-4.3" class="auto internal xref">4.3</a>.  <a href="#name-session-recordings" class="internal xref">Session Recordings</a></p>
+</li>
+              <li class="compact toc ulBare ulEmpty" id="section-toc.1-1.4.2.4">
+                <p id="section-toc.1-1.4.2.4.1"><a href="#section-4.4" class="auto internal xref">4.4</a>.  <a href="#name-chat-archives" class="internal xref">Chat Archives</a></p>
+</li>
+              <li class="compact toc ulBare ulEmpty" id="section-toc.1-1.4.2.5">
+                <p id="section-toc.1-1.4.2.5.1"><a href="#section-4.5" class="auto internal xref">4.5</a>.  <a href="#name-github" class="internal xref">GitHub</a></p>
 </li>
             </ul>
 </li>
+          <li class="compact toc ulBare ulEmpty" id="section-toc.1-1.5">
+            <p id="section-toc.1-1.5.1"><a href="#section-5" class="auto internal xref">5</a>.  <a href="#name-data-processing" class="internal xref">Data Processing</a></p>
+</li>
+          <li class="compact toc ulBare ulEmpty" id="section-toc.1-1.6">
+            <p id="section-toc.1-1.6.1"><a href="#section-6" class="auto internal xref">6</a>.  <a href="#name-ethics-and-data-protection" class="internal xref">Ethics and Data Protection</a></p>
+</li>
           <li class="compact toc ulBare ulEmpty" id="section-toc.1-1.7">
-            <p id="section-toc.1-1.7.1"><a href="#section-7" class="auto internal xref">7</a>.  <a href="#name-security-considerations" class="internal xref">Security Considerations</a></p>
+            <p id="section-toc.1-1.7.1"><a href="#section-7" class="auto internal xref">7</a>.  <a href="#name-analysing-other-sdos" class="internal xref">Analysing Other SDOs</a></p>
+<ul class="compact toc ulBare ulEmpty">
+<li class="compact toc ulBare ulEmpty" id="section-toc.1-1.7.2.1">
+                <p id="section-toc.1-1.7.2.1.1"><a href="#section-7.1" class="auto internal xref">7.1</a>.  <a href="#name-w3c" class="internal xref">W3C</a></p>
+<ul class="compact toc ulBare ulEmpty">
+<li class="compact toc ulBare ulEmpty" id="section-toc.1-1.7.2.1.2.1">
+                    <p id="section-toc.1-1.7.2.1.2.1.1"><a href="#section-7.1.1" class="auto internal xref">7.1.1</a>.  <a href="#name-w3c-the-w3c-api" class="internal xref">W3C: The W3C API</a></p>
+</li>
+                </ul>
+</li>
+              <li class="compact toc ulBare ulEmpty" id="section-toc.1-1.7.2.2">
+                <p id="section-toc.1-1.7.2.2.1"><a href="#section-7.2" class="auto internal xref">7.2</a>.  <a href="#name-integrating-data-across-sdo" class="internal xref">Integrating data across SDOs</a></p>
+</li>
+            </ul>
 </li>
           <li class="compact toc ulBare ulEmpty" id="section-toc.1-1.8">
-            <p id="section-toc.1-1.8.1"><a href="#section-8" class="auto internal xref">8</a>.  <a href="#name-iana-considerations" class="internal xref">IANA Considerations</a></p>
+            <p id="section-toc.1-1.8.1"><a href="#section-8" class="auto internal xref">8</a>.  <a href="#name-recommendations" class="internal xref">Recommendations</a></p>
+<ul class="compact toc ulBare ulEmpty">
+<li class="compact toc ulBare ulEmpty" id="section-toc.1-1.8.2.1">
+                <p id="section-toc.1-1.8.2.1.1"><a href="#section-8.1" class="auto internal xref">8.1</a>.  <a href="#name-for-the-ietf" class="internal xref">for the IETF</a></p>
+</li>
+              <li class="compact toc ulBare ulEmpty" id="section-toc.1-1.8.2.2">
+                <p id="section-toc.1-1.8.2.2.1"><a href="#section-8.2" class="auto internal xref">8.2</a>.  <a href="#name-for-the-researchers" class="internal xref">for the Researchers</a></p>
+</li>
+            </ul>
 </li>
           <li class="compact toc ulBare ulEmpty" id="section-toc.1-1.9">
-            <p id="section-toc.1-1.9.1"><a href="#appendix-A" class="auto internal xref"></a><a href="#name-acknowledgments" class="internal xref">Acknowledgments</a></p>
+            <p id="section-toc.1-1.9.1"><a href="#section-9" class="auto internal xref">9</a>.  <a href="#name-security-considerations" class="internal xref">Security Considerations</a></p>
 </li>
           <li class="compact toc ulBare ulEmpty" id="section-toc.1-1.10">
-            <p id="section-toc.1-1.10.1"><a href="#appendix-B" class="auto internal xref"></a><a href="#name-authors-address" class="internal xref">Author's Address</a></p>
+            <p id="section-toc.1-1.10.1"><a href="#section-10" class="auto internal xref">10</a>. <a href="#name-iana-considerations" class="internal xref">IANA Considerations</a></p>
+</li>
+          <li class="compact toc ulBare ulEmpty" id="section-toc.1-1.11">
+            <p id="section-toc.1-1.11.1"><a href="#appendix-A" class="auto internal xref"></a><a href="#name-acknowledgments" class="internal xref">Acknowledgments</a></p>
+</li>
+          <li class="compact toc ulBare ulEmpty" id="section-toc.1-1.12">
+            <p id="section-toc.1-1.12.1"><a href="#appendix-B" class="auto internal xref"></a><a href="#name-authors-address" class="internal xref">Author's Address</a></p>
 </li>
         </ul>
 </nav>
@@ -1214,206 +1277,448 @@ svg :is([fill="white"], [fill^="#fff"]) {
       <h2 id="name-introduction">
 <a href="#section-1" class="section-number selfRef">1. </a><a href="#name-introduction" class="section-name selfRef">Introduction</a>
       </h2>
-<p id="section-1-1">TODO Introduction<a href="#section-1-1" class="pilcrow">¶</a></p>
+<p id="section-1-1">Internet technologies are developed through a range of standards
+development organizations (SDOs), including the IETF, W3C, IEEE,
+3GPP, ITU-T, and others. These processes underpin the interoperability
+and architectural evolution of the Internet and the Web.<a href="#section-1-1" class="pilcrow">¶</a></p>
+<p id="section-1-2">Understanding how standards are developed, including participation,
+collaboration, governance, and technical outputs, can support analysis
+of standards ecosystems. Such analysis can assist with monitoring
+standards development organizations, understanding technology
+deployment, evaluating the evolution of technical work, and informing
+community leadership and governance discussions.<a href="#section-1-2" class="pilcrow">¶</a></p>
+<p id="section-1-3">This document outlines a framework for measuring and analysing such
+systems. It first describes generic concepts and measurement
+approaches that can be applied to standards development processes
+in general. It then considers the IETF as a detailed worked example,
+since the IETF provides unusually rich public data about its
+participants, documents, processes, and communication channels.
+Finally, it discusses how these approaches may apply to other SDOs,
+and the extent to which differences in governance, transparency, and
+data availability affect such analysis.<a href="#section-1-3" class="pilcrow">¶</a></p>
 </section>
 </div>
 <div id="goals-of-analysing-standards-data">
 <section id="section-2">
       <h2 id="name-goals-of-analysing-standard">
 <a href="#section-2" class="section-number selfRef">2. </a><a href="#name-goals-of-analysing-standard" class="section-name selfRef">Goals of Analysing Standards Data</a>
-    </h2>
+      </h2>
+<p id="section-2-1">This document has the following goals:<a href="#section-2-1" class="pilcrow">¶</a></p>
+<ul class="normal">
+<li class="normal" id="section-2-2.1">
+          <p id="section-2-2.1.1">Identify the observable components of standards development ecosystems<a href="#section-2-2.1.1" class="pilcrow">¶</a></p>
+</li>
+        <li class="normal" id="section-2-2.2">
+          <p id="section-2-2.2.1">Describe a framework for measuring and analysing standards
+development processes<a href="#section-2-2.2.1" class="pilcrow">¶</a></p>
+</li>
+        <li class="normal" id="section-2-2.3">
+          <p id="section-2-2.3.1">Provide a taxonomy of possible measurements and analytical approaches<a href="#section-2-2.3.1" class="pilcrow">¶</a></p>
+</li>
+        <li class="normal" id="section-2-2.4">
+          <p id="section-2-2.4.1">Highlight methodological, interpretive, and ethical considerations<a href="#section-2-2.4.1" class="pilcrow">¶</a></p>
+</li>
+        <li class="normal" id="section-2-2.5">
+          <p id="section-2-2.5.1">Illustrate the application of these methods using the IETF<a href="#section-2-2.5.1" class="pilcrow">¶</a></p>
+</li>
+        <li class="normal" id="section-2-2.6">
+          <p id="section-2-2.6.1">Discuss the relevance and limits of applying these methods to
+other SDOs<a href="#section-2-2.6.1" class="pilcrow">¶</a></p>
+</li>
+        <li class="normal" id="section-2-2.7">
+          <p id="section-2-2.7.1">Encourage reproducible research practices and transparent analysis<a href="#section-2-2.7.1" class="pilcrow">¶</a></p>
+</li>
+      </ul>
+<p id="section-2-3">This document does not prescribe specific metrics, define evaluation
+criteria, or recommend comparative rankings of standards bodies,
+groups, or participants.<a href="#section-2-3" class="pilcrow">¶</a></p>
 </section>
 </div>
-<div id="data-availability">
+<div id="standards-development-as-a-socio-technical-system">
 <section id="section-3">
-      <h2 id="name-data-availability">
-<a href="#section-3" class="section-number selfRef">3. </a><a href="#name-data-availability" class="section-name selfRef">Data Availability</a>
+      <h2 id="name-standards-development-as-a-">
+<a href="#section-3" class="section-number selfRef">3. </a><a href="#name-standards-development-as-a-" class="section-name selfRef">Standards Development as a Socio-Technical System</a>
       </h2>
-<div id="ietf-data-tracker">
+<p id="section-3-1">Internet standards development can be understood as a socio-technical
+system in which technical artefacts, human participants, organisational
+interests, and governance processes interact over time. Standards do not
+emerge solely from technical design choices, nor solely from institutional
+processes; rather, they arise through structured collaboration among
+individuals and organisations operating within formal and informal rules.<a href="#section-3-1" class="pilcrow">¶</a></p>
+<p id="section-3-2">Technical outputs emerge from a socio-technical process in which
+engineering choices interact with expertise, incentives, organisational
+structures, review processes, historical precedent, deployment
+constraints, and the cultural norms and practices of the standards
+community. At the same time, the organisational and cultural context is not fixed,
+however: governance structures, working practices, and community norms
+evolve together over time and these changes in turn shape future
+participation and technical decision-making.<a href="#section-3-2" class="pilcrow">¶</a></p>
+<p id="section-3-3">For analytical purposes, standards development ecosystems can be viewed
+as comprising several interacting components.<a href="#section-3-3" class="pilcrow">¶</a></p>
+<div id="participants">
 <section id="section-3.1">
-        <h3 id="name-ietf-data-tracker">
-<a href="#section-3.1" class="section-number selfRef">3.1. </a><a href="#name-ietf-data-tracker" class="section-name selfRef">IETF: Data Tracker</a>
+        <h3 id="name-participants">
+<a href="#section-3.1" class="section-number selfRef">3.1. </a><a href="#name-participants" class="section-name selfRef">Participants</a>
         </h3>
-<p id="section-3.1-1">The IETF Data Tracker (https://datatracker.ietf.org/) is a major source of
+<p id="section-3.1-1">Participants are the individuals who contribute to standards
+development. They may include engineers, researchers, operators,
+implementers, academics, independent contributors, civil society
+representatives, policy specialists, and others with relevant
+expertise or interests.<a href="#section-3.1-1" class="pilcrow">¶</a></p>
+<p id="section-3.1-2">Participation criteria differ across SDOs. Some use open participation,
+while others structure participation through organisational or state-
+based membership, sometimes with additional exceptions or parallel open
+mechanisms. In the IETF, participation is open: there is no formal
+membership, and individuals may participate by joining mailing lists,
+contributing to discussions, submitting Internet-Drafts, and registering
+for meetings. In W3C, by contrast, participation in formal groups is
+generally through organisational membership, although non-members may in
+some cases participate as Invited Experts and some groups, such as
+Community Groups, are open without W3C Membership. In ITU-T,
+participation is structured through membership categories, with Member
+States participating directly and other entities, including companies,
+organisations, and academic institutions, participating through the
+relevant membership categories and the rights attached to them. These
+differences are analytically relevant because they affect who can
+participate, in what capacity, and under what conditions.<a href="#section-3.1-2" class="pilcrow">¶</a></p>
+<p id="section-3.1-3">Participation models affect standards development by shaping who and how is
+able to contribute. Open participation can broaden the pool of
+contributors and make it easier for individuals to join without prior
+institutional affiliation, which may increase diversity of experience
+and viewpoints. At the same time, openness does not eliminate barriers
+to participation. Effective participation may still depend on having
+sufficient time, funding, employer support, travel resources, and
+familiarity with the processes, tools, and norms of the community.
+Membership-based models may provide clearer institutional commitment and
+resourcing, but they can also limit participation to those acting
+through recognised organisations or membership categories.<a href="#section-3.1-3" class="pilcrow">¶</a></p>
+</section>
+</div>
+<div id="organisations">
+<section id="section-3.2">
+        <h3 id="name-organisations">
+<a href="#section-3.2" class="section-number selfRef">3.2. </a><a href="#name-organisations" class="section-name selfRef">Organisations</a>
+        </h3>
+<p id="section-3.2-1">Participants are often affiliated with organisations such as companies,
+academic institutions, governments, consultancies, or civil society
+groups. These organisations may provide forms of support including funding, staff time, technical expertise, or implementation experience.<a href="#section-3.2-1" class="pilcrow">¶</a></p>
+<p id="section-3.2-2">The relationship between participants and organisations is not equally
+visible across SDOs. In open participation models such as the IETF,
+participation is individual rather than membership-based, so any
+recorded affiliation may be incomplete and it is declaration is voluntary (exceptions to this norm exist for specifc aspects such as draft authorship and intellectual property rights disclosures). In membership-based models, the institutional link is clearer: for example, W3C participation in formal groups is generally through member
+organisations, and ITU-T participation is structured through membership
+categories and the rights associated with them.<a href="#section-3.2-2" class="pilcrow">¶</a></p>
+<p id="section-3.2-3">Even where affiliations are recorded, they may not fully describe the
+organisational context. A company may be a subsidiary of another
+company (or in the process of becoming so), and consultants or contractors may work for  clients whose interests are not directly visible in participation records.<a href="#section-3.2-3" class="pilcrow">¶</a></p>
+</section>
+</div>
+<div id="technical-groups">
+<section id="section-3.3">
+        <h3 id="name-technical-groups">
+<a href="#section-3.3" class="section-number selfRef">3.3. </a><a href="#name-technical-groups" class="section-name selfRef">Technical Groups</a>
+        </h3>
+<p id="section-3.3-1">SDOs typically organise work through technical groups such as working
+groups, research groups, committees, or similar bodies. These groups
+define scope, coordinate discussion, and develop technical outputs.
+They are not always organised as a single flat layer. In the IETF,
+working groups are chartered within Areas. In ITU-T, the work is
+centred on Study Groups, which may be structured into Working Parties,
+with specific Questions assigned within that structure. In W3C, by
+contrast, Working Groups, Interest Groups, and Coordination Groups are
+different types of groups with different functions, rather than levels
+in a single hierarchy.<a href="#section-3.3-1" class="pilcrow">¶</a></p>
+<p id="section-3.3-2">The number, names, and functions of these structures differ across
+organisations. In some cases, they reflect administrative oversight or
+broad technical areas; in others, they distinguish between different
+forms of technical development.<a href="#section-3.3-2" class="pilcrow">¶</a></p>
+</section>
+</div>
+<div id="artifacts">
+<section id="section-3.4">
+        <h3 id="name-artifacts">
+<a href="#section-3.4" class="section-number selfRef">3.4. </a><a href="#name-artifacts" class="section-name selfRef">Artifacts</a>
+        </h3>
+<p id="section-3.4-1">Standards processes generate artifacts such as drafts,
+specifications, recommendations, reports, agendas, minutes,
+presentations, issue trackers, and final published standards.
+These artifacts provide an observable record of technical development.
+Revision histories, references, and relationships between documents may
+help reveal aspects such as participation dynamics, design iteration, a
+nd the evolution of the underlying technoilogies subject to standardisation.<a href="#section-3.4-1" class="pilcrow">¶</a></p>
+<p id="section-3.4-2">Different SDOs vary in how openly they make such information available
+and in how easily it can be accessed and reused. In the IETF, much of
+the standards process is publicly observable through open records and dedicated APIs.
+In W3C, some information is public, including charters for chartered groups,
+while other material may be limited to Members or specific participants depending on the
+group and the status of its proceedings. In ITU-T, document access is
+structured by document category, with some material made publicly
+available, including Recommendations, and other material available only
+to members through member services. Articfact availability can support the
+work of participants, researchers, and other observers, but collecting,
+maintaining, publishing, and organising this information also imposes
+costs on SDOs.<a href="#section-3.4-2" class="pilcrow">¶</a></p>
+</section>
+</div>
+<div id="communication-infrastructure">
+<section id="section-3.5">
+        <h3 id="name-25-communication-infrastruc">
+<a href="#section-3.5" class="section-number selfRef">3.5. </a><a href="#name-25-communication-infrastruc" class="section-name selfRef">2.5. Communication Infrastructure</a>
+        </h3>
+<p id="section-3.5-1">Standards development requires communication among participants to
+propose work, discuss technical issues, review contributions,
+coordinate activity, resolve disagreements, and build support for
+possible outcomes. SDOs therefore rely on systems such as mailing
+lists, code repositories, and meetings.<a href="#section-3.5-1" class="pilcrow">¶</a></p>
+<p id="section-3.5-2">The mix of communication, collaboration, and coordination mechanisms
+differs across SDOs. In the IETF, mailing lists are a central forum for
+working group discussion, alongside meetings; some groups also use
+externally hosted repositories, for example on GitHub, to support
+drafting and issue discussion. In W3C, communication commonly takes
+place through repositories and issue trackers, meetings and
+teleconferences, and, depending on the group, mailing lists and chat
+channels. In ITU-T, communication takes place through meetings,
+mailing lists, and formal liaison statements, while contributions and
+other working documents are circulated through member-access document
+services.<a href="#section-3.5-2" class="pilcrow">¶</a></p>
+</section>
+</div>
+<div id="governance-structures">
+<section id="section-3.6">
+        <h3 id="name-governance-structures">
+<a href="#section-3.6" class="section-number selfRef">3.6. </a><a href="#name-governance-structures" class="section-name selfRef">Governance Structures</a>
+        </h3>
+<p id="section-3.6-1">Standards bodies typically operate through formal governance
+structures, such as charters, defined leadership roles, review and
+approval stages, appeals processes, voting rules, or consensus
+procedures. These structures define how work is initiated, scoped,
+reviewed, approved, and contested.<a href="#section-3.6-1" class="pilcrow">¶</a></p>
+<p id="section-3.6-2">At the same time, governance is also exercised  through reputation, recognised expertise, community norms, procedural
+familiarity, and control over agendas, drafting, or review capacity.
+Governance structures therefore shape how decisions are made,
+ how priorities are established, how disagreements are managed,
+and, ultimately, how influence is distributed within standards development.<a href="#section-3.6-2" class="pilcrow">¶</a></p>
+</section>
+</div>
+<div id="external-deployment-ecosystem">
+<section id="section-3.7">
+        <h3 id="name-external-deployment-ecosyst">
+<a href="#section-3.7" class="section-number selfRef">3.7. </a><a href="#name-external-deployment-ecosyst" class="section-name selfRef">External Deployment Ecosystem</a>
+        </h3>
+<p id="section-3.7-1">Implementation usually occurs outside the formal standards process.
+Many Internet related standards such as those developed by  the IETF, W3C, and ITU-T,
+publication does not by itself require implementation. Adoption may
+therefore vary widely: some standards are widely deployed, while others
+see limited or no implementation. Adoption may also be shaped by
+factors outside the standards process, including regulation,
+procurement, cost, and compatibility with existing systems.<a href="#section-3.7-1" class="pilcrow">¶</a></p>
+<p id="section-3.7-2">Data on implementation and operational use is often limited or
+unavailable.<a href="#section-3.7-2" class="pilcrow">¶</a></p>
+</section>
+</div>
+<div id="implications-for-measurement">
+<section id="section-3.8">
+        <h3 id="name-implications-for-measuremen">
+<a href="#section-3.8" class="section-number selfRef">3.8. </a><a href="#name-implications-for-measuremen" class="section-name selfRef">Implications for Measurement</a>
+        </h3>
+<p id="section-3.8-1">Measuring SDO activity is challenging. Observable metrics such as
+publication counts, message volume, attendance figures, authorship, or
+leadership roles can provide useful evidence, but each captures only
+part of the standards process.<a href="#section-3.8-1" class="pilcrow">¶</a></p>
+<p id="section-3.8-2">One reason is that critical aspects of standards development are
+hard to observe directly. Influence, agenda setting, informal
+coordination, negotiation, and the practical exercise of power and authority
+may not be well represented by any single metric.<a href="#section-3.8-2" class="pilcrow">¶</a></p>
+<p id="section-3.8-3">Another reason is that the available data is often limited. Data
+availability and quality vary across SDOs. Different parts of the
+process are not equally observable, and even within a single SDO some
+information may be incomplete, difficult to access, inconsistently
+structured, or unavailable.<a href="#section-3.8-3" class="pilcrow">¶</a></p>
+<p id="section-3.8-4">Combining multiple data sources introduces additional challenges.
+Observations from different parts of the process may not share stable
+identifiers, identifiers may change over time, and the same entity may
+appear in different forms across records. Voluntary declarations,
+non-standard terminology, and organisational changes such as mergers or
+acquisitions may further complicate linkage.<a href="#section-3.8-4" class="pilcrow">¶</a></p>
+<p id="section-3.8-5">Metrics may also differ in accuracy, representativeness, and
+relevance. Not all artifacts have the same significance, not all forms
+of participation have the same effect, and visible activity does not
+necessarily correspond to implementation, adoption, or wider impact.
+Measures should therefore be interpreted cautiously and, where
+possible, considered alongside complementary indicators.<a href="#section-3.8-5" class="pilcrow">¶</a></p>
+</section>
+</div>
+</section>
+</div>
+<div id="analysing-the-ietf">
+<section id="section-4">
+      <h2 id="name-analysing-the-ietf">
+<a href="#section-4" class="section-number selfRef">4. </a><a href="#name-analysing-the-ietf" class="section-name selfRef">Analysing the IETF</a>
+      </h2>
+<div id="data-availability">
+<section id="section-4.1">
+        <h3 id="name-data-availability">
+<a href="#section-4.1" class="section-number selfRef">4.1. </a><a href="#name-data-availability" class="section-name selfRef">Data Availability</a>
+        </h3>
+<div id="ietf-data-tracker">
+<section id="section-4.1.1">
+          <h4 id="name-ietf-data-tracker">
+<a href="#section-4.1.1" class="section-number selfRef">4.1.1. </a><a href="#name-ietf-data-tracker" class="section-name selfRef">IETF: Data Tracker</a>
+          </h4>
+<p id="section-4.1.1-1">The IETF Data Tracker (https://datatracker.ietf.org/) is a major source of
 day-to-day and historical data about the operation of the IETF. It can be
-accessed via the website or programmatically using a REST API and provides:<a href="#section-3.1-1" class="pilcrow">¶</a></p>
+accessed via the website or programmatically using a REST API and provides:<a href="#section-4.1.1-1" class="pilcrow">¶</a></p>
 <ul class="normal">
-<li class="normal" id="section-3.1-2.1">
-            <p id="section-3.1-2.1.1">Information about people including names, email addresses, pronouns,
+<li class="normal" id="section-4.1.1-2.1">
+              <p id="section-4.1.1-2.1.1">Information about people including names, email addresses, pronouns,
 biography, and photo, and external resources such as personal websites,
 GitHub usernames, Orcid identifiers, etc. The data tracker maintains a
-record of the different names and email addresses used by individuals.<a href="#section-3.1-2.1.1" class="pilcrow">¶</a></p>
+record of the different names and email addresses used by individuals.<a href="#section-4.1.1-2.1.1" class="pilcrow">¶</a></p>
 </li>
-          <li class="normal" id="section-3.1-2.2">
-            <p id="section-3.1-2.2.1">Information about documents such as RFCs, Internet-drafts, agendas, blue
+            <li class="normal" id="section-4.1.1-2.2">
+              <p id="section-4.1.1-2.2.1">Information about documents such as RFCs, Internet-drafts, agendas, blue
 sheets, working group charters, conflict reviews, shepherd write-ups,
-liaison statements, minutes, presentation slides, etc., including:<a href="#section-3.1-2.2.1" class="pilcrow">¶</a></p>
+liaison statements, minutes, presentation slides, etc., including:<a href="#section-4.1.1-2.2.1" class="pilcrow">¶</a></p>
 <ul class="normal">
-<li class="normal" id="section-3.1-2.2.2.1">
-                <p id="section-3.1-2.2.2.1.1">Document metadata such as the title, name ("draft-ietf-..."), revision,
+<li class="normal" id="section-4.1.1-2.2.2.1">
+                  <p id="section-4.1.1-2.2.2.1.1">Document metadata such as the title, name ("draft-ietf-..."), revision,
 date, state, and where appropriate abstract, working group, RFC number
 and publication stream, status on the standards track, area director,
-and document shepherd.<a href="#section-3.1-2.2.2.1.1" class="pilcrow">¶</a></p>
+and document shepherd.<a href="#section-4.1.1-2.2.2.1.1" class="pilcrow">¶</a></p>
 </li>
-              <li class="normal" id="section-3.1-2.2.2.2">
-                <p id="section-3.1-2.2.2.2.1">Document submissions (e.g., different revisions of internet-drafts)
+                <li class="normal" id="section-4.1.1-2.2.2.2">
+                  <p id="section-4.1.1-2.2.2.2.1">Document submissions (e.g., different revisions of internet-drafts)
 with document name, revision, date, title, abstract, authors, group,
-and metadata about documents the submission replaces.<a href="#section-3.1-2.2.2.2.1" class="pilcrow">¶</a></p>
+and metadata about documents the submission replaces.<a href="#section-4.1.1-2.2.2.2.1" class="pilcrow">¶</a></p>
 </li>
-              <li class="normal" id="section-3.1-2.2.2.3">
-                <p id="section-3.1-2.2.2.3.1">Document authors with email address, affiliation, and country.<a href="#section-3.1-2.2.2.3.1" class="pilcrow">¶</a></p>
+                <li class="normal" id="section-4.1.1-2.2.2.3">
+                  <p id="section-4.1.1-2.2.2.3.1">Document authors with email address, affiliation, and country.<a href="#section-4.1.1-2.2.2.3.1" class="pilcrow">¶</a></p>
 </li>
-              <li class="normal" id="section-3.1-2.2.2.4">
-                <p id="section-3.1-2.2.2.4.1">Document events such as state changes state, expiration, details of
+                <li class="normal" id="section-4.1.1-2.2.2.4">
+                  <p id="section-4.1.1-2.2.2.4.1">Document events such as state changes state, expiration, details of
 IESG processing, IETF last call, directorate reviews, IANA reviews,
-etc., with the document name, revision, date, and responsible person.<a href="#section-3.1-2.2.2.4.1" class="pilcrow">¶</a></p>
+etc., with the document name, revision, date, and responsible person.<a href="#section-4.1.1-2.2.2.4.1" class="pilcrow">¶</a></p>
 </li>
-              <li class="normal" id="section-3.1-2.2.2.5">
-                <p id="section-3.1-2.2.2.5.1">Document relations including normative and informative references,
-and document replaced, updated, or obsoleted.<a href="#section-3.1-2.2.2.5.1" class="pilcrow">¶</a></p>
+                <li class="normal" id="section-4.1.1-2.2.2.5">
+                  <p id="section-4.1.1-2.2.2.5.1">Document relations including normative and informative references,
+and document replaced, updated, or obsoleted.<a href="#section-4.1.1-2.2.2.5.1" class="pilcrow">¶</a></p>
 </li>
-            </ul>
+              </ul>
 </li>
-          <li class="normal" id="section-3.1-2.3">
-            <p id="section-3.1-2.3.1">Information about working groups, research groups, area, directorates,
+            <li class="normal" id="section-4.1.1-2.3">
+              <p id="section-4.1.1-2.3.1">Information about working groups, research groups, area, directorates,
 and leadership bodies such as the IESG, IRSG, and IAB, including the
 group name and acronym, group state, relationships between groups (e.g.,
 working groups are organised in areas), the mailing list, charter text,
-milestones, and who occupies key roles in the group.<a href="#section-3.1-2.3.1" class="pilcrow">¶</a></p>
+milestones, and who occupies key roles in the group.<a href="#section-4.1.1-2.3.1" class="pilcrow">¶</a></p>
 </li>
-          <li class="normal" id="section-3.1-2.4">
-            <p id="section-3.1-2.4.1">Information about IESG processing, including ballot positions, the text
-of comments and discusses, and scheduling of the IESG review.<a href="#section-3.1-2.4.1" class="pilcrow">¶</a></p>
+            <li class="normal" id="section-4.1.1-2.4">
+              <p id="section-4.1.1-2.4.1">Information about IESG processing, including ballot positions, the text
+of comments and discusses, and scheduling of the IESG review.<a href="#section-4.1.1-2.4.1" class="pilcrow">¶</a></p>
 </li>
-          <li class="normal" id="section-3.1-2.5">
-            <p id="section-3.1-2.5.1">Information about directorate membership and directorate reviews,
-including the document, reviewer, outcome, data, and the review text.<a href="#section-3.1-2.5.1" class="pilcrow">¶</a></p>
+            <li class="normal" id="section-4.1.1-2.5">
+              <p id="section-4.1.1-2.5.1">Information about directorate membership and directorate reviews,
+including the document, reviewer, outcome, data, and the review text.<a href="#section-4.1.1-2.5.1" class="pilcrow">¶</a></p>
 </li>
-          <li class="normal" id="section-3.1-2.6">
-            <p id="section-3.1-2.6.1">Information about meetings, including both plenary and interim meetings,
+            <li class="normal" id="section-4.1.1-2.6">
+              <p id="section-4.1.1-2.6.1">Information about meetings, including both plenary and interim meetings,
 with venues, dates, and times, and details of what groups met in what
-time slots. Registration and attendance data.<a href="#section-3.1-2.6.1" class="pilcrow">¶</a></p>
+time slots. Registration and attendance data.<a href="#section-4.1.1-2.6.1" class="pilcrow">¶</a></p>
 </li>
-          <li class="normal" id="section-3.1-2.7">
-            <p id="section-3.1-2.7.1">Information about IPR disclosures including the document that the IPR
+            <li class="normal" id="section-4.1.1-2.7">
+              <p id="section-4.1.1-2.7.1">Information about IPR disclosures including the document that the IPR
 relates to, the person making disclosure, details of the patent, and
-licensing terms.<a href="#section-3.1-2.7.1" class="pilcrow">¶</a></p>
+licensing terms.<a href="#section-4.1.1-2.7.1" class="pilcrow">¶</a></p>
 </li>
-        </ul>
-<p id="section-3.1-3">The data tracker has been developed piecemeal over time, and the data it
+          </ul>
+<p id="section-4.1.1-3">The data tracker has been developed piecemeal over time, and the data it
 provides reflects that with more recent data being significantly more
-complete than earlier data.<a href="#section-3.1-3" class="pilcrow">¶</a></p>
+complete than earlier data.<a href="#section-4.1.1-3" class="pilcrow">¶</a></p>
 </section>
 </div>
 <div id="ietf-rfc-editor">
-<section id="section-3.2">
-        <h3 id="name-ietf-rfc-editor">
-<a href="#section-3.2" class="section-number selfRef">3.2. </a><a href="#name-ietf-rfc-editor" class="section-name selfRef">IETF: RFC Editor</a>
-        </h3>
-<p id="section-3.2-1">The RFC Editor makes the RFC index available in machine readable form at
+<section id="section-4.1.2">
+          <h4 id="name-ietf-rfc-editor">
+<a href="#section-4.1.2" class="section-number selfRef">4.1.2. </a><a href="#name-ietf-rfc-editor" class="section-name selfRef">IETF: RFC Editor</a>
+          </h4>
+<p id="section-4.1.2-1">The RFC Editor makes the RFC index available in machine readable form at
 https://www.rfc-editor.org/rfc-index.xml. The RFC index includes title,
 authors, publication date, status, abstract, publication stream, name of
 the precursor Internet-draft, and the IETF area and working group that
 developed the RFC, if appropriate. This information is also available
-in the IETF Data tracker.<a href="#section-3.2-1" class="pilcrow">¶</a></p>
-<p id="section-3.2-2">Information about RFC errata is available on the RFC Editor website at
+in the IETF Data tracker.<a href="#section-4.1.2-1" class="pilcrow">¶</a></p>
+<p id="section-4.1.2-2">Information about RFC errata is available on the RFC Editor website at
 https://www.rfc-editor.org/errata.php. This data is also available in
-machine readable form.<a href="#section-3.2-2" class="pilcrow">¶</a></p>
+machine readable form.<a href="#section-4.1.2-2" class="pilcrow">¶</a></p>
 </section>
 </div>
-<div id="w3c-the-w3c-api">
-<section id="section-3.3">
-        <h3 id="name-w3c-the-w3c-api">
-<a href="#section-3.3" class="section-number selfRef">3.3. </a><a href="#name-w3c-the-w3c-api" class="section-name selfRef">W3C: The W3C API</a>
-        </h3>
-<p id="section-3.3-1">The W3C provides API endpoints providing access to a range of information
-available. The overview of the API can be found at https://www.w3.org/api/
-and their endpoints are available at https://api.w3.org/doc.
-The information available in the API includes:<a href="#section-3.3-1" class="pilcrow">¶</a></p>
-<ul class="normal">
-<li class="normal" id="section-3.3-2.1">
-            <p id="section-3.3-2.1.1">Information about documents, such as ID, date, URI, title, status,
-document types (recommendation, and etc.), and its version.<a href="#section-3.3-2.1.1" class="pilcrow">¶</a></p>
-</li>
-          <li class="normal" id="section-3.3-2.2">
-            <p id="section-3.3-2.2.1">Information about participants, such as their names, and affiliations<a href="#section-3.3-2.2.1" class="pilcrow">¶</a></p>
-</li>
-          <li class="normal" id="section-3.3-2.3">
-            <p id="section-3.3-2.3.1">Information about affiliations, such as their name, and their member
-status.<a href="#section-3.3-2.3.1" class="pilcrow">¶</a></p>
-</li>
-          <li class="normal" id="section-3.3-2.4">
-            <p id="section-3.3-2.4.1">Information about groups, such as name, participants in the group,
-chair, charter and etc.<a href="#section-3.3-2.4.1" class="pilcrow">¶</a></p>
-</li>
-        </ul>
 </section>
 </div>
 <div id="mailing-list-archives">
-<section id="section-3.4">
+<section id="section-4.2">
         <h3 id="name-mailing-list-archives">
-<a href="#section-3.4" class="section-number selfRef">3.4. </a><a href="#name-mailing-list-archives" class="section-name selfRef">Mailing List Archives</a>
+<a href="#section-4.2" class="section-number selfRef">4.2. </a><a href="#name-mailing-list-archives" class="section-name selfRef">Mailing List Archives</a>
         </h3>
-<p id="section-3.4-1">The IETF maintains public mail archives at https://mailarchive.ietf.org/
+<p id="section-4.2-1">The IETF maintains public mail archives at https://mailarchive.ietf.org/
 that are also available in machine readable form via IMAP from
 imap.ietf.org. The recent mail archives are essentially complete, but some
 historical lists that were not originally hosted on ietf.org are missing.
 Spam emails have largely, but not entirely, been removed from the archive.
 As of March 2026, the IETF mail archive contains approximately 3 million
 messages from almost 1400 mailing lists, around 40GB of data, with some
-messages dating back to the late 1980s.<a href="#section-3.4-1" class="pilcrow">¶</a></p>
-<p id="section-3.4-2">The are significant data quality problems with older messages in the IETF
+messages dating back to the late 1980s.<a href="#section-4.2-1" class="pilcrow">¶</a></p>
+<p id="section-4.2-2">The are significant data quality problems with older messages in the IETF
 mail archive, due to problems with the original messages rather than the
-archive, that make them difficult to process without significant clean-up.<a href="#section-3.4-2" class="pilcrow">¶</a></p>
-<p id="section-3.4-3">The W3C also maintains public mail archives at https://lists.w3.org/Archives/Public/.
+archive, that make them difficult to process without significant clean-up.<a href="#section-4.2-2" class="pilcrow">¶</a></p>
+<p id="section-4.2-3">The W3C also maintains public mail archives at https://lists.w3.org/Archives/Public/.
 However these are not readily available in formats other than the HTML
-rendered email threads.<a href="#section-3.4-3" class="pilcrow">¶</a></p>
+rendered email threads.<a href="#section-4.2-3" class="pilcrow">¶</a></p>
 </section>
 </div>
 <div id="session-recordings">
-<section id="section-3.5">
+<section id="section-4.3">
         <h3 id="name-session-recordings">
-<a href="#section-3.5" class="section-number selfRef">3.5. </a><a href="#name-session-recordings" class="section-name selfRef">Session Recordings</a>
+<a href="#section-4.3" class="section-number selfRef">4.3. </a><a href="#name-session-recordings" class="section-name selfRef">Session Recordings</a>
         </h3>
-<p id="section-3.5-1">The IETF makes video recordings of its plenary meetings available on
+<p id="section-4.3-1">The IETF makes video recordings of its plenary meetings available on
 YouTube (https://www.youtube.com/user/ietf). Audio recordings of IETF
 sessions from IETF 49 through to IETF 106 are available at
-https://get.ietf.org/archive/audio.<a href="#section-3.5-1" class="pilcrow">¶</a></p>
+https://get.ietf.org/archive/audio.<a href="#section-4.3-1" class="pilcrow">¶</a></p>
 </section>
 </div>
 <div id="chat-archives">
-<section id="section-3.6">
+<section id="section-4.4">
         <h3 id="name-chat-archives">
-<a href="#section-3.6" class="section-number selfRef">3.6. </a><a href="#name-chat-archives" class="section-name selfRef">Chat Archives</a>
+<a href="#section-4.4" class="section-number selfRef">4.4. </a><a href="#name-chat-archives" class="section-name selfRef">Chat Archives</a>
         </h3>
-<p id="section-3.6-1">The IETF makes chat logs available. Jabber was used prior to 2021, with
+<p id="section-4.4-1">The IETF makes chat logs available. Jabber was used prior to 2021, with
 archives at https://get.ietf.org/archive/jabber/. More recently, Zulip
-has been used accessible at zulip.ietf.org.<a href="#section-3.6-1" class="pilcrow">¶</a></p>
+has been used accessible at zulip.ietf.org.<a href="#section-4.4-1" class="pilcrow">¶</a></p>
 </section>
 </div>
 <div id="github">
-<section id="section-3.7">
+<section id="section-4.5">
         <h3 id="name-github">
-<a href="#section-3.7" class="section-number selfRef">3.7. </a><a href="#name-github" class="section-name selfRef">GitHub</a>
+<a href="#section-4.5" class="section-number selfRef">4.5. </a><a href="#name-github" class="section-name selfRef">GitHub</a>
         </h3>
-<p id="section-3.7-1">Some IETF working groups, and some individuals, make extensive use of
+<p id="section-4.5-1">Some IETF working groups, and some individuals, make extensive use of
 GitHub for document development and issue tracking. The IETF does not
 maintain a complete list of GitHub repositories associated with its
-work. The IETF data tracker contains pointers to some repositories.<a href="#section-3.7-1" class="pilcrow">¶</a></p>
-<p id="section-3.7-2">The W3C also make use of the GitHub...<a href="#section-3.7-2" class="pilcrow">¶</a></p>
-<p id="section-3.7-3">Using an appropriate GitHub API access, the following information
-are available from Github:<a href="#section-3.7-3" class="pilcrow">¶</a></p>
+work. The IETF data tracker contains pointers to some repositories.<a href="#section-4.5-1" class="pilcrow">¶</a></p>
+<p id="section-4.5-2">The W3C also make use of the GitHub...<a href="#section-4.5-2" class="pilcrow">¶</a></p>
+<p id="section-4.5-3">Using an appropriate GitHub API access, the following information
+are available from Github:<a href="#section-4.5-3" class="pilcrow">¶</a></p>
 <ul class="normal">
-<li class="normal" id="section-3.7-4.1">
-            <p id="section-3.7-4.1.1">Information about users contributing through Github (Username,
-email address, and etc.)<a href="#section-3.7-4.1.1" class="pilcrow">¶</a></p>
+<li class="normal" id="section-4.5-4.1">
+            <p id="section-4.5-4.1.1">Information about users contributing through Github (Username,
+email address, and etc.)<a href="#section-4.5-4.1.1" class="pilcrow">¶</a></p>
 </li>
-          <li class="normal" id="section-3.7-4.2">
-            <p id="section-3.7-4.2.1">Contributions those users make directly to the document via
-commits<a href="#section-3.7-4.2.1" class="pilcrow">¶</a></p>
+          <li class="normal" id="section-4.5-4.2">
+            <p id="section-4.5-4.2.1">Contributions those users make directly to the document via
+commits<a href="#section-4.5-4.2.1" class="pilcrow">¶</a></p>
 </li>
-          <li class="normal" id="section-3.7-4.3">
-            <p id="section-3.7-4.3.1">Discourse through comments and issues<a href="#section-3.7-4.3.1" class="pilcrow">¶</a></p>
+          <li class="normal" id="section-4.5-4.3">
+            <p id="section-4.5-4.3.1">Discourse through comments and issues<a href="#section-4.5-4.3.1" class="pilcrow">¶</a></p>
 </li>
         </ul>
 </section>
@@ -1421,103 +1726,156 @@ commits<a href="#section-3.7-4.2.1" class="pilcrow">¶</a></p>
 </section>
 </div>
 <div id="data-processing">
-<section id="section-4">
+<section id="section-5">
       <h2 id="name-data-processing">
-<a href="#section-4" class="section-number selfRef">4. </a><a href="#name-data-processing" class="section-name selfRef">Data Processing</a>
+<a href="#section-5" class="section-number selfRef">5. </a><a href="#name-data-processing" class="section-name selfRef">Data Processing</a>
       </h2>
-<p id="section-4-1">Entity resolution is a significant challenge
+<p id="section-5-1">Entity resolution is a significant challenge
 * People
-* Organisations<a href="#section-4-1" class="pilcrow">¶</a></p>
-<p id="section-4-2">Affiliations are a significant challenge
-* Dual affiliations<a href="#section-4-2" class="pilcrow">¶</a></p>
-<p id="section-4-3">Document history is non-trivial<a href="#section-4-3" class="pilcrow">¶</a></p>
-<p id="section-4-4">Role history is non trivial (e.g., who chaired what group when)
-Group history is non trivial<a href="#section-4-4" class="pilcrow">¶</a></p>
-<p id="section-4-5">Challenges with working with message contents<a href="#section-4-5" class="pilcrow">¶</a></p>
-<p id="section-4-6">Incomplete or increasingly messy historical data<a href="#section-4-6" class="pilcrow">¶</a></p>
+* Organisations<a href="#section-5-1" class="pilcrow">¶</a></p>
+<p id="section-5-2">Affiliations are a significant challenge
+* Dual affiliations<a href="#section-5-2" class="pilcrow">¶</a></p>
+<p id="section-5-3">Document history is non-trivial<a href="#section-5-3" class="pilcrow">¶</a></p>
+<p id="section-5-4">Role history is non trivial (e.g., who chaired what group when)
+Group history is non trivial<a href="#section-5-4" class="pilcrow">¶</a></p>
+<p id="section-5-5">Challenges with working with message contents<a href="#section-5-5" class="pilcrow">¶</a></p>
+<p id="section-5-6">Incomplete or increasingly messy historical data<a href="#section-5-6" class="pilcrow">¶</a></p>
 </section>
 </div>
 <div id="ethics-and-data-protection">
-<section id="section-5">
+<section id="section-6">
       <h2 id="name-ethics-and-data-protection">
-<a href="#section-5" class="section-number selfRef">5. </a><a href="#name-ethics-and-data-protection" class="section-name selfRef">Ethics and Data Protection</a>
+<a href="#section-6" class="section-number selfRef">6. </a><a href="#name-ethics-and-data-protection" class="section-name selfRef">Ethics and Data Protection</a>
       </h2>
-<p id="section-5-1">This is all personal data, subject to legal restrictions on processing in
-many jurisdictions<a href="#section-5-1" class="pilcrow">¶</a></p>
-<p id="section-5-2">Research will need ethics approval
+<p id="section-6-1">This is all personal data, subject to legal restrictions on processing in
+many jurisdictions<a href="#section-6-1" class="pilcrow">¶</a></p>
+<p id="section-6-2">Research will need ethics approval
 * Results are potentially sensitive and need to be handled with care
 * The data is public, but the implications of it are not always obvious
 * e.g., one can derive measures of the effectiveness of individuals in
   certain roles that, if presented out of context, might be considered
-  sensitive<a href="#section-5-2" class="pilcrow">¶</a></p>
-<p id="section-5-3">Care with data access to avoid disruption to the standards process<a href="#section-5-3" class="pilcrow">¶</a></p>
+  sensitive<a href="#section-6-2" class="pilcrow">¶</a></p>
+<p id="section-6-3">Care with data access to avoid disruption to the standards process<a href="#section-6-3" class="pilcrow">¶</a></p>
+</section>
+</div>
+<div id="analysing-other-sdos">
+<section id="section-7">
+      <h2 id="name-analysing-other-sdos">
+<a href="#section-7" class="section-number selfRef">7. </a><a href="#name-analysing-other-sdos" class="section-name selfRef">Analysing Other SDOs</a>
+      </h2>
+<p id="section-7-1">Standardization efforts happen across an array of SDOs and therefore a comprehensive analysis requires
+covering multiple such SDOs. Each SDO brings its own peculiarities and challenges. An additional
+and  important challenge is the integration of data across multiple SDOs to understand the standardizationn landscape.
+In this section we discuss several such SDOs with a specific focus in W3C and the challenges of data integration across the IETF and W3C.<a href="#section-7-1" class="pilcrow">¶</a></p>
+<div id="w3c">
+<section id="section-7.1">
+        <h3 id="name-w3c">
+<a href="#section-7.1" class="section-number selfRef">7.1. </a><a href="#name-w3c" class="section-name selfRef">W3C</a>
+        </h3>
+<div id="w3c-the-w3c-api">
+<section id="section-7.1.1">
+          <h4 id="name-w3c-the-w3c-api">
+<a href="#section-7.1.1" class="section-number selfRef">7.1.1. </a><a href="#name-w3c-the-w3c-api" class="section-name selfRef">W3C: The W3C API</a>
+          </h4>
+<p id="section-7.1.1-1">The W3C provides API endpoints providing access to a range of information
+available. The overview of the API can be found at https://www.w3.org/api/
+and their endpoints are available at https://api.w3.org/doc.
+The information available in the API includes:<a href="#section-7.1.1-1" class="pilcrow">¶</a></p>
+<ul class="normal">
+<li class="normal" id="section-7.1.1-2.1">
+              <p id="section-7.1.1-2.1.1">Information about documents, such as ID, date, URI, title, status,
+document types (recommendation, and etc.), and its version.<a href="#section-7.1.1-2.1.1" class="pilcrow">¶</a></p>
+</li>
+            <li class="normal" id="section-7.1.1-2.2">
+              <p id="section-7.1.1-2.2.1">Information about participants, such as their names, and affiliations<a href="#section-7.1.1-2.2.1" class="pilcrow">¶</a></p>
+</li>
+            <li class="normal" id="section-7.1.1-2.3">
+              <p id="section-7.1.1-2.3.1">Information about affiliations, such as their name, and their member
+status.<a href="#section-7.1.1-2.3.1" class="pilcrow">¶</a></p>
+</li>
+            <li class="normal" id="section-7.1.1-2.4">
+              <p id="section-7.1.1-2.4.1">Information about groups, such as name, participants in the group,
+chair, charter and etc.<a href="#section-7.1.1-2.4.1" class="pilcrow">¶</a></p>
+</li>
+          </ul>
+</section>
+</div>
+</section>
+</div>
+<div id="integrating-data-across-sdos">
+<section id="section-7.2">
+        <h3 id="name-integrating-data-across-sdo">
+<a href="#section-7.2" class="section-number selfRef">7.2. </a><a href="#name-integrating-data-across-sdo" class="section-name selfRef">Integrating data across SDOs</a>
+      </h3>
+</section>
+</div>
 </section>
 </div>
 <div id="recommendations">
-<section id="section-6">
+<section id="section-8">
       <h2 id="name-recommendations">
-<a href="#section-6" class="section-number selfRef">6. </a><a href="#name-recommendations" class="section-name selfRef">Recommendations</a>
+<a href="#section-8" class="section-number selfRef">8. </a><a href="#name-recommendations" class="section-name selfRef">Recommendations</a>
       </h2>
 <div id="for-the-ietf">
-<section id="section-6.1">
+<section id="section-8.1">
         <h3 id="name-for-the-ietf">
-<a href="#section-6.1" class="section-number selfRef">6.1. </a><a href="#name-for-the-ietf" class="section-name selfRef">for the IETF</a>
+<a href="#section-8.1" class="section-number selfRef">8.1. </a><a href="#name-for-the-ietf" class="section-name selfRef">for the IETF</a>
         </h3>
-<p id="section-6.1-1">IETF can usefully spend effort to ensure all data is available from the
-datatracker with a stable API<a href="#section-6.1-1" class="pilcrow">¶</a></p>
-<p id="section-6.1-2">Spend effort on cleaning the data (e.g., event data is messy because the
-format changes)<a href="#section-6.1-2" class="pilcrow">¶</a></p>
-<p id="section-6.1-3">Backfill historical data where it is known correct<a href="#section-6.1-3" class="pilcrow">¶</a></p>
-<p id="section-6.1-4">Where backfilled data is derived from primary sources, document provenance
+<p id="section-8.1-1">IETF can usefully spend effort to ensure all data is available from the
+datatracker with a stable API<a href="#section-8.1-1" class="pilcrow">¶</a></p>
+<p id="section-8.1-2">Spend effort on cleaning the data (e.g., event data is messy because the
+format changes)<a href="#section-8.1-2" class="pilcrow">¶</a></p>
+<p id="section-8.1-3">Backfill historical data where it is known correct<a href="#section-8.1-3" class="pilcrow">¶</a></p>
+<p id="section-8.1-4">Where backfilled data is derived from primary sources, document provenance
 (e.g., if using LLM to parse handwritten blue sheets to get authors names
 and affiliations, scans of the original blue sheets must be retained and it
 must be clear what is derived from them so the derived versions and be
 checked and updated if necessary)
-* There are examples where data has been incorrectly back filled<a href="#section-6.1-4" class="pilcrow">¶</a></p>
-<p id="section-6.1-5">Process for corrections?<a href="#section-6.1-5" class="pilcrow">¶</a></p>
-<p id="section-6.1-6">How to handle derived data?
-* This is for researchers, not IETF<a href="#section-6.1-6" class="pilcrow">¶</a></p>
+* There are examples where data has been incorrectly back filled<a href="#section-8.1-4" class="pilcrow">¶</a></p>
+<p id="section-8.1-5">Process for corrections?<a href="#section-8.1-5" class="pilcrow">¶</a></p>
+<p id="section-8.1-6">How to handle derived data?
+* This is for researchers, not IETF<a href="#section-8.1-6" class="pilcrow">¶</a></p>
 </section>
 </div>
 <div id="for-the-researchers">
-<section id="section-6.2">
+<section id="section-8.2">
         <h3 id="name-for-the-researchers">
-<a href="#section-6.2" class="section-number selfRef">6.2. </a><a href="#name-for-the-researchers" class="section-name selfRef">for the Researchers</a>
+<a href="#section-8.2" class="section-number selfRef">8.2. </a><a href="#name-for-the-researchers" class="section-name selfRef">for the Researchers</a>
         </h3>
 <ul class="normal">
-<li class="normal" id="section-6.2-1.1">
-            <p id="section-6.2-1.1.1">Work with a snapshot of the data instead of working with the live data<a href="#section-6.2-1.1.1" class="pilcrow">¶</a></p>
+<li class="normal" id="section-8.2-1.1">
+            <p id="section-8.2-1.1.1">Work with a snapshot of the data instead of working with the live data<a href="#section-8.2-1.1.1" class="pilcrow">¶</a></p>
 </li>
-          <li class="normal" id="section-6.2-1.2">
-            <p id="section-6.2-1.2.1">Engage with the community (the picture you get from the data and analysis are often incomplete)<a href="#section-6.2-1.2.1" class="pilcrow">¶</a></p>
+          <li class="normal" id="section-8.2-1.2">
+            <p id="section-8.2-1.2.1">Engage with the community (the picture you get from the data and analysis are often incomplete)<a href="#section-8.2-1.2.1" class="pilcrow">¶</a></p>
 </li>
-          <li class="normal" id="section-6.2-1.3">
-            <p id="section-6.2-1.3.1">Contribute the effort put into cleaning the data back to the IETF (potentially?)<a href="#section-6.2-1.3.1" class="pilcrow">¶</a></p>
+          <li class="normal" id="section-8.2-1.3">
+            <p id="section-8.2-1.3.1">Contribute the effort put into cleaning the data back to the IETF (potentially?)<a href="#section-8.2-1.3.1" class="pilcrow">¶</a></p>
 </li>
-          <li class="normal" id="section-6.2-1.4">
-            <p id="section-6.2-1.4.1">As per the Ethics and Data Protection section, be cautious about the
-implication of the outcomes.<a href="#section-6.2-1.4.1" class="pilcrow">¶</a></p>
+          <li class="normal" id="section-8.2-1.4">
+            <p id="section-8.2-1.4.1">As per the Ethics and Data Protection section, be cautious about the
+implication of the outcomes.<a href="#section-8.2-1.4.1" class="pilcrow">¶</a></p>
 </li>
         </ul>
-<p id="section-6.2-2">TODO complete (there are more for sure...)<a href="#section-6.2-2" class="pilcrow">¶</a></p>
+<p id="section-8.2-2">TODO complete (there are more for sure...)<a href="#section-8.2-2" class="pilcrow">¶</a></p>
 </section>
 </div>
 </section>
 </div>
 <div id="security-considerations">
-<section id="section-7">
+<section id="section-9">
       <h2 id="name-security-considerations">
-<a href="#section-7" class="section-number selfRef">7. </a><a href="#name-security-considerations" class="section-name selfRef">Security Considerations</a>
+<a href="#section-9" class="section-number selfRef">9. </a><a href="#name-security-considerations" class="section-name selfRef">Security Considerations</a>
       </h2>
-<p id="section-7-1">TODO Security<a href="#section-7-1" class="pilcrow">¶</a></p>
+<p id="section-9-1">TODO Security<a href="#section-9-1" class="pilcrow">¶</a></p>
 </section>
 </div>
 <div id="iana-considerations">
-<section id="section-8">
+<section id="section-10">
       <h2 id="name-iana-considerations">
-<a href="#section-8" class="section-number selfRef">8. </a><a href="#name-iana-considerations" class="section-name selfRef">IANA Considerations</a>
+<a href="#section-10" class="section-number selfRef">10. </a><a href="#name-iana-considerations" class="section-name selfRef">IANA Considerations</a>
       </h2>
-<p id="section-8-1">This document has no IANA actions.<a href="#section-8-1" class="pilcrow">¶</a></p>
+<p id="section-10-1">This document has no IANA actions.<a href="#section-10-1" class="pilcrow">¶</a></p>
 </section>
 </div>
 <div id="acknowledgments">
