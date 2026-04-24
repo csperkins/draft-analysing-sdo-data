@@ -4,8 +4,8 @@
 
 RASPRG                                                        C. Perkins
 Internet-Draft                                     University of Glasgow
-Intended status: Informational                                 I. Castro
-Expires: 26 October 2026                 Queen Mary University of London
+Intended status: Informational                               R. Yanagida
+Expires: 26 October 2026                        University of St Andrews
                                                            24 April 2026
 
 
@@ -86,8 +86,8 @@ Table of Contents
      3.8.  Implications for Measurement
    4.  Analysing the IETF
      4.1.  Data Availability
-       4.1.1.  IETF: Data Tracker
-       4.1.2.  IETF: RFC Editor
+       4.1.1.  Data Tracker
+       4.1.2.  RFC Editor
      4.2.  Mailing List Archives
      4.3.  Session Recordings
      4.4.  Chat Archives
@@ -96,7 +96,9 @@ Table of Contents
    6.  Ethics and Data Protection
    7.  Analysing Other SDOs
      7.1.  W3C
-       7.1.1.  W3C: The W3C API
+       7.1.1.  The W3C API
+       7.1.2.  W3C Mailing List Archive
+       7.1.3.  Other sources
      7.2.  Integrating data across SDOs
    8.  Recommendations
      8.1.  for the IETF
@@ -231,7 +233,7 @@ Table of Contents
    equally visible across SDOs.  In open participation models such as
    the IETF, participation is individual rather than membership-based,
    so any recorded affiliation may be incomplete and it is declaration
-   is voluntary (exceptions to this norm exist for specifc aspects such
+   is voluntary (exceptions to this norm exist for specific aspects such
    as draft authorship and intellectual property rights disclosures).
    In membership-based models, the institutional link is clearer: for
    example, W3C participation in formal groups is generally through
@@ -372,7 +374,7 @@ Table of Contents
 
 4.1.  Data Availability
 
-4.1.1.  IETF: Data Tracker
+4.1.1.  Data Tracker
 
    The IETF Data Tracker (https://datatracker.ietf.org/) is a major
    source of day-to-day and historical data about the operation of the
@@ -436,7 +438,7 @@ Table of Contents
    it provides reflects that with more recent data being significantly
    more complete than earlier data.
 
-4.1.2.  IETF: RFC Editor
+4.1.2.  RFC Editor
 
    The RFC Editor makes the RFC index available in machine readable form
    at https://www.rfc-editor.org/rfc-index.xml.  The RFC index includes
@@ -466,10 +468,6 @@ Table of Contents
    than the archive, that make them difficult to process without
    significant clean-up.
 
-   The W3C also maintains public mail archives at
-   https://lists.w3.org/Archives/Public/. However these are not readily
-   available in formats other than the HTML rendered email threads.
-
 4.3.  Session Recordings
 
    The IETF makes video recordings of its plenary meetings available on
@@ -490,8 +488,6 @@ Table of Contents
    not maintain a complete list of GitHub repositories associated with
    its work.  The IETF data tracker contains pointers to some
    repositories.
-
-   The W3C also make use of the GitHub...
 
    Using an appropriate GitHub API access, the following information are
    available from Github:
@@ -544,7 +540,7 @@ Table of Contents
 
 7.1.  W3C
 
-7.1.1.  W3C: The W3C API
+7.1.1.  The W3C API
 
    The W3C provides API endpoints providing access to a range of
    information available.  The overview of the API can be found at
@@ -563,6 +559,21 @@ Table of Contents
 
    *  Information about groups, such as name, participants in the group,
       chair, charter and etc.
+
+   This might seem similar to the IETF Datatracker in some aspects,
+   however there are a numerous differences in terms of process,
+   structure, and etc. such that they are not necessarily directly
+   comparable to one another.
+
+7.1.2.  W3C Mailing List Archive
+
+   The W3C maintains public mail archives at
+   https://lists.w3.org/Archives/Public/ These are available as HTML
+   renders of emails.
+
+7.1.3.  Other sources
+
+   The W3C participants are active on GitHub as well...
 
 7.2.  Integrating data across SDOs
 
@@ -624,6 +635,6 @@ Authors' Addresses
    Email: csp@csperkins.org
 
 
-   Ignacio Castro
-   Queen Mary University of London
-   Email: i.castro@qmul.ac.uk
+   Ryo Yanagida
+   University of St Andrews
+   Email: ryo@htonl.net
