@@ -26,6 +26,10 @@ author:
     fullname: Colin Perkins
     organization: University of Glasgow
     email: csp@csperkins.org
+ -
+    fullname: Ignacio Castro
+    organization: Queen Mary University of London
+    email: i.castro@qmul.ac.uk
 
 normative:
 
