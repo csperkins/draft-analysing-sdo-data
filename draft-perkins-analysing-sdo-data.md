@@ -35,23 +35,270 @@ informative:
 
 --- abstract
 
-TODO Abstract
+This document outlines a framework for measuring Internet standards
+development ecosystems. It identifies observable components of
+standards development processes, proposes a taxonomy of possible
+measurements, and highlights methodological, interpretive, and ethical
+considerations.
+
+The framework is intended to support a range of uses, including
+understanding technology deployment, monitoring standards development
+organizations (SDOs), evaluating the evolution of technical work, and
+informing community, leadership, and governance discussions.
 
 
 --- middle
 
 # Introduction
 
-TODO Introduction
+Internet technologies are developed through a range of standards
+development organizations (SDOs), including the IETF, W3C, IEEE,
+3GPP, ITU-T, and others. These processes underpin the interoperability
+and architectural evolution of the Internet and the Web.
+
+Understanding how standards are developed, including participation,
+collaboration, governance, and technical outputs, can support analysis
+of standards ecosystems. Such analysis can assist with monitoring
+standards development organizations, understanding technology
+deployment, evaluating the evolution of technical work, and informing
+community leadership and governance discussions.
+
+This document outlines a framework for measuring and analysing such
+systems. It first describes generic concepts and measurement
+approaches that can be applied to standards development processes
+in general. It then considers the IETF as a detailed worked example,
+since the IETF provides unusually rich public data about its
+participants, documents, processes, and communication channels.
+Finally, it discusses how these approaches may apply to other SDOs,
+and the extent to which differences in governance, transparency, and
+data availability affect such analysis.
 
 
 # Goals of Analysing Standards Data
 
+This document has the following goals:
+
+  * Identify the observable components of standards development ecosystems
+  * Describe a framework for measuring and analysing standards
+    development processes
+  * Provide a taxonomy of possible measurements and analytical approaches
+  * Highlight methodological, interpretive, and ethical considerations
+  * Illustrate the application of these methods using the IETF
+  * Discuss the relevance and limits of applying these methods to
+    other SDOs
+  * Encourage reproducible research practices and transparent analysis
+
+This document does not prescribe specific metrics, define evaluation
+criteria, or recommend comparative rankings of standards bodies,
+groups, or participants.
+
+# Standards Development as a Socio-Technical System
+
+Internet standards development can be understood as a socio-technical
+system in which technical artefacts, human participants, organisational
+interests, and governance processes interact over time. Standards do not
+emerge solely from technical design choices, nor solely from institutional
+processes; rather, they arise through structured collaboration among
+individuals and organisations operating within formal and informal rules.
+
+Technical outputs emerge from a socio-technical process in which
+engineering choices interact with expertise, incentives, organisational
+structures, review processes, historical precedent, deployment
+constraints, and the cultural norms and practices of the standards
+community. At the same time, the organisational and cultural context is not fixed,
+however: governance structures, working practices, and community norms
+evolve together over time and these changes in turn shape future
+participation and technical decision-making.
+
+For analytical purposes, standards development ecosystems can be viewed
+as comprising several interacting components.
+
+## Participants
+
+Participants are the individuals who contribute to standards
+development. They may include engineers, researchers, operators,
+implementers, academics, independent contributors, civil society
+representatives, policy specialists, and others with relevant
+expertise or interests.
+
+Participation criteria differ across SDOs. Some use open participation,
+while others structure participation through organisational or state-
+based membership, sometimes with additional exceptions or parallel open
+mechanisms. In the IETF, participation is open: there is no formal
+membership, and individuals may participate by joining mailing lists,
+contributing to discussions, submitting Internet-Drafts, and registering
+for meetings. In W3C, by contrast, participation in formal groups is
+generally through organisational membership, although non-members may in
+some cases participate as Invited Experts and some groups, such as
+Community Groups, are open without W3C Membership. In ITU-T,
+participation is structured through membership categories, with Member
+States participating directly and other entities, including companies,
+organisations, and academic institutions, participating through the
+relevant membership categories and the rights attached to them. These
+differences are analytically relevant because they affect who can
+participate, in what capacity, and under what conditions.
+
+Participation models affect standards development by shaping who and how is
+able to contribute. Open participation can broaden the pool of
+contributors and make it easier for individuals to join without prior
+institutional affiliation, which may increase diversity of experience
+and viewpoints. At the same time, openness does not eliminate barriers
+to participation. Effective participation may still depend on having
+sufficient time, funding, employer support, travel resources, and
+familiarity with the processes, tools, and norms of the community.
+Membership-based models may provide clearer institutional commitment and
+resourcing, but they can also limit participation to those acting
+through recognised organisations or membership categories. 
 
 
-# Data Availability
+## Organisations
 
-## IETF: Data Tracker
+Participants are often affiliated with organisations such as companies,
+academic institutions, governments, consultancies, or civil society
+groups. These organisations may provide forms of support including funding, staff time, technical expertise, or implementation experience.
+
+The relationship between participants and organisations is not equally
+visible across SDOs. In open participation models such as the IETF,
+participation is individual rather than membership-based, so any
+recorded affiliation may be incomplete and it is declaration is voluntary (exceptions to this norm exist for specifc aspects such as draft authorship and intellectual property rights disclosures). In membership-based models, the institutional link is clearer: for example, W3C participation in formal groups is generally through member
+organisations, and ITU-T participation is structured through membership
+categories and the rights associated with them. 
+
+Even where affiliations are recorded, they may not fully describe the
+organisational context. A company may be a subsidiary of another
+company (or in the process of becoming so), and consultants or contractors may work for  clients whose interests are not directly visible in participation records.
+
+
+## Technical Groups
+
+SDOs typically organise work through technical groups such as working
+groups, research groups, committees, or similar bodies. These groups
+define scope, coordinate discussion, and develop technical outputs.
+They are not always organised as a single flat layer. In the IETF,
+working groups are chartered within Areas. In ITU-T, the work is
+centred on Study Groups, which may be structured into Working Parties,
+with specific Questions assigned within that structure. In W3C, by
+contrast, Working Groups, Interest Groups, and Coordination Groups are
+different types of groups with different functions, rather than levels
+in a single hierarchy.
+
+The number, names, and functions of these structures differ across
+organisations. In some cases, they reflect administrative oversight or
+broad technical areas; in others, they distinguish between different
+forms of technical development.
+
+
+
+## Artifacts
+
+Standards processes generate artifacts such as drafts,
+specifications, recommendations, reports, agendas, minutes,
+presentations, issue trackers, and final published standards.
+These artifacts provide an observable record of technical development.
+Revision histories, references, and relationships between documents may
+help reveal aspects such as participation dynamics, design iteration, a
+nd the evolution of the underlying technoilogies subject to standardisation.
+
+Different SDOs vary in how openly they make such information available
+and in how easily it can be accessed and reused. In the IETF, much of
+the standards process is publicly observable through open records and dedicated APIs. 
+In W3C, some information is public, including charters for chartered groups, 
+while other material may be limited to Members or specific participants depending on the
+group and the status of its proceedings. In ITU-T, document access is
+structured by document category, with some material made publicly
+available, including Recommendations, and other material available only
+to members through member services. Articfact availability can support the
+work of participants, researchers, and other observers, but collecting,
+maintaining, publishing, and organising this information also imposes
+costs on SDOs.
+
+## 2.5. Communication Infrastructure
+
+Standards development requires communication among participants to
+propose work, discuss technical issues, review contributions,
+coordinate activity, resolve disagreements, and build support for
+possible outcomes. SDOs therefore rely on systems such as mailing
+lists, code repositories, and meetings. 
+
+The mix of communication, collaboration, and coordination mechanisms
+differs across SDOs. In the IETF, mailing lists are a central forum for
+working group discussion, alongside meetings; some groups also use
+externally hosted repositories, for example on GitHub, to support
+drafting and issue discussion. In W3C, communication commonly takes
+place through repositories and issue trackers, meetings and
+teleconferences, and, depending on the group, mailing lists and chat
+channels. In ITU-T, communication takes place through meetings,
+mailing lists, and formal liaison statements, while contributions and
+other working documents are circulated through member-access document
+services. 
+
+## Governance Structures
+
+Standards bodies typically operate through formal governance
+structures, such as charters, defined leadership roles, review and
+approval stages, appeals processes, voting rules, or consensus
+procedures. These structures define how work is initiated, scoped,
+reviewed, approved, and contested.
+
+At the same time, governance is also exercised  through reputation, recognised expertise, community norms, procedural
+familiarity, and control over agendas, drafting, or review capacity.
+Governance structures therefore shape how decisions are made,
+ how priorities are established, how disagreements are managed,
+and, ultimately, how influence is distributed within standards development.
+
+## External Deployment Ecosystem
+
+Implementation usually occurs outside the formal standards process. 
+Many Internet related standards such as those developed by  the IETF, W3C, and ITU-T,
+publication does not by itself require implementation. Adoption may
+therefore vary widely: some standards are widely deployed, while others
+see limited or no implementation. Adoption may also be shaped by
+factors outside the standards process, including regulation,
+procurement, cost, and compatibility with existing systems.
+
+Data on implementation and operational use is often limited or
+unavailable.
+
+
+## Implications for Measurement
+
+MMeasuring SDO activity is challenging. Observable metrics such as
+publication counts, message volume, attendance figures, authorship, or
+leadership roles can provide useful evidence, but each captures only
+part of the standards process.
+
+One reason is that critical aspects of standards development are
+hard to observe directly. Influence, agenda setting, informal
+coordination, negotiation, and the practical exercise of power and authority 
+may not be well represented by any single metric.
+
+Another reason is that the available data is often limited. Data
+availability and quality vary across SDOs. Different parts of the
+process are not equally observable, and even within a single SDO some
+information may be incomplete, difficult to access, inconsistently
+structured, or unavailable.
+
+Combining multiple data sources introduces additional challenges.
+Observations from different parts of the process may not share stable
+identifiers, identifiers may change over time, and the same entity may
+appear in different forms across records. Voluntary declarations,
+non-standard terminology, and organisational changes such as mergers or
+acquisitions may further complicate linkage.
+
+Metrics may also differ in accuracy, representativeness, and
+relevance. Not all artifacts have the same significance, not all forms
+of participation have the same effect, and visible activity does not
+necessarily correspond to implementation, adoption, or wider impact.
+Measures should therefore be interpreted cautiously and, where
+possible, considered alongside complementary indicators.
+
+
+
+# Analysing the IETF
+
+## Data Availability
+
+### IETF: Data Tracker
 
 The IETF Data Tracker (https://datatracker.ietf.org/) is a major source of
 day-to-day and historical data about the operation of the IETF. It can be
@@ -108,7 +355,7 @@ The data tracker has been developed piecemeal over time, and the data it
 provides reflects that with more recent data being significantly more
 complete than earlier data.
 
-## IETF: RFC Editor
+### IETF: RFC Editor
 
 The RFC Editor makes the RFC index available in machine readable form at
 https://www.rfc-editor.org/rfc-index.xml. The RFC index includes title,
@@ -121,23 +368,7 @@ Information about RFC errata is available on the RFC Editor website at
 https://www.rfc-editor.org/errata.php. This data is also available in
 machine readable form.
 
-## W3C: The W3C API
 
-The W3C provides API endpoints providing access to a range of information
-available. The overview of the API can be found at https://www.w3.org/api/
-and their endpoints are available at https://api.w3.org/doc.
-The information available in the API includes:
-
-* Information about documents, such as ID, date, URI, title, status,
-  document types (recommendation, and etc.), and its version.
-
-* Information about participants, such as their names, and affiliations
-
-* Information about affiliations, such as their name, and their member
-  status.
-
-* Information about groups, such as name, participants in the group,
-  chair, charter and etc.
 
 ## Mailing List Archives
 
@@ -224,6 +455,29 @@ Research will need ethics approval
 
 Care with data access to avoid disruption to the standards process
 
+# Analysing OTher SDOs
+
+
+
+## W3C
+
+### W3C: The W3C API
+
+The W3C provides API endpoints providing access to a range of information
+available. The overview of the API can be found at https://www.w3.org/api/
+and their endpoints are available at https://api.w3.org/doc.
+The information available in the API includes:
+
+* Information about documents, such as ID, date, URI, title, status,
+  document types (recommendation, and etc.), and its version.
+
+* Information about participants, such as their names, and affiliations
+
+* Information about affiliations, such as their name, and their member
+  status.
+
+* Information about groups, such as name, participants in the group,
+  chair, charter and etc.
 
 # Recommendations
 
