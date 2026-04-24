@@ -148,7 +148,7 @@ sufficient time, funding, employer support, travel resources, and
 familiarity with the processes, tools, and norms of the community.
 Membership-based models may provide clearer institutional commitment and
 resourcing, but they can also limit participation to those acting
-through recognised organisations or membership categories. 
+through recognised organisations or membership categories.
 
 
 ## Organisations
@@ -162,7 +162,7 @@ visible across SDOs. In open participation models such as the IETF,
 participation is individual rather than membership-based, so any
 recorded affiliation may be incomplete and it is declaration is voluntary (exceptions to this norm exist for specifc aspects such as draft authorship and intellectual property rights disclosures). In membership-based models, the institutional link is clearer: for example, W3C participation in formal groups is generally through member
 organisations, and ITU-T participation is structured through membership
-categories and the rights associated with them. 
+categories and the rights associated with them.
 
 Even where affiliations are recorded, they may not fully describe the
 organisational context. A company may be a subsidiary of another
@@ -201,8 +201,8 @@ nd the evolution of the underlying technoilogies subject to standardisation.
 
 Different SDOs vary in how openly they make such information available
 and in how easily it can be accessed and reused. In the IETF, much of
-the standards process is publicly observable through open records and dedicated APIs. 
-In W3C, some information is public, including charters for chartered groups, 
+the standards process is publicly observable through open records and dedicated APIs.
+In W3C, some information is public, including charters for chartered groups,
 while other material may be limited to Members or specific participants depending on the
 group and the status of its proceedings. In ITU-T, document access is
 structured by document category, with some material made publicly
@@ -218,7 +218,7 @@ Standards development requires communication among participants to
 propose work, discuss technical issues, review contributions,
 coordinate activity, resolve disagreements, and build support for
 possible outcomes. SDOs therefore rely on systems such as mailing
-lists, code repositories, and meetings. 
+lists, code repositories, and meetings.
 
 The mix of communication, collaboration, and coordination mechanisms
 differs across SDOs. In the IETF, mailing lists are a central forum for
@@ -230,7 +230,7 @@ teleconferences, and, depending on the group, mailing lists and chat
 channels. In ITU-T, communication takes place through meetings,
 mailing lists, and formal liaison statements, while contributions and
 other working documents are circulated through member-access document
-services. 
+services.
 
 ## Governance Structures
 
@@ -248,7 +248,7 @@ and, ultimately, how influence is distributed within standards development.
 
 ## External Deployment Ecosystem
 
-Implementation usually occurs outside the formal standards process. 
+Implementation usually occurs outside the formal standards process.
 Many Internet related standards such as those developed by  the IETF, W3C, and ITU-T,
 publication does not by itself require implementation. Adoption may
 therefore vary widely: some standards are widely deployed, while others
@@ -269,7 +269,7 @@ part of the standards process.
 
 One reason is that critical aspects of standards development are
 hard to observe directly. Influence, agenda setting, informal
-coordination, negotiation, and the practical exercise of power and authority 
+coordination, negotiation, and the practical exercise of power and authority
 may not be well represented by any single metric.
 
 Another reason is that the available data is often limited. Data
@@ -458,7 +458,7 @@ Care with data access to avoid disruption to the standards process
 # Analysing Other SDOs
 
 Standardization efforts happen across an array of SDOs and therefore a comprehensive analysis requires
-covering multiple such SDOs. Each SDO brings its own peculiarities and challenges. An additional 
+covering multiple such SDOs. Each SDO brings its own peculiarities and challenges. An additional
 and  important challenge is the integration of data across multiple SDOs to understand the standardizationn landscape.
 In this section we discuss several such SDOs with a specific focus in W3C and the challenges of data integration across the IETF and W3C.
 
