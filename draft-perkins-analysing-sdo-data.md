@@ -27,6 +27,11 @@ author:
     organization: University of Glasgow
     email: csp@csperkins.org
 
+ -
+    fullname: Ryo Yanagida
+    organization: University of St Andrews
+    email: ryo@htonl.net
+
 normative:
 
 informative:
