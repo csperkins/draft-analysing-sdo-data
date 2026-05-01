@@ -132,7 +132,7 @@ representatives, policy specialists, and others with relevant
 expertise or interests.
 
 Participation criteria differ across SDOs. Some use open participation,
-while others structure participation through organisational or state-
+while others structure participation through organisational- or state-
 based membership, sometimes with additional exceptions or parallel open
 mechanisms. In the IETF, participation is open: there is no formal
 membership, and individuals may participate by joining mailing lists,
@@ -148,11 +148,12 @@ relevant membership categories and the rights attached to them. These
 differences are analytically relevant because they affect who can
 participate, in what capacity, and under what conditions.
 
-Participation models affect standards development by shaping who and how is
-able to contribute. Open participation can broaden the pool of
+Participation models affect standards development by shaping both who
+is able to contribute, and how they are permitted to contribute. Open
+participation can broaden the pool of
 contributors and make it easier for individuals to join without prior
 institutional affiliation, which may increase diversity of experience
-and viewpoints. At the same time, openness does not eliminate barriers
+and viewpoints. At the same time, openness does not eliminate all the barriers
 to participation. Effective participation may still depend on having
 sufficient time, funding, employer support, travel resources, and
 familiarity with the processes, tools, and norms of the community.
@@ -182,7 +183,7 @@ company (or in the process of becoming so), and consultants or contractors may w
 ## Technical Groups
 
 SDOs typically organise work through technical groups such as working
-groups, research groups, committees, or similar bodies. These groups
+groups, research groups, study group, committees, or similar bodies. These groups
 define scope, coordinate discussion, and develop technical outputs.
 They are not always organised as a single flat layer. In the IETF,
 working groups are chartered within Areas. In ITU-T, the work is
@@ -222,13 +223,13 @@ work of participants, researchers, and other observers, but collecting,
 maintaining, publishing, and organising this information also imposes
 costs on SDOs.
 
-## 2.5. Communication Infrastructure
+## Collaboration Infrastructure
 
 Standards development requires communication among participants to
 propose work, discuss technical issues, review contributions,
 coordinate activity, resolve disagreements, and build support for
 possible outcomes. SDOs therefore rely on systems such as mailing
-lists, code repositories, and meetings.
+lists, code repositories, and meetings to facilitate this debate.
 
 The mix of communication, collaboration, and coordination mechanisms
 differs across SDOs. In the IETF, mailing lists are a central forum for
@@ -244,27 +245,30 @@ services.
 
 ## Governance Structures
 
-Standards bodies typically operate through formal governance
-structures, such as charters, defined leadership roles, review and
-approval stages, appeals processes, voting rules, or consensus
-procedures. These structures define how work is initiated, scoped,
-reviewed, approved, and contested.
+Standards bodies have some formal governance structures, with charters
+specifying the scope of different activities, defined leadership roles,
+review and approval stages, appeals processes, voting rules, consensus
+procedures, and so on. These structures define how work is initiated,
+scoped, reviewed, approved, and contested.
 
-At the same time, governance is also exercised  through reputation, recognised expertise, community norms, procedural
+At the same time, influence is also exercised  through reputation, recognised expertise, community norms, procedural
 familiarity, and control over agendas, drafting, or review capacity.
 Governance structures therefore shape how decisions are made,
  how priorities are established, how disagreements are managed,
 and, ultimately, how influence is distributed within standards development.
 
-## External Deployment Ecosystem
+## Standards Implementation and Deployment
 
-Implementation usually occurs outside the formal standards process.
-Many Internet related standards such as those developed by  the IETF, W3C, and ITU-T,
-publication does not by itself require implementation. Adoption may
-therefore vary widely: some standards are widely deployed, while others
-see limited or no implementation. Adoption may also be shaped by
-factors outside the standards process, including regulation,
-procurement, cost, and compatibility with existing systems.
+Implementation usually occurs outside the formal standards process,
+and may be voluntary by interested parties or mandated by policy in
+certain jurisdictions.
+
+In many cases, including the IETF, W3C, and ITU-T, publication of a
+standard does not by itself require implementation. Adoption may therefore
+vary widely: some standards are widely deployed, while others see limited
+or no implementation. Adoption may also be shaped by factors outside the
+standards process, including regulation, procurement, cost, and
+compatibility with existing systems.
 
 Data on implementation and operational use is often limited or
 unavailable.
