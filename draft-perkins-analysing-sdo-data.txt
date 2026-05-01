@@ -5,10 +5,10 @@
 RASPRG                                                        C. Perkins
 Internet-Draft                                     University of Glasgow
 Intended status: Informational                                 I. Castro
-Expires: 26 October 2026                 Queen Mary University of London
+Expires: 2 November 2026                 Queen Mary University of London
                                                              R. Yanagida
                                                 University of St Andrews
-                                                           24 April 2026
+                                                              1 May 2026
 
 
        Analysing Internet Standards Development Organisation Data
@@ -60,7 +60,7 @@ Status of This Memo
    time.  It is inappropriate to use Internet-Drafts as reference
    material or to cite them other than as "work in progress."
 
-   This Internet-Draft will expire on 26 October 2026.
+   This Internet-Draft will expire on 2 November 2026.
 
 Copyright Notice
 
@@ -536,7 +536,7 @@ Table of Contents
    a comprehensive analysis requires covering multiple such SDOs.  Each
    SDO brings its own peculiarities and challenges.  An additional and
    important challenge is the integration of data across multiple SDOs
-   to understand the standardizationn landscape.  In this section we
+   to understand the standardization landscape.  In this section we
    discuss several such SDOs with a specific focus in W3C and the
    challenges of data integration across the IETF and W3C.
 
