@@ -142,7 +142,7 @@ Table of Contents
    *  Identify the observable components of standards development
       ecosystems
 
-   *  Describe a framework for measuring and analysing standards
+   *  Describe considerations for measuring and analysing standards
       development processes
 
    *  Provide a taxonomy of possible measurements and analytical
