@@ -73,8 +73,8 @@ standards development organizations, understanding technology
 deployment, evaluating the evolution of technical work, and informing
 community leadership and governance discussions.
 
-This document outlines a framework for measuring and analysing such
-systems. It first describes generic concepts and measurement
+This document outlines considerations for studying data from the Internet
+standards ecosystem.  It first describes generic concepts and measurement
 approaches that can be applied to standards development processes
 in general. It then considers the IETF as a detailed worked example,
 since the IETF provides unusually rich public data about its
