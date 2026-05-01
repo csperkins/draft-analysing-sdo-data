@@ -500,7 +500,8 @@ These are available as HTML renders of emails.
 
 ### Other sources
 
-The W3C participants are active on GitHub as well...
+The W3C participants are active on GitHub as well. The information
+related to those repositories can be gathered using the GitHub APIs.
 
 ## Integrating data across SDOs
 
