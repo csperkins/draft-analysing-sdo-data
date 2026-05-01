@@ -125,15 +125,15 @@ Table of Contents
    technology deployment, evaluating the evolution of technical work,
    and informing community leadership and governance discussions.
 
-   This document outlines a framework for measuring and analysing such
-   systems.  It first describes generic concepts and measurement
-   approaches that can be applied to standards development processes in
-   general.  It then considers the IETF as a detailed worked example,
-   since the IETF provides unusually rich public data about its
-   participants, documents, processes, and communication channels.
-   Finally, it discusses how these approaches may apply to other SDOs,
-   and the extent to which differences in governance, transparency, and
-   data availability affect such analysis.
+   This document outlines considerations for studying data from the
+   Internet standards ecosystem.  It first describes generic concepts
+   and measurement approaches that can be applied to standards
+   development processes in general.  It then considers the IETF as a
+   detailed worked example, since the IETF provides unusually rich
+   public data about its participants, documents, processes, and
+   communication channels.  Finally, it discusses how these approaches
+   may apply to other SDOs, and the extent to which differences in
+   governance, transparency, and data availability affect such analysis.
 
 2.  Goals of Analysing Standards Data
 
