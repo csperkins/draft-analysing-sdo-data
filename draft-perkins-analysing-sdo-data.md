@@ -208,7 +208,7 @@ presentations, issue trackers, and final published standards.
 These artifacts provide an observable record of technical development.
 Revision histories, references, and relationships between documents may
 help reveal aspects such as participation dynamics, design iteration, a
-nd the evolution of the underlying technoilogies subject to standardisation.
+nd the evolution of the underlying technologies subject to standardisation.
 
 Different SDOs vary in how openly they make such information available
 and in how easily it can be accessed and reused. In the IETF, much of
