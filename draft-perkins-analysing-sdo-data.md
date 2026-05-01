@@ -89,7 +89,7 @@ data availability affect such analysis.
 This document has the following goals:
 
   * Identify the observable components of standards development ecosystems
-  * Describe a framework for measuring and analysing standards
+  * Describe considerations for measuring and analysing standards
     development processes
   * Provide a taxonomy of possible measurements and analytical approaches
   * Highlight methodological, interpretive, and ethical considerations
