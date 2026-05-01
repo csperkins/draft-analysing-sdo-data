@@ -462,7 +462,7 @@ Care with data access to avoid disruption to the standards process
 
 Standardization efforts happen across an array of SDOs and therefore a comprehensive analysis requires
 covering multiple such SDOs. Each SDO brings its own peculiarities and challenges. An additional
-and important challenge is the integration of data across multiple SDOs to understand the standardizationn landscape.
+and important challenge is the integration of data across multiple SDOs to understand the standardization landscape.
 In this section we discuss several such SDOs with a specific focus in W3C and the challenges of data integration across the IETF and W3C.
 
 ## W3C
