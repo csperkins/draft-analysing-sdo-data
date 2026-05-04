@@ -82,13 +82,12 @@ Table of Contents
    2.  Goals of Analysing Standards Data
    3.  Standards Development as a Socio-Technical System
    4.  Analysing the IETF
-     4.1.  Data Availability
-       4.1.1.  Datatracker
-       4.1.2.  RFC Editor
-     4.2.  Mailing List Archives
-     4.3.  Session Recordings
-     4.4.  Chat Archives
-     4.5.  GitHub
+     4.1.  Datatracker
+     4.2.  RFC Editor
+     4.3.  Mailing List Archives
+     4.4.  Session Recordings
+     4.5.  Chat Archives
+     4.6.  GitHub
    5.  Data Processing
    6.  Ethics and Data Protection
    7.  Analysing Other SDOs
@@ -341,8 +340,6 @@ Table of Contents
    groups (that have working group chairs) organised into distinct areas
    (that have area directors).
 
-4.1.  Data Availability
-
    Reflecting its open participation model, much of the IETF's processes
    are publicly observable through open records and dedicated APIs.
    Mailing lists are a central forum for working group discussion,
@@ -350,7 +347,7 @@ Table of Contents
    repositories, for example on GitHub, to support drafting and issue
    discussion.
 
-4.1.1.  Datatracker
+4.1.  Datatracker
 
    The IETF Datatracker (https://datatracker.ietf.org/) is the main
    source of day-to-day and historical data about the operation of the
@@ -413,7 +410,7 @@ Table of Contents
    submission, meeting registration), and so a number of active
    participants do not have a profile.
 
-4.1.2.  RFC Editor
+4.2.  RFC Editor
 
    The RFC Editor makes the RFC index available in machine readable form
    at https://www.rfc-editor.org/rfc-index.xml.  The RFC index includes
@@ -426,7 +423,7 @@ Table of Contents
    at https://www.rfc-editor.org/errata.php.  This data is also
    available in machine readable form.
 
-4.2.  Mailing List Archives
+4.3.  Mailing List Archives
 
    The IETF maintains public mail archives at
    https://mailarchive.ietf.org/ that are also available in machine
@@ -442,20 +439,20 @@ Table of Contents
    IETF mail archive, due to problems with the original messages rather
    than the archive, that make them difficult to process.
 
-4.3.  Session Recordings
+4.4.  Session Recordings
 
    The IETF makes video recordings of its plenary meetings available on
    YouTube (https://www.youtube.com/user/ietf).  Audio recordings of
    IETF sessions from IETF 49 through to IETF 106 are available at
    https://get.ietf.org/archive/audio.
 
-4.4.  Chat Archives
+4.5.  Chat Archives
 
    The IETF makes chat logs available.  Jabber was used prior to 2021,
    with archives at https://get.ietf.org/archive/jabber/. More recently,
    Zulip has been used accessible at zulip.ietf.org.
 
-4.5.  GitHub
+4.6.  GitHub
 
    Some IETF working groups, and some individuals, make extensive use of
    GitHub for document development and issue tracking.  The IETF does
