@@ -289,7 +289,6 @@ such as draft authorship and intellectual property rights disclosures.
 The IETF has a hierarchical group structure, with technical working groups (that have working
 group chairs) organised into distinct areas (that have area directors).
 
-## Data Availability
 
 Reflecting its open participation model, much of
 the IETF's processes are publicly observable through open records and dedicated APIs. Mailing lists
@@ -297,7 +296,7 @@ are a central forum for working group discussion, alongside meetings; some group
 externally hosted repositories, for example on GitHub, to support
 drafting and issue discussion.
 
-### Datatracker
+## Datatracker
 
 The IETF Datatracker (https://datatracker.ietf.org/) is the main source of
 day-to-day and historical data about the operation of the IETF. It can be
@@ -355,7 +354,7 @@ available, with more recent data being significantly more complete than earlier 
 Datatracker profiles are only required for a subset of IETF activities (e.g., draft submission,
 meeting registration), and so a number of active participants do not have a profile.
 
-### RFC Editor
+## RFC Editor
 
 The RFC Editor makes the RFC index available in machine readable form at
 https://www.rfc-editor.org/rfc-index.xml. The RFC index includes title,
