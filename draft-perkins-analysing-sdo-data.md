@@ -109,7 +109,7 @@ groups, or participants.
 # Standards Development as a Socio-Technical System
 
 Internet standards development can be understood as a socio-technical
-system in which technical artifacts, human participants, organisational
+system in which technical artefacts, human participants, organisational
 interests, and governance processes interact over time. Standards do not
 emerge solely from technical design choices, nor solely from institutional
 processes; rather, they arise through structured collaboration among
@@ -184,18 +184,18 @@ forms of technical development.
 
 
 
-## Artifacts
+## artefacts
 
-Standards processes generate artifacts such as drafts,
+Standards processes generate artefacts such as drafts,
 specifications, recommendations, reports, agendas, minutes,
 presentations, issue trackers, and final published standards.
-These artifacts provide an observable record of technical development.
+These artefacts provide an observable record of technical development.
 Revision histories, references, and relationships between documents may
 help reveal aspects such as participation dynamics, design iteration, and
 the evolution of the underlying technologies subject to standardisation.
 
 Different SDOs vary in how openly they make such information available
-and in how easily it can be accessed and reused. Artifact availability can support the
+and in how easily it can be accessed and reused. artefact availability can support the
 work of participants, researchers, and other observers, but collecting,
 maintaining, publishing, and organising this information also imposes
 costs on SDOs.
@@ -267,7 +267,7 @@ non-standard terminology, and organisational changes such as mergers or
 acquisitions may further complicate linkage.
 
 Metrics may also differ in accuracy, representativeness, and
-relevance. Not all artifacts have the same significance, not all forms
+relevance. Not all artefacts have the same significance, not all forms
 of participation have the same effect, and visible activity does not
 necessarily correspond to implementation, adoption, or wider impact.
 Measures should therefore be interpreted cautiously and, where
