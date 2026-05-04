@@ -184,7 +184,6 @@ as comprising several interacting components:
   forms of technical development.
 
 
-
 * **Artefacts:**
   Standards processes generate artefacts such as drafts, specifications,
   recommendations, reports, agendas, minutes, presentations, issue
@@ -200,6 +199,7 @@ as comprising several interacting components:
   but collecting, maintaining, publishing, and organising this information
   also imposes costs on SDOs.
 
+
 * **Collaboration Infrastructure:**
   Standards development requires communication among participants to
   propose work, discuss technical issues, review contributions, coordinate
@@ -209,6 +209,7 @@ as comprising several interacting components:
 
   The mix of communication, collaboration, and coordination mechanisms
   differs across SDOs, often to support the other attributes described.
+
 
 * **Governance Structures:**
   Standards bodies have formal governance structures, with charters
@@ -223,6 +224,7 @@ as comprising several interacting components:
   structures therefore shape how decisions are made, how priorities are
   established, how disagreements are managed, and, ultimately, how
   influence is distributed within standards development.
+
 
 * **Standards Implementation and Deployment:**
   Implementation usually occurs outside the formal standards process, and
@@ -241,12 +243,17 @@ as comprising several interacting components:
 Measuring SDO activity is challenging. Observable metrics such as
 publication counts, message volume, attendance figures, authorship, or
 leadership roles can provide useful evidence, but each captures only
-part of the standards process.
+part of the standards process. Analysis of artefacts and logs from the
+collaboration infrastructure (e.g., analysis of mailing list messages)
+can provide more detail and nuance, at the expense of additional
+complexity, but even these do not provide a complete view.
 
-One reason is that critical aspects of standards development are
+There are several reasons for this.
+One is that critical aspects of standards development are
 hard to observe directly. Influence, agenda setting, informal
 coordination, negotiation, and the practical exercise of power and authority
-may not be well represented by any single metric.
+may not be well represented by any single metric, or group of metrics, and
+are extremely challenging to infer from collaboration infrastructure logs.
 
 Another reason is that the available data is often limited. Data
 availability and quality vary across SDOs. Different parts of the
@@ -261,7 +268,7 @@ appear in different forms across records. Voluntary declarations,
 non-standard terminology, and organisational changes such as mergers or
 acquisitions may further complicate linkage.
 
-Metrics may also differ in accuracy, representativeness, and
+Metrics, artefacts, and other data sources may also differ in accuracy, representativeness, and
 relevance. Not all artefacts have the same significance, not all forms
 of participation have the same effect, and visible activity does not
 necessarily correspond to implementation, adoption, or wider impact.
