@@ -279,19 +279,19 @@ possible, considered alongside complementary indicators.
 
 # Analysing the IETF
 
-In the IETF, participation is open: there is no formal
-membership, and individuals may participate by joining mailing lists,
+IETF participation is open with no formal
+membership. Individuals can participate by joining mailing lists,
 contributing to discussions, submitting Internet-Drafts, and attending
-meetings. Contributions reflect the opinion of the individual participant, and
-not necessarily their affiliation (exceptions to this norm exist for specific aspects
-such as draft authorship and intellectual property rights disclosures).
+meetings. Contributions ordinarily reflect the opinion of individual participants, and
+not necessarily their affiliation; exceptions to this norm exist for specific aspects
+such as draft authorship and intellectual property rights disclosures.
 
 The IETF has a hierarchical group structure, with technical working groups (that have working
 group chairs) organised into distinct areas (that have area directors).
 
 ## Data Availability
 
-Reflecting the open participation model, much of
+Reflecting its open participation model, much of
 the IETF's processes are publicly observable through open records and dedicated APIs. Mailing lists
 are a central forum for working group discussion, alongside meetings; some groups also use
 externally hosted repositories, for example on GitHub, to support
@@ -299,60 +299,61 @@ drafting and issue discussion.
 
 ### Datatracker
 
-The IETF Datatracker (https://datatracker.ietf.org/) is a major source of
+The IETF Datatracker (https://datatracker.ietf.org/) is the main source of
 day-to-day and historical data about the operation of the IETF. It can be
-accessed via the website or programmatically using a REST API and provides:
+accessed via the website or programmatically using a REST API and provides information about:
 
-* Information about people including names, email addresses, pronouns,
+* People including names, email addresses, pronouns,
   biography, and photo, and external resources such as personal websites,
-  GitHub usernames, Orcid identifiers, etc. The Datatracker maintains a
+  GitHub usernames, and Orcid identifiers. The Datatracker maintains a
   record of the different names and email addresses used by individuals.
 
-* Information about documents such as RFCs, Internet-drafts, agendas, blue
+* Documents such as RFCs, Internet-drafts, agendas, blue
   sheets, working group charters, conflict reviews, shepherd write-ups,
-  liaison statements, minutes, presentation slides, etc., including:
+  liaison statements, minutes, and presentation slides, including:
 
-  * Document metadata such as the title, name ("draft-ietf-..."), revision,
+  * Metadata such as the title, name ("draft-ietf-..."), revision,
     date, state, and where appropriate abstract, working group, RFC number
     and publication stream, status on the standards track, area director,
     and document shepherd.
 
-  * Document submissions (e.g., different revisions of internet-drafts)
+  * Submissions (e.g., different revisions of internet-drafts)
     with document name, revision, date, title, abstract, authors, group,
     and metadata about documents the submission replaces.
 
-  * Document authors with email address, affiliation, and country.
+  * Authors with email address, affiliation, and country.
 
-  * Document events such as state changes state, expiration, details of
+  * Events such as state changes state, expiration, details of
     IESG processing, IETF last call, directorate reviews, IANA reviews,
     etc., with the document name, revision, date, and responsible person.
 
-  * Document relations including normative and informative references,
+  * Relationships including normative and informative references,
     and document replaced, updated, or obsoleted.
 
-* Information about working groups, research groups, area, directorates,
+* Working groups, research groups, area, directorates,
   and leadership bodies such as the IESG, IRSG, and IAB, including the
   group name and acronym, group state, relationships between groups (e.g.,
   working groups are organised in areas), the mailing list, charter text,
   milestones, and who occupies key roles in the group.
 
-* Information about IESG processing, including ballot positions, the text
+* IESG processing, including ballot positions, the text
   of comments and discusses, and scheduling of the IESG review.
 
-* Information about directorate membership and directorate reviews,
+* Directorate membership and directorate reviews,
   including the document, reviewer, outcome, data, and the review text.
 
-* Information about meetings, including both plenary and interim meetings,
-  with venues, dates, and times, and details of what groups met in what
-  time slots. Registration and attendance data.
+* Meetings, including both plenary and interim meetings,
+  with venues, dates, and times, details of what groups met in what
+  time slots, and registration and attendance data.
 
-* Information about IPR disclosures including the document that the IPR
+* IPR disclosures including the document that the IPR
   relates to, the person making disclosure, details of the patent, and
   licensing terms.
 
-The Datatracker has been developed piecemeal over time, and the data it
-provides reflects that with more recent data being significantly more
-complete than earlier data.
+The Datatracker has been developed over time, and this is reflected in the data that is
+available, with more recent data being significantly more complete than earlier data.
+Datatracker profiles are only required for a subset of IETF activities (e.g., draft submission,
+meeting registration), and so a number of active participants do not have a profile.
 
 ### RFC Editor
 
