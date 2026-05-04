@@ -41,6 +41,29 @@ normative:
 
 informative:
 
+  MENLO:
+    title: The Menlo Report - Ethical Principles Guiding Information and
+           Communication Technology Research
+    author:
+     - org: US Department of Homeland Security Science and Technology Directorate
+    date: Aug, 2012
+    target: https://www.dhs.gov/sites/default/files/publications/CSD-MenloPrinciplesCORE-20120803_1.pdf
+
+  BELMONT:
+    title:  The Belmont Report - Ethical Principles and Guidelines for the
+            Protection of Human Subjects of Research
+    author:
+      - org: National Commission for the Protection of Human Subjects of
+             Biomedical and Behavioral Research
+    target: https://www.hhs.gov/ohrp/regulations-and-policy/belmont-report/
+
+  ACM:
+    title: ACM Publications Policy on Research Involving Human Participants and Subjects
+    author:
+      - org: ACM Publications Board
+    target: https://www.acm.org/publications/policies/research-involving-human-participants-and-subjects
+
+
 ...
 
 --- abstract
@@ -503,17 +526,48 @@ treated with caution, both in terms of data processing and later analyses.
 
 # Ethics and Data Protection
 
-This is all personal data, subject to legal restrictions on processing in
-many jurisdictions
+Data is made available by the IETF, and other Internet SDOs, subject to
+their particular privacy and data protection policies and terms of use.
+For the IETF, these are described at (https://www.ietf.org/privacy-statement/;
+other SDOs will have their own policies.
 
-Research will need ethics approval
-* Results are potentially sensitive and need to be handled with care
-* The data is public, but the implications of it are not always obvious
-* e.g., one can derive measures of the effectiveness of individuals in
-  certain roles that, if presented out of context, might be considered
-  sensitive
+The available data includes considerable amounts of personal data that is
+potentially sensitive and subject to legal restrictions on processing and
+use in many jurisdictions (e.g., the GDPR in Europe). Researchers must
+ensure that their use of such data conforms to any applicable regulations.
+It is important to note that the regulations that apply to research use of
+such data may differ from those that apply to the IETF, or other SDOs, with
+regards to their use of the data as part of the standards process.
 
-Care with data access to avoid disruption to the standards process
+Researchers must ensure that their research, in particular research that
+involves personal data from the IETF or other SDOs, is conducted ethically
+and with respect for persons, in careful consideration of the risks and
+benefits of the work, taking care to ensure that those who bear the risk
+also gain some benefit, and with respect for the law and public interest.
+Researchers should consult with their organisation's Institutional Review
+Board, Research Ethics Committee, or similar, prior to conducting research
+that might raise ethical concerns, and are referred to the guidance in the
+Menlo Report [MENLO], the Belmont Report [BELMONT], and the ACM Policy on
+Research Involving Human Participants and Subjects [ACM] for further
+discussion of issues around ethical conduct of research.
+
+Researchers are reminded that while data may be public, the implications of
+that data are not always well-known. For example, data that can be
+collected from the IETF Datatracker makes it possible to derive measures of
+the effectiveness of individuals in certain roles that, if presented out of
+context, might be considered sensitive. It is inappropriate to publish data
+about specific individuals without their explicit consent.
+
+Finally, we note that researchers must take care to avoid disruption to the
+Internet standards process. In part, this requires that they consult with
+the operations staff in the IETF LLC, or other SDO, to ensure their data
+access does not cause operational difficulties (e.g., overload of servers
+that might disrupt an ongoing meeting). More broadly, researchers should
+ensure that any results that might be considered sensitive or disruptive
+are responsibly disclosed to the affected parties prior to publication.
+The effective operation of the Internet standards process directly affects
+critical global infrastructure, and researchers should be mindful of this
+when presenting results.
 
 
 # Recommendations
