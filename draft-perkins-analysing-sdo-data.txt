@@ -692,7 +692,9 @@ Table of Contents
 
 Acknowledgments
 
-   TODO acknowledge.
+   This document builds on work funded, in part, by the UK Engineering
+   and Physical Sciences Research Council under grants EP/S033564/1 and
+   EP/S036075/1.
 
 Authors' Addresses
 
