@@ -338,7 +338,26 @@ Table of Contents
 
 4.  Analysing the IETF
 
+   In the IETF, participation is open: there is no formal membership,
+   and individuals may participate by joining mailing lists,
+   contributing to discussions, submitting Internet-Drafts, and
+   attending meetings.  Contributions reflect the opinion of the
+   individual participant, and not necessarily their affiliation
+   (exceptions to this norm exist for specific aspects such as draft
+   authorship and intellectual property rights disclosures).
+
+   The IETF has a hierarchical group structure, with technical working
+   groups (that have working group chairs) organised into distinct areas
+   (that have area directors).
+
 4.1.  Data Availability
+
+   Reflecting the open participation model, much of the IETF's processes
+   are publicly observable through open records and dedicated APIs.
+   Mailing lists are a central forum for working group discussion,
+   alongside meetings; some groups also use externally hosted
+   repositories, for example on GitHub, to support drafting and issue
+   discussion.
 
 4.1.1.  Data Tracker
 
