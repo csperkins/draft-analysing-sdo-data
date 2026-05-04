@@ -1,8 +1,8 @@
-<!-- regenerate: on (set to off if you edit this file) -->
+<!-- regenerate: off (set to off if you edit this file) -->
 
-# TODO - Your title
+# Analysing Internet Standards Development Organisation Data
 
-This is the working area for the individual Internet-Draft, "TODO - Your title".
+This is the working area for the individual Internet-Draft, "Analysing Internet Standards Development Organisation Data".
 
 * [Editor's Copy](https://csperkins.github.io/draft-analysing-sdo-data/#go.draft-perkins-analysing-sdo-data.html)
 * [Datatracker Page](https://datatracker.ietf.org/doc/draft-perkins-analysing-sdo-data)
