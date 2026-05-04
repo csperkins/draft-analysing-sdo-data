@@ -1686,16 +1686,37 @@ email address, and other biography information).<a href="#section-4.5-3.1.1" cla
       <h2 id="name-data-processing">
 <a href="#section-5" class="section-number selfRef">5. </a><a href="#name-data-processing" class="section-name selfRef">Data Processing</a>
       </h2>
-<p id="section-5-1">Entity resolution is a significant challenge
-* People
-* Organisations<a href="#section-5-1" class="pilcrow">¶</a></p>
-<p id="section-5-2">Affiliations are a significant challenge
-* Dual affiliations<a href="#section-5-2" class="pilcrow">¶</a></p>
-<p id="section-5-3">Document history is non-trivial<a href="#section-5-3" class="pilcrow">¶</a></p>
-<p id="section-5-4">Role history is non trivial (e.g., who chaired what group when)
-Group history is non trivial<a href="#section-5-4" class="pilcrow">¶</a></p>
-<p id="section-5-5">Challenges with working with message contents<a href="#section-5-5" class="pilcrow">¶</a></p>
-<p id="section-5-6">Incomplete or increasingly messy historical data<a href="#section-5-6" class="pilcrow">¶</a></p>
+<p id="section-5-1">Significant processing effort is required to clean, normalise, and link data records before
+it can be processed.<a href="#section-5-1" class="pilcrow">¶</a></p>
+<p id="section-5-2">The same individual participant may appear across each of the data sources with different
+identifiers, including names, e-mail addresses, usernames. These identifiers may change
+over time. Entity resolution (using exact and heuristic matching) is feasible in many
+instances, but requires careful validation to prevent the introduction of errors into
+later analyses. Entity resolution across organisations is similarly challenging, where
+companies may be subsidiaries of another, might merge or be acquired, or,
+given the unstructured nature of the dataset, appear under different names. Information
+external to the Datatracker (and other data sources) is often needed to process organisational
+data.<a href="#section-5-2" class="pilcrow">¶</a></p>
+<p id="section-5-3">Participants may have more than one affiliation, including across the lifetime of a
+particular contribution (e.g., an Internet-Draft). Affiliation data is only recorded
+for a subset of activities, and may need to be inferred (e.g., from corporate domain names)
+in other cases. As a result, affiliation data, where recorded, indicates the participant's
+affiliation at moment in time for a particular contribution, making it difficult to form
+a continuous history.<a href="#section-5-3" class="pilcrow">¶</a></p>
+<p id="section-5-4">Document lifecycles are non-linear, and documents might pass through multiple working groups,
+by replaced or updated by later drafts, and change authorship over time.<a href="#section-5-4" class="pilcrow">¶</a></p>
+<p id="section-5-5">Working group leadership is difficult to reconstruct: knowing who chaired a working group during
+a particular period, or which area a given group belonged to at a given time, requires the
+reconstruction of a timeline from historical event records held in the Datatracker. These records
+can be incomplete or inconsistently formatted.<a href="#section-5-5" class="pilcrow">¶</a></p>
+<p id="section-5-6">E-mail metadata and message content presents a number of challenges. Mail clients perform the
+threading of messages in different ways, with the separation between new and quoted text becoming
+unclear. Natural language processing of message content requires contextualisation, with informal
+conventions, technical vocabulary, and the use of acronyms (all of which may evolve over time)
+presenting challenges that are unique to the dataset.<a href="#section-5-6" class="pilcrow">¶</a></p>
+<p id="section-5-7">As noted, the quality of the dataset degrades significantly for historical records. Data that was not
+gathered by the Datatracker at the time, or that has been subject to partial backfilling later, must be
+treated with caution, both in terms of data processing and later analyses.<a href="#section-5-7" class="pilcrow">¶</a></p>
 </section>
 </div>
 <div id="ethics-and-data-protection">
