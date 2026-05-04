@@ -302,12 +302,12 @@ The IETF Datatracker (https://datatracker.ietf.org/) is the main source of
 day-to-day and historical data about the operation of the IETF. It can be
 accessed via the website or programmatically using a REST API and provides information about:
 
-* People including names, email addresses, pronouns,
+* Participants including names, email addresses, pronouns,
   biography, and photo, and external resources such as personal websites,
   GitHub usernames, and Orcid identifiers. The Datatracker maintains a
   record of the different names and email addresses used by individuals.
 
-* Documents such as RFCs, Internet-drafts, agendas, blue
+* Artefacts such as RFCs, Internet-drafts, agendas, blue
   sheets, working group charters, conflict reviews, shepherd write-ups,
   liaison statements, minutes, and presentation slides, including:
 
