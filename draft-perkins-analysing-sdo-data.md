@@ -63,17 +63,19 @@ not an IETF product and is not a standard.
 
 # Introduction
 
-Internet technologies are developed through a range of standards
+Internet technologies are developed and standardised by a range of standards
 development organisations (SDOs), including the IETF, W3C, IEEE,
 3GPP, ITU-T, and others. The standards that these organisations produce underpin the interoperability
 and architectural evolution of the Internet and the Web.
 
-Understanding how standards are developed, including participation,
-collaboration, governance, and technical outputs, can support analysis
-of standards ecosystems. Such analysis can assist with monitoring
-standards development organisations, evaluating the evolution of technical work, understanding technology
-deployment, and ultimately be used to inform
-community leadership and governance discussions.
+Understanding how standards are developed, including who participates in
+the standards process, what collaborations occur during the development of
+standards, how the process is organised and governed, and the technical
+outputs, can support analysis of standards ecosystems. Such analysis can
+assist with monitoring standards development organisations, evaluating the
+evolution of technical work, understanding technology deployment, and
+ultimately be used to inform community leadership and governance
+discussions.
 
 This document outlines considerations for studying data from the Internet
 standards development ecosystem.  It first describes generic concepts and measurement
