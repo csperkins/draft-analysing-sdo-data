@@ -105,18 +105,18 @@ groups, or participants.
 # Standards Development as a Socio-Technical System
 
 Internet standards development can be understood as a socio-technical
-system in which technical artefacts, human participants, organisational
+system in which technical artifacts, human participants, organizational
 interests, and governance processes interact over time. Standards do not
 emerge solely from technical design choices, nor solely from institutional
 processes; rather, they arise through structured collaboration among
-individuals and organisations operating within formal and informal rules.
+individuals and organizations operating within formal and informal rules.
 
 Technical outputs emerge from a socio-technical process in which
-engineering choices interact with expertise, incentives, organisational
+engineering choices interact with expertise, incentives, organizational
 structures, review processes, historical precedent, deployment
 constraints, and the cultural norms and practices of the standards
-community. At the same time, the organisational and cultural context is not fixed,
-however: governance structures, working practices, and community norms
+community. At the same time, the organizational and cultural context is not fixed:
+governance structures, working practices, and community norms
 evolve together over time and these changes in turn shape future
 participation and technical decision-making.
 
@@ -129,24 +129,10 @@ Participants are the individuals who contribute to standards
 development. They may include engineers, researchers, operators,
 implementers, academics, independent contributors, civil society
 representatives, policy specialists, and others with relevant
-expertise or interests.
-
-Participation criteria differ across SDOs. Some use open participation,
-while others structure participation through organisational- or state-
-based membership, sometimes with additional exceptions or parallel open
-mechanisms. In the IETF, participation is open: there is no formal
-membership, and individuals may participate by joining mailing lists,
-contributing to discussions, submitting Internet-Drafts, and registering
-for meetings. In W3C, by contrast, participation in formal groups is
-generally through organisational membership, although non-members may in
-some cases participate as Invited Experts and some groups, such as
-Community Groups, are open without W3C Membership. In ITU-T,
-participation is structured through membership categories, with Member
-States participating directly and other entities, including companies,
-organisations, and academic institutions, participating through the
-relevant membership categories and the rights attached to them. These
-differences are analytically relevant because they affect who can
-participate, in what capacity, and under what conditions.
+expertise or interests. Participation criteria differ across SDOs.
+Some use open participation, while others structure participation
+through organizational- or state-based membership, sometimes with
+additional exceptions or parallel open mechanisms.
 
 Participation models affect standards development by shaping both who
 is able to contribute, and how they are permitted to contribute. Open
@@ -169,15 +155,15 @@ academic institutions, governments, consultancies, or civil society
 groups. These organisations may provide forms of support including funding, staff time, technical expertise, or implementation experience.
 
 The relationship between participants and organisations is not equally
-visible across SDOs. In open participation models such as the IETF,
-participation is individual rather than membership-based, so any
-recorded affiliation may be incomplete and it is declaration is voluntary (exceptions to this norm exist for specific aspects such as draft authorship and intellectual property rights disclosures). In membership-based models, the institutional link is clearer: for example, W3C participation in formal groups is generally through member
-organisations, and ITU-T participation is structured through membership
-categories and the rights associated with them.
+visible across SDOs. In some models, participation is individual, and so any
+recorded affiliation may be incomplete, and reflect a specific contribution rather than
+the sustained view of the participant. In other models, where individuals participate on
+behalf of a clearly indicated affiliation, the institutional link is clearer.
 
 Even where affiliations are recorded, they may not fully describe the
-organisational context. A company may be a subsidiary of another
-company (or in the process of becoming so), and consultants or contractors may work for  clients whose interests are not directly visible in participation records.
+organizational context. A company may be a subsidiary of another
+company (or in the process of becoming so), and consultants or contractors may work for
+clients whose interests are not directly visible in participation records.
 
 
 ## Technical Groups
@@ -185,13 +171,7 @@ company (or in the process of becoming so), and consultants or contractors may w
 SDOs typically organise work through technical groups such as working
 groups, research groups, study group, committees, or similar bodies. These groups
 define scope, coordinate discussion, and develop technical outputs.
-They are not always organised as a single flat layer. In the IETF,
-working groups are chartered within Areas. In ITU-T, the work is
-centred on Study Groups, which may be structured into Working Parties,
-with specific Questions assigned within that structure. In W3C, by
-contrast, Working Groups, Interest Groups, and Coordination Groups are
-different types of groups with different functions, rather than levels
-in a single hierarchy.
+They are not always organised as a single flat layer, with hierarchical and other structures in use.
 
 The number, names, and functions of these structures differ across
 organisations. In some cases, they reflect administrative oversight or
@@ -207,18 +187,11 @@ specifications, recommendations, reports, agendas, minutes,
 presentations, issue trackers, and final published standards.
 These artifacts provide an observable record of technical development.
 Revision histories, references, and relationships between documents may
-help reveal aspects such as participation dynamics, design iteration, a
-nd the evolution of the underlying technologies subject to standardisation.
+help reveal aspects such as participation dynamics, design iteration, and
+the evolution of the underlying technologies subject to standardisation.
 
 Different SDOs vary in how openly they make such information available
-and in how easily it can be accessed and reused. In the IETF, much of
-the standards process is publicly observable through open records and dedicated APIs.
-In W3C, some information is public, including charters for chartered groups,
-while other material may be limited to Members or specific participants depending on the
-group and the status of its proceedings. In ITU-T, document access is
-structured by document category, with some material made publicly
-available, including Recommendations, and other material available only
-to members through member services. Articfact availability can support the
+and in how easily it can be accessed and reused. Artifact availability can support the
 work of participants, researchers, and other observers, but collecting,
 maintaining, publishing, and organising this information also imposes
 costs on SDOs.
@@ -232,16 +205,7 @@ possible outcomes. SDOs therefore rely on systems such as mailing
 lists, code repositories, and meetings to facilitate this debate.
 
 The mix of communication, collaboration, and coordination mechanisms
-differs across SDOs. In the IETF, mailing lists are a central forum for
-working group discussion, alongside meetings; some groups also use
-externally hosted repositories, for example on GitHub, to support
-drafting and issue discussion. In W3C, communication commonly takes
-place through repositories and issue trackers, meetings and
-teleconferences, and, depending on the group, mailing lists and chat
-channels. In ITU-T, communication takes place through meetings,
-mailing lists, and formal liaison statements, while contributions and
-other working documents are circulated through member-access document
-services.
+differs across SDOs, often to support the other attributes described.
 
 ## Governance Structures
 
@@ -263,15 +227,14 @@ Implementation usually occurs outside the formal standards process,
 and may be voluntary by interested parties or mandated by policy in
 certain jurisdictions.
 
-In many cases, including the IETF, W3C, and ITU-T, publication of a
+In many cases, publication of a
 standard does not by itself require implementation. Adoption may therefore
 vary widely: some standards are widely deployed, while others see limited
 or no implementation. Adoption may also be shaped by factors outside the
 standards process, including regulation, procurement, cost, and
 compatibility with existing systems.
 
-Data on implementation and operational use is often limited or
-unavailable.
+Data on implementation and operational use is often limited.
 
 
 ## Implications for Measurement
