@@ -613,7 +613,15 @@ TODO complete (there are more for sure...)
 
 # Security Considerations
 
-TODO Security
+Research into the operation of the Internet standards development ecosystem
+does not directly affect the security of the Internet.  Effective operation
+of the Internet standards process is, however, critical to the security of
+the network, and researchers studying the development of Internet standards
+must consider potential security implications of their results and ensure
+that any such implications are responsibly disclosed to the relevant SDO.
+Examples might include, but are not limited to, research that discovers
+attempts to subvert or disrupt the operation of the standards process.
+
 
 
 # IANA Considerations
