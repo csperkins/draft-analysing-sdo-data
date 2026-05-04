@@ -84,7 +84,7 @@ Table of Contents
      3.1.  Participants
      3.2.  Organisations
      3.3.  Technical Groups
-     3.4.  Artifacts
+     3.4.  artefacts
      3.5.  Collaboration Infrastructure
      3.6.  Governance Structures
      3.7.  Standards Implementation and Deployment
@@ -115,19 +115,20 @@ Table of Contents
 
 1.  Introduction
 
-   Internet technologies are developed through a range of standards
-   development organisations (SDOs), including the IETF, W3C, IEEE,
-   3GPP, ITU-T, and others.  The standards that these organisations
-   produce underpin the interoperability and architectural evolution of
-   the Internet and the Web.
+   Internet technologies are developed and standardised by a range of
+   standards development organisations (SDOs), including the IETF, W3C,
+   IEEE, 3GPP, ITU-T, and others.  The standards that these
+   organisations produce underpin the interoperability and architectural
+   evolution of the Internet and the Web.
 
-   Understanding how standards are developed, including participation,
-   collaboration, governance, and technical outputs, can support
-   analysis of standards ecosystems.  Such analysis can assist with
-   monitoring standards development organisations, evaluating the
-   evolution of technical work, understanding technology deployment, and
-   ultimately be used to inform community leadership and governance
-   discussions.
+   Understanding how standards are developed, including who participates
+   in the standards process, what collaborations occur during the
+   development of standards, how the process is organised and governed,
+   and the technical outputs, can support analysis of standards
+   ecosystems.  Such analysis can assist with monitoring standards
+   development organisations, evaluating the evolution of technical
+   work, understanding technology deployment, and ultimately be used to
+   inform community leadership and governance discussions.
 
    This document outlines considerations for studying data from the
    Internet standards development ecosystem.  It first describes generic
@@ -168,7 +169,7 @@ Table of Contents
 3.  Standards Development as a Socio-Technical System
 
    Internet standards development can be understood as a socio-technical
-   system in which technical artifacts, human participants,
+   system in which technical artefacts, human participants,
    organisational interests, and governance processes interact over
    time.  Standards do not emerge solely from technical design choices,
    nor solely from institutional processes; rather, they arise through
@@ -248,19 +249,19 @@ Table of Contents
    or broad technical areas; in others, they distinguish between
    different forms of technical development.
 
-3.4.  Artifacts
+3.4.  artefacts
 
-   Standards processes generate artifacts such as drafts,
+   Standards processes generate artefacts such as drafts,
    specifications, recommendations, reports, agendas, minutes,
    presentations, issue trackers, and final published standards.  These
-   artifacts provide an observable record of technical development.
+   artefacts provide an observable record of technical development.
    Revision histories, references, and relationships between documents
    may help reveal aspects such as participation dynamics, design
    iteration, and the evolution of the underlying technologies subject
    to standardisation.
 
    Different SDOs vary in how openly they make such information
-   available and in how easily it can be accessed and reused.  Artifact
+   available and in how easily it can be accessed and reused. artefact
    availability can support the work of participants, researchers, and
    other observers, but collecting, maintaining, publishing, and
    organising this information also imposes costs on SDOs.
@@ -333,7 +334,7 @@ Table of Contents
    such as mergers or acquisitions may further complicate linkage.
 
    Metrics may also differ in accuracy, representativeness, and
-   relevance.  Not all artifacts have the same significance, not all
+   relevance.  Not all artefacts have the same significance, not all
    forms of participation have the same effect, and visible activity
    does not necessarily correspond to implementation, adoption, or wider
    impact.  Measures should therefore be interpreted cautiously and,
