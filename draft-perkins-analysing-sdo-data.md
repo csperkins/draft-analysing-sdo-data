@@ -417,7 +417,7 @@ Using the GitHub API, the following information is available:
 # Data Processing
 
 Significant processing effort is required to clean, normalise, and link data records before
-it can be processed.
+they can be processed.
 
 The same individual participant may appear across each of the data sources with different
 identifiers, including names, e-mail addresses, usernames. These identifiers may change
@@ -436,7 +436,7 @@ in other cases. As a result, affiliation data, where recorded, indicates the par
 affiliation at moment in time for a particular contribution, making it difficult to form
 a continuous history.
 
-Document lifecycles are non-linear, and documents might pass through multiple working groups,
+Document life cycles are non-linear, and documents might pass through multiple working groups,
 by replaced or updated by later drafts, and change authorship over time.
 
 Working group leadership is difficult to reconstruct: knowing who chaired a working group during
@@ -444,7 +444,10 @@ a particular period, or which area a given group belonged to at a given time, re
 reconstruction of a timeline from historical event records held in the Datatracker. These records
 can be incomplete or inconsistently formatted.
 
-E-mail metadata and message content presents a number of challenges. Mail clients perform the
+E-mail metadata and message content presents a number of challenges. A significant number of
+messages contain malformed or archaic header fields that break widely used email processing
+libraries and need correction.
+Mail clients perform the
 threading of messages in different ways, with the separation between new and quoted text becoming
 unclear. Natural language processing of message content requires contextualisation, with informal
 conventions, technical vocabulary, and the use of acronyms (all of which may evolve over time)
