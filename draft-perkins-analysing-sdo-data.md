@@ -297,15 +297,15 @@ are a central forum for working group discussion, alongside meetings; some group
 externally hosted repositories, for example on GitHub, to support
 drafting and issue discussion.
 
-### Data Tracker
+### Datatracker
 
-The IETF Data Tracker (https://datatracker.ietf.org/) is a major source of
+The IETF Datatracker (https://datatracker.ietf.org/) is a major source of
 day-to-day and historical data about the operation of the IETF. It can be
 accessed via the website or programmatically using a REST API and provides:
 
 * Information about people including names, email addresses, pronouns,
   biography, and photo, and external resources such as personal websites,
-  GitHub usernames, Orcid identifiers, etc. The data tracker maintains a
+  GitHub usernames, Orcid identifiers, etc. The Datatracker maintains a
   record of the different names and email addresses used by individuals.
 
 * Information about documents such as RFCs, Internet-drafts, agendas, blue
@@ -350,7 +350,7 @@ accessed via the website or programmatically using a REST API and provides:
   relates to, the person making disclosure, details of the patent, and
   licensing terms.
 
-The data tracker has been developed piecemeal over time, and the data it
+The Datatracker has been developed piecemeal over time, and the data it
 provides reflects that with more recent data being significantly more
 complete than earlier data.
 
@@ -361,7 +361,7 @@ https://www.rfc-editor.org/rfc-index.xml. The RFC index includes title,
 authors, publication date, status, abstract, publication stream, name of
 the precursor Internet-draft, and the IETF area and working group that
 developed the RFC, if appropriate. This information is also available
-in the IETF Data tracker.
+in the IETF Datatracker.
 
 Information about RFC errata is available on the RFC Editor website at
 https://www.rfc-editor.org/errata.php. This data is also available in
@@ -403,7 +403,7 @@ has been used accessible at zulip.ietf.org.
 Some IETF working groups, and some individuals, make extensive use of
 GitHub for document development and issue tracking. The IETF does not
 maintain a complete list of GitHub repositories associated with its
-work. The IETF data tracker contains pointers to some repositories.
+work. The IETF Datatracker contains pointers to some repositories.
 
 Using an appropriate GitHub API access, the following information
 are available from Github:
