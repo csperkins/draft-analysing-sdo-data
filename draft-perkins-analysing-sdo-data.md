@@ -63,21 +63,21 @@ and informing community, leadership, and governance discussions.
 
 Internet technologies are developed through a range of standards
 development organizations (SDOs), including the IETF, W3C, IEEE,
-3GPP, ITU-T, and others. These processes underpin the interoperability
+3GPP, ITU-T, and others. The standards that these organizations produce underpin the interoperability
 and architectural evolution of the Internet and the Web.
 
 Understanding how standards are developed, including participation,
 collaboration, governance, and technical outputs, can support analysis
 of standards ecosystems. Such analysis can assist with monitoring
-standards development organizations, understanding technology
-deployment, evaluating the evolution of technical work, and informing
+standards development organizations, evaluating the evolution of technical work, understanding technology
+deployment, and ultimately be used to inform
 community leadership and governance discussions.
 
 This document outlines considerations for studying data from the Internet
-standards ecosystem.  It first describes generic concepts and measurement
+standards development ecosystem.  It first describes generic concepts and measurement
 approaches that can be applied to standards development processes
-in general. It then considers the IETF as a detailed worked example,
-since the IETF provides unusually rich public data about its
+in general. It then considers the IETF,
+given the availability of rich data about its
 participants, documents, processes, and communication channels.
 Finally, it discusses how these approaches may apply to other SDOs,
 and the extent to which differences in governance, transparency, and
