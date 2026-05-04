@@ -53,7 +53,7 @@ considerations.
 
 The framework is intended to support a range of uses, including
 monitoring standards development
-organizations (SDOs), evaluating the evolution of technical work, understanding technology deployment,
+organisations (SDOs), evaluating the evolution of technical work, understanding technology deployment,
 and informing community, leadership, and governance discussions.
 
 
@@ -62,14 +62,14 @@ and informing community, leadership, and governance discussions.
 # Introduction
 
 Internet technologies are developed through a range of standards
-development organizations (SDOs), including the IETF, W3C, IEEE,
-3GPP, ITU-T, and others. The standards that these organizations produce underpin the interoperability
+development organisations (SDOs), including the IETF, W3C, IEEE,
+3GPP, ITU-T, and others. The standards that these organisations produce underpin the interoperability
 and architectural evolution of the Internet and the Web.
 
 Understanding how standards are developed, including participation,
 collaboration, governance, and technical outputs, can support analysis
 of standards ecosystems. Such analysis can assist with monitoring
-standards development organizations, evaluating the evolution of technical work, understanding technology
+standards development organisations, evaluating the evolution of technical work, understanding technology
 deployment, and ultimately be used to inform
 community leadership and governance discussions.
 
@@ -105,17 +105,17 @@ groups, or participants.
 # Standards Development as a Socio-Technical System
 
 Internet standards development can be understood as a socio-technical
-system in which technical artifacts, human participants, organizational
+system in which technical artifacts, human participants, organisational
 interests, and governance processes interact over time. Standards do not
 emerge solely from technical design choices, nor solely from institutional
 processes; rather, they arise through structured collaboration among
-individuals and organizations operating within formal and informal rules.
+individuals and organisations operating within formal and informal rules.
 
 Technical outputs emerge from a socio-technical process in which
-engineering choices interact with expertise, incentives, organizational
+engineering choices interact with expertise, incentives, organisational
 structures, review processes, historical precedent, deployment
 constraints, and the cultural norms and practices of the standards
-community. At the same time, the organizational and cultural context is not fixed:
+community. At the same time, the organisational and cultural context is not fixed:
 governance structures, working practices, and community norms
 evolve together over time and these changes in turn shape future
 participation and technical decision-making.
@@ -131,7 +131,7 @@ implementers, academics, independent contributors, civil society
 representatives, policy specialists, and others with relevant
 expertise or interests. Participation criteria differ across SDOs.
 Some use open participation, while others structure participation
-through organizational- or state-based membership, sometimes with
+through organisational- or state-based membership, sometimes with
 additional exceptions or parallel open mechanisms.
 
 Participation models affect standards development by shaping both who
@@ -161,7 +161,7 @@ the sustained view of the participant. In other models, where individuals partic
 behalf of a clearly indicated affiliation, the institutional link is clearer.
 
 Even where affiliations are recorded, they may not fully describe the
-organizational context. A company may be a subsidiary of another
+organisational context. A company may be a subsidiary of another
 company (or in the process of becoming so), and consultants or contractors may work for
 clients whose interests are not directly visible in participation records.
 
