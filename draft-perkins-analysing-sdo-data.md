@@ -86,7 +86,7 @@ data availability affect such analysis.
 
 # Goals of Analysing Standards Data
 
-This document has the following goals:
+This document aims to:
 
   * Identify the observable components of standards development ecosystems
   * Describe considerations for measuring and analysing standards
