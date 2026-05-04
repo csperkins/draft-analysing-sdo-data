@@ -360,7 +360,7 @@ meeting registration), and so a number of active participants do not have a prof
 The RFC Editor makes the RFC index available in machine readable form at
 https://www.rfc-editor.org/rfc-index.xml. The RFC index includes title,
 authors, publication date, status, abstract, publication stream, name of
-the precursor Internet-draft, and the IETF area and working group that
+the precursor Internet-Draft, and the IETF area and working group that
 developed the RFC, if appropriate. This information is also available
 in the IETF Datatracker.
 
@@ -383,7 +383,7 @@ messages dating back to the late 1980s.
 
 The are significant data quality problems with older messages in the IETF
 mail archive, due to problems with the original messages rather than the
-archive, that make them difficult to process without significant clean-up.
+archive, that make them difficult to process.
 
 ## Session Recordings
 
@@ -404,18 +404,16 @@ has been used accessible at zulip.ietf.org.
 Some IETF working groups, and some individuals, make extensive use of
 GitHub for document development and issue tracking. The IETF does not
 maintain a complete list of GitHub repositories associated with its
-work. The IETF Datatracker contains pointers to some repositories.
+work. The IETF Datatracker contains links to some repositories and user profiles.
 
-Using an appropriate GitHub API access, the following information
-are available from Github:
+Using the GitHub API, the following information is available:
 
-* Information about users contributing through Github (Username,
-  email address, and etc.)
+* Information about GitHub users that contribute (e.g., username,
+  email address, and other biography information).
 
-* Contributions those users make directly to the document via
-  commits
+* Contributions and changes, by way of Git commits, made by those users to documents.
 
-* Discourse through comments and issues
+* Discussion that takes place through comments and issues.
 
 # Data Processing
 Entity resolution is a significant challenge
