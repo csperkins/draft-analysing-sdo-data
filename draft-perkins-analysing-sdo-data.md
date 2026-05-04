@@ -45,33 +45,37 @@ informative:
 
 --- abstract
 
-This document outlines a framework for measuring Internet standards
-development ecosystems. It identifies observable components of
-standards development processes, proposes a taxonomy of possible
-measurements, and highlights methodological, interpretive, and ethical
-considerations.
+This document outlines some issues to consider when studying data relating
+to the Internet standards development ecosystem. It identifies observable
+components of standards development processes, proposes a taxonomy of
+possible measurements, and highlights methodological, interpretive, and
+ethical considerations.  It is intended to support a range of uses,
+including monitoring standards development organisations (SDOs), evaluating
+the evolution of technical work, understanding technology deployment, and
+informing community, leadership, and governance discussions.
 
-The framework is intended to support a range of uses, including
-monitoring standards development
-organisations (SDOs), evaluating the evolution of technical work, understanding technology deployment,
-and informing community, leadership, and governance discussions.
+This document is submitted for consideration by the Research and Analysis
+of Standard-Setting Processes Research Group (RASPRG) in the IRTF.  It is
+not an IETF product and is not a standard.
 
 
 --- middle
 
 # Introduction
 
-Internet technologies are developed through a range of standards
+Internet technologies are developed and standardised by a range of standards
 development organisations (SDOs), including the IETF, W3C, IEEE,
 3GPP, ITU-T, and others. The standards that these organisations produce underpin the interoperability
 and architectural evolution of the Internet and the Web.
 
-Understanding how standards are developed, including participation,
-collaboration, governance, and technical outputs, can support analysis
-of standards ecosystems. Such analysis can assist with monitoring
-standards development organisations, evaluating the evolution of technical work, understanding technology
-deployment, and ultimately be used to inform
-community leadership and governance discussions.
+Understanding how standards are developed, including who participates in
+the standards process, what collaborations occur during the development of
+standards, how the process is organised and governed, and the technical
+outputs, can support analysis of standards ecosystems. Such analysis can
+assist with monitoring standards development organisations, evaluating the
+evolution of technical work, understanding technology deployment, and
+ultimately be used to inform community leadership and governance
+discussions.
 
 This document outlines considerations for studying data from the Internet
 standards development ecosystem.  It first describes generic concepts and measurement
@@ -105,7 +109,7 @@ groups, or participants.
 # Standards Development as a Socio-Technical System
 
 Internet standards development can be understood as a socio-technical
-system in which technical artifacts, human participants, organisational
+system in which technical artefacts, human participants, organisational
 interests, and governance processes interact over time. Standards do not
 emerge solely from technical design choices, nor solely from institutional
 processes; rather, they arise through structured collaboration among
@@ -121,123 +125,118 @@ evolve together over time and these changes in turn shape future
 participation and technical decision-making.
 
 For analytical purposes, standards development ecosystems can be viewed
-as comprising several interacting components.
+as comprising several interacting components:
 
-## Participants
+* **Participants:**
+  Participants are the individuals who contribute to standards development.
+  They may include engineers, researchers, operators, implementers,
+  academics, independent contributors, civil society representatives,
+  policy specialists, and others with relevant expertise or interests.
+  Participation criteria differ across SDOs.  Some use open participation,
+  while others structure participation through organisational- or
+  state-based membership, sometimes with additional exceptions or parallel
+  open mechanisms.
 
-Participants are the individuals who contribute to standards
-development. They may include engineers, researchers, operators,
-implementers, academics, independent contributors, civil society
-representatives, policy specialists, and others with relevant
-expertise or interests. Participation criteria differ across SDOs.
-Some use open participation, while others structure participation
-through organisational- or state-based membership, sometimes with
-additional exceptions or parallel open mechanisms.
-
-Participation models affect standards development by shaping both who
-is able to contribute, and how they are permitted to contribute. Open
-participation can broaden the pool of
-contributors and make it easier for individuals to join without prior
-institutional affiliation, which may increase diversity of experience
-and viewpoints. At the same time, openness does not eliminate all the barriers
-to participation. Effective participation may still depend on having
-sufficient time, funding, employer support, travel resources, and
-familiarity with the processes, tools, and norms of the community.
-Membership-based models may provide clearer institutional commitment and
-resourcing, but they can also limit participation to those acting
-through recognised organisations or membership categories.
-
-
-## Organisations
-
-Participants are often affiliated with organisations such as companies,
-academic institutions, governments, consultancies, or civil society
-groups. These organisations may provide forms of support including funding, staff time, technical expertise, or implementation experience.
-
-The relationship between participants and organisations is not equally
-visible across SDOs. In some models, participation is individual, and so any
-recorded affiliation may be incomplete, and reflect a specific contribution rather than
-the sustained view of the participant. In other models, where individuals participate on
-behalf of a clearly indicated affiliation, the institutional link is clearer.
-
-Even where affiliations are recorded, they may not fully describe the
-organisational context. A company may be a subsidiary of another
-company (or in the process of becoming so), and consultants or contractors may work for
-clients whose interests are not directly visible in participation records.
+  Participation models affect standards development by shaping both who is
+  able to contribute, and how they are permitted to contribute. Open
+  participation can broaden the pool of contributors and make it easier for
+  individuals to join without prior institutional affiliation, which may
+  increase diversity of experience and viewpoints. At the same time,
+  openness does not eliminate all the barriers to participation. Effective
+  participation may still depend on having sufficient time, funding,
+  employer support, travel resources, and familiarity with the processes,
+  tools, and norms of the community.  Membership-based models may provide
+  clearer institutional commitment and resourcing, but they can also limit
+  participation to those acting through recognised organisations or
+  membership categories.
 
 
-## Technical Groups
+* **Organisations:**
+  Participants are often affiliated with organisations such as companies,
+  academic institutions, governments, consultancies, or civil society
+  groups.  These organisations may provide forms of support including
+  funding, staff time, technical expertise, or implementation experience.
 
-SDOs typically organise work through technical groups such as working
-groups, research groups, study group, committees, or similar bodies. These groups
-define scope, coordinate discussion, and develop technical outputs.
-They are not always organised as a single flat layer, with hierarchical and other structures in use.
+  The relationship between participants and organisations is not equally
+  visible across SDOs. In some models, participation is individual, and so
+  any recorded affiliation may be incomplete, and reflect a specific
+  contribution rather than the sustained view of the participant. In other
+  models, where individuals participate on behalf of a clearly indicated
+  affiliation, the institutional link is clearer.
 
-The number, names, and functions of these structures differ across
-organisations. In some cases, they reflect administrative oversight or
-broad technical areas; in others, they distinguish between different
-forms of technical development.
-
-
-
-## Artifacts
-
-Standards processes generate artifacts such as drafts,
-specifications, recommendations, reports, agendas, minutes,
-presentations, issue trackers, and final published standards.
-These artifacts provide an observable record of technical development.
-Revision histories, references, and relationships between documents may
-help reveal aspects such as participation dynamics, design iteration, and
-the evolution of the underlying technologies subject to standardisation.
-
-Different SDOs vary in how openly they make such information available
-and in how easily it can be accessed and reused. Artifact availability can support the
-work of participants, researchers, and other observers, but collecting,
-maintaining, publishing, and organising this information also imposes
-costs on SDOs.
-
-## Collaboration Infrastructure
-
-Standards development requires communication among participants to
-propose work, discuss technical issues, review contributions,
-coordinate activity, resolve disagreements, and build support for
-possible outcomes. SDOs therefore rely on systems such as mailing
-lists, code repositories, and meetings to facilitate this debate.
-
-The mix of communication, collaboration, and coordination mechanisms
-differs across SDOs, often to support the other attributes described.
-
-## Governance Structures
-
-Standards bodies have some formal governance structures, with charters
-specifying the scope of different activities, defined leadership roles,
-review and approval stages, appeals processes, voting rules, consensus
-procedures, and so on. These structures define how work is initiated,
-scoped, reviewed, approved, and contested.
-
-At the same time, influence is also exercised  through reputation, recognised expertise, community norms, procedural
-familiarity, and control over agendas, drafting, or review capacity.
-Governance structures therefore shape how decisions are made,
- how priorities are established, how disagreements are managed,
-and, ultimately, how influence is distributed within standards development.
-
-## Standards Implementation and Deployment
-
-Implementation usually occurs outside the formal standards process,
-and may be voluntary by interested parties or mandated by policy in
-certain jurisdictions.
-
-In many cases, publication of a
-standard does not by itself require implementation. Adoption may therefore
-vary widely: some standards are widely deployed, while others see limited
-or no implementation. Adoption may also be shaped by factors outside the
-standards process, including regulation, procurement, cost, and
-compatibility with existing systems.
-
-Data on implementation and operational use is often limited.
+  Even where affiliations are recorded, they may not fully describe the
+  organisational context. A company may be a subsidiary of another company
+  (or in the process of becoming so), and consultants or contractors may
+  work for clients whose interests are not directly visible in
+  participation records.
 
 
-## Implications for Measurement
+* **Technical Groups:**
+  SDOs typically organise work through technical groups such as working
+  groups, research groups, study group, committees, or similar bodies.
+  These groups define scope, coordinate discussion, and develop technical
+  outputs.  They are not always organised as a single flat layer, with
+  hierarchical and other structures in use.
+
+  The number, names, and functions of these structures differ across
+  organisations. In some cases, they reflect administrative oversight or
+  broad technical areas; in others, they distinguish between different
+  forms of technical development.
+
+
+
+* **Artefacts:**
+  Standards processes generate artefacts such as drafts, specifications,
+  recommendations, reports, agendas, minutes, presentations, issue
+  trackers, and final published standards.  These artefacts provide an
+  observable record of technical development.  Revision histories,
+  references, and relationships between documents may help reveal aspects
+  such as participation dynamics, design iteration, and the evolution of
+  the underlying technologies subject to standardisation.
+
+  Different SDOs vary in how openly they make such information available
+  and in how easily it can be accessed and reused. artefact availability
+  can support the work of participants, researchers, and other observers,
+  but collecting, maintaining, publishing, and organising this information
+  also imposes costs on SDOs.
+
+* **Collaboration Infrastructure:**
+  Standards development requires communication among participants to
+  propose work, discuss technical issues, review contributions, coordinate
+  activity, resolve disagreements, and build support for possible outcomes.
+  SDOs therefore rely on systems such as mailing lists, code repositories,
+  and meetings to facilitate this debate.
+
+  The mix of communication, collaboration, and coordination mechanisms
+  differs across SDOs, often to support the other attributes described.
+
+* **Governance Structures:**
+  Standards bodies have formal governance structures, with charters
+  specifying the scope of different activities, defined leadership roles,
+  review and approval stages, appeals processes, voting rules, consensus
+  procedures, and so on. These structures define how work is initiated,
+  scoped, reviewed, approved, and contested.
+
+  At the same time, influence is also exercised  through reputation,
+  recognised expertise, community norms, procedural familiarity, and
+  control over agendas, drafting, or review capacity.  Governance
+  structures therefore shape how decisions are made, how priorities are
+  established, how disagreements are managed, and, ultimately, how
+  influence is distributed within standards development.
+
+* **Standards Implementation and Deployment:**
+  Implementation usually occurs outside the formal standards process, and
+  may be voluntary by interested parties or mandated by policy in certain
+  jurisdictions.
+
+  In many cases, publication of a standard does not by itself require
+  implementation. Adoption may therefore vary widely: some standards are
+  widely deployed, while others see limited or no implementation. Adoption
+  may also be shaped by factors outside the standards process, including
+  regulation, procurement, cost, and compatibility with existing systems.
+
+  Data on implementation and operational use is often limited.
+
 
 Measuring SDO activity is challenging. Observable metrics such as
 publication counts, message volume, attendance figures, authorship, or
@@ -263,7 +262,7 @@ non-standard terminology, and organisational changes such as mergers or
 acquisitions may further complicate linkage.
 
 Metrics may also differ in accuracy, representativeness, and
-relevance. Not all artifacts have the same significance, not all forms
+relevance. Not all artefacts have the same significance, not all forms
 of participation have the same effect, and visible activity does not
 necessarily correspond to implementation, adoption, or wider impact.
 Measures should therefore be interpreted cautiously and, where
