@@ -52,9 +52,9 @@ measurements, and highlights methodological, interpretive, and ethical
 considerations.
 
 The framework is intended to support a range of uses, including
-understanding technology deployment, monitoring standards development
-organizations (SDOs), evaluating the evolution of technical work, and
-informing community, leadership, and governance discussions.
+monitoring standards development
+organizations (SDOs), evaluating the evolution of technical work, understanding technology deployment,
+and informing community, leadership, and governance discussions.
 
 
 --- middle
