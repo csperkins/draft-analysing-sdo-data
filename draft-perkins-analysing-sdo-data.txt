@@ -5,10 +5,10 @@
 RASPRG                                                        C. Perkins
 Internet-Draft                                     University of Glasgow
 Intended status: Informational                                 I. Castro
-Expires: 2 November 2026                 Queen Mary University of London
+Expires: 5 November 2026                 Queen Mary University of London
                                                              R. Yanagida
                                                 University of St Andrews
-                                                              1 May 2026
+                                                              4 May 2026
 
 
        Analysing Internet Standards Development Organisation Data
@@ -23,8 +23,8 @@ Abstract
    ethical considerations.
 
    The framework is intended to support a range of uses, including
-   understanding technology deployment, monitoring standards development
-   organizations (SDOs), evaluating the evolution of technical work, and
+   monitoring standards development organizations (SDOs), evaluating the
+   evolution of technical work, understanding technology deployment, and
    informing community, leadership, and governance discussions.
 
 About This Document
@@ -60,7 +60,7 @@ Status of This Memo
    time.  It is inappropriate to use Internet-Drafts as reference
    material or to cite them other than as "work in progress."
 
-   This Internet-Draft will expire on 2 November 2026.
+   This Internet-Draft will expire on 5 November 2026.
 
 Copyright Notice
 
@@ -114,30 +114,31 @@ Table of Contents
 
    Internet technologies are developed through a range of standards
    development organizations (SDOs), including the IETF, W3C, IEEE,
-   3GPP, ITU-T, and others.  These processes underpin the
-   interoperability and architectural evolution of the Internet and the
-   Web.
+   3GPP, ITU-T, and others.  The standards that these organizations
+   produce underpin the interoperability and architectural evolution of
+   the Internet and the Web.
 
    Understanding how standards are developed, including participation,
    collaboration, governance, and technical outputs, can support
    analysis of standards ecosystems.  Such analysis can assist with
-   monitoring standards development organizations, understanding
-   technology deployment, evaluating the evolution of technical work,
-   and informing community leadership and governance discussions.
+   monitoring standards development organizations, evaluating the
+   evolution of technical work, understanding technology deployment, and
+   ultimately be used to inform community leadership and governance
+   discussions.
 
    This document outlines considerations for studying data from the
-   Internet standards ecosystem.  It first describes generic concepts
-   and measurement approaches that can be applied to standards
-   development processes in general.  It then considers the IETF as a
-   detailed worked example, since the IETF provides unusually rich
-   public data about its participants, documents, processes, and
-   communication channels.  Finally, it discusses how these approaches
-   may apply to other SDOs, and the extent to which differences in
-   governance, transparency, and data availability affect such analysis.
+   Internet standards development ecosystem.  It first describes generic
+   concepts and measurement approaches that can be applied to standards
+   development processes in general.  It then considers the IETF, given
+   the availability of rich data about its participants, documents,
+   processes, and communication channels.  Finally, it discusses how
+   these approaches may apply to other SDOs, and the extent to which
+   differences in governance, transparency, and data availability affect
+   such analysis.
 
 2.  Goals of Analysing Standards Data
 
-   This document has the following goals:
+   This document aims to:
 
    *  Identify the observable components of standards development
       ecosystems

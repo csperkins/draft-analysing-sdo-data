@@ -15,9 +15,9 @@ standards development processes, proposes a taxonomy of possible
 measurements, and highlights methodological, interpretive, and ethical
 considerations. 
        The framework is intended to support a range of uses, including
-understanding technology deployment, monitoring standards development
-organizations (SDOs), evaluating the evolution of technical work, and
-informing community, leadership, and governance discussions. 
+monitoring standards development
+organizations (SDOs), evaluating the evolution of technical work, understanding technology deployment,
+and informing community, leadership, and governance discussions. 
     " name="description">
 <meta content="xml2rfc 3.33.0" name="generator">
 <meta content="Scientometrics" name="keyword">
@@ -34,8 +34,8 @@ informing community, leadership, and governance discussions.
     platformdirs 4.9.6
     pycountry 24.6.1
     PyYAML 6.0.3
-    requests 2.32.5
-    wcwidth 0.6.0
+    requests 2.33.1
+    wcwidth 0.7.0
 -->
 <link href="draft-perkins-analysing-sdo-data.xml" rel="alternate" type="application/rfc+xml">
 <link href="#copyright" rel="license">
@@ -1060,7 +1060,7 @@ svg :is([fill="white"], [fill^="#fff"]) {
 </tr></thead>
 <tfoot><tr>
 <td class="left">Perkins, et al.</td>
-<td class="center">Expires 2 November 2026</td>
+<td class="center">Expires 5 November 2026</td>
 <td class="right">[Page]</td>
 </tr></tfoot>
 </table>
@@ -1073,12 +1073,12 @@ svg :is([fill="white"], [fill^="#fff"]) {
 <dd class="internet-draft">draft-perkins-analysing-sdo-data-latest</dd>
 <dt class="label-published">Published:</dt>
 <dd class="published">
-<time datetime="2026-05-01" class="published">1 May 2026</time>
+<time datetime="2026-05-04" class="published">4 May 2026</time>
     </dd>
 <dt class="label-intended-status">Intended Status:</dt>
 <dd class="intended-status">Informational</dd>
 <dt class="label-expires">Expires:</dt>
-<dd class="expires"><time datetime="2026-11-02">2 November 2026</time></dd>
+<dd class="expires"><time datetime="2026-11-05">5 November 2026</time></dd>
 <dt class="label-authors">Authors:</dt>
 <dd class="authors">
 <div class="author">
@@ -1105,9 +1105,9 @@ standards development processes, proposes a taxonomy of possible
 measurements, and highlights methodological, interpretive, and ethical
 considerations.<a href="#section-abstract-1" class="pilcrow">¶</a></p>
 <p id="section-abstract-2">The framework is intended to support a range of uses, including
-understanding technology deployment, monitoring standards development
-organizations (SDOs), evaluating the evolution of technical work, and
-informing community, leadership, and governance discussions.<a href="#section-abstract-2" class="pilcrow">¶</a></p>
+monitoring standards development
+organizations (SDOs), evaluating the evolution of technical work, understanding technology deployment,
+and informing community, leadership, and governance discussions.<a href="#section-abstract-2" class="pilcrow">¶</a></p>
 </section>
 <section class="note rfcEditorRemove" id="section-note.1">
       <h2 id="name-about-this-document">
@@ -1144,7 +1144,7 @@ informing community, leadership, and governance discussions.<a href="#section-ab
         time. It is inappropriate to use Internet-Drafts as reference
         material or to cite them other than as "work in progress."<a href="#section-boilerplate.1-3" class="pilcrow">¶</a></p>
 <p id="section-boilerplate.1-4">
-        This Internet-Draft will expire on 2 November 2026.<a href="#section-boilerplate.1-4" class="pilcrow">¶</a></p>
+        This Internet-Draft will expire on 5 November 2026.<a href="#section-boilerplate.1-4" class="pilcrow">¶</a></p>
 </section>
 </div>
 <div id="copyright">
@@ -1295,19 +1295,19 @@ informing community, leadership, and governance discussions.<a href="#section-ab
       </h2>
 <p id="section-1-1">Internet technologies are developed through a range of standards
 development organizations (SDOs), including the IETF, W3C, IEEE,
-3GPP, ITU-T, and others. These processes underpin the interoperability
+3GPP, ITU-T, and others. The standards that these organizations produce underpin the interoperability
 and architectural evolution of the Internet and the Web.<a href="#section-1-1" class="pilcrow">¶</a></p>
 <p id="section-1-2">Understanding how standards are developed, including participation,
 collaboration, governance, and technical outputs, can support analysis
 of standards ecosystems. Such analysis can assist with monitoring
-standards development organizations, understanding technology
-deployment, evaluating the evolution of technical work, and informing
+standards development organizations, evaluating the evolution of technical work, understanding technology
+deployment, and ultimately be used to inform
 community leadership and governance discussions.<a href="#section-1-2" class="pilcrow">¶</a></p>
 <p id="section-1-3">This document outlines considerations for studying data from the Internet
-standards ecosystem.  It first describes generic concepts and measurement
+standards development ecosystem.  It first describes generic concepts and measurement
 approaches that can be applied to standards development processes
-in general. It then considers the IETF as a detailed worked example,
-since the IETF provides unusually rich public data about its
+in general. It then considers the IETF,
+given the availability of rich data about its
 participants, documents, processes, and communication channels.
 Finally, it discusses how these approaches may apply to other SDOs,
 and the extent to which differences in governance, transparency, and
@@ -1319,7 +1319,7 @@ data availability affect such analysis.<a href="#section-1-3" class="pilcrow">¶
       <h2 id="name-goals-of-analysing-standard">
 <a href="#section-2" class="section-number selfRef">2. </a><a href="#name-goals-of-analysing-standard" class="section-name selfRef">Goals of Analysing Standards Data</a>
       </h2>
-<p id="section-2-1">This document has the following goals:<a href="#section-2-1" class="pilcrow">¶</a></p>
+<p id="section-2-1">This document aims to:<a href="#section-2-1" class="pilcrow">¶</a></p>
 <ul class="normal">
 <li class="normal" id="section-2-2.1">
           <p id="section-2-2.1.1">Identify the observable components of standards development ecosystems<a href="#section-2-2.1.1" class="pilcrow">¶</a></p>
