@@ -462,6 +462,23 @@ These differences affect both what can be observed, and how observations should 
 
 ## Data Availability Across SDOs
 
+SDOs vary considerably in terms of the data that they make publicly available about their activities, and in how
+easily that data can be accessed and processed.
+
+The W3C provides a REST API at https://api.w3.org, covering metadata about documents, participants, affiliations, and
+groups, and maintains a public mailing list archive. W3C groups make extensive use of GitHub for document development
+and issue tracking. The W3C operates under a membership model, in which participation is primarily through affiliated
+organisations. This affects how data about participants and their contributions should be interpreted, particularly
+when being compared to data from the IETF and other SDOs with individual participation models.
+
+The ITU-T and 3GPP both operate under membership-based models where access to documents, meeting records, and
+contribution data is typically restricted to member organisations. Some ITU-T Recommendations are made publicly
+available after publication, while the 3GPP makes its specifications available at https://www.3gpp.org/specifications.
+The working documents, contributions, and meeting records are generally not accessible to non-members.
+
+Differences in data availability mean that the methods applicable to the IETF, where rich longitudinal data is publicly
+available, may not be replicable across all SDOs. Any analyses should account for these availability differences.
+
 ## Integrating Data Across SDOs
 
 
