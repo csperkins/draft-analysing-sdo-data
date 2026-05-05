@@ -481,6 +481,25 @@ available, may not be replicable across all SDOs. Any analyses should account fo
 
 ## Integrating Data Across SDOs
 
+Efforts to understand the wider standardisation landscape requires combining data across multiple SDOs.
+
+SDOs do not share common identifiers for participants, organisations, documents, or other metadata. An individual that
+participates across multiple SDOs may appear under different names, e-mail addresses, or usernames in the records of
+each SDO. Resolving these identifies requires suitable entity resolution mechanisms, and the risk of both incorrect
+matches (where two unrelated entities are linked together) and missed matches (where one entity has multiple, separate
+records in each SDO). The same risks apply to affiliations: companies may be recorded under different names,
+abbreviations, or subsidiary identities across SDOs.
+
+Standards developed within one organisation may reference, build upon, or be coordinated with work at another SDO, but
+these relationships are not captured in any shared record. Reconstructing these relationships requires either manual
+effort, or natural language processing of document content, introducing the risk of errors.
+
+SDOs operate on different timescales and with different process structures. Comparing activity across organisations at
+a given point in time may not reflect equivalent stages of development.
+
+Finally, differences in governance and participation models affect which comparisons are meaningful. Data analyses, and
+the interpretation of them, must consider that apparent differences between SDOs may reflect structural factors (e.g.,
+open vs. membership-based participation) rather than substantive differences in behaviour or outcomes.
 
 # Data Processing
 
