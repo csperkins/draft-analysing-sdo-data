@@ -456,46 +456,13 @@ Using the GitHub API, the following information is available:
 
 # Analysing Other SDOs
 
-Standardization efforts happen across an array of SDOs and therefore a comprehensive analysis requires
-covering multiple such SDOs. Each SDO brings its own peculiarities and challenges. An additional
-and important challenge is the integration of data across multiple SDOs to understand the standardization landscape.
-In this section we discuss several such SDOs with a specific focus in W3C and the challenges of data integration across the IETF and W3C.
+Standards relevant to the Internet and the Web are also developed within the W3C, 3GPP, ITU-T, and others. Each
+organisation has its own governance model, participation structure, institutional culture, and data availability.
+These differences affect both what can be observed, and how observations should be interpreted.
 
-## W3C
+## Data Availability Across SDOs
 
-### The W3C API
-
-The W3C provides API endpoints providing access to a range of information
-available. The overview of the API can be found at https://www.w3.org/api/
-and their endpoints are available at https://api.w3.org/doc.
-The information available in the API includes:
-
-* Information about documents, such as ID, date, URI, title, status,
-  document types (recommendation, and etc.), and its version.
-
-* Information about participants, such as their names, and affiliations
-
-* Information about affiliations, such as their name, and their member
-  status.
-
-* Information about groups, such as name, participants in the group,
-  chair, charter and etc.
-
-This might seem similar to the IETF Datatracker in some aspects, however
-there are a numerous differences in terms of process, structure, and etc.
-such that they are not necessarily directly comparable to one another.
-
-### W3C Mailing List Archive
-
-The W3C maintains public mail archives at https://lists.w3.org/Archives/Public/
-These are available as HTML renders of emails.
-
-### Other sources
-
-The W3C participants are active on GitHub as well. The information
-related to those repositories can be gathered using the GitHub APIs.
-
-## Integrating data across SDOs
+## Integrating Data Across SDOs
 
 
 # Data Processing
