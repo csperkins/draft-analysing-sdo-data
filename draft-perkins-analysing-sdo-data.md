@@ -545,7 +545,7 @@ treated with caution, both in terms of data processing and later analyses.
 
 Data is made available by the IETF, and other Internet SDOs, subject to
 their particular privacy and data protection policies and terms of use.
-For the IETF, these are described at (https://www.ietf.org/privacy-statement/;
+For the IETF, these are described at https://www.ietf.org/privacy-statement/;
 other SDOs will have their own policies.
 
 The available data includes considerable amounts of personal data that is
@@ -577,7 +577,7 @@ about specific individuals without their explicit consent.
 
 Finally, we note that researchers must take care to avoid disruption to the
 Internet standards process. In part, this requires that they consult with
-the operations staff in the IETF LLC, or other SDO, to ensure their data
+the operations staff in the IETF LLC, or other SDOs, to ensure their data
 access does not cause operational difficulties (e.g., overload of servers
 that might disrupt an ongoing meeting). More broadly, researchers should
 ensure that any results that might be considered sensitive or disruptive
@@ -685,10 +685,10 @@ participants.
   Some data useful for analysis (e.g., identity resolution, affiliation
   inference) involves interpretation. Such data should be distinguishable
   from primary records, with clear documentation of how it was produced.
-  * is this done by the IETF or by the researchers?
+  * **TODO:** is this done by the IETF, by the researchers, or both?
 
 * **Impact of process and tooling changes:**
-  Changes to tools and working practices affect what is recorded and how it
+  Changes to tools and working practises affect what is recorded and how it
   can be analysed. Where such changes introduce differences in data
   structure or coverage (e.g., adoption of different collaboration
   platforms), these should be documented clearly, including their scope and
@@ -761,8 +761,6 @@ robustness and reproducibility of such work:
   how results are presented, particularly where they may be sensitive or
   open to misinterpretation.
 
-TODO complete (there are more for sure...)
-* these feel general, rather tha IETF specific. separate general from specific?
 
 # Security Considerations
 
