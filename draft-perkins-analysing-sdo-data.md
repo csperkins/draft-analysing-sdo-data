@@ -113,38 +113,33 @@ ultimately be used to inform community leadership and governance
 discussions.
 
 This document outlines considerations for studying data from the Internet
-standards development ecosystem.  It first describes generic concepts and measurement
-approaches that can be applied to standards development processes
-in general. It then considers the IETF,
-given the availability of rich data about its
-participants, documents, processes, and communication channels.
-Finally, it discusses how these approaches may apply to other SDOs,
-and the extent to which differences in governance, transparency, and
-data availability affect such analysis.
+standards development ecosystem. It aims to:
 
-**TODO**: Cite prior work. This document currently does a very poor job of
-citing prior work. While it is not intended that this document forms the
-basis for a comprehensive literature survey, if you know of relevant prior
-work that should be cited please contact the authors.
-
-
-# Goals of Analysing Standards Data
-
-This document aims to:
-
-  * Identify the observable components of standards development ecosystems
-  * Describe considerations for measuring and analysing standards
-    development processes
-  * Provide a taxonomy of possible measurements and analytical approaches
-  * Highlight methodological, interpretive, and ethical considerations
-  * Illustrate the application of these methods using the IETF
-  * Discuss the relevance and limits of applying these methods to
-    other SDOs
-  * Encourage reproducible research practices and transparent analysis
+  * identify observable components of the Internet standards development
+    ecosystem;
+  * describe considerations for measuring and analysing the standards
+    development process;
+  * provide a taxonomy of possible measurements and analytical approaches;
+  * highlight methodological, interpretive, and ethical considerations;
+  * illustrate the application of these methods to the IETF, given the
+    availability of rich data about the IETF participants, documents,
+    processes, and communication channels;
+  * discuss the relevance and limits of applying these methods to
+    other SDOs and the extent to which differences in governance,
+    transparency, and data availability affect such analysis; and
+  * encourage reproducible research practises and transparent analysis.
 
 This document does not prescribe specific metrics, define evaluation
-criteria, or recommend comparative rankings of standards bodies,
-groups, or participants.
+criteria, or recommend approaches to comparative rankings of standards
+bodies, groups, or participants.
+
+
+**TODO**: Cite prior work. This document currently does a very poor job of
+citing prior work. This omission will be remedied in future versions.
+While it is not intended that this document forms the basis for a
+comprehensive literature survey, if you know of relevant prior work that
+should be cited please contact the authors.
+
 
 # Standards Development as a Socio-Technical System
 
