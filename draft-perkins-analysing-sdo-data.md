@@ -70,10 +70,10 @@ informative:
     target: https://www.acm.org/publications/policies/research-involving-human-participants-and-subjects
 
   RFC9518:
-    title: The Role of Technical Standards in Internet Governance
+    title: Centralization, Decentralization, and Internet Standards
     author:
       - org:  M. Nottingham
-    date: Jan, 2024
+    date: December, 2023
     target: https://datatracker.ietf.org/doc/html/rfc9518
 
 ...
