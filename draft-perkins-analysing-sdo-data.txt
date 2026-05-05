@@ -842,8 +842,8 @@ Table of Contents
               <https://www.dhs.gov/sites/default/files/publications/CSD-
               MenloPrinciplesCORE-20120803_1.pdf>.
 
-   [RFC9518]  M. Nottingham, "The Role of Technical Standards in
-              Internet Governance", January 2024,
+   [RFC9518]  M. Nottingham, "Centralization, Decentralization, and
+              Internet Standards", December 2023,
               <https://datatracker.ietf.org/doc/html/rfc9518>.
 
 Acknowledgments
