@@ -71,7 +71,7 @@ informative:
 
   RFC9518:
     title: The Role of Technical Standards in Internet Governance
-    author: 
+    author:
       - org:  M. Nottingham
     date: Jan, 2024
     target: https://datatracker.ietf.org/doc/html/rfc9518
