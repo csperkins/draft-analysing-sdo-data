@@ -122,10 +122,10 @@ Finally, it discusses how these approaches may apply to other SDOs,
 and the extent to which differences in governance, transparency, and
 data availability affect such analysis.
 
-**TODO**: This document currently does a very poor job of citing the
-literature in this area. While it is not intended that this forms the basis
-for a comprehensive literature survey, if you know of relevant prior work
-that should be cited and is not, please let the authors know.
+**TODO**: Cite prior work. This document currently does a very poor job of
+citing prior work. While it is not intended that this document forms the
+basis for a comprehensive literature survey, if you know of relevant prior
+work that should be cited please contact the authors.
 
 
 # Goals of Analysing Standards Data
