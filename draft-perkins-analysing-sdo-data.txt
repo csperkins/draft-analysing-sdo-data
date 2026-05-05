@@ -80,26 +80,25 @@ Copyright Notice
 Table of Contents
 
    1.  Introduction
-   2.  Goals of Analysing Standards Data
-   3.  Standards Development as a Socio-Technical System
-   4.  Analysing the IETF
-     4.1.  Datatracker
-     4.2.  RFC Editor
-     4.3.  Mailing List Archives
-     4.4.  Session Recordings
-     4.5.  Chat Archives
-     4.6.  GitHub
-   5.  Analysing Other SDOs
-     5.1.  Data Availability Across SDOs
-     5.2.  Integrating Data Across SDOs
-   6.  Data Processing
-   7.  Ethics and Data Protection
-   8.  Recommendations
-     8.1.  Recommendations for the IETF
-     8.2.  Recommendations for Researchers
-   9.  Security Considerations
-   10. IANA Considerations
-   11. Informative References
+   2.  Standards Development as a Socio-Technical System
+   3.  Analysing the IETF
+     3.1.  Datatracker
+     3.2.  RFC Editor
+     3.3.  Mailing List Archives
+     3.4.  Session Recordings
+     3.5.  Chat Archives
+     3.6.  GitHub
+   4.  Analysing Other SDOs
+     4.1.  Data Availability Across SDOs
+     4.2.  Integrating Data Across SDOs
+   5.  Data Processing
+   6.  Ethics and Data Protection
+   7.  Recommendations
+     7.1.  Recommendations for the IETF
+     7.2.  Recommendations for Researchers
+   8.  Security Considerations
+   9.  IANA Considerations
+   10. Informative References
    Acknowledgments
    Authors' Addresses
 
@@ -121,48 +120,42 @@ Table of Contents
    inform community leadership and governance discussions.
 
    This document outlines considerations for studying data from the
-   Internet standards development ecosystem.  It first describes generic
-   concepts and measurement approaches that can be applied to standards
-   development processes in general.  It then considers the IETF, given
-   the availability of rich data about its participants, documents,
-   processes, and communication channels.  Finally, it discusses how
-   these approaches may apply to other SDOs, and the extent to which
-   differences in governance, transparency, and data availability affect
-   such analysis.
+   Internet standards development ecosystem.  It aims to:
 
-   *TODO*: Cite prior work.  This document currently does a very poor
-   job of citing prior work.  While it is not intended that this
-   document forms the basis for a comprehensive literature survey, if
-   you know of relevant prior work that should be cited please contact
-   the authors.
+   *  identify observable components of the Internet standards
+      development ecosystem;
 
-2.  Goals of Analysing Standards Data
+   *  describe considerations for measuring and analysing the standards
+      development process;
 
-   This document aims to:
+   *  provide a taxonomy of possible measurements and analytical
+      approaches;
 
-   *  Identify the observable components of standards development
-      ecosystems
+   *  highlight methodological, interpretive, and ethical
+      considerations;
 
-   *  Describe considerations for measuring and analysing standards
-      development processes
+   *  illustrate the application of these methods to the IETF, given the
+      availability of rich data about the IETF participants, documents,
+      processes, and communication channels;
 
-   *  Provide a taxonomy of possible measurements and analytical
-      approaches
+   *  discuss the relevance and limits of applying these methods to
+      other SDOs and the extent to which differences in governance,
+      transparency, and data availability affect such analysis; and
 
-   *  Highlight methodological, interpretive, and ethical considerations
-
-   *  Illustrate the application of these methods using the IETF
-
-   *  Discuss the relevance and limits of applying these methods to
-      other SDOs
-
-   *  Encourage reproducible research practices and transparent analysis
+   *  encourage reproducible research practises and transparent
+      analysis.
 
    This document does not prescribe specific metrics, define evaluation
-   criteria, or recommend comparative rankings of standards bodies,
-   groups, or participants.
+   criteria, or recommend approaches to comparative rankings of
+   standards bodies, groups, or participants.
 
-3.  Standards Development as a Socio-Technical System
+   *TODO*: Cite prior work.  This document currently does a very poor
+   job of citing prior work.  This omission will be remedied in future
+   versions.  While it is not intended that this document forms the
+   basis for a comprehensive literature survey, if you know of relevant
+   prior work that should be cited please contact the authors.
+
+2.  Standards Development as a Socio-Technical System
 
    Internet standards development can be understood as a socio-technical
    system in which technical artefacts, human participants,
@@ -331,7 +324,7 @@ Table of Contents
    be interpreted cautiously and, where possible, considered alongside
    complementary indicators.
 
-4.  Analysing the IETF
+3.  Analysing the IETF
 
    IETF participation is open with no formal membership.  Individuals
    can participate by joining mailing lists, contributing to
@@ -352,7 +345,7 @@ Table of Contents
    repositories, for example on GitHub, to support drafting and issue
    discussion.
 
-4.1.  Datatracker
+3.1.  Datatracker
 
    The IETF Datatracker (https://datatracker.ietf.org/) is the main
    source of day-to-day and historical data about the operation of the
@@ -415,7 +408,7 @@ Table of Contents
    submission, meeting registration), and so a number of active
    participants do not have a profile.
 
-4.2.  RFC Editor
+3.2.  RFC Editor
 
    The RFC Editor makes the RFC index available in machine readable form
    at https://www.rfc-editor.org/rfc-index.xml.  The RFC index includes
@@ -428,7 +421,7 @@ Table of Contents
    at https://www.rfc-editor.org/errata.php.  This data is also
    available in machine readable form.
 
-4.3.  Mailing List Archives
+3.3.  Mailing List Archives
 
    The IETF maintains public mail archives at
    https://mailarchive.ietf.org/ that are also available in machine
@@ -444,20 +437,20 @@ Table of Contents
    IETF mail archive, due to problems with the original messages rather
    than the archive, that make them difficult to process.
 
-4.4.  Session Recordings
+3.4.  Session Recordings
 
    The IETF makes video recordings of its plenary meetings available on
    YouTube (https://www.youtube.com/user/ietf).  Audio recordings of
    IETF sessions from IETF 49 through to IETF 106 are available at
    https://get.ietf.org/archive/audio.
 
-4.5.  Chat Archives
+3.5.  Chat Archives
 
    The IETF makes chat logs available.  Jabber was used prior to 2021,
    with archives at https://get.ietf.org/archive/jabber/. More recently,
    Zulip has been used accessible at zulip.ietf.org.
 
-4.6.  GitHub
+3.6.  GitHub
 
    Some IETF working groups, and some individuals, make extensive use of
    GitHub for document development and issue tracking.  The IETF does
@@ -475,7 +468,7 @@ Table of Contents
 
    *  Discussion that takes place through comments and issues.
 
-5.  Analysing Other SDOs
+4.  Analysing Other SDOs
 
    Standards relevant to the Internet and the Web are also developed
    within the W3C, 3GPP, ITU-T, and others.  Each organisation has its
@@ -483,7 +476,7 @@ Table of Contents
    and data availability.  These differences affect both what can be
    observed, and how observations should be interpreted.
 
-5.1.  Data Availability Across SDOs
+4.1.  Data Availability Across SDOs
 
    SDOs vary considerably in terms of the data that they make publicly
    available about their activities, and in how easily that data can be
@@ -512,7 +505,7 @@ Table of Contents
    be replicable across all SDOs.  Any analyses should account for these
    availability differences.
 
-5.2.  Integrating Data Across SDOs
+4.2.  Integrating Data Across SDOs
 
    Efforts to understand the wider standardisation landscape requires
    combining data across multiple SDOs.
@@ -546,7 +539,7 @@ Table of Contents
    membership-based participation) rather than substantive differences
    in behaviour or outcomes.
 
-6.  Data Processing
+5.  Data Processing
 
    Significant processing effort is required to clean, normalise, and
    link data records before they can be processed.
@@ -597,7 +590,7 @@ Table of Contents
    be treated with caution, both in terms of data processing and later
    analyses.
 
-7.  Ethics and Data Protection
+6.  Ethics and Data Protection
 
    Data is made available by the IETF, and other Internet SDOs, subject
    to their particular privacy and data protection policies and terms of
@@ -646,7 +639,7 @@ Table of Contents
    infrastructure, and researchers should be mindful of this when
    presenting results.
 
-8.  Recommendations
+7.  Recommendations
 
    Analysis of standards development data is useful to support
    transparency and provide insight into the health, structure, and
@@ -711,7 +704,7 @@ Table of Contents
    should take care in how findings are reported, particularly where
    they relate to identifiable participants.
 
-8.1.  Recommendations for the IETF
+7.1.  Recommendations for the IETF
 
    *  *Preserving a centralised and stable data access:* The Datatracker
       provides a central interface for structured data about IETF
@@ -759,7 +752,7 @@ Table of Contents
       scope and implications, to preserve comparability across groups
       and over time.
 
-8.2.  Recommendations for Researchers
+7.2.  Recommendations for Researchers
 
    Analysis of standards development data requires careful handling of
    both the data and its interpretation.  The following practises can
@@ -829,7 +822,7 @@ Table of Contents
    TODO complete (there are more for sure...) * these feel general,
    rather tha IETF specific. separate general from specific?
 
-9.  Security Considerations
+8.  Security Considerations
 
    Research into the operation of the Internet standards development
    ecosystem does not directly affect the security of the Internet.
@@ -841,11 +834,11 @@ Table of Contents
    include, but are not limited to, research that discovers attempts to
    subvert or disrupt the operation of the standards process.
 
-10.  IANA Considerations
+9.  IANA Considerations
 
    This document has no IANA actions.
 
-11.  Informative References
+10.  Informative References
 
    [ACM]      ACM Publications Board, "ACM Publications Policy on
               Research Involving Human Participants and Subjects", n.d.,
