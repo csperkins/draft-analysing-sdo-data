@@ -1215,21 +1215,10 @@ not an IETF product and is not a standard.<a href="#section-abstract-2" class="p
             <p id="section-toc.1-1.5.1"><a href="#section-5" class="auto internal xref">5</a>.  <a href="#name-analysing-other-sdos" class="internal xref">Analysing Other SDOs</a></p>
 <ul class="compact toc ulBare ulEmpty">
 <li class="compact toc ulBare ulEmpty" id="section-toc.1-1.5.2.1">
-                <p id="section-toc.1-1.5.2.1.1"><a href="#section-5.1" class="auto internal xref">5.1</a>.  <a href="#name-w3c" class="internal xref">W3C</a></p>
-<ul class="compact toc ulBare ulEmpty">
-<li class="compact toc ulBare ulEmpty" id="section-toc.1-1.5.2.1.2.1">
-                    <p id="section-toc.1-1.5.2.1.2.1.1"><a href="#section-5.1.1" class="auto internal xref">5.1.1</a>.  <a href="#name-the-w3c-api" class="internal xref">The W3C API</a></p>
-</li>
-                  <li class="compact toc ulBare ulEmpty" id="section-toc.1-1.5.2.1.2.2">
-                    <p id="section-toc.1-1.5.2.1.2.2.1"><a href="#section-5.1.2" class="auto internal xref">5.1.2</a>.  <a href="#name-w3c-mailing-list-archive" class="internal xref">W3C Mailing List Archive</a></p>
-</li>
-                  <li class="compact toc ulBare ulEmpty" id="section-toc.1-1.5.2.1.2.3">
-                    <p id="section-toc.1-1.5.2.1.2.3.1"><a href="#section-5.1.3" class="auto internal xref">5.1.3</a>.  <a href="#name-other-sources" class="internal xref">Other sources</a></p>
-</li>
-                </ul>
+                <p id="section-toc.1-1.5.2.1.1"><a href="#section-5.1" class="auto internal xref">5.1</a>.  <a href="#name-data-availability-across-sd" class="internal xref">Data Availability Across SDOs</a></p>
 </li>
               <li class="compact toc ulBare ulEmpty" id="section-toc.1-1.5.2.2">
-                <p id="section-toc.1-1.5.2.2.1"><a href="#section-5.2" class="auto internal xref">5.2</a>.  <a href="#name-integrating-data-across-sdo" class="internal xref">Integrating data across SDOs</a></p>
+                <p id="section-toc.1-1.5.2.2.1"><a href="#section-5.2" class="auto internal xref">5.2</a>.  <a href="#name-integrating-data-across-sdo" class="internal xref">Integrating Data Across SDOs</a></p>
 </li>
             </ul>
 </li>
@@ -1686,71 +1675,49 @@ email address, and other biography information).<a href="#section-4.6-3.1.1" cla
       <h2 id="name-analysing-other-sdos">
 <a href="#section-5" class="section-number selfRef">5. </a><a href="#name-analysing-other-sdos" class="section-name selfRef">Analysing Other SDOs</a>
       </h2>
-<p id="section-5-1">Standardization efforts happen across an array of SDOs and therefore a comprehensive analysis requires
-covering multiple such SDOs. Each SDO brings its own peculiarities and challenges. An additional
-and important challenge is the integration of data across multiple SDOs to understand the standardization landscape.
-In this section we discuss several such SDOs with a specific focus in W3C and the challenges of data integration across the IETF and W3C.<a href="#section-5-1" class="pilcrow">¶</a></p>
-<div id="w3c">
+<p id="section-5-1">Standards relevant to the Internet and the Web are also developed within the W3C, 3GPP, ITU-T, and others. Each
+organisation has its own governance model, participation structure, institutional culture, and data availability.
+These differences affect both what can be observed, and how observations should be interpreted.<a href="#section-5-1" class="pilcrow">¶</a></p>
+<div id="data-availability-across-sdos">
 <section id="section-5.1">
-        <h3 id="name-w3c">
-<a href="#section-5.1" class="section-number selfRef">5.1. </a><a href="#name-w3c" class="section-name selfRef">W3C</a>
+        <h3 id="name-data-availability-across-sd">
+<a href="#section-5.1" class="section-number selfRef">5.1. </a><a href="#name-data-availability-across-sd" class="section-name selfRef">Data Availability Across SDOs</a>
         </h3>
-<div id="the-w3c-api">
-<section id="section-5.1.1">
-          <h4 id="name-the-w3c-api">
-<a href="#section-5.1.1" class="section-number selfRef">5.1.1. </a><a href="#name-the-w3c-api" class="section-name selfRef">The W3C API</a>
-          </h4>
-<p id="section-5.1.1-1">The W3C provides API endpoints providing access to a range of information
-available. The overview of the API can be found at https://www.w3.org/api/
-and their endpoints are available at https://api.w3.org/doc.
-The information available in the API includes:<a href="#section-5.1.1-1" class="pilcrow">¶</a></p>
-<ul class="normal">
-<li class="normal" id="section-5.1.1-2.1">
-              <p id="section-5.1.1-2.1.1">Information about documents, such as ID, date, URI, title, status,
-document types (recommendation, and etc.), and its version.<a href="#section-5.1.1-2.1.1" class="pilcrow">¶</a></p>
-</li>
-            <li class="normal" id="section-5.1.1-2.2">
-              <p id="section-5.1.1-2.2.1">Information about participants, such as their names, and affiliations<a href="#section-5.1.1-2.2.1" class="pilcrow">¶</a></p>
-</li>
-            <li class="normal" id="section-5.1.1-2.3">
-              <p id="section-5.1.1-2.3.1">Information about affiliations, such as their name, and their member
-status.<a href="#section-5.1.1-2.3.1" class="pilcrow">¶</a></p>
-</li>
-            <li class="normal" id="section-5.1.1-2.4">
-              <p id="section-5.1.1-2.4.1">Information about groups, such as name, participants in the group,
-chair, charter and etc.<a href="#section-5.1.1-2.4.1" class="pilcrow">¶</a></p>
-</li>
-          </ul>
-<p id="section-5.1.1-3">This might seem similar to the IETF Datatracker in some aspects, however
-there are a numerous differences in terms of process, structure, and etc.
-such that they are not necessarily directly comparable to one another.<a href="#section-5.1.1-3" class="pilcrow">¶</a></p>
-</section>
-</div>
-<div id="w3c-mailing-list-archive">
-<section id="section-5.1.2">
-          <h4 id="name-w3c-mailing-list-archive">
-<a href="#section-5.1.2" class="section-number selfRef">5.1.2. </a><a href="#name-w3c-mailing-list-archive" class="section-name selfRef">W3C Mailing List Archive</a>
-          </h4>
-<p id="section-5.1.2-1">The W3C maintains public mail archives at https://lists.w3.org/Archives/Public/
-These are available as HTML renders of emails.<a href="#section-5.1.2-1" class="pilcrow">¶</a></p>
-</section>
-</div>
-<div id="other-sources">
-<section id="section-5.1.3">
-          <h4 id="name-other-sources">
-<a href="#section-5.1.3" class="section-number selfRef">5.1.3. </a><a href="#name-other-sources" class="section-name selfRef">Other sources</a>
-          </h4>
-<p id="section-5.1.3-1">The W3C participants are active on GitHub as well. The information
-related to those repositories can be gathered using the GitHub APIs.<a href="#section-5.1.3-1" class="pilcrow">¶</a></p>
-</section>
-</div>
+<p id="section-5.1-1">SDOs vary considerably in terms of the data that they make publicly available about their activities, and in how
+easily that data can be accessed and processed.<a href="#section-5.1-1" class="pilcrow">¶</a></p>
+<p id="section-5.1-2">The W3C provides a REST API at https://api.w3.org, covering metadata about documents, participants, affiliations, and
+groups, and maintains a public mailing list archive. W3C groups make extensive use of GitHub for document development
+and issue tracking. The W3C operates under a membership model, in which participation is primarily through affiliated
+organisations. This affects how data about participants and their contributions should be interpreted, particularly
+when being compared to data from the IETF and other SDOs with individual participation models.<a href="#section-5.1-2" class="pilcrow">¶</a></p>
+<p id="section-5.1-3">The ITU-T and 3GPP both operate under membership-based models where access to documents, meeting records, and
+contribution data is typically restricted to member organisations. Some ITU-T Recommendations are made publicly
+available after publication, while the 3GPP makes its specifications available at https://www.3gpp.org/specifications.
+The working documents, contributions, and meeting records are generally not accessible to non-members.<a href="#section-5.1-3" class="pilcrow">¶</a></p>
+<p id="section-5.1-4">Differences in data availability mean that the methods applicable to the IETF, where rich longitudinal data is publicly
+available, may not be replicable across all SDOs. Any analyses should account for these availability differences.<a href="#section-5.1-4" class="pilcrow">¶</a></p>
 </section>
 </div>
 <div id="integrating-data-across-sdos">
 <section id="section-5.2">
         <h3 id="name-integrating-data-across-sdo">
-<a href="#section-5.2" class="section-number selfRef">5.2. </a><a href="#name-integrating-data-across-sdo" class="section-name selfRef">Integrating data across SDOs</a>
-      </h3>
+<a href="#section-5.2" class="section-number selfRef">5.2. </a><a href="#name-integrating-data-across-sdo" class="section-name selfRef">Integrating Data Across SDOs</a>
+        </h3>
+<p id="section-5.2-1">Efforts to understand the wider standardisation landscape requires combining data across multiple SDOs.<a href="#section-5.2-1" class="pilcrow">¶</a></p>
+<p id="section-5.2-2">SDOs do not share common identifiers for participants, organisations, documents, or other metadata. An individual that
+participates across multiple SDOs may appear under different names, e-mail addresses, or usernames in the records of
+each SDO. Resolving these identifies requires suitable entity resolution mechanisms, and the risk of both incorrect
+matches (where two unrelated entities are linked together) and missed matches (where one entity has multiple, separate
+records in each SDO). The same risks apply to affiliations: companies may be recorded under different names,
+abbreviations, or subsidiary identities across SDOs.<a href="#section-5.2-2" class="pilcrow">¶</a></p>
+<p id="section-5.2-3">Standards developed within one organisation may reference, build upon, or be coordinated with work at another SDO, but
+these relationships are not captured in any shared record. Reconstructing these relationships requires either manual
+effort, or natural language processing of document content, introducing the risk of errors.<a href="#section-5.2-3" class="pilcrow">¶</a></p>
+<p id="section-5.2-4">SDOs operate on different timescales and with different process structures. Comparing activity across organisations at
+a given point in time may not reflect equivalent stages of development.<a href="#section-5.2-4" class="pilcrow">¶</a></p>
+<p id="section-5.2-5">Finally, differences in governance and participation models affect which comparisons are meaningful. Data analyses, and
+the interpretation of them, must consider that apparent differences between SDOs may reflect structural factors (e.g.,
+open vs. membership-based participation) rather than substantive differences in behaviour or outcomes.<a href="#section-5.2-5" class="pilcrow">¶</a></p>
 </section>
 </div>
 </section>

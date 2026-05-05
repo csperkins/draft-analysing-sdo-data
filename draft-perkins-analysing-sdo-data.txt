@@ -90,11 +90,8 @@ Table of Contents
      4.5.  Chat Archives
      4.6.  GitHub
    5.  Analysing Other SDOs
-     5.1.  W3C
-       5.1.1.  The W3C API
-       5.1.2.  W3C Mailing List Archive
-       5.1.3.  Other sources
-     5.2.  Integrating data across SDOs
+     5.1.  Data Availability Across SDOs
+     5.2.  Integrating Data Across SDOs
    6.  Data Processing
    7.  Ethics and Data Protection
    8.  Recommendations
@@ -480,53 +477,74 @@ Table of Contents
 
 5.  Analysing Other SDOs
 
-   Standardization efforts happen across an array of SDOs and therefore
-   a comprehensive analysis requires covering multiple such SDOs.  Each
-   SDO brings its own peculiarities and challenges.  An additional and
-   important challenge is the integration of data across multiple SDOs
-   to understand the standardization landscape.  In this section we
-   discuss several such SDOs with a specific focus in W3C and the
-   challenges of data integration across the IETF and W3C.
+   Standards relevant to the Internet and the Web are also developed
+   within the W3C, 3GPP, ITU-T, and others.  Each organisation has its
+   own governance model, participation structure, institutional culture,
+   and data availability.  These differences affect both what can be
+   observed, and how observations should be interpreted.
 
-5.1.  W3C
+5.1.  Data Availability Across SDOs
 
-5.1.1.  The W3C API
+   SDOs vary considerably in terms of the data that they make publicly
+   available about their activities, and in how easily that data can be
+   accessed and processed.
 
-   The W3C provides API endpoints providing access to a range of
-   information available.  The overview of the API can be found at
-   https://www.w3.org/api/ and their endpoints are available at
-   https://api.w3.org/doc.  The information available in the API
-   includes:
+   The W3C provides a REST API at https://api.w3.org, covering metadata
+   about documents, participants, affiliations, and groups, and
+   maintains a public mailing list archive.  W3C groups make extensive
+   use of GitHub for document development and issue tracking.  The W3C
+   operates under a membership model, in which participation is
+   primarily through affiliated organisations.  This affects how data
+   about participants and their contributions should be interpreted,
+   particularly when being compared to data from the IETF and other SDOs
+   with individual participation models.
 
-   *  Information about documents, such as ID, date, URI, title, status,
-      document types (recommendation, and etc.), and its version.
+   The ITU-T and 3GPP both operate under membership-based models where
+   access to documents, meeting records, and contribution data is
+   typically restricted to member organisations.  Some ITU-T
+   Recommendations are made publicly available after publication, while
+   the 3GPP makes its specifications available at https://www.3gpp.org/
+   specifications.  The working documents, contributions, and meeting
+   records are generally not accessible to non-members.
 
-   *  Information about participants, such as their names, and
-      affiliations
+   Differences in data availability mean that the methods applicable to
+   the IETF, where rich longitudinal data is publicly available, may not
+   be replicable across all SDOs.  Any analyses should account for these
+   availability differences.
 
-   *  Information about affiliations, such as their name, and their
-      member status.
+5.2.  Integrating Data Across SDOs
 
-   *  Information about groups, such as name, participants in the group,
-      chair, charter and etc.
+   Efforts to understand the wider standardisation landscape requires
+   combining data across multiple SDOs.
 
-   This might seem similar to the IETF Datatracker in some aspects,
-   however there are a numerous differences in terms of process,
-   structure, and etc. such that they are not necessarily directly
-   comparable to one another.
+   SDOs do not share common identifiers for participants, organisations,
+   documents, or other metadata.  An individual that participates across
+   multiple SDOs may appear under different names, e-mail addresses, or
+   usernames in the records of each SDO.  Resolving these identifies
+   requires suitable entity resolution mechanisms, and the risk of both
+   incorrect matches (where two unrelated entities are linked together)
+   and missed matches (where one entity has multiple, separate records
+   in each SDO).  The same risks apply to affiliations: companies may be
+   recorded under different names, abbreviations, or subsidiary
+   identities across SDOs.
 
-5.1.2.  W3C Mailing List Archive
+   Standards developed within one organisation may reference, build
+   upon, or be coordinated with work at another SDO, but these
+   relationships are not captured in any shared record.  Reconstructing
+   these relationships requires either manual effort, or natural
+   language processing of document content, introducing the risk of
+   errors.
 
-   The W3C maintains public mail archives at
-   https://lists.w3.org/Archives/Public/ These are available as HTML
-   renders of emails.
+   SDOs operate on different timescales and with different process
+   structures.  Comparing activity across organisations at a given point
+   in time may not reflect equivalent stages of development.
 
-5.1.3.  Other sources
-
-   The W3C participants are active on GitHub as well.  The information
-   related to those repositories can be gathered using the GitHub APIs.
-
-5.2.  Integrating data across SDOs
+   Finally, differences in governance and participation models affect
+   which comparisons are meaningful.  Data analyses, and the
+   interpretation of them, must consider that apparent differences
+   between SDOs may reflect structural factors (e.g., open vs.
+   membership-based participation) rather than substantive differences
+   in behaviour or outcomes.
 
 6.  Data Processing
 
