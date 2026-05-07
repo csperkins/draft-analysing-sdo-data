@@ -153,9 +153,9 @@ individuals and organisations operating within formal and informal rules.
 Technical outputs emerge from a socio-technical process in which
 engineering choices interact with expertise, incentives, organisational
 structures, review processes, historical precedent, deployment
-constraints, and the cultural norms and practices of the standards
+constraints, and the cultural norms and practises of the standards
 community. At the same time, the organisational and cultural context is not fixed:
-governance structures, working practices, and community norms
+governance structures, working practises, and community norms
 evolve together over time and these changes in turn shape future
 participation and technical decision-making.
 
