@@ -5,11 +5,11 @@
 RASPRG                                                        C. Perkins
 Internet-Draft                                     University of Glasgow
 Intended status: Informational                                 I. Castro
-Expires: 6 November 2026                 Queen Mary University of London
+Expires: 8 November 2026                 Queen Mary University of London
                                                              R. Yanagida
                                                             S. McQuistin
                                                 University of St Andrews
-                                                              5 May 2026
+                                                              7 May 2026
 
 
        Analysing Internet Standards Development Organisation Data
@@ -64,7 +64,7 @@ Status of This Memo
    time.  It is inappropriate to use Internet-Drafts as reference
    material or to cite them other than as "work in progress."
 
-   This Internet-Draft will expire on 6 November 2026.
+   This Internet-Draft will expire on 8 November 2026.
 
 Copyright Notice
 
@@ -168,10 +168,10 @@ Table of Contents
    Technical outputs emerge from a socio-technical process in which
    engineering choices interact with expertise, incentives,
    organisational structures, review processes, historical precedent,
-   deployment constraints, and the cultural norms and practices of the
+   deployment constraints, and the cultural norms and practises of the
    standards community.  At the same time, the organisational and
    cultural context is not fixed: governance structures, working
-   practices, and community norms evolve together over time and these
+   practises, and community norms evolve together over time and these
    changes in turn shape future participation and technical decision-
    making.
 
@@ -297,8 +297,9 @@ Table of Contents
    additional complexity, but even these do not provide a complete view.
 
    There are several reasons for this.  One is that critical aspects of
-   standards development are hard to observe directly.  Influence,
-   agenda setting, informal coordination, negotiation, and the practical
+   standards development are hard to observe directly.  The culture of
+   the SDOs, influence of individuals, groups, and ideas, agenda
+   setting, informal coordination, negotiation, and the practical
    exercise of power and authority may not be well represented by any
    single metric, or group of metrics, and are extremely challenging to
    infer from collaboration infrastructure logs.
