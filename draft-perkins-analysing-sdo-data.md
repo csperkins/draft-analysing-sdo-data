@@ -285,7 +285,8 @@ complexity, but even these do not provide a complete view.
 
 There are several reasons for this.
 One is that critical aspects of standards development are
-hard to observe directly. Influence, agenda setting, informal
+hard to observe directly. The culture of the SDOs, influence of
+individuals, groups, and ideas, agenda setting, informal
 coordination, negotiation, and the practical exercise of power and authority
 may not be well represented by any single metric, or group of metrics, and
 are extremely challenging to infer from collaboration infrastructure logs.
