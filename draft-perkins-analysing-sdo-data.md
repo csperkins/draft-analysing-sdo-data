@@ -687,6 +687,7 @@ participants.
   inference) involves interpretation. Such data should be distinguishable
   from primary records, with clear documentation of how it was produced.
   * **TODO:** is this done by the IETF, by the researchers, or both?
+  * **RYO:** I believe this is to be done by anyone that produces/publishes the aggregated data. I don't think the IETF does this at the moment... (I could be completely wrong!)
 
 * **Impact of process and tooling changes:**
   Changes to tools and working practises affect what is recorded and how it
