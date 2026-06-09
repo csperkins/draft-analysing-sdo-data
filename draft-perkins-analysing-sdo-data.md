@@ -790,10 +790,8 @@ robustness and reproducibility of such work:
   approaches.
 
 ## Ethnographic Studies
-The activity-data-driven approach described in the previous section
-is only one way to analyse SDOs. Developing standards is a highly social
-activity, which involves culture(s). Cath investigated this specific aspects
-in the IETF.
+Developing standards is a highly social activity, which involve cultures.
+Cath investigated this specific aspects in the IETF.
 
 ## Natural Language Processing (NLP)
 
