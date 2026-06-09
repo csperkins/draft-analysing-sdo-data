@@ -76,6 +76,26 @@ informative:
     date: December, 2023
     target: https://datatracker.ietf.org/doc/html/rfc9518
 
+  RFC8180:
+    title: Research into Human Rights Protocol Considerations
+    author:
+      - org: N. ten Oever
+      - org: C. Cath
+    date: October, 2017
+    target: https://datatracker.ietf.org/doc/html/rfc8180
+
+  CCATH2021:
+    title: Changing Minds and Machines: A Case Study of Human Rights Advocacy in the Internet Engineering Task Force (IETF)
+    author:
+      - org: C. Cath (University of Oxford)
+    date: September 2021
+
+<!--  Susan Hares -->
+
+<!-- Michael Welzl -->
+
+<!-- Niels / Bigbang -->
+
 ...
 
 --- abstract
@@ -762,6 +782,22 @@ robustness and reproducibility of such work:
   implications for individuals or organisations. Care should be taken in
   how results are presented, particularly where they may be sensitive or
   open to misinterpretation.
+
+
+# Existing analyses of SDOs
+  There are a wealth of work that analyses SDOs, including the IETF.
+  This section presents non-exhaustive set of works, grouped by their
+  approaches.
+
+## Ethnographic Studies
+The activity-data-driven approach described in the previous section
+is only one way to analyse SDOs. Developing standards is a highly social
+activity, which involves culture(s). Cath investigated this specific aspects
+in the IETF.
+
+## Natural Language Processing (NLP)
+
+
 
 
 # Security Considerations
