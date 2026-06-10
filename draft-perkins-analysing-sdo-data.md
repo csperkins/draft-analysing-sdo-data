@@ -85,7 +85,7 @@ informative:
     target: https://datatracker.ietf.org/doc/html/rfc8180
 
   CCATH2021:
-    title: Changing Minds and Machines: A Case Study of Human Rights Advocacy in the Internet Engineering Task Force (IETF)
+    title: "Changing Minds and Machines: A Case Study of Human Rights Advocacy in the Internet Engineering Task Force (IETF)"
     author:
       - org: C. Cath (University of Oxford)
     date: September 2021
