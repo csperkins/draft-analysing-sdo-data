@@ -94,6 +94,8 @@ informative:
 
 ...
 
+<!-- informative: Add citation for Corrine Cath -->
+
 <!-- informative: Add citation for Susan Hares -->
 
 <!-- informative: add citation for Michael Welzl -->
@@ -793,7 +795,7 @@ robustness and reproducibility of such work:
 
 ## Ethnographic Studies
 Developing standards is a highly social activity, which involve cultures.
-Cath investigated this specific aspects in the IETF.
+Cath investigated this specific aspects in the IETF [CCATH2021].
 
 ## Natural Language Processing (NLP)
 
