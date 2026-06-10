@@ -834,7 +834,8 @@ Table of Contents
 8.1.  Ethnographic Studies
 
    Developing standards is a highly social activity, which involve
-   cultures.  Cath investigated this specific aspects in the IETF.
+   cultures.  Cath investigated this specific aspects in the IETF
+   [CCATH2021].
 
 8.2.  Natural Language Processing (NLP)
 
