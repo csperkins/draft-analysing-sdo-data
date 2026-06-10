@@ -90,13 +90,15 @@ informative:
       - org: C. Cath (University of Oxford)
     date: September 2021
 
-<!--  Susan Hares -->
 
-<!-- Michael Welzl -->
-
-<!-- Niels / Bigbang -->
 
 ...
+
+<!-- informative: Add citation for Susan Hares -->
+
+<!-- informative: add citation for Michael Welzl -->
+
+<!-- informative: add citation for Niels / Bigbang -->
 
 --- abstract
 
