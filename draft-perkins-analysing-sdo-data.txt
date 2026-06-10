@@ -5,11 +5,11 @@
 RASPRG                                                        C. Perkins
 Internet-Draft                                     University of Glasgow
 Intended status: Informational                                 I. Castro
-Expires: 11 December 2026                Queen Mary University of London
+Expires: 12 December 2026                Queen Mary University of London
                                                              R. Yanagida
                                                             S. McQuistin
                                                 University of St Andrews
-                                                             9 June 2026
+                                                            10 June 2026
 
 
        Analysing Internet Standards Development Organisation Data
@@ -64,7 +64,7 @@ Status of This Memo
    time.  It is inappropriate to use Internet-Drafts as reference
    material or to cite them other than as "work in progress."
 
-   This Internet-Draft will expire on 11 December 2026.
+   This Internet-Draft will expire on 12 December 2026.
 
 Copyright Notice
 
@@ -96,9 +96,12 @@ Table of Contents
    7.  Recommendations
      7.1.  Recommendations for the IETF
      7.2.  Recommendations for Researchers
-   8.  Security Considerations
-   9.  IANA Considerations
-   10. Informative References
+   8.  Existing analyses of SDOs
+     8.1.  Ethnographic Studies
+     8.2.  Natural Language Processing (NLP)
+   9.  Security Considerations
+   10. IANA Considerations
+   11. Informative References
    Acknowledgments
    Authors' Addresses
 
@@ -822,7 +825,20 @@ Table of Contents
       are presented, particularly where they may be sensitive or open to
       misinterpretation.
 
-8.  Security Considerations
+8.  Existing analyses of SDOs
+
+   There are a wealth of work that analyses SDOs, including the IETF.
+   This section presents non-exhaustive set of works, grouped by their
+   approaches.
+
+8.1.  Ethnographic Studies
+
+   Developing standards is a highly social activity, which involve
+   cultures.  Cath investigated this specific aspects in the IETF.
+
+8.2.  Natural Language Processing (NLP)
+
+9.  Security Considerations
 
    Research into the operation of the Internet standards development
    ecosystem does not directly affect the security of the Internet.
@@ -834,11 +850,11 @@ Table of Contents
    include, but are not limited to, research that discovers attempts to
    subvert or disrupt the operation of the standards process.
 
-9.  IANA Considerations
+10.  IANA Considerations
 
    This document has no IANA actions.
 
-10.  Informative References
+11.  Informative References
 
    [ACM]      ACM Publications Board, "ACM Publications Policy on
               Research Involving Human Participants and Subjects", n.d.,
@@ -852,12 +868,21 @@ Table of Contents
               <https://www.hhs.gov/ohrp/regulations-and-policy/belmont-
               report/>.
 
+   [CCATH2021]
+              C. Cath (University of Oxford), "Changing Minds and
+              Machines: A Case Study of Human Rights Advocacy in the
+              Internet Engineering Task Force (IETF)", September 2021.
+
    [MENLO]    US Department of Homeland Security Science and Technology
               Directorate, "The Menlo Report - Ethical Principles
               Guiding Information and Communication Technology
               Research", August 2012,
               <https://www.dhs.gov/sites/default/files/publications/CSD-
               MenloPrinciplesCORE-20120803_1.pdf>.
+
+   [RFC8180]  N. ten Oever and C. Cath, "Research into Human Rights
+              Protocol Considerations", October 2017,
+              <https://datatracker.ietf.org/doc/html/rfc8180>.
 
    [RFC9518]  M. Nottingham, "Centralization, Decentralization, and
               Internet Standards", December 2023,
