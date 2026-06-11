@@ -5,11 +5,11 @@
 RASPRG                                                        C. Perkins
 Internet-Draft                                     University of Glasgow
 Intended status: Informational                                 I. Castro
-Expires: 12 December 2026                Queen Mary University of London
+Expires: 13 December 2026                Queen Mary University of London
                                                              R. Yanagida
                                                             S. McQuistin
                                                 University of St Andrews
-                                                            10 June 2026
+                                                            11 June 2026
 
 
        Analysing Internet Standards Development Organisation Data
@@ -64,7 +64,7 @@ Status of This Memo
    time.  It is inappropriate to use Internet-Drafts as reference
    material or to cite them other than as "work in progress."
 
-   This Internet-Draft will expire on 12 December 2026.
+   This Internet-Draft will expire on 13 December 2026.
 
 Copyright Notice
 
@@ -862,6 +862,22 @@ Table of Contents
               <https://www.acm.org/publications/policies/research-
               involving-human-participants-and-subjects>.
 
+   [BARNES2024]
+              Barnes, M. R., Karan, M., McQuistin, S., Perkins, C.,
+              Tyson, G., Purver, M., Castro, I., and R. G. Clegg,
+              "Temporal Network Analysis of Email Communication Patterns
+              in a Long Standing Hierarchy", Proceedings of the
+              International AAAI Conference on Web and Social
+              Media Volume 18, Number 1, pages 126-138, 2024,
+              <https://doi.org/10.1609/icwsm.v18i1.31302>.
+
+   [BARON2024]
+              Baron, J. A., Ganglmair, B., Persico, N., Simcoe, T., and
+              E. Tarantino, "Representation Is Not Sufficient for
+              Selecting Gender Diversity", Research Policy Volume 53,
+              Number 6, Article 104994, 2024,
+              <https://doi.org/10.1016/j.respol.2024.104994>.
+
    [BELMONT]  National Commission for the Protection of Human Subjects
               of Biomedical and Behavioral Research, "The Belmont Report
               - Ethical Principles and Guidelines for the Protection of
@@ -869,10 +885,61 @@ Table of Contents
               <https://www.hhs.gov/ohrp/regulations-and-policy/belmont-
               report/>.
 
-   [CCATH2021]
-              C. Cath (University of Oxford), "Changing Minds and
-              Machines: A Case Study of Human Rights Advocacy in the
-              Internet Engineering Task Force (IETF)", September 2021.
+   [CATH2021] Cath, C., "Changing Minds and Machines: A Case Study of
+              Human Rights Advocacy in the Internet Engineering Task
+              Force (IETF)", PhD thesis University of Oxford, 2021,
+              <https://ora.ox.ac.uk/objects/uuid:9b844ffb-d5bb-4388-
+              bb2f-305ddedb8939>.
+
+   [CATH2023] Cath, C., "Loud Men Talking Loudly: Exclusionary Cultures
+              of Internet Governance", Critical Infrastructure Lab
+              Document Series CIL003, 2023,
+              <https://criticalinfralab.net/wp-content/uploads/2023/06/
+              LoudMen-CorinneCath-CriticalInfraLab.pdf>.
+
+   [CATHFLORIDI2017]
+              Cath, C. and L. Floridi, "The Design of the Internet's
+              Architecture by the Internet Engineering Task Force (IETF)
+              and Human Rights", Science and Engineering Ethics Volume
+              23, Number 2, pages 449-468, 2017,
+              <https://doi.org/10.1007/s11948-016-9793-y>.
+
+   [FARRELLSIMCOE2012]
+              Farrell, J. and T. Simcoe, "Choosing the Rules for
+              Consensus Standardization", The RAND Journal of
+              Economics Volume 43, Number 2, pages 235-252, 2012,
+              <https://doi.org/10.1111/j.1756-2171.2012.00164.x>.
+
+   [GANGLMAIR2025]
+              Ganglmair, B., Simcoe, T., and E. Tarantino, "Learning
+              When to Quit: An Empirical Model of Experimentation in
+              Standards Development", American Economic Journal:
+              Microeconomics Volume 17, Number 3, pages 164-190, 2025,
+              <https://doi.org/10.1257/mic.20190321>.
+
+   [KHARE2022]
+              Khare, P., Karan, M., McQuistin, S., Perkins, C., Tyson,
+              G., Purver, M., Healey, P., and I. Castro, "The Web We
+              Weave: Untangling the Social Graph of the IETF",
+              Proceedings of the International AAAI Conference on Web
+              and Social Media Volume 16, Number 1, pages 500-511, 2022,
+              <https://doi.org/10.1609/icwsm.v16i1.19310>.
+
+   [MCQUISTIN2021]
+              McQuistin, S., Karan, M., Khare, P., Perkins, C., Tyson,
+              G., Purver, M., Healey, P., Iqbal, W., Qadir, J., and I.
+              Castro, "Characterising the IETF Through the Lens of RFC
+              Deployment", Proceedings of the 21st ACM Internet
+              Measurement Conference pages 137-149, 2021,
+              <https://doi.org/10.1145/3487552.3487821>.
+
+   [MCQUISTIN2023]
+              McQuistin, S., Karan, M., Khare, P., Perkins, C., Purver,
+              M., Healey, P., Castro, I., and G. Tyson, "Errare Humanum
+              Est: What Do RFC Errata Say about Internet Standards?",
+              Proceedings of the 7th Network Traffic Measurement and
+              Analysis Conference pages 169-177, 2023,
+              <https://doi.org/10.23919/TMA58422.2023.10198980>.
 
    [MENLO]    US Department of Homeland Security Science and Technology
               Directorate, "The Menlo Report - Ethical Principles
@@ -881,13 +948,90 @@ Table of Contents
               <https://www.dhs.gov/sites/default/files/publications/CSD-
               MenloPrinciplesCORE-20120803_1.pdf>.
 
+   [NIEDERMAYER2017]
+              Niedermayer, H., Schwellnus, N., Raumer, D., Cordeiro, E.,
+              and G. Carle, "Information Mining from Public Mailing
+              Lists: A Case Study on IETF Mailing Lists", Internet
+              Science Lecture Notes in Computer Science, Volume 10673,
+              pages 301-309, 2017,
+              <https://doi.org/10.1007/978-3-319-70284-1_23>.
+
+   [NIKKHAH2017]
+              Nikkhah, M., Mangal, A., Dovrolis, C., and R. Guerin, "A
+              Statistical Exploration of Protocol Adoption", IEEE/ACM
+              Transactions on Networking Volume 25, Number 5, pages
+              2858-2871, 2017,
+              <https://doi.org/10.1109/TNET.2017.2711642>.
+
+   [RFC2026]  Bradner, S., "The Internet Standards Process -- Revision
+              3", October 1996, <https://doi.org/10.17487/RFC2026>.
+
+   [RFC5218]  Thaler, D. and B. Aboba, "What Makes for a Successful
+              Protocol?", July 2008, <https://doi.org/10.17487/RFC5218>.
+
+   [RFC7282]  Resnick, P., "On Consensus and Humming in the IETF", June
+              2014, <https://doi.org/10.17487/RFC7282>.
+
    [RFC8180]  N. ten Oever and C. Cath, "Research into Human Rights
               Protocol Considerations", October 2017,
               <https://datatracker.ietf.org/doc/html/rfc8180>.
 
+   [RFC8729]  Housley, R. and L. Daigle, "The RFC Series and RFC
+              Editor", February 2020,
+              <https://doi.org/10.17487/RFC8729>.
+
+   [RFC8963]  Huitema, C., "Evaluation of a Sample of RFCs Produced in
+              2018", January 2021, <https://doi.org/10.17487/RFC8963>.
+
+   [RFC8980]  Arkko, J. and T. Hardie, "Report from the IAB Workshop on
+              Design Expectations vs. Deployment Reality in Protocol
+              Development", February 2021,
+              <https://doi.org/10.17487/RFC8980>.
+
+   [RFC9307]  Wood, C. S., Oever, N. T., Wu, Q., and D. Dhody, "Report
+              from the IAB Workshop on Analyzing IETF Data (AID), 2021",
+              October 2022, <https://doi.org/10.17487/RFC9307>.
+
    [RFC9518]  M. Nottingham, "Centralization, Decentralization, and
               Internet Standards", December 2023,
               <https://datatracker.ietf.org/doc/html/rfc9518>.
+
+   [RYSMANSIMCOE2008]
+              Rysman, M. and T. Simcoe, "Patents and the Performance of
+              Voluntary Standard-Setting Organizations", Management
+              Science Volume 54, Number 11, pages 1920-1934, 2008,
+              <https://doi.org/10.1287/mnsc.1080.0919>.
+
+   [SIMCOE2006]
+              Simcoe, T., "Delay and De Jure Standardization: Exploring
+              the Slowdown in Internet Standards Development", Standards
+              and Public Policy Chapter 8, pages 260-295, 2006,
+              <https://doi.org/10.1017/CBO9780511493249.009>.
+
+   [SIMCOE2012]
+              Simcoe, T., "Standard Setting Committees: Consensus
+              Governance for Shared Technology Platforms", American
+              Economic Review Volume 102, Number 1, pages 305-336, 2012,
+              <https://doi.org/10.1257/aer.102.1.305>.
+
+   [SIMCOE2014]
+              Simcoe, T., "Governing the Anticommons: Institutional
+              Design for Standard-Setting Organizations", Innovation
+              Policy and the Economy Volume 14, Number 1, pages 99-128,
+              2014, <https://doi.org/10.1086/674022>.
+
+   [SIMCOEWAGUESPACK2011]
+              Simcoe, T. S. and D. M. Waguespack, "Status, Quality, and
+              Attention: What's in a (Missing) Name?", Management
+              Science Volume 57, Number 2, pages 274-290, 2011,
+              <https://doi.org/10.1287/mnsc.1100.1270>.
+
+   [WELZL2021]
+              Welzl, M., Oepen, S., Jaskula, C., Griwodz, C., and S.
+              Islam, "Collaboration in the IETF: An Initial Analysis of
+              Two Decades in Email Discussions", ACM SIGCOMM Computer
+              Communication Review Volume 51, Number 3, pages 29-32,
+              2021, <https://doi.org/10.1145/3477482.3477488>.
 
 Acknowledgments
 
