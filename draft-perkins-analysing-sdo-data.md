@@ -84,13 +84,292 @@ informative:
     date: October, 2017
     target: https://datatracker.ietf.org/doc/html/rfc8180
 
-  CCATH2021:
+
+  RFC2026:
+    title: "The Internet Standards Process -- Revision 3"
+    author:
+      - fullname: Scott Bradner
+    date: October 1996
+    target: https://doi.org/10.17487/RFC2026
+
+  RFC5218:
+    title: What Makes for a Successful Protocol?
+    author:
+      - fullname: Dave Thaler
+      - fullname: Bernard Aboba
+    date: July 2008
+    target: https://doi.org/10.17487/RFC5218
+
+  RFC7282:
+    title: On Consensus and Humming in the IETF
+    author:
+      - fullname: Pete Resnick
+    date: June 2014
+    target: https://doi.org/10.17487/RFC7282
+
+  RFC8729:
+    title: The RFC Series and RFC Editor
+    author:
+      - fullname: Russ Housley
+      - fullname: Leslie Daigle
+    date: February 2020
+    target: https://doi.org/10.17487/RFC8729
+
+  RFC8963:
+    title: Evaluation of a Sample of RFCs Produced in 2018
+    author:
+      - fullname: Christian Huitema
+    date: January 2021
+    target: https://doi.org/10.17487/RFC8963
+
+  RFC8980:
+    title: "Report from the IAB Workshop on Design Expectations vs. Deployment Reality in Protocol Development"
+    author:
+      - fullname: Jari Arkko
+      - fullname: Ted Hardie
+    date: February 2021
+    target: https://doi.org/10.17487/RFC8980
+
+  RFC8980:
+    title: "Report from the IAB Workshop on Design Expectations vs. Deployment Reality in Protocol Development"
+    author:
+      - fullname: Jari Arkko
+      - fullname: Ted Hardie
+    date: February 2021
+    target: https://doi.org/10.17487/RFC8980
+
+  RFC9307:
+    title: "Report from the IAB Workshop on Analyzing IETF Data (AID), 2021"
+    author:
+      - fullname: Christopher S. Wood
+      - fullname: Niels ten Oever
+      - fullname: Qin Wu
+      - fullname: Dhruv Dhody
+    date: October 2022
+    target: https://doi.org/10.17487/RFC9307
+
+  KHARE2022:
+    title: "The Web We Weave: Untangling the Social Graph of the IETF"
+    author:
+      - fullname: Prashant Khare
+      - fullname: Mladen Karan
+      - fullname: Stephen McQuistin
+      - fullname: Colin Perkins
+      - fullname: Gareth Tyson
+      - fullname: Matthew Purver
+      - fullname: Patrick Healey
+      - fullname: Ignacio Castro
+    date: 2022
+    seriesinfo:
+      "Proceedings of the International AAAI Conference on Web and Social Media": "Volume 16, Number 1, pages 500-511"
+    target: https://doi.org/10.1609/icwsm.v16i1.19310
+
+  MCQUISTIN2021:
+    title: Characterising the IETF Through the Lens of RFC Deployment
+    author:
+      - fullname: Stephen McQuistin
+      - fullname: Mladen Karan
+      - fullname: Prashant Khare
+      - fullname: Colin Perkins
+      - fullname: Gareth Tyson
+      - fullname: Matthew Purver
+      - fullname: Patrick Healey
+      - fullname: Waleed Iqbal
+      - fullname: Junaid Qadir
+      - fullname: Ignacio Castro
+    date: 2021
+    seriesinfo:
+      "Proceedings of the 21st ACM Internet Measurement Conference": "pages 137-149"
+    target: https://doi.org/10.1145/3487552.3487821
+
+  BARNES2024:
+    title: "Temporal Network Analysis of Email Communication Patterns in a Long Standing Hierarchy"
+    author:
+      - fullname: Matthew Russell Barnes
+      - fullname: Mladen Karan
+      - fullname: Stephen McQuistin
+      - fullname: Colin Perkins
+      - fullname: Gareth Tyson
+      - fullname: Matthew Purver
+      - fullname: Ignacio Castro
+      - fullname: Richard G. Clegg
+    date: 2024
+    seriesinfo:
+      "Proceedings of the International AAAI Conference on Web and Social Media": "Volume 18, Number 1, pages 126-138"
+    target: https://doi.org/10.1609/icwsm.v18i1.31302
+
+  MCQUISTIN2023:
+    title: "Errare Humanum Est: What Do RFC Errata Say about Internet Standards?"
+    author:
+      - fullname: Stephen McQuistin
+      - fullname: Mladen Karan
+      - fullname: Prashant Khare
+      - fullname: Colin Perkins
+      - fullname: Matthew Purver
+      - fullname: Patrick Healey
+      - fullname: Ignacio Castro
+      - fullname: Gareth Tyson
+    date: 2023
+    seriesinfo:
+      "Proceedings of the 7th Network Traffic Measurement and Analysis Conference": "pages 169-177"
+    target: https://doi.org/10.23919/TMA58422.2023.10198980
+
+  WELZL2021:
+    title: "Collaboration in the IETF: An Initial Analysis of Two Decades in Email Discussions"
+    author:
+      - fullname: Michael Welzl
+      - fullname: Stephan Oepen
+      - fullname: Cezary Jaskula
+      - fullname: Carsten Griwodz
+      - fullname: Safiqul Islam
+    date: 2021
+    seriesinfo:
+      "ACM SIGCOMM Computer Communication Review": "Volume 51, Number 3, pages 29-32"
+    target: https://doi.org/10.1145/3477482.3477488
+
+  NIEDERMAYER2017:
+    title: "Information Mining from Public Mailing Lists: A Case Study on IETF Mailing Lists"
+    author:
+      - fullname: Heiko Niedermayer
+      - fullname: Nikolai Schwellnus
+      - fullname: Daniel Raumer
+      - fullname: Edwin Cordeiro
+      - fullname: Georg Carle
+    date: 2017
+    seriesinfo:
+      "Internet Science": "Lecture Notes in Computer Science, Volume 10673, pages 301-309"
+    target: https://doi.org/10.1007/978-3-319-70284-1_23
+
+  NIKKHAH2017:
+    title: A Statistical Exploration of Protocol Adoption
+    author:
+      - fullname: Mehdi Nikkhah
+      - fullname: Aman Mangal
+      - fullname: Constantine Dovrolis
+      - fullname: Roch Guerin
+    date: 2017
+    seriesinfo:
+      "IEEE/ACM Transactions on Networking": "Volume 25, Number 5, pages 2858-2871"
+    target: https://doi.org/10.1109/TNET.2017.2711642
+
+  CATHFLORIDI2017:
+    title: "The Design of the Internet's Architecture by the Internet Engineering Task Force (IETF) and Human Rights"
+    author:
+      - fullname: Corinne Cath
+      - fullname: Luciano Floridi
+    date: 2017
+    seriesinfo:
+      "Science and Engineering Ethics": "Volume 23, Number 2, pages 449-468"
+    target: https://doi.org/10.1007/s11948-016-9793-y
+
+  CATH2021:
+    title: "The Technology We Choose to Create: Human Rights Advocacy in the Internet Engineering Task Force"
+    author:
+      - fullname: Corinne Cath
+    date: 2021
+    seriesinfo:
+      "Telecommunications Policy": "Volume 45, Number 6, Article 102144"
+    target: https://doi.org/10.1016/j.telpol.2021.102144
+
+
+  CATH2021:
     title: "Changing Minds and Machines: A Case Study of Human Rights Advocacy in the Internet Engineering Task Force (IETF)"
     author:
-      - org: C. Cath (University of Oxford)
-    date: September 2021
+      - fullname: Corinne Cath
+    date: 2021
+    seriesinfo:
+      "PhD thesis": "University of Oxford"
+    target: https://ora.ox.ac.uk/objects/uuid:9b844ffb-d5bb-4388-bb2f-305ddedb8939
 
+  CATH2023:
+    title: "Loud Men Talking Loudly: Exclusionary Cultures of Internet Governance"
+    author:
+      - fullname: Corinne Cath
+    date: 2023
+    seriesinfo:
+      "Critical Infrastructure Lab Document Series": "CIL003"
+    target: https://criticalinfralab.net/wp-content/uploads/2023/06/LoudMen-CorinneCath-CriticalInfraLab.pdf
 
+  SIMCOE2012:
+    title: "Standard Setting Committees: Consensus Governance for Shared Technology Platforms"
+    author:
+      - fullname: Timothy Simcoe
+    date: 2012
+    seriesinfo:
+      "American Economic Review": "Volume 102, Number 1, pages 305-336"
+    target: https://doi.org/10.1257/aer.102.1.305
+
+  SIMCOEWAGUESPACK2011:
+    title: "Status, Quality, and Attention: What's in a (Missing) Name?"
+    author:
+      - fullname: Timothy S. Simcoe
+      - fullname: Dave M. Waguespack
+    date: 2011
+    seriesinfo:
+      "Management Science": "Volume 57, Number 2, pages 274-290"
+    target: https://doi.org/10.1287/mnsc.1100.1270
+
+  SIMCOE2006:
+    title: "Delay and De Jure Standardization: Exploring the Slowdown in Internet Standards Development"
+    author:
+      - fullname: Timothy Simcoe
+    date: 2006
+    seriesinfo:
+      "Standards and Public Policy": "Chapter 8, pages 260-295"
+    target: https://doi.org/10.1017/CBO9780511493249.009
+
+  SIMCOE2014:
+    title: "Governing the Anticommons: Institutional Design for Standard-Setting Organizations"
+    author:
+      - fullname: Timothy Simcoe
+    date: 2014
+    seriesinfo:
+      "Innovation Policy and the Economy": "Volume 14, Number 1, pages 99-128"
+    target: https://doi.org/10.1086/674022
+
+  FARRELLSIMCOE2012:
+    title: Choosing the Rules for Consensus Standardization
+    author:
+      - fullname: Joseph Farrell
+      - fullname: Timothy Simcoe
+    date: 2012
+    seriesinfo:
+      "The RAND Journal of Economics": "Volume 43, Number 2, pages 235-252"
+    target: https://doi.org/10.1111/j.1756-2171.2012.00164.x
+
+  RYSMANSIMCOE2008:
+    title: "Patents and the Performance of Voluntary Standard-Setting Organizations"
+    author:
+      - fullname: Marc Rysman
+      - fullname: Timothy Simcoe
+    date: 2008
+    seriesinfo:
+      "Management Science": "Volume 54, Number 11, pages 1920-1934"
+    target: https://doi.org/10.1287/mnsc.1080.0919
+
+  GANGLMAIR2025:
+    title: "Learning When to Quit: An Empirical Model of Experimentation in Standards Development"
+    author:
+      - fullname: Bernhard Ganglmair
+      - fullname: Timothy Simcoe
+      - fullname: Emanuele Tarantino
+    date: 2025
+    seriesinfo:
+      "American Economic Journal: Microeconomics": "Volume 17, Number 3, pages 164-190"
+    target: https://doi.org/10.1257/mic.20190321
+
+  BARON2024:
+    title: "Representation Is Not Sufficient for Selecting Gender Diversity"
+    author:
+      - fullname: Justus A. Baron
+      - fullname: Bernhard Ganglmair
+      - fullname: Nicola Persico
+      - fullname: Timothy Simcoe
+      - fullname: Emanuele Tarantino
+    date: 2024
+    seriesinfo:
+      "Research Policy": "Volume 53, Number 6, Article 104994"
+    target: https://doi.org/10.1016/j.respol.2024.104994
 
 ...
 
