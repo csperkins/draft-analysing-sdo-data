@@ -213,6 +213,22 @@ informative:
     seriesinfo:
       "Proceedings of the 7th Network Traffic Measurement and Analysis Conference": "pages 169-177"
     target: https://doi.org/10.23919/TMA58422.2023.10198980
+	
+  ZHANG2025:
+    title: "Two Decades of IETF Affiliations: Evolution and Impact"
+    author:
+      - fullname: Yangjun Zhang
+      - fullname: Stephen McQuistin
+      - fullname: Vanja Karan
+      - fullname: Hugo Ramirez-Centeno
+      - fullname: Colin Perkins
+      - fullname: Gareth Tyson
+      - fullname: Ignacio Castro
+    date: 2025
+    seriesinfo:
+      "Proceedings of the 2025 Applied Networking Research Workshop": "pages 17-23"
+    target: https://doi.org/10.1145/3744200.3744757
+
 
   WELZL2021:
     title: "Collaboration in the IETF: An Initial Analysis of Two Decades in Email Discussions"
@@ -272,7 +288,7 @@ informative:
     target: https://doi.org/10.1016/j.telpol.2021.102144
 
 
-  CATH2021:
+  CATH2021thesis:
     title: "Changing Minds and Machines: A Case Study of Human Rights Advocacy in the Internet Engineering Task Force (IETF)"
     author:
       - fullname: Corinne Cath
@@ -413,7 +429,7 @@ outputs, can support analysis of standards ecosystems. Such analysis can
 assist with monitoring standards development organisations, evaluating the
 evolution of technical work, understanding technology deployment, and
 ultimately be used to inform community leadership and governance
-discussions.
+discussions [RFC9307].
 
 This document outlines considerations for studying data from the Internet
 standards development ecosystem. It aims to:
@@ -451,7 +467,7 @@ system in which technical artefacts, human participants, organisational
 interests, and governance processes interact over time. Standards do not
 emerge solely from technical design choices, nor solely from institutional
 processes; rather, they arise through structured collaboration among
-individuals and organisations operating within formal and informal rules.
+individuals and organisations operating within formal [RFC2026] and informal rules [CATHFLORIDI2017] [SIMCOE2014] [SIMCOE2012] [SIMCOEWAGUESPACK2011].
 
 Technical outputs emerge from a socio-technical process in which
 engineering choices interact with expertise, incentives, organisational
@@ -460,7 +476,7 @@ constraints, and the cultural norms and practises of the standards
 community. At the same time, the organisational and cultural context is not fixed:
 governance structures, working practises, and community norms
 evolve together over time and these changes in turn shape future
-participation and technical decision-making.
+participation and technical decision-making [BARON2024].
 
 For analytical purposes, standards development ecosystems can be viewed
 as comprising several interacting components:
@@ -486,7 +502,7 @@ as comprising several interacting components:
   tools, and norms of the community.  Membership-based models may provide
   clearer institutional commitment and resourcing, but they can also limit
   participation to those acting through recognised organisations or
-  membership categories.
+  membership categories [CATH2021] [CATH2023] [BARON2024].
 
 
 * **Organisations:**
@@ -561,7 +577,7 @@ as comprising several interacting components:
   control over agendas, drafting, or review capacity.  Governance
   structures therefore shape how decisions are made, how priorities are
   established, how disagreements are managed, and, ultimately, how
-  influence is distributed within standards development.
+  influence is distributed within standards development [FARRELLSIMCOE2012] [SIMCOEWAGUESPACK2011] [SIMCOE2012] [RFC7282][KHARE2022] [BARNES2024] [ZHANG2025].
 
 
 * **Standards Implementation and Deployment:**
@@ -575,7 +591,7 @@ as comprising several interacting components:
   may also be shaped by factors outside the standards process, including
   regulation, procurement, cost, and compatibility with existing systems.
 
-  Data on implementation and operational use is often limited.
+  Data on implementation and operational use is often limited [RFC5218] [NIKKHAH2017] [MCQUISTIN2021] [RFC8980].
 
 
 Measuring SDO activity is challenging. Observable metrics such as
@@ -584,7 +600,7 @@ leadership roles can provide useful evidence, but each captures only
 part of the standards process. Analysis of artefacts and logs from the
 collaboration infrastructure (e.g., analysis of mailing list messages)
 can provide more detail and nuance, at the expense of additional
-complexity, but even these do not provide a complete view.
+complexity, but even these do not provide a complete view [RFC9307] [KHARE2022] [BARNES2024][MCQUISTIN2021].
 
 There are several reasons for this.
 One is that critical aspects of standards development are
@@ -592,7 +608,7 @@ hard to observe directly. The culture of the SDOs, influence of
 individuals, groups, and ideas, agenda setting, informal
 coordination, negotiation, and the practical exercise of power and authority
 may not be well represented by any single metric, or group of metrics, and
-are extremely challenging to infer from collaboration infrastructure logs.
+are extremely challenging to infer from collaboration infrastructure logs [SIMCOEWAGUESPACK2011] [KHARE2022] [CATH2021].
 
 Another reason is that the available data is often limited. Data
 availability and quality vary across SDOs. Different parts of the
@@ -612,7 +628,7 @@ relevance. Not all artefacts have the same significance, not all forms
 of participation have the same effect, and visible activity does not
 necessarily correspond to implementation, adoption, or wider impact.
 Measures should therefore be interpreted cautiously and, where
-possible, considered alongside complementary indicators.
+possible, considered alongside complementary indicators [RFC9307] [MCQUISTIN2021].
 
 
 
@@ -623,17 +639,17 @@ membership. Individuals can participate by joining mailing lists,
 contributing to discussions, submitting Internet-Drafts, and attending
 meetings. Contributions ordinarily reflect the opinion of individual participants, and
 not necessarily their affiliation; exceptions to this norm exist for specific aspects
-such as draft authorship and intellectual property rights disclosures.
+such as draft authorship and intellectual property rights disclosures [RFC2026].
 
 The IETF has a hierarchical group structure, with technical working groups (that have working
-group chairs) organised into distinct areas (that have area directors).
+group chairs) organised into distinct areas (that have area directors) [BARNES2024] [BARON2024].
 
 
 Reflecting its open participation model, much of
 the IETF's processes are publicly observable through open records and dedicated APIs. Mailing lists
 are a central forum for working group discussion, alongside meetings; some groups also use
 externally hosted repositories, for example on GitHub, to support
-drafting and issue discussion.
+drafting and issue discussion [WELZL2021] [KHARE2022].
 
 ## Datatracker
 
@@ -686,12 +702,12 @@ accessed via the website or programmatically using a REST API and provides infor
 
 * IPR disclosures including the document that the IPR
   relates to, the person making disclosure, details of the patent, and
-  licensing terms.
+  licensing terms [RYSMANSIMCOE2008].
 
 The Datatracker has been developed over time, and this is reflected in the data that is
 available, with more recent data being significantly more complete than earlier data.
 Datatracker profiles are only required for a subset of IETF activities (e.g., draft submission,
-meeting registration), and so a number of active participants do not have a profile.
+meeting registration), and so a number of active participants do not have a profile [RFC9307].
 
 ## RFC Editor
 
@@ -700,11 +716,11 @@ https://www.rfc-editor.org/rfc-index.xml. The RFC index includes title,
 authors, publication date, status, abstract, publication stream, name of
 the precursor Internet-Draft, and the IETF area and working group that
 developed the RFC, if appropriate. This information is also available
-in the IETF Datatracker.
+in the IETF Datatracker [RFC8729].
 
 Information about RFC errata is available on the RFC Editor website at
 https://www.rfc-editor.org/errata.php. This data is also available in
-machine readable form.
+machine readable form [MCQUISTIN2023].
 
 
 
@@ -721,7 +737,7 @@ messages dating back to the late 1980s.
 
 The are significant data quality problems with older messages in the IETF
 mail archive, due to problems with the original messages rather than the
-archive, that make them difficult to process.
+archive, that make them difficult to process [NIEDERMAYER2017] [MCQUISTIN2023] [KHARE2022].
 
 ## Session Recordings
 
@@ -751,13 +767,13 @@ Using the GitHub API, the following information is available:
 
 * Contributions and changes, by way of Git commits, made by those users to documents.
 
-* Discussion that takes place through comments and issues.
+* Discussion that takes place through comments and issues [KHARE2022].
 
 # Analysing Other SDOs
 
 Standards relevant to the Internet and the Web are also developed within the W3C, 3GPP, ITU-T, and others. Each
 organisation has its own governance model, participation structure, institutional culture, and data availability.
-These differences affect both what can be observed, and how observations should be interpreted.
+These differences affect both what can be observed, and how observations should be interpreted [SIMCOE2014] [CATH2021].
 
 ## Data Availability Across SDOs
 
@@ -776,7 +792,7 @@ available after publication, while the 3GPP makes its specifications available a
 The working documents, contributions, and meeting records are generally not accessible to non-members.
 
 Differences in data availability mean that the methods applicable to the IETF, where rich longitudinal data is publicly
-available, may not be replicable across all SDOs. Any analyses should account for these availability differences.
+available, may not be replicable across all SDOs. Any analyses should account for these availability differences [RFC9307].
 
 ## Integrating Data Across SDOs
 
@@ -798,7 +814,7 @@ a given point in time may not reflect equivalent stages of development.
 
 Finally, differences in governance and participation models affect which comparisons are meaningful. Data analyses, and
 the interpretation of them, must consider that apparent differences between SDOs may reflect structural factors (e.g.,
-open vs. membership-based participation) rather than substantive differences in behaviour or outcomes.
+open vs. membership-based participation) rather than substantive differences in behaviour or outcomes [SIMCOE2014].
 
 # Data Processing
 
@@ -815,7 +831,7 @@ given the unstructured nature of the dataset, appear under different names (to i
 the scope of the entity resolution problem note that, as of May
 2026, there are 282 variants of the name "Huawei" in the IETF Datatracker). Information
 external to the Datatracker, and other data sources, is often needed to process organisational
-data.
+data [KHARE2022] [MCQUISTIN2021].
 
 Participants may have more than one affiliation, including across the lifetime of a
 particular contribution (e.g., an Internet-Draft). Affiliation data is only recorded
@@ -825,12 +841,12 @@ affiliation at moment in time for a particular contribution, making it difficult
 a continuous history.
 
 Document life cycles are non-linear, and documents might pass through multiple working groups,
-by replaced or updated by later drafts, and change authorship over time.
+be replaced or updated by later drafts, and change authorship over time.
 
 Working group leadership is difficult to reconstruct: knowing who chaired a working group during
 a particular period, or which area a given group belonged to at a given time, requires the
 reconstruction of a timeline from historical event records held in the Datatracker. These records
-can be incomplete or inconsistently formatted.
+can be incomplete or inconsistently formatted [BARNES2024] [BARON2024].
 
 E-mail metadata and message content presents a number of challenges. A significant number of
 messages contain malformed or archaic header fields that break widely used email processing
@@ -839,11 +855,11 @@ Mail clients perform the
 threading of messages in different ways, with the separation between new and quoted text becoming
 unclear. Natural language processing of message content requires contextualisation, with informal
 conventions, technical vocabulary, and the use of acronyms (all of which may evolve over time)
-presenting challenges that are unique to the dataset.
+presenting challenges that are unique to the dataset [NIEDERMAYER2017] [WELZL2021].
 
 As noted, the quality of the dataset degrades significantly for historical records. Data that was not
 gathered by the Datatracker at the time, or that has been subject to partial backfilling later, must be
-treated with caution, both in terms of data processing and later analyses.
+treated with caution, both in terms of data processing and later analyses [RFC9307].
 
 # Ethics and Data Protection
 
@@ -876,7 +892,7 @@ Researchers are reminded that while data may be public, the implications of
 that data are not always well-known. For example, data that can be
 collected from the IETF Datatracker makes it possible to derive measures of
 the effectiveness of individuals in certain roles that, if presented out of
-context, might be considered sensitive. It is inappropriate to publish data
+context, might be considered sensitive [RFC9307]. It is inappropriate to publish data
 about specific individuals without their explicit consent.
 
 Finally, we note that researchers must take care to avoid disruption to the
@@ -898,7 +914,7 @@ and provide insight into the health, structure, and evolution of standards
 ecosystems, including patterns of participation, collaboration,
 concentration, and the development of technologies. It can inform
 discussions within SDOs and provide indicators of how technical work
-progresses over time. It can also inform broader Internet governance
+progresses over time [SIMCOE2006] [SIMCOE2012] [GANGLMAIR2025]. It can also inform broader Internet governance
 questions, such as how decision-making is structured, how participation is
 distributed, and the extent of centralisation in these processes [RFC9518],
 and can be useful to external stakeholders, including regulators, policy
@@ -916,14 +932,14 @@ unreliable.
 As a result, analyses based on these data provide only a partial view of
 the process. Quantitative metrics such as message volume, authorship,
 participation counts, or leadership roles can be useful indicators, but do
-not directly capture influence, authority, or impact. They should therefore
+not directly capture influence, authority, or impact [SIMCOEWAGUESPACK2011] [KHARE2022]. They should therefore
 be interpreted with care and in context, rather than in isolation.
 
 Where data is derived or reconstructed (e.g., via entity resolution,
 affiliation inference, or automated extraction) it is important to retain a
 clear link to the original sources. The provenance of such transformations
 should be documented, and derived data should be distinguishable from
-primary records. This allows results to be checked and, where necessary,
+primary records [RFC9307]. This allows results to be checked and, where necessary,
 corrected.
 
 SDOs can support analysis of their processes by ensuring that the data they
@@ -942,7 +958,7 @@ Comparisons across standards development organisations require particular
 care. Differences in governance, participation models, and transparency
 affect both what is observable and how it should be interpreted. Apparent
 differences between organisations may reflect these structural factors
-rather than substantive differences in behaviour or outcomes.
+rather than substantive differences in behaviour or outcomes [SIMCOE2014].
 
 Finally, although much of the data used in this type of analysis is
 publicly available, its use still raises ethical questions. Analyses can
@@ -990,7 +1006,7 @@ participants.
   inference) involves interpretation. Such data should be distinguishable
   from primary records, with clear documentation of how it was produced.
   * **TODO:** is this done by the IETF, by the researchers, or both?
- <!-- RY: I believe this is to be done by anyone that produces/publishes the aggregated data. I don't think the IETF does this at the moment... (I could be completely wrong!)" -->
+  * **RYO:** I believe this is to be done by anyone that produces/publishes the aggregated data. I don't think the IETF does this at the moment... (I could be completely wrong!)
 
 * **Impact of process and tooling changes:**
   Changes to tools and working practises affect what is recorded and how it
@@ -1066,7 +1082,6 @@ robustness and reproducibility of such work:
   how results are presented, particularly where they may be sensitive or
   open to misinterpretation.
 
-
 # Existing analyses of SDOs
   There are a wealth of work that analyses SDOs, including the IETF.
   This section presents non-exhaustive set of works, grouped by their
@@ -1074,12 +1089,9 @@ robustness and reproducibility of such work:
 
 ## Ethnographic Studies
 Developing standards is a highly social activity, which involve cultures.
-Cath investigated this specific aspects in the IETF [CCATH2021].
+Cath investigated this specific aspects in the IETF [CATH2021].
 
 ## Natural Language Processing (NLP)
-
-
-
 
 # Security Considerations
 
@@ -1107,4 +1119,3 @@ This document has no IANA actions.
 This document builds on work funded, in part, by the UK Engineering
 and Physical Sciences Research Council under grants EP/S033564/1 and
 EP/S036075/1.
-
