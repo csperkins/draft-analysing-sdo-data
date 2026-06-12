@@ -213,7 +213,7 @@ informative:
     seriesinfo:
       "Proceedings of the 7th Network Traffic Measurement and Analysis Conference": "pages 169-177"
     target: https://doi.org/10.23919/TMA58422.2023.10198980
-	
+
   ZHANG2025:
     title: "Two Decades of IETF Affiliations: Evolution and Impact"
     author:
@@ -387,12 +387,17 @@ informative:
       "Research Policy": "Volume 53, Number 6, Article 104994"
     target: https://doi.org/10.1016/j.respol.2024.104994
 
+  HARES2022thesis:
+    title: Solidarity as an Antecedent of Consensus Decision-Making: A Mixed-Mode Study
+    author:
+      - fullname: Susan Hares
+    date: December 2024
+    target: http://www.hickoryhill-consulting.com/SusanHares-EditedManuscript.pdf
 ...
 
 <!-- informative: Add citation for Corrine Cath -->
 
-<!-- informative: Add citation for Susan Hares -->
-
+<!-- informative: Add citation for Susan Hares: Done -->
 <!-- informative: add citation for Michael Welzl -->
 
 <!-- informative: add citation for Niels / Bigbang -->
@@ -1089,7 +1094,7 @@ robustness and reproducibility of such work:
 
 ## Ethnographic Studies
 Developing standards is a highly social activity, which involve cultures.
-Cath investigated this specific aspects in the IETF [CATH2021].
+Cath investigated this specific aspects in the IETF [CATH2021thesis].
 
 ## Natural Language Processing (NLP)
 
