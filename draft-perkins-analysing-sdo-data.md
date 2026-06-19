@@ -388,7 +388,7 @@ informative:
     target: https://doi.org/10.1016/j.respol.2024.104994
 
   HARES2022thesis:
-    title: Solidarity as an Antecedent of Consensus Decision-Making: A Mixed-Mode Study
+    title: Solidarity as an Antecedent of Consensus Decision-Making - A Mixed-Mode Study
     author:
       - fullname: Susan Hares
     date: December 2024
