@@ -22,23 +22,24 @@ informing community, leadership, and governance discussions.
 of Standard-Setting Processes Research Group (RASPRG) in the IRTF.  It is
 not an IETF product and is not a standard. 
     " name="description">
-<meta content="xml2rfc 3.33.0" name="generator">
+<meta content="xml2rfc 3.34.0" name="generator">
 <meta content="Scientometrics" name="keyword">
 <meta content="Internet Standards Development" name="keyword">
 <meta content="draft-perkins-analysing-sdo-data-latest" name="ietf.draft">
 <!-- Generator version information:
-  xml2rfc 3.33.0
-    Python 3.12.13
-    ConfigArgParse 1.7
+  xml2rfc 3.34.0
+    Python 3.14.5
+    ConfigArgParse 1.7.5
     google-i18n-address 3.1.1
     intervaltree 3.2.1
     Jinja2 3.1.6
-    lxml 6.0.2
-    platformdirs 4.9.6
+    lxml 6.1.1
+    natsort 8.4.0
+    platformdirs 4.10.0
     pycountry 24.6.1
     PyYAML 6.0.3
     requests 2.33.1
-    wcwidth 0.7.0
+    wcwidth 0.8.1
 -->
 <link href="draft-perkins-analysing-sdo-data.xml" rel="alternate" type="application/rfc+xml">
 <link href="#copyright" rel="license">
@@ -1061,7 +1062,7 @@ svg {
 </tr></thead>
 <tfoot><tr>
 <td class="left">Perkins, et al.</td>
-<td class="center">Expires 13 December 2026</td>
+<td class="center">Expires 21 December 2026</td>
 <td class="right">[Page]</td>
 </tr></tfoot>
 </table>
@@ -1074,12 +1075,12 @@ svg {
 <dd class="internet-draft">draft-perkins-analysing-sdo-data-latest</dd>
 <dt class="label-published">Published:</dt>
 <dd class="published">
-<time datetime="2026-06-11" class="published">11 June 2026</time>
+<time datetime="2026-06-19" class="published">19 June 2026</time>
     </dd>
 <dt class="label-intended-status">Intended Status:</dt>
 <dd class="intended-status">Informational</dd>
 <dt class="label-expires">Expires:</dt>
-<dd class="expires"><time datetime="2026-12-13">13 December 2026</time></dd>
+<dd class="expires"><time datetime="2026-12-21">21 December 2026</time></dd>
 <dt class="label-authors">Authors:</dt>
 <dd class="authors">
 <div class="author">
@@ -1151,7 +1152,7 @@ not an IETF product and is not a standard.<a href="#section-abstract-2" class="p
         time. It is inappropriate to use Internet-Drafts as reference
         material or to cite them other than as "work in progress."<a href="#section-boilerplate.1-3" class="pilcrow">¶</a></p>
 <p id="section-boilerplate.1-4">
-        This Internet-Draft will expire on 13 December 2026.<a href="#section-boilerplate.1-4" class="pilcrow">¶</a></p>
+        This Internet-Draft will expire on 21 December 2026.<a href="#section-boilerplate.1-4" class="pilcrow">¶</a></p>
 </section>
 </div>
 <div id="copyright">
@@ -1280,7 +1281,7 @@ outputs, can support analysis of standards ecosystems. Such analysis can
 assist with monitoring standards development organisations, evaluating the
 evolution of technical work, understanding technology deployment, and
 ultimately be used to inform community leadership and governance
-discussions.<a href="#section-1-2" class="pilcrow">¶</a></p>
+discussions <span>[<a href="#RFC9307" class="cite xref">RFC9307</a>]</span>.<a href="#section-1-2" class="pilcrow">¶</a></p>
 <p id="section-1-3">This document outlines considerations for studying data from the Internet
 standards development ecosystem. It aims to:<a href="#section-1-3" class="pilcrow">¶</a></p>
 <ul class="normal">
@@ -1332,7 +1333,7 @@ system in which technical artefacts, human participants, organisational
 interests, and governance processes interact over time. Standards do not
 emerge solely from technical design choices, nor solely from institutional
 processes; rather, they arise through structured collaboration among
-individuals and organisations operating within formal and informal rules.<a href="#section-2-1" class="pilcrow">¶</a></p>
+individuals and organisations operating within formal <span>[<a href="#RFC2026" class="cite xref">RFC2026</a>]</span> and informal rules <span><a href="#SIMCOE2014" class="internal xref">CATHFLORIDI2017</a> [<a href="#SIMCOE2014" class="cite xref">SIMCOE2014</a>]</span> <span><a href="#SIMCOEWAGUESPACK2011" class="internal xref">SIMCOE2012</a> [<a href="#SIMCOEWAGUESPACK2011" class="cite xref">SIMCOEWAGUESPACK2011</a>]</span>.<a href="#section-2-1" class="pilcrow">¶</a></p>
 <p id="section-2-2">Technical outputs emerge from a socio-technical process in which
 engineering choices interact with expertise, incentives, organisational
 structures, review processes, historical precedent, deployment
@@ -1340,7 +1341,7 @@ constraints, and the cultural norms and practises of the standards
 community. At the same time, the organisational and cultural context is not fixed:
 governance structures, working practises, and community norms
 evolve together over time and these changes in turn shape future
-participation and technical decision-making.<a href="#section-2-2" class="pilcrow">¶</a></p>
+participation and technical decision-making <span>[<a href="#BARON2024" class="cite xref">BARON2024</a>]</span>.<a href="#section-2-2" class="pilcrow">¶</a></p>
 <p id="section-2-3">For analytical purposes, standards development ecosystems can be viewed
 as comprising several interacting components:<a href="#section-2-3" class="pilcrow">¶</a></p>
 <ul class="normal">
@@ -1366,7 +1367,7 @@ employer support, travel resources, and familiarity with the processes,
 tools, and norms of the community.  Membership-based models may provide
 clearer institutional commitment and resourcing, but they can also limit
 participation to those acting through recognised organisations or
-membership categories.<a href="#section-2-4.1.2" class="pilcrow">¶</a></p>
+membership categories <span><a href="#CATH2023" class="internal xref">CATH2021</a> [<a href="#CATH2023" class="cite xref">CATH2023</a>]</span> <span>[<a href="#BARON2024" class="cite xref">BARON2024</a>]</span>.<a href="#section-2-4.1.2" class="pilcrow">¶</a></p>
 </li>
         <li class="normal" id="section-2-4.2">
           <p id="section-2-4.2.1"><strong>Organisations:</strong>
@@ -1441,7 +1442,7 @@ recognised expertise, community norms, procedural familiarity, and
 control over agendas, drafting, or review capacity.  Governance
 structures therefore shape how decisions are made, how priorities are
 established, how disagreements are managed, and, ultimately, how
-influence is distributed within standards development.<a href="#section-2-4.6.2" class="pilcrow">¶</a></p>
+influence is distributed within standards development <span><a href="#SIMCOEWAGUESPACK2011" class="internal xref">FARRELLSIMCOE2012</a> [<a href="#SIMCOEWAGUESPACK2011" class="cite xref">SIMCOEWAGUESPACK2011</a>]</span> <span><a href="#RFC7282" class="internal xref">SIMCOE2012</a> [<a href="#RFC7282" class="cite xref">RFC7282</a>]</span><span><a href="#BARNES2024" class="internal xref">KHARE2022</a> [<a href="#BARNES2024" class="cite xref">BARNES2024</a>]</span> <span>[<a href="#ZHANG2025" class="cite xref">ZHANG2025</a>]</span>.<a href="#section-2-4.6.2" class="pilcrow">¶</a></p>
 </li>
         <li class="normal" id="section-2-4.7">
           <p id="section-2-4.7.1"><strong>Standards Implementation and Deployment:</strong>
@@ -1455,7 +1456,7 @@ widely deployed, while others see limited or no implementation. Adoption
 may also be shaped by factors outside the standards process, including
 regulation, procurement, cost, and compatibility with existing systems.<a href="#section-2-4.7.2" class="pilcrow">¶</a></p>
 <p id="section-2-4.7.3">
-Data on implementation and operational use is often limited.<a href="#section-2-4.7.3" class="pilcrow">¶</a></p>
+Data on implementation and operational use is often limited <span><a href="#NIKKHAH2017" class="internal xref">RFC5218</a> [<a href="#NIKKHAH2017" class="cite xref">NIKKHAH2017</a>]</span> <span><a href="#RFC8980" class="internal xref">MCQUISTIN2021</a> [<a href="#RFC8980" class="cite xref">RFC8980</a>]</span>.<a href="#section-2-4.7.3" class="pilcrow">¶</a></p>
 </li>
       </ul>
 <p id="section-2-5">Measuring SDO activity is challenging. Observable metrics such as
@@ -1464,14 +1465,14 @@ leadership roles can provide useful evidence, but each captures only
 part of the standards process. Analysis of artefacts and logs from the
 collaboration infrastructure (e.g., analysis of mailing list messages)
 can provide more detail and nuance, at the expense of additional
-complexity, but even these do not provide a complete view.<a href="#section-2-5" class="pilcrow">¶</a></p>
+complexity, but even these do not provide a complete view <span><a href="#KHARE2022" class="internal xref">RFC9307</a> [<a href="#KHARE2022" class="cite xref">KHARE2022</a>]</span> <span><a href="#MCQUISTIN2021" class="internal xref">BARNES2024</a> [<a href="#MCQUISTIN2021" class="cite xref">MCQUISTIN2021</a>]</span>.<a href="#section-2-5" class="pilcrow">¶</a></p>
 <p id="section-2-6">There are several reasons for this.
 One is that critical aspects of standards development are
 hard to observe directly. The culture of the SDOs, influence of
 individuals, groups, and ideas, agenda setting, informal
 coordination, negotiation, and the practical exercise of power and authority
 may not be well represented by any single metric, or group of metrics, and
-are extremely challenging to infer from collaboration infrastructure logs.<a href="#section-2-6" class="pilcrow">¶</a></p>
+are extremely challenging to infer from collaboration infrastructure logs <span><a href="#KHARE2022" class="internal xref">SIMCOEWAGUESPACK2011</a> [<a href="#KHARE2022" class="cite xref">KHARE2022</a>]</span> <span>[<a href="#CATH2021" class="cite xref">CATH2021</a>]</span>.<a href="#section-2-6" class="pilcrow">¶</a></p>
 <p id="section-2-7">Another reason is that the available data is often limited. Data
 availability and quality vary across SDOs. Different parts of the
 process are not equally observable, and even within a single SDO some
@@ -1488,7 +1489,7 @@ relevance. Not all artefacts have the same significance, not all forms
 of participation have the same effect, and visible activity does not
 necessarily correspond to implementation, adoption, or wider impact.
 Measures should therefore be interpreted cautiously and, where
-possible, considered alongside complementary indicators.<a href="#section-2-9" class="pilcrow">¶</a></p>
+possible, considered alongside complementary indicators <span><a href="#MCQUISTIN2021" class="internal xref">RFC9307</a> [<a href="#MCQUISTIN2021" class="cite xref">MCQUISTIN2021</a>]</span>.<a href="#section-2-9" class="pilcrow">¶</a></p>
 </section>
 </div>
 <div id="analysing-the-ietf">
@@ -1501,14 +1502,14 @@ membership. Individuals can participate by joining mailing lists,
 contributing to discussions, submitting Internet-Drafts, and attending
 meetings. Contributions ordinarily reflect the opinion of individual participants, and
 not necessarily their affiliation; exceptions to this norm exist for specific aspects
-such as draft authorship and intellectual property rights disclosures.<a href="#section-3-1" class="pilcrow">¶</a></p>
+such as draft authorship and intellectual property rights disclosures <span>[<a href="#RFC2026" class="cite xref">RFC2026</a>]</span>.<a href="#section-3-1" class="pilcrow">¶</a></p>
 <p id="section-3-2">The IETF has a hierarchical group structure, with technical working groups (that have working
-group chairs) organised into distinct areas (that have area directors).<a href="#section-3-2" class="pilcrow">¶</a></p>
+group chairs) organised into distinct areas (that have area directors) <span><a href="#BARON2024" class="internal xref">BARNES2024</a> [<a href="#BARON2024" class="cite xref">BARON2024</a>]</span>.<a href="#section-3-2" class="pilcrow">¶</a></p>
 <p id="section-3-3">Reflecting its open participation model, much of
 the IETF's processes are publicly observable through open records and dedicated APIs. Mailing lists
 are a central forum for working group discussion, alongside meetings; some groups also use
 externally hosted repositories, for example on GitHub, to support
-drafting and issue discussion.<a href="#section-3-3" class="pilcrow">¶</a></p>
+drafting and issue discussion <span><a href="#KHARE2022" class="internal xref">WELZL2021</a> [<a href="#KHARE2022" class="cite xref">KHARE2022</a>]</span>.<a href="#section-3-3" class="pilcrow">¶</a></p>
 <div id="datatracker">
 <section id="section-3.1">
         <h3 id="name-datatracker">
@@ -1577,13 +1578,13 @@ time slots, and registration and attendance data.<a href="#section-3.1-2.6.1" cl
           <li class="normal" id="section-3.1-2.7">
             <p id="section-3.1-2.7.1">IPR disclosures including the document that the IPR
 relates to, the person making disclosure, details of the patent, and
-licensing terms.<a href="#section-3.1-2.7.1" class="pilcrow">¶</a></p>
+licensing terms <span>[<a href="#RYSMANSIMCOE2008" class="cite xref">RYSMANSIMCOE2008</a>]</span>.<a href="#section-3.1-2.7.1" class="pilcrow">¶</a></p>
 </li>
         </ul>
 <p id="section-3.1-3">The Datatracker has been developed over time, and this is reflected in the data that is
 available, with more recent data being significantly more complete than earlier data.
 Datatracker profiles are only required for a subset of IETF activities (e.g., draft submission,
-meeting registration), and so a number of active participants do not have a profile.<a href="#section-3.1-3" class="pilcrow">¶</a></p>
+meeting registration), and so a number of active participants do not have a profile <span>[<a href="#RFC9307" class="cite xref">RFC9307</a>]</span>.<a href="#section-3.1-3" class="pilcrow">¶</a></p>
 </section>
 </div>
 <div id="rfc-editor">
@@ -1596,10 +1597,10 @@ https://www.rfc-editor.org/rfc-index.xml. The RFC index includes title,
 authors, publication date, status, abstract, publication stream, name of
 the precursor Internet-Draft, and the IETF area and working group that
 developed the RFC, if appropriate. This information is also available
-in the IETF Datatracker.<a href="#section-3.2-1" class="pilcrow">¶</a></p>
+in the IETF Datatracker <span>[<a href="#RFC8729" class="cite xref">RFC8729</a>]</span>.<a href="#section-3.2-1" class="pilcrow">¶</a></p>
 <p id="section-3.2-2">Information about RFC errata is available on the RFC Editor website at
 https://www.rfc-editor.org/errata.php. This data is also available in
-machine readable form.<a href="#section-3.2-2" class="pilcrow">¶</a></p>
+machine readable form <span>[<a href="#MCQUISTIN2023" class="cite xref">MCQUISTIN2023</a>]</span>.<a href="#section-3.2-2" class="pilcrow">¶</a></p>
 </section>
 </div>
 <div id="mailing-list-archives">
@@ -1617,7 +1618,7 @@ messages from almost 1400 mailing lists, around 40GB of data, with some
 messages dating back to the late 1980s.<a href="#section-3.3-1" class="pilcrow">¶</a></p>
 <p id="section-3.3-2">The are significant data quality problems with older messages in the IETF
 mail archive, due to problems with the original messages rather than the
-archive, that make them difficult to process.<a href="#section-3.3-2" class="pilcrow">¶</a></p>
+archive, that make them difficult to process <span><a href="#MCQUISTIN2023" class="internal xref">NIEDERMAYER2017</a> [<a href="#MCQUISTIN2023" class="cite xref">MCQUISTIN2023</a>]</span> <span>[<a href="#KHARE2022" class="cite xref">KHARE2022</a>]</span>.<a href="#section-3.3-2" class="pilcrow">¶</a></p>
 </section>
 </div>
 <div id="session-recordings">
@@ -1660,7 +1661,7 @@ email address, and other biography information).<a href="#section-3.6-3.1.1" cla
             <p id="section-3.6-3.2.1">Contributions and changes, by way of Git commits, made by those users to documents.<a href="#section-3.6-3.2.1" class="pilcrow">¶</a></p>
 </li>
           <li class="normal" id="section-3.6-3.3">
-            <p id="section-3.6-3.3.1">Discussion that takes place through comments and issues.<a href="#section-3.6-3.3.1" class="pilcrow">¶</a></p>
+            <p id="section-3.6-3.3.1">Discussion that takes place through comments and issues <span>[<a href="#KHARE2022" class="cite xref">KHARE2022</a>]</span>.<a href="#section-3.6-3.3.1" class="pilcrow">¶</a></p>
 </li>
         </ul>
 </section>
@@ -1674,7 +1675,7 @@ email address, and other biography information).<a href="#section-3.6-3.1.1" cla
       </h2>
 <p id="section-4-1">Standards relevant to the Internet and the Web are also developed within the W3C, 3GPP, ITU-T, and others. Each
 organisation has its own governance model, participation structure, institutional culture, and data availability.
-These differences affect both what can be observed, and how observations should be interpreted.<a href="#section-4-1" class="pilcrow">¶</a></p>
+These differences affect both what can be observed, and how observations should be interpreted <span><a href="#CATH2021" class="internal xref">SIMCOE2014</a> [<a href="#CATH2021" class="cite xref">CATH2021</a>]</span>.<a href="#section-4-1" class="pilcrow">¶</a></p>
 <div id="data-availability-across-sdos">
 <section id="section-4.1">
         <h3 id="name-data-availability-across-sd">
@@ -1692,7 +1693,7 @@ contribution data is typically restricted to member organisations. Some ITU-T Re
 available after publication, while the 3GPP makes its specifications available at https://www.3gpp.org/specifications.
 The working documents, contributions, and meeting records are generally not accessible to non-members.<a href="#section-4.1-3" class="pilcrow">¶</a></p>
 <p id="section-4.1-4">Differences in data availability mean that the methods applicable to the IETF, where rich longitudinal data is publicly
-available, may not be replicable across all SDOs. Any analyses should account for these availability differences.<a href="#section-4.1-4" class="pilcrow">¶</a></p>
+available, may not be replicable across all SDOs. Any analyses should account for these availability differences <span>[<a href="#RFC9307" class="cite xref">RFC9307</a>]</span>.<a href="#section-4.1-4" class="pilcrow">¶</a></p>
 </section>
 </div>
 <div id="integrating-data-across-sdos">
@@ -1714,7 +1715,7 @@ effort, or natural language processing of document content, introducing the risk
 a given point in time may not reflect equivalent stages of development.<a href="#section-4.2-4" class="pilcrow">¶</a></p>
 <p id="section-4.2-5">Finally, differences in governance and participation models affect which comparisons are meaningful. Data analyses, and
 the interpretation of them, must consider that apparent differences between SDOs may reflect structural factors (e.g.,
-open vs. membership-based participation) rather than substantive differences in behaviour or outcomes.<a href="#section-4.2-5" class="pilcrow">¶</a></p>
+open vs. membership-based participation) rather than substantive differences in behaviour or outcomes <span>[<a href="#SIMCOE2014" class="cite xref">SIMCOE2014</a>]</span>.<a href="#section-4.2-5" class="pilcrow">¶</a></p>
 </section>
 </div>
 </section>
@@ -1736,7 +1737,7 @@ given the unstructured nature of the dataset, appear under different names (to i
 the scope of the entity resolution problem note that, as of May
 2026, there are 282 variants of the name "Huawei" in the IETF Datatracker). Information
 external to the Datatracker, and other data sources, is often needed to process organisational
-data.<a href="#section-5-2" class="pilcrow">¶</a></p>
+data <span><a href="#MCQUISTIN2021" class="internal xref">KHARE2022</a> [<a href="#MCQUISTIN2021" class="cite xref">MCQUISTIN2021</a>]</span>.<a href="#section-5-2" class="pilcrow">¶</a></p>
 <p id="section-5-3">Participants may have more than one affiliation, including across the lifetime of a
 particular contribution (e.g., an Internet-Draft). Affiliation data is only recorded
 for a subset of activities, and may need to be inferred (e.g., from corporate domain names)
@@ -1744,11 +1745,11 @@ in other cases. As a result, affiliation data, where recorded, indicates the par
 affiliation at moment in time for a particular contribution, making it difficult to form
 a continuous history.<a href="#section-5-3" class="pilcrow">¶</a></p>
 <p id="section-5-4">Document life cycles are non-linear, and documents might pass through multiple working groups,
-by replaced or updated by later drafts, and change authorship over time.<a href="#section-5-4" class="pilcrow">¶</a></p>
+be replaced or updated by later drafts, and change authorship over time.<a href="#section-5-4" class="pilcrow">¶</a></p>
 <p id="section-5-5">Working group leadership is difficult to reconstruct: knowing who chaired a working group during
 a particular period, or which area a given group belonged to at a given time, requires the
 reconstruction of a timeline from historical event records held in the Datatracker. These records
-can be incomplete or inconsistently formatted.<a href="#section-5-5" class="pilcrow">¶</a></p>
+can be incomplete or inconsistently formatted <span><a href="#BARON2024" class="internal xref">BARNES2024</a> [<a href="#BARON2024" class="cite xref">BARON2024</a>]</span>.<a href="#section-5-5" class="pilcrow">¶</a></p>
 <p id="section-5-6">E-mail metadata and message content presents a number of challenges. A significant number of
 messages contain malformed or archaic header fields that break widely used email processing
 libraries and need correction.
@@ -1756,10 +1757,10 @@ Mail clients perform the
 threading of messages in different ways, with the separation between new and quoted text becoming
 unclear. Natural language processing of message content requires contextualisation, with informal
 conventions, technical vocabulary, and the use of acronyms (all of which may evolve over time)
-presenting challenges that are unique to the dataset.<a href="#section-5-6" class="pilcrow">¶</a></p>
+presenting challenges that are unique to the dataset <span><a href="#WELZL2021" class="internal xref">NIEDERMAYER2017</a> [<a href="#WELZL2021" class="cite xref">WELZL2021</a>]</span>.<a href="#section-5-6" class="pilcrow">¶</a></p>
 <p id="section-5-7">As noted, the quality of the dataset degrades significantly for historical records. Data that was not
 gathered by the Datatracker at the time, or that has been subject to partial backfilling later, must be
-treated with caution, both in terms of data processing and later analyses.<a href="#section-5-7" class="pilcrow">¶</a></p>
+treated with caution, both in terms of data processing and later analyses <span>[<a href="#RFC9307" class="cite xref">RFC9307</a>]</span>.<a href="#section-5-7" class="pilcrow">¶</a></p>
 </section>
 </div>
 <div id="ethics-and-data-protection">
@@ -1793,7 +1794,7 @@ discussion of issues around ethical conduct of research.<a href="#section-6-3" c
 that data are not always well-known. For example, data that can be
 collected from the IETF Datatracker makes it possible to derive measures of
 the effectiveness of individuals in certain roles that, if presented out of
-context, might be considered sensitive. It is inappropriate to publish data
+context, might be considered sensitive <span>[<a href="#RFC9307" class="cite xref">RFC9307</a>]</span>. It is inappropriate to publish data
 about specific individuals without their explicit consent.<a href="#section-6-4" class="pilcrow">¶</a></p>
 <p id="section-6-5">Finally, we note that researchers must take care to avoid disruption to the
 Internet standards process. In part, this requires that they consult with
@@ -1817,7 +1818,7 @@ and provide insight into the health, structure, and evolution of standards
 ecosystems, including patterns of participation, collaboration,
 concentration, and the development of technologies. It can inform
 discussions within SDOs and provide indicators of how technical work
-progresses over time. It can also inform broader Internet governance
+progresses over time <span><a href="#SIMCOE2012" class="internal xref">SIMCOE2006</a> [<a href="#SIMCOE2012" class="cite xref">SIMCOE2012</a>]</span> <span>[<a href="#GANGLMAIR2025" class="cite xref">GANGLMAIR2025</a>]</span>. It can also inform broader Internet governance
 questions, such as how decision-making is structured, how participation is
 distributed, and the extent of centralisation in these processes <span>[<a href="#RFC9518" class="cite xref">RFC9518</a>]</span>,
 and can be useful to external stakeholders, including regulators, policy
@@ -1833,13 +1834,13 @@ unreliable.<a href="#section-7-2" class="pilcrow">¶</a></p>
 <p id="section-7-3">As a result, analyses based on these data provide only a partial view of
 the process. Quantitative metrics such as message volume, authorship,
 participation counts, or leadership roles can be useful indicators, but do
-not directly capture influence, authority, or impact. They should therefore
+not directly capture influence, authority, or impact <span><a href="#KHARE2022" class="internal xref">SIMCOEWAGUESPACK2011</a> [<a href="#KHARE2022" class="cite xref">KHARE2022</a>]</span>. They should therefore
 be interpreted with care and in context, rather than in isolation.<a href="#section-7-3" class="pilcrow">¶</a></p>
 <p id="section-7-4">Where data is derived or reconstructed (e.g., via entity resolution,
 affiliation inference, or automated extraction) it is important to retain a
 clear link to the original sources. The provenance of such transformations
 should be documented, and derived data should be distinguishable from
-primary records. This allows results to be checked and, where necessary,
+primary records <span>[<a href="#RFC9307" class="cite xref">RFC9307</a>]</span>. This allows results to be checked and, where necessary,
 corrected.<a href="#section-7-4" class="pilcrow">¶</a></p>
 <p id="section-7-5">SDOs can support analysis of their processes by ensuring that the data they
 produce remains consistent, well-structured, and accessible over time. This
@@ -1856,7 +1857,7 @@ the data can be understood and accounted for in subsequent analysis.<a href="#se
 care. Differences in governance, participation models, and transparency
 affect both what is observable and how it should be interpreted. Apparent
 differences between organisations may reflect these structural factors
-rather than substantive differences in behaviour or outcomes.<a href="#section-7-6" class="pilcrow">¶</a></p>
+rather than substantive differences in behaviour or outcomes <span>[<a href="#SIMCOE2014" class="cite xref">SIMCOE2014</a>]</span>.<a href="#section-7-6" class="pilcrow">¶</a></p>
 <p id="section-7-7">Finally, although much of the data used in this type of analysis is
 publicly available, its use still raises ethical questions. Analyses can
 have implications for individuals and organisations, especially if results
@@ -1914,6 +1915,9 @@ from primary records, with clear documentation of how it was produced.<a href="#
 <ul class="normal">
 <li class="normal" id="section-7.1-1.6.2.1">
                 <p id="section-7.1-1.6.2.1.1"><strong>TODO:</strong> is this done by the IETF, by the researchers, or both?<a href="#section-7.1-1.6.2.1.1" class="pilcrow">¶</a></p>
+</li>
+              <li class="normal" id="section-7.1-1.6.2.2">
+                <p id="section-7.1-1.6.2.2.1"><strong>RYO:</strong> I believe this is to be done by anyone that produces/publishes the aggregated data. I don't think the IETF does this at the moment... (I could be completely wrong!)<a href="#section-7.1-1.6.2.2.1" class="pilcrow">¶</a></p>
 </li>
             </ul>
 </li>
@@ -2028,7 +2032,7 @@ open to misinterpretation.<a href="#section-7.2-2.11.1" class="pilcrow">¶</a></
 <a href="#section-8.1" class="section-number selfRef">8.1. </a><a href="#name-ethnographic-studies" class="section-name selfRef">Ethnographic Studies</a>
         </h3>
 <p id="section-8.1-1">Developing standards is a highly social activity, which involve cultures.
-Cath investigated this specific aspects in the IETF [CCATH2021].<a href="#section-8.1-1" class="pilcrow">¶</a></p>
+Cath investigated this specific aspects in the IETF <span>[<a href="#CATH2021thesis" class="cite xref">CATH2021thesis</a>]</span>.<a href="#section-8.1-1" class="pilcrow">¶</a></p>
 </section>
 </div>
 <div id="natural-language-processing-nlp">
@@ -2087,6 +2091,10 @@ attempts to subvert or disrupt the operation of the standards process.<a href="#
 <dd class="break"></dd>
 <dt id="CATH2021">[CATH2021]</dt>
       <dd>
+<span class="refAuthor">Cath, C.</span>, <span class="refTitle">"The Technology We Choose to Create: Human Rights Advocacy in the Internet Engineering Task Force"</span>, <span class="seriesInfo">Telecommunications Policy Volume 45, Number 6, Article 102144</span>, <time datetime="2021" class="refDate">2021</time>, <span>&lt;<a href="https://doi.org/10.1016/j.telpol.2021.102144">https://doi.org/10.1016/j.telpol.2021.102144</a>&gt;</span>. </dd>
+<dd class="break"></dd>
+<dt id="CATH2021thesis">[CATH2021thesis]</dt>
+      <dd>
 <span class="refAuthor">Cath, C.</span>, <span class="refTitle">"Changing Minds and Machines: A Case Study of Human Rights Advocacy in the Internet Engineering Task Force (IETF)"</span>, <span class="seriesInfo">PhD thesis University of Oxford</span>, <time datetime="2021" class="refDate">2021</time>, <span>&lt;<a href="https://ora.ox.ac.uk/objects/uuid:9b844ffb-d5bb-4388-bb2f-305ddedb8939">https://ora.ox.ac.uk/objects/uuid:9b844ffb-d5bb-4388-bb2f-305ddedb8939</a>&gt;</span>. </dd>
 <dd class="break"></dd>
 <dt id="CATH2023">[CATH2023]</dt>
@@ -2104,6 +2112,10 @@ attempts to subvert or disrupt the operation of the standards process.<a href="#
 <dt id="GANGLMAIR2025">[GANGLMAIR2025]</dt>
       <dd>
 <span class="refAuthor">Ganglmair, B.</span>, <span class="refAuthor">Simcoe, T.</span>, and <span class="refAuthor">E. Tarantino</span>, <span class="refTitle">"Learning When to Quit: An Empirical Model of Experimentation in Standards Development"</span>, <span class="seriesInfo">American Economic Journal: Microeconomics Volume 17, Number 3, pages 164-190</span>, <time datetime="2025" class="refDate">2025</time>, <span>&lt;<a href="https://doi.org/10.1257/mic.20190321">https://doi.org/10.1257/mic.20190321</a>&gt;</span>. </dd>
+<dd class="break"></dd>
+<dt id="HARES2022thesis">[HARES2022thesis]</dt>
+      <dd>
+<span class="refAuthor">Hares, S.</span>, <span class="refTitle">"Solidarity as an Antecedent of Consensus Decision-Making - A Mixed-Mode Study"</span>, <time datetime="2024-12" class="refDate">December 2024</time>, <span>&lt;<a href="http://www.hickoryhill-consulting.com/SusanHares-EditedManuscript.pdf">http://www.hickoryhill-consulting.com/SusanHares-EditedManuscript.pdf</a>&gt;</span>. </dd>
 <dd class="break"></dd>
 <dt id="KHARE2022">[KHARE2022]</dt>
       <dd>
@@ -2186,8 +2198,12 @@ attempts to subvert or disrupt the operation of the standards process.<a href="#
 <span class="refAuthor">Simcoe, T. S.</span> and <span class="refAuthor">D. M. Waguespack</span>, <span class="refTitle">"Status, Quality, and Attention: What's in a (Missing) Name?"</span>, <span class="seriesInfo">Management Science Volume 57, Number 2, pages 274-290</span>, <time datetime="2011" class="refDate">2011</time>, <span>&lt;<a href="https://doi.org/10.1287/mnsc.1100.1270">https://doi.org/10.1287/mnsc.1100.1270</a>&gt;</span>. </dd>
 <dd class="break"></dd>
 <dt id="WELZL2021">[WELZL2021]</dt>
-    <dd>
+      <dd>
 <span class="refAuthor">Welzl, M.</span>, <span class="refAuthor">Oepen, S.</span>, <span class="refAuthor">Jaskula, C.</span>, <span class="refAuthor">Griwodz, C.</span>, and <span class="refAuthor">S. Islam</span>, <span class="refTitle">"Collaboration in the IETF: An Initial Analysis of Two Decades in Email Discussions"</span>, <span class="seriesInfo">ACM SIGCOMM Computer Communication Review Volume 51, Number 3, pages 29-32</span>, <time datetime="2021" class="refDate">2021</time>, <span>&lt;<a href="https://doi.org/10.1145/3477482.3477488">https://doi.org/10.1145/3477482.3477488</a>&gt;</span>. </dd>
+<dd class="break"></dd>
+<dt id="ZHANG2025">[ZHANG2025]</dt>
+    <dd>
+<span class="refAuthor">Zhang, Y.</span>, <span class="refAuthor">McQuistin, S.</span>, <span class="refAuthor">Karan, V.</span>, <span class="refAuthor">Ramirez-Centeno, H.</span>, <span class="refAuthor">Perkins, C.</span>, <span class="refAuthor">Tyson, G.</span>, and <span class="refAuthor">I. Castro</span>, <span class="refTitle">"Two Decades of IETF Affiliations: Evolution and Impact"</span>, <span class="seriesInfo">Proceedings of the 2025 Applied Networking Research Workshop pages 17-23</span>, <time datetime="2025" class="refDate">2025</time>, <span>&lt;<a href="https://doi.org/10.1145/3744200.3744757">https://doi.org/10.1145/3744200.3744757</a>&gt;</span>. </dd>
 <dd class="break"></dd>
 </dl>
 </section>
