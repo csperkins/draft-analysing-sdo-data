@@ -722,31 +722,31 @@ increasing for a number of years {{Khare2022}}.
 # Analysing Other SDOs
 
 Standards relevant to the Internet and the Web are also developed within
-the W3C, 3GPP, ITU-T, and others. Each organisation has its own governance
-model, participation structure, institutional culture, and data
+the 3GPP, IEEE, ITU-T, W3C, and others. Each organisation has its own
+governance model, participation structure, institutional culture, and data
 availability.  These differences affect both what can be observed, and how
 observations should be interpreted {{Simcoe2014}} {{Cath2021a}}.
 
 ## Data Availability Across SDOs
 
-SDOs vary considerably in terms of the data that they make publicly
-available about their activities, and in how easily that data can be
+SDOs vary considerably in terms of what data that they make publicly
+available about their activities, and how easily that data can be
 accessed and processed.
 
-The W3C provides a REST API at https://api.w3.org, covering metadata about
-documents, participants, affiliations, and groups, and maintains a public
-mailing list archive. W3C groups make extensive use of GitHub for document
-development and issue tracking. The W3C operates under a membership model,
-in which participation is primarily through affiliated organisations. This
-affects how data about participants and their contributions should be
-interpreted, particularly when being compared to data from the IETF and
-other SDOs with individual participation models.
+For example, the W3C provides a REST API at <https://api.w3.org>, covering
+metadata about documents, participants, affiliations, and groups, and also
+maintains a public mailing list archive. W3C groups make extensive use of
+GitHub for document development and issue tracking. The W3C operates under
+a membership model, in which participation is primarily through affiliated
+organisations. This affects how data about participants and their
+contributions should be interpreted, particularly when being compared to
+data from the IETF and other SDOs with individual participation models.
 
 The ITU-T and 3GPP both operate under membership-based models where access
 to documents, meeting records, and contribution data is typically
 restricted to member organisations. Some ITU-T Recommendations are made
 publicly available after publication, while the 3GPP makes its
-specifications available at https://www.3gpp.org/specifications.  The
+specifications available at <https://www.3gpp.org/specifications>.  The
 working documents, contributions, and meeting records are generally not
 accessible to non-members.
 
@@ -760,9 +760,9 @@ availability differences {{RFC9307}}.
 Efforts to understand the wider standardisation landscape requires
 combining data across multiple SDOs.
 
-SDOs do not share common identifiers for participants, organisations,
-documents, or other metadata. An individual that participates across
-multiple SDOs may appear under different names, e-mail addresses, or
+The various Internet SDOs do not share common identifiers for participants,
+organisations, documents, or other metadata. An individual that participates
+across multiple SDOs may appear under different names, email addresses, or
 usernames in the records of each SDO. Resolving these identifies requires
 suitable entity resolution mechanisms, and the risk of both incorrect
 matches (where two unrelated entities are linked together) and missed
@@ -772,13 +772,15 @@ names, abbreviations, or subsidiary identities across SDOs.
 
 Standards developed within one organisation may reference, build upon, or
 be coordinated with work at another SDO, but these relationships are not
-captured in any shared record. Reconstructing these relationships requires
-either manual effort, or natural language processing of document content,
-introducing the risk of errors.
+reliably captured in any shared record.  Reconstructing these relationships
+requires either manual effort, or natural language processing of document
+content, introducing the risk of errors.  Liaison statements, and other
+formal and informal communications between SDOs, are common, but are not
+always publicly archived.
 
-SDOs operate on different timescales and with different process structures.
-Comparing activity across organisations at a given point in time may not
-reflect equivalent stages of development.
+The different SDOs operate on different timescales and following different
+processes.  Comparing activity across organisations at a given point in
+time may not reflect equivalent stages of development.
 
 Finally, differences in governance and participation models affect which
 comparisons are meaningful. Data analyses, and the interpretation of them,
