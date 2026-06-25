@@ -793,12 +793,12 @@ substantive differences in behaviour or outcomes {{Simcoe2014}}.
 Significant processing effort is required to clean, normalise, and link
 data records before they can be processed.
 
-The same individual participant may appear across each of the data sources
-with different identifiers, including names, e-mail addresses, usernames.
+The same participant may appear across each of the data sources
+with different identifiers, including names, email addresses, usernames.
 These identifiers may change over time. Entity resolution (using exact and
 heuristic matching) is feasible in many instances, but requires careful
 validation to prevent the introduction of errors into later analyses.
-Entity resolution across organisations is similarly challenging, where
+Entity resolution of organisations is similarly challenging, where
 companies may be subsidiaries of another, might merge or be acquired, or,
 given the unstructured nature of the dataset, appear under different names
 (to illustrate the scope of the entity resolution problem note that, as of
@@ -810,32 +810,36 @@ sources, is often needed to process organisational data {{Khare2022}}
 Participants may have more than one affiliation, including across the
 lifetime of a particular contribution (e.g., an Internet-Draft).
 Affiliation data is only recorded for a subset of activities, and may need
-to be inferred (e.g., from corporate domain names) in other cases. As a
-result, affiliation data, where recorded, indicates the participant's
+to be inferred (e.g., from corporate domain names) in other cases.
+Affiliation data, where recorded, indicates the participant's
 affiliation at moment in time for a particular contribution, making it
 difficult to form a continuous history.
 
 Document life cycles are non-linear, and documents might pass through
 multiple working groups, be replaced or updated by later drafts, and change
-authorship over time.
+authorship and status over time. There are numerous exceptions to the
+published document life cycle.
 
-Working group leadership is difficult to reconstruct: knowing who chaired a
-working group during a particular period, or which area a given group
-belonged to at a given time, requires the reconstruction of a timeline from
-historical event records held in the Datatracker. These records can be
-incomplete or inconsistently formatted {{Barnes2024}} {{Baron2024}}.
+Working group and research group leadership, and membership of bodes such
+as the IESG, IRSG, and IAB, is difficult to accurately reconstruct. Knowing
+who chaired a working group during a particular period, or which area a
+given group belonged to at a given time, requires the reconstruction of a
+timeline from historical event records held in the Datatracker. These
+records can be incomplete or inconsistently formatted {{Barnes2024}}
+{{Baron2024}}.
 
-E-mail metadata and message content presents a number of challenges. A
+Email metadata and message content presents a number of challenges. A
 significant number of messages contain malformed or archaic header fields
-that break widely used email processing libraries and need correction.
+that cannot easily be processed using widely used email parsing libraries
+and need correction.
 Mail clients perform the threading of messages in different ways, with the
 separation between new and quoted text becoming unclear. Natural language
 processing of message content requires contextualisation, with informal
-conventions, technical vocabulary, and the use of acronyms (all of which
-may evolve over time) presenting challenges that are unique to the dataset
+conventions, technical vocabulary, and the use of acronyms, all of which
+may evolve over time, presenting challenges that are unique to the dataset
 {{Niedermayer2017}} {{Welzl2021}}.
 
-As noted, the quality of the dataset degrades significantly for historical
+The quality of the IETF dataset degrades significantly for historical
 records. Data that was not gathered by the Datatracker at the time, or that
 has been subject to partial backfilling later, must be treated with
 caution, both in terms of data processing and later analyses {{RFC9307}}.
