@@ -53,7 +53,7 @@ informative:
       - org: ACM Publications Board
     target: https://www.acm.org/publications/policies/research-involving-human-participants-and-subjects
 
-  BARNES2024:
+  Barnes2024:
     title: "Temporal Network Analysis of Email Communication Patterns in a Long Standing Hierarchy"
     author:
       - fullname: Matthew Russell Barnes
@@ -69,7 +69,7 @@ informative:
       "Proceedings of the International AAAI Conference on Web and Social Media": "Volume 18, Number 1, pages 126-138"
     target: https://doi.org/10.1609/icwsm.v18i1.31302
 
-  BARON2024:
+  Baron2024:
     title: "Representation Is Not Sufficient for Selecting Gender Diversity"
     author:
       - fullname: Justus A. Baron
@@ -82,7 +82,7 @@ informative:
       "Research Policy": "Volume 53, Number 6, Article 104994"
     target: https://doi.org/10.1016/j.respol.2024.104994
 
-  BELMONT:
+  Belmont:
     title:  The Belmont Report - Ethical Principles and Guidelines for the
             Protection of Human Subjects of Research
     author:
@@ -90,7 +90,7 @@ informative:
              Biomedical and Behavioral Research
     target: https://www.hhs.gov/ohrp/regulations-and-policy/belmont-report/
 
-  CATH2021:
+  Cath2021a:
     title: "The Technology We Choose to Create: Human Rights Advocacy in the Internet Engineering Task Force"
     author:
       - fullname: Corinne Cath
@@ -100,7 +100,7 @@ informative:
     target: https://doi.org/10.1016/j.telpol.2021.102144
 
 
-  CATH2021thesis:
+  Cath2021b:
     title: "Changing Minds and Machines: A Case Study of Human Rights Advocacy in the Internet Engineering Task Force (IETF)"
     author:
       - fullname: Corinne Cath
@@ -109,7 +109,7 @@ informative:
       "PhD thesis": "University of Oxford"
     target: https://ora.ox.ac.uk/objects/uuid:9b844ffb-d5bb-4388-bb2f-305ddedb8939
 
-  CATH2023:
+  Cath2023:
     title: "Loud Men Talking Loudly: Exclusionary Cultures of Internet Governance"
     author:
       - fullname: Corinne Cath
@@ -118,7 +118,7 @@ informative:
       "Critical Infrastructure Lab Document Series": "CIL003"
     target: https://criticalinfralab.net/wp-content/uploads/2023/06/LoudMen-CorinneCath-CriticalInfraLab.pdf
 
-  CATHFLORIDI2017:
+  Cath2017:
     title: "The Design of the Internet's Architecture by the Internet Engineering Task Force (IETF) and Human Rights"
     author:
       - fullname: Corinne Cath
@@ -128,7 +128,7 @@ informative:
       "Science and Engineering Ethics": "Volume 23, Number 2, pages 449-468"
     target: https://doi.org/10.1007/s11948-016-9793-y
 
-  FARRELLSIMCOE2012:
+  Farrell2012:
     title: Choosing the Rules for Consensus Standardization
     author:
       - fullname: Joseph Farrell
@@ -138,7 +138,7 @@ informative:
       "The RAND Journal of Economics": "Volume 43, Number 2, pages 235-252"
     target: https://doi.org/10.1111/j.1756-2171.2012.00164.x
 
-  GANGLMAIR2025:
+  Ganglmair2025:
     title: "Learning When to Quit: An Empirical Model of Experimentation in Standards Development"
     author:
       - fullname: Bernhard Ganglmair
@@ -149,14 +149,14 @@ informative:
       "American Economic Journal: Microeconomics": "Volume 17, Number 3, pages 164-190"
     target: https://doi.org/10.1257/mic.20190321
 
-  HARES2022thesis:
+  Hares2022:
     title: Solidarity as an Antecedent of Consensus Decision-Making - A Mixed-Mode Study
     author:
       - fullname: Susan Hares
     date: December 2024
     target: http://www.hickoryhill-consulting.com/SusanHares-EditedManuscript.pdf
 
-  KHARE2022:
+  Khare2022:
     title: "The Web We Weave: Untangling the Social Graph of the IETF"
     author:
       - fullname: Prashant Khare
@@ -172,7 +172,7 @@ informative:
       "Proceedings of the International AAAI Conference on Web and Social Media": "Volume 16, Number 1, pages 500-511"
     target: https://doi.org/10.1609/icwsm.v16i1.19310
 
-  MCQUISTIN2021:
+  McQuistin2021:
     title: Characterising the IETF Through the Lens of RFC Deployment
     author:
       - fullname: Stephen McQuistin
@@ -190,7 +190,7 @@ informative:
       "Proceedings of the 21st ACM Internet Measurement Conference": "pages 137-149"
     target: https://doi.org/10.1145/3487552.3487821
 
-  MCQUISTIN2023:
+  McQuistin2023:
     title: "Errare Humanum Est: What Do RFC Errata Say about Internet Standards?"
     author:
       - fullname: Stephen McQuistin
@@ -206,7 +206,7 @@ informative:
       "Proceedings of the 7th Network Traffic Measurement and Analysis Conference": "pages 169-177"
     target: https://doi.org/10.23919/TMA58422.2023.10198980
 
-  MENLO:
+  Menlo:
     title: The Menlo Report - Ethical Principles Guiding Information and
            Communication Technology Research
     author:
@@ -214,7 +214,7 @@ informative:
     date: Aug, 2012
     target: https://www.dhs.gov/sites/default/files/publications/CSD-MenloPrinciplesCORE-20120803_1.pdf
 
-  NIEDERMAYER2017:
+  Niedermayer2017:
     title: "Information Mining from Public Mailing Lists: A Case Study on IETF Mailing Lists"
     author:
       - fullname: Heiko Niedermayer
@@ -227,7 +227,7 @@ informative:
       "Internet Science": "Lecture Notes in Computer Science, Volume 10673, pages 301-309"
     target: https://doi.org/10.1007/978-3-319-70284-1_23
 
-  NIKKHAH2017:
+  Nikkhah2017:
     title: A Statistical Exploration of Protocol Adoption
     author:
       - fullname: Mehdi Nikkhah
@@ -257,7 +257,7 @@ informative:
 
   RFC9518:
 
-  RYSMANSIMCOE2008:
+  Rysman2008:
     title: "Patents and the Performance of Voluntary Standard-Setting Organizations"
     author:
       - fullname: Marc Rysman
@@ -267,7 +267,7 @@ informative:
       "Management Science": "Volume 54, Number 11, pages 1920-1934"
     target: https://doi.org/10.1287/mnsc.1080.0919
 
-  SIMCOE2006:
+  Simcoe2006:
     title: "Delay and De Jure Standardization: Exploring the Slowdown in Internet Standards Development"
     author:
       - fullname: Timothy Simcoe
@@ -276,25 +276,7 @@ informative:
       "Standards and Public Policy": "Chapter 8, pages 260-295"
     target: https://doi.org/10.1017/CBO9780511493249.009
 
-  SIMCOE2012:
-    title: "Standard Setting Committees: Consensus Governance for Shared Technology Platforms"
-    author:
-      - fullname: Timothy Simcoe
-    date: 2012
-    seriesinfo:
-      "American Economic Review": "Volume 102, Number 1, pages 305-336"
-    target: https://doi.org/10.1257/aer.102.1.305
-
-  SIMCOE2014:
-    title: "Governing the Anticommons: Institutional Design for Standard-Setting Organizations"
-    author:
-      - fullname: Timothy Simcoe
-    date: 2014
-    seriesinfo:
-      "Innovation Policy and the Economy": "Volume 14, Number 1, pages 99-128"
-    target: https://doi.org/10.1086/674022
-
-  SIMCOEWAGUESPACK2011:
+  Simcoe2011:
     title: "Status, Quality, and Attention: What's in a (Missing) Name?"
     author:
       - fullname: Timothy S. Simcoe
@@ -304,7 +286,25 @@ informative:
       "Management Science": "Volume 57, Number 2, pages 274-290"
     target: https://doi.org/10.1287/mnsc.1100.1270
 
-  WELZL2021:
+  Simcoe2012:
+    title: "Standard Setting Committees: Consensus Governance for Shared Technology Platforms"
+    author:
+      - fullname: Timothy Simcoe
+    date: 2012
+    seriesinfo:
+      "American Economic Review": "Volume 102, Number 1, pages 305-336"
+    target: https://doi.org/10.1257/aer.102.1.305
+
+  Simcoe2014:
+    title: "Governing the Anticommons: Institutional Design for Standard-Setting Organizations"
+    author:
+      - fullname: Timothy Simcoe
+    date: 2014
+    seriesinfo:
+      "Innovation Policy and the Economy": "Volume 14, Number 1, pages 99-128"
+    target: https://doi.org/10.1086/674022
+
+  Welzl2021:
     title: "Collaboration in the IETF: An Initial Analysis of Two Decades in Email Discussions"
     author:
       - fullname: Michael Welzl
@@ -317,7 +317,7 @@ informative:
       "ACM SIGCOMM Computer Communication Review": "Volume 51, Number 3, pages 29-32"
     target: https://doi.org/10.1145/3477482.3477488
 
-  ZHANG2025:
+  Zhang2025:
     title: "Two Decades of IETF Affiliations: Evolution and Impact"
     author:
       - fullname: Yangjun Zhang
@@ -404,7 +404,7 @@ system in which technical artefacts, human participants, organisational
 interests, and governance processes interact over time. Standards do not
 emerge solely from technical design choices, nor solely from institutional
 processes; rather, they arise through structured collaboration among
-individuals and organisations operating within formal [RFC2026] and informal rules [CATHFLORIDI2017] [SIMCOE2014] [SIMCOE2012] [SIMCOEWAGUESPACK2011].
+individuals and organisations operating within formal [RFC2026] and informal rules [Cath2017] [Simcoe2014] [Simcoe2012] [Simcoe2011].
 
 Technical outputs emerge from a socio-technical process in which
 engineering choices interact with expertise, incentives, organisational
@@ -413,7 +413,7 @@ constraints, and the cultural norms and practises of the standards
 community. At the same time, the organisational and cultural context is not fixed:
 governance structures, working practises, and community norms
 evolve together over time and these changes in turn shape future
-participation and technical decision-making [BARON2024].
+participation and technical decision-making [Baron2024].
 
 For analytical purposes, standards development ecosystems can be viewed
 as comprising several interacting components:
@@ -439,7 +439,7 @@ as comprising several interacting components:
   tools, and norms of the community.  Membership-based models may provide
   clearer institutional commitment and resourcing, but they can also limit
   participation to those acting through recognised organisations or
-  membership categories [CATH2021] [CATH2023] [BARON2024].
+  membership categories [Cath2021a] [Cath2023] [Baron2024].
 
 
 * **Organisations:**
@@ -514,7 +514,7 @@ as comprising several interacting components:
   control over agendas, drafting, or review capacity.  Governance
   structures therefore shape how decisions are made, how priorities are
   established, how disagreements are managed, and, ultimately, how
-  influence is distributed within standards development [FARRELLSIMCOE2012] [SIMCOEWAGUESPACK2011] [SIMCOE2012] [RFC7282][KHARE2022] [BARNES2024] [ZHANG2025].
+  influence is distributed within standards development [Farrell2012] [Simcoe2011] [Simcoe2012] [RFC7282][Khare2022] [Barnes2024] [Zhang2025].
 
 
 * **Standards Implementation and Deployment:**
@@ -528,7 +528,7 @@ as comprising several interacting components:
   may also be shaped by factors outside the standards process, including
   regulation, procurement, cost, and compatibility with existing systems.
 
-  Data on implementation and operational use is often limited [RFC5218] [NIKKHAH2017] [MCQUISTIN2021] [RFC8980].
+  Data on implementation and operational use is often limited [RFC5218] [Nikkhah2017] [McQuistin2021] [RFC8980].
 
 
 Measuring SDO activity is challenging. Observable metrics such as
@@ -537,7 +537,7 @@ leadership roles can provide useful evidence, but each captures only
 part of the standards process. Analysis of artefacts and logs from the
 collaboration infrastructure (e.g., analysis of mailing list messages)
 can provide more detail and nuance, at the expense of additional
-complexity, but even these do not provide a complete view [RFC9307] [KHARE2022] [BARNES2024][MCQUISTIN2021].
+complexity, but even these do not provide a complete view [RFC9307] [Khare2022] [Barnes2024][McQuistin2021].
 
 There are several reasons for this.
 One is that critical aspects of standards development are
@@ -545,7 +545,7 @@ hard to observe directly. The culture of the SDOs, influence of
 individuals, groups, and ideas, agenda setting, informal
 coordination, negotiation, and the practical exercise of power and authority
 may not be well represented by any single metric, or group of metrics, and
-are extremely challenging to infer from collaboration infrastructure logs [SIMCOEWAGUESPACK2011] [KHARE2022] [CATH2021].
+are extremely challenging to infer from collaboration infrastructure logs [Simcoe2011] [Khare2022] [Cath2021a].
 
 Another reason is that the available data is often limited. Data
 availability and quality vary across SDOs. Different parts of the
@@ -565,7 +565,7 @@ relevance. Not all artefacts have the same significance, not all forms
 of participation have the same effect, and visible activity does not
 necessarily correspond to implementation, adoption, or wider impact.
 Measures should therefore be interpreted cautiously and, where
-possible, considered alongside complementary indicators [RFC9307] [MCQUISTIN2021].
+possible, considered alongside complementary indicators [RFC9307] [McQuistin2021].
 
 
 
@@ -579,14 +579,14 @@ not necessarily their affiliation; exceptions to this norm exist for specific as
 such as draft authorship and intellectual property rights disclosures [RFC2026].
 
 The IETF has a hierarchical group structure, with technical working groups (that have working
-group chairs) organised into distinct areas (that have area directors) [BARNES2024] [BARON2024].
+group chairs) organised into distinct areas (that have area directors) [Barnes2024] [Baron2024].
 
 
 Reflecting its open participation model, much of
 the IETF's processes are publicly observable through open records and dedicated APIs. Mailing lists
 are a central forum for working group discussion, alongside meetings; some groups also use
 externally hosted repositories, for example on GitHub, to support
-drafting and issue discussion [WELZL2021] [KHARE2022].
+drafting and issue discussion [Welzl2021] [Khare2022].
 
 ## Datatracker
 
@@ -639,7 +639,7 @@ accessed via the website or programmatically using a REST API and provides infor
 
 * IPR disclosures including the document that the IPR
   relates to, the person making disclosure, details of the patent, and
-  licensing terms [RYSMANSIMCOE2008].
+  licensing terms [Rysman2008].
 
 The Datatracker has been developed over time, and this is reflected in the data that is
 available, with more recent data being significantly more complete than earlier data.
@@ -657,7 +657,7 @@ in the IETF Datatracker [RFC8729].
 
 Information about RFC errata is available on the RFC Editor website at
 https://www.rfc-editor.org/errata.php. This data is also available in
-machine readable form [MCQUISTIN2023].
+machine readable form [McQuistin2023].
 
 
 
@@ -674,7 +674,7 @@ messages dating back to the late 1980s.
 
 The are significant data quality problems with older messages in the IETF
 mail archive, due to problems with the original messages rather than the
-archive, that make them difficult to process [NIEDERMAYER2017] [MCQUISTIN2023] [KHARE2022].
+archive, that make them difficult to process [Niedermayer2017] [McQuistin2023] [Khare2022].
 
 ## Session Recordings
 
@@ -704,13 +704,13 @@ Using the GitHub API, the following information is available:
 
 * Contributions and changes, by way of Git commits, made by those users to documents.
 
-* Discussion that takes place through comments and issues [KHARE2022].
+* Discussion that takes place through comments and issues [Khare2022].
 
 # Analysing Other SDOs
 
 Standards relevant to the Internet and the Web are also developed within the W3C, 3GPP, ITU-T, and others. Each
 organisation has its own governance model, participation structure, institutional culture, and data availability.
-These differences affect both what can be observed, and how observations should be interpreted [SIMCOE2014] [CATH2021].
+These differences affect both what can be observed, and how observations should be interpreted [Simcoe2014] [Cath2021a].
 
 ## Data Availability Across SDOs
 
@@ -751,7 +751,7 @@ a given point in time may not reflect equivalent stages of development.
 
 Finally, differences in governance and participation models affect which comparisons are meaningful. Data analyses, and
 the interpretation of them, must consider that apparent differences between SDOs may reflect structural factors (e.g.,
-open vs. membership-based participation) rather than substantive differences in behaviour or outcomes [SIMCOE2014].
+open vs. membership-based participation) rather than substantive differences in behaviour or outcomes [Simcoe2014].
 
 # Data Processing
 
@@ -768,7 +768,7 @@ given the unstructured nature of the dataset, appear under different names (to i
 the scope of the entity resolution problem note that, as of May
 2026, there are 282 variants of the name "Huawei" in the IETF Datatracker). Information
 external to the Datatracker, and other data sources, is often needed to process organisational
-data [KHARE2022] [MCQUISTIN2021].
+data [Khare2022] [McQuistin2021].
 
 Participants may have more than one affiliation, including across the lifetime of a
 particular contribution (e.g., an Internet-Draft). Affiliation data is only recorded
@@ -783,7 +783,7 @@ be replaced or updated by later drafts, and change authorship over time.
 Working group leadership is difficult to reconstruct: knowing who chaired a working group during
 a particular period, or which area a given group belonged to at a given time, requires the
 reconstruction of a timeline from historical event records held in the Datatracker. These records
-can be incomplete or inconsistently formatted [BARNES2024] [BARON2024].
+can be incomplete or inconsistently formatted [Barnes2024] [Baron2024].
 
 E-mail metadata and message content presents a number of challenges. A significant number of
 messages contain malformed or archaic header fields that break widely used email processing
@@ -792,7 +792,7 @@ Mail clients perform the
 threading of messages in different ways, with the separation between new and quoted text becoming
 unclear. Natural language processing of message content requires contextualisation, with informal
 conventions, technical vocabulary, and the use of acronyms (all of which may evolve over time)
-presenting challenges that are unique to the dataset [NIEDERMAYER2017] [WELZL2021].
+presenting challenges that are unique to the dataset [Niedermayer2017] [Welzl2021].
 
 As noted, the quality of the dataset degrades significantly for historical records. Data that was not
 gathered by the Datatracker at the time, or that has been subject to partial backfilling later, must be
@@ -821,7 +821,7 @@ also gain some benefit, and with respect for the law and public interest.
 Researchers should consult with their organisation's Institutional Review
 Board, Research Ethics Committee, or similar, prior to conducting research
 that might raise ethical concerns, and are referred to the guidance in the
-Menlo Report [MENLO], the Belmont Report [BELMONT], and the ACM Policy on
+Menlo Report [Menlo], the Belmont Report [Belmont], and the ACM Policy on
 Research Involving Human Participants and Subjects [ACM] for further
 discussion of issues around ethical conduct of research.
 
@@ -851,7 +851,7 @@ and provide insight into the health, structure, and evolution of standards
 ecosystems, including patterns of participation, collaboration,
 concentration, and the development of technologies. It can inform
 discussions within SDOs and provide indicators of how technical work
-progresses over time [SIMCOE2006] [SIMCOE2012] [GANGLMAIR2025]. It can also inform broader Internet governance
+progresses over time [Simcoe2006] [Simcoe2012] [Ganglmair2025]. It can also inform broader Internet governance
 questions, such as how decision-making is structured, how participation is
 distributed, and the extent of centralisation in these processes [RFC9518],
 and can be useful to external stakeholders, including regulators, policy
@@ -869,7 +869,7 @@ unreliable.
 As a result, analyses based on these data provide only a partial view of
 the process. Quantitative metrics such as message volume, authorship,
 participation counts, or leadership roles can be useful indicators, but do
-not directly capture influence, authority, or impact [SIMCOEWAGUESPACK2011] [KHARE2022]. They should therefore
+not directly capture influence, authority, or impact [Simcoe2011] [Khare2022]. They should therefore
 be interpreted with care and in context, rather than in isolation.
 
 Where data is derived or reconstructed (e.g., via entity resolution,
@@ -895,7 +895,7 @@ Comparisons across standards development organisations require particular
 care. Differences in governance, participation models, and transparency
 affect both what is observable and how it should be interpreted. Apparent
 differences between organisations may reflect these structural factors
-rather than substantive differences in behaviour or outcomes [SIMCOE2014].
+rather than substantive differences in behaviour or outcomes [Simcoe2014].
 
 Finally, although much of the data used in this type of analysis is
 publicly available, its use still raises ethical questions. Analyses can
@@ -1026,7 +1026,7 @@ robustness and reproducibility of such work:
 
 ## Ethnographic Studies
 Developing standards is a highly social activity, which involve cultures.
-Cath investigated this specific aspects in the IETF [CATH2021thesis].
+Cath investigated this specific aspects in the IETF [Cath2021b].
 
 ## Natural Language Processing (NLP)
 
