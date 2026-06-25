@@ -245,8 +245,6 @@ informative:
 
   RFC7282:
 
-  RFC8180:
-
   RFC8729:
 
   RFC8963:
@@ -535,7 +533,7 @@ as comprising several interacting components:
   regulation, procurement, cost, and compatibility with existing systems.
 
   Data on implementation and operational use is often difficult to find
-  {{RFC5218}} {{Nikkhah2017}} {{McQuistin2021}} {{RFC8980}}.
+  {{RFC5218}} {{Nikkhah2017}} {{McQuistin2021}} {{RFC8980}} {{RFC8963}}.
 
 
 Measuring SDO activity is challenging. Observable metrics such as
@@ -562,7 +560,7 @@ information may be incomplete, difficult to access, inconsistently
 structured, or unavailable.
 Context and insights from participant interviews may reveal more detail
 {{Cath2021a}}, but such ethnographic research requires specific expertise
-to be effective.
+to be effective {{Cath2021b}}.
 
 
 Combining multiple data sources introduces additional challenges.
@@ -642,7 +640,8 @@ accessed via the website or programmatically using a REST API and provides infor
   milestones, and who occupies key roles in the group.
 
 * IESG processing, including ballot positions, the text
-  of comments and discusses, and scheduling of the IESG review.
+  of comments and discusses, and scheduling of the IESG review
+  {{Hares2022}}.
 
 * Directorate membership and directorate reviews,
   including the document, reviewer, outcome, data, and the review text.
@@ -662,7 +661,7 @@ meeting registration), and so a number of active participants do not have a prof
 
 ## RFC Editor
 
-The RFC Editor makes the RFCs, and the RFC index, available in machine readable form at
+The RFC Editor makes the RFCs, and the RFC index, available in a machine readable form at
 <https://www.rfc-editor.org/rfc-index.xml>. The RFC index includes titles,
 authors, publication date, status, abstract, publication stream, name of
 the precursor Internet-Draft, and the IETF area and working group that
@@ -903,7 +902,7 @@ when presenting results.
 Analysis of Internet standards development data is useful to support
 transparency and provide insight into the health, structure, and evolution
 of the Internet standards ecosystem, including patterns of participation,
-collaboration, concentration, and the development of technologies. It can
+collaboration, concentration, and the development of technologies {{RFC9518}}. It can
 inform discussions within SDOs and provide indicators of how technical work
 progresses over time {{Simcoe2006}} {{Simcoe2012}} {{Ganglmair2025}}. Such
 analysis can also inform broader Internet governance
