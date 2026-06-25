@@ -288,7 +288,7 @@ Table of Contents
       and compatibility with existing systems.
 
       Data on implementation and operational use is often difficult to
-      find [RFC5218] [Nikkhah2017] [McQuistin2021] [RFC8980].
+      find [RFC5218] [Nikkhah2017] [McQuistin2021] [RFC8980] [RFC8963].
 
    Measuring SDO activity is challenging.  Observable metrics such as
    publication counts, message volume, attendance figures, authorship,
@@ -314,7 +314,7 @@ Table of Contents
    access, inconsistently structured, or unavailable.  Context and
    insights from participant interviews may reveal more detail
    [Cath2021a], but such ethnographic research requires specific
-   expertise to be effective.
+   expertise to be effective [Cath2021b].
 
    Combining multiple data sources introduces additional challenges.
    Observations from different SDOs, or from different parts of a single
@@ -399,7 +399,7 @@ Table of Contents
       group.
 
    *  IESG processing, including ballot positions, the text of comments
-      and discusses, and scheduling of the IESG review.
+      and discusses, and scheduling of the IESG review [Hares2022].
 
    *  Directorate membership and directorate reviews, including the
       document, reviewer, outcome, data, and the review text.
@@ -421,7 +421,7 @@ Table of Contents
 
 3.2.  RFC Editor
 
-   The RFC Editor makes the RFCs, and the RFC index, available in
+   The RFC Editor makes the RFCs, and the RFC index, available in a
    machine readable form at https://www.rfc-editor.org/rfc-index.xml
    (https://www.rfc-editor.org/rfc-index.xml).  The RFC index includes
    titles, authors, publication date, status, abstract, publication
@@ -680,15 +680,15 @@ Table of Contents
    transparency and provide insight into the health, structure, and
    evolution of the Internet standards ecosystem, including patterns of
    participation, collaboration, concentration, and the development of
-   technologies.  It can inform discussions within SDOs and provide
-   indicators of how technical work progresses over time [Simcoe2006]
-   [Simcoe2012] [Ganglmair2025].  Such analysis can also inform broader
-   Internet governance questions, such as how decision-making is
-   structured, how participation is distributed, and the extent of
-   centralisation in these processes [RFC9518].  This information can be
-   useful to external stakeholders, including regulators, policy makers,
-   and civil society, seeking to understand how standards are developed
-   and governed.
+   technologies [RFC9518].  It can inform discussions within SDOs and
+   provide indicators of how technical work progresses over time
+   [Simcoe2006] [Simcoe2012] [Ganglmair2025].  Such analysis can also
+   inform broader Internet governance questions, such as how decision-
+   making is structured, how participation is distributed, and the
+   extent of centralisation in these processes [RFC9518].  This
+   information can be useful to external stakeholders, including
+   regulators, policy makers, and civil society, seeking to understand
+   how standards are developed and governed.
 
    Analysis of standards development is constrained by what can be
    observed.  Important aspects of the Internet standards development
@@ -1009,11 +1009,6 @@ Table of Contents
    [RFC7282]  Resnick, P., "On Consensus and Humming in the IETF",
               RFC 7282, DOI 10.17487/RFC7282, June 2014,
               <https://www.rfc-editor.org/rfc/rfc7282>.
-
-   [RFC8180]  Vilajosana, X., Ed., Pister, K., and T. Watteyne, "Minimal
-              IPv6 over the TSCH Mode of IEEE 802.15.4e (6TiSCH)
-              Configuration", BCP 210, RFC 8180, DOI 10.17487/RFC8180,
-              May 2017, <https://www.rfc-editor.org/rfc/rfc8180>.
 
    [RFC8729]  Housley, R., Ed. and L. Daigle, Ed., "The RFC Series and
               RFC Editor", RFC 8729, DOI 10.17487/RFC8729, February
