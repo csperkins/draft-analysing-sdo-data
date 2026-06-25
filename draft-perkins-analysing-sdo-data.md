@@ -848,10 +848,10 @@ caution, both in terms of data processing and later analyses {{RFC9307}}.
 
 Data is made available by the IETF, and other Internet SDOs, subject to
 their particular privacy and data protection policies and terms of use.
-For the IETF, these are described at https://www.ietf.org/privacy-statement/;
+For the IETF, these are described at <https://www.ietf.org/privacy-statement/>;
 other SDOs will have their own policies.
 
-The available data includes considerable amounts of personal data that is
+The available data includes considerable amounts of personal information that is
 potentially sensitive and subject to legal restrictions on processing and
 use in many jurisdictions (e.g., the GDPR in Europe). Researchers must
 ensure that their use of such data conforms to any applicable regulations.
