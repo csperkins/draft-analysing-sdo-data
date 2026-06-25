@@ -332,15 +332,7 @@ informative:
       "Proceedings of the 2025 Applied Networking Research Workshop": "pages 17-23"
     target: https://doi.org/10.1145/3744200.3744757
 
-
 ...
-
-<!-- informative: Add citation for Corrine Cath -->
-
-<!-- informative: Add citation for Susan Hares: Done -->
-<!-- informative: add citation for Michael Welzl -->
-
-<!-- informative: add citation for Niels / Bigbang -->
 
 --- abstract
 
