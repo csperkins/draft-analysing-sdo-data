@@ -47,13 +47,40 @@ normative:
 
 informative:
 
-  MENLO:
-    title: The Menlo Report - Ethical Principles Guiding Information and
-           Communication Technology Research
+  ACM:
+    title: ACM Publications Policy on Research Involving Human Participants and Subjects
     author:
-     - org: US Department of Homeland Security Science and Technology Directorate
-    date: Aug, 2012
-    target: https://www.dhs.gov/sites/default/files/publications/CSD-MenloPrinciplesCORE-20120803_1.pdf
+      - org: ACM Publications Board
+    target: https://www.acm.org/publications/policies/research-involving-human-participants-and-subjects
+
+  BARNES2024:
+    title: "Temporal Network Analysis of Email Communication Patterns in a Long Standing Hierarchy"
+    author:
+      - fullname: Matthew Russell Barnes
+      - fullname: Mladen Karan
+      - fullname: Stephen McQuistin
+      - fullname: Colin Perkins
+      - fullname: Gareth Tyson
+      - fullname: Matthew Purver
+      - fullname: Ignacio Castro
+      - fullname: Richard G. Clegg
+    date: 2024
+    seriesinfo:
+      "Proceedings of the International AAAI Conference on Web and Social Media": "Volume 18, Number 1, pages 126-138"
+    target: https://doi.org/10.1609/icwsm.v18i1.31302
+
+  BARON2024:
+    title: "Representation Is Not Sufficient for Selecting Gender Diversity"
+    author:
+      - fullname: Justus A. Baron
+      - fullname: Bernhard Ganglmair
+      - fullname: Nicola Persico
+      - fullname: Timothy Simcoe
+      - fullname: Emanuele Tarantino
+    date: 2024
+    seriesinfo:
+      "Research Policy": "Volume 53, Number 6, Article 104994"
+    target: https://doi.org/10.1016/j.respol.2024.104994
 
   BELMONT:
     title:  The Belmont Report - Ethical Principles and Guidelines for the
@@ -63,90 +90,71 @@ informative:
              Biomedical and Behavioral Research
     target: https://www.hhs.gov/ohrp/regulations-and-policy/belmont-report/
 
-  ACM:
-    title: ACM Publications Policy on Research Involving Human Participants and Subjects
+  CATH2021:
+    title: "The Technology We Choose to Create: Human Rights Advocacy in the Internet Engineering Task Force"
     author:
-      - org: ACM Publications Board
-    target: https://www.acm.org/publications/policies/research-involving-human-participants-and-subjects
-
-  RFC9518:
-    title: Centralization, Decentralization, and Internet Standards
-    author:
-      - org:  M. Nottingham
-    date: December, 2023
-    target: https://datatracker.ietf.org/doc/html/rfc9518
-
-  RFC8180:
-    title: Research into Human Rights Protocol Considerations
-    author:
-      - org: N. ten Oever
-      - org: C. Cath
-    date: October, 2017
-    target: https://datatracker.ietf.org/doc/html/rfc8180
+      - fullname: Corinne Cath
+    date: 2021
+    seriesinfo:
+      "Telecommunications Policy": "Volume 45, Number 6, Article 102144"
+    target: https://doi.org/10.1016/j.telpol.2021.102144
 
 
-  RFC2026:
-    title: "The Internet Standards Process -- Revision 3"
+  CATH2021thesis:
+    title: "Changing Minds and Machines: A Case Study of Human Rights Advocacy in the Internet Engineering Task Force (IETF)"
     author:
-      - fullname: Scott Bradner
-    date: October 1996
-    target: https://doi.org/10.17487/RFC2026
+      - fullname: Corinne Cath
+    date: 2021
+    seriesinfo:
+      "PhD thesis": "University of Oxford"
+    target: https://ora.ox.ac.uk/objects/uuid:9b844ffb-d5bb-4388-bb2f-305ddedb8939
 
-  RFC5218:
-    title: What Makes for a Successful Protocol?
+  CATH2023:
+    title: "Loud Men Talking Loudly: Exclusionary Cultures of Internet Governance"
     author:
-      - fullname: Dave Thaler
-      - fullname: Bernard Aboba
-    date: July 2008
-    target: https://doi.org/10.17487/RFC5218
+      - fullname: Corinne Cath
+    date: 2023
+    seriesinfo:
+      "Critical Infrastructure Lab Document Series": "CIL003"
+    target: https://criticalinfralab.net/wp-content/uploads/2023/06/LoudMen-CorinneCath-CriticalInfraLab.pdf
 
-  RFC7282:
-    title: On Consensus and Humming in the IETF
+  CATHFLORIDI2017:
+    title: "The Design of the Internet's Architecture by the Internet Engineering Task Force (IETF) and Human Rights"
     author:
-      - fullname: Pete Resnick
-    date: June 2014
-    target: https://doi.org/10.17487/RFC7282
+      - fullname: Corinne Cath
+      - fullname: Luciano Floridi
+    date: 2017
+    seriesinfo:
+      "Science and Engineering Ethics": "Volume 23, Number 2, pages 449-468"
+    target: https://doi.org/10.1007/s11948-016-9793-y
 
-  RFC8729:
-    title: The RFC Series and RFC Editor
+  FARRELLSIMCOE2012:
+    title: Choosing the Rules for Consensus Standardization
     author:
-      - fullname: Russ Housley
-      - fullname: Leslie Daigle
-    date: February 2020
-    target: https://doi.org/10.17487/RFC8729
+      - fullname: Joseph Farrell
+      - fullname: Timothy Simcoe
+    date: 2012
+    seriesinfo:
+      "The RAND Journal of Economics": "Volume 43, Number 2, pages 235-252"
+    target: https://doi.org/10.1111/j.1756-2171.2012.00164.x
 
-  RFC8963:
-    title: Evaluation of a Sample of RFCs Produced in 2018
+  GANGLMAIR2025:
+    title: "Learning When to Quit: An Empirical Model of Experimentation in Standards Development"
     author:
-      - fullname: Christian Huitema
-    date: January 2021
-    target: https://doi.org/10.17487/RFC8963
+      - fullname: Bernhard Ganglmair
+      - fullname: Timothy Simcoe
+      - fullname: Emanuele Tarantino
+    date: 2025
+    seriesinfo:
+      "American Economic Journal: Microeconomics": "Volume 17, Number 3, pages 164-190"
+    target: https://doi.org/10.1257/mic.20190321
 
-  RFC8980:
-    title: "Report from the IAB Workshop on Design Expectations vs. Deployment Reality in Protocol Development"
+  HARES2022thesis:
+    title: Solidarity as an Antecedent of Consensus Decision-Making - A Mixed-Mode Study
     author:
-      - fullname: Jari Arkko
-      - fullname: Ted Hardie
-    date: February 2021
-    target: https://doi.org/10.17487/RFC8980
-
-  RFC8980:
-    title: "Report from the IAB Workshop on Design Expectations vs. Deployment Reality in Protocol Development"
-    author:
-      - fullname: Jari Arkko
-      - fullname: Ted Hardie
-    date: February 2021
-    target: https://doi.org/10.17487/RFC8980
-
-  RFC9307:
-    title: "Report from the IAB Workshop on Analyzing IETF Data (AID), 2021"
-    author:
-      - fullname: Christopher S. Wood
-      - fullname: Niels ten Oever
-      - fullname: Qin Wu
-      - fullname: Dhruv Dhody
-    date: October 2022
-    target: https://doi.org/10.17487/RFC9307
+      - fullname: Susan Hares
+    date: December 2024
+    target: http://www.hickoryhill-consulting.com/SusanHares-EditedManuscript.pdf
 
   KHARE2022:
     title: "The Web We Weave: Untangling the Social Graph of the IETF"
@@ -182,22 +190,6 @@ informative:
       "Proceedings of the 21st ACM Internet Measurement Conference": "pages 137-149"
     target: https://doi.org/10.1145/3487552.3487821
 
-  BARNES2024:
-    title: "Temporal Network Analysis of Email Communication Patterns in a Long Standing Hierarchy"
-    author:
-      - fullname: Matthew Russell Barnes
-      - fullname: Mladen Karan
-      - fullname: Stephen McQuistin
-      - fullname: Colin Perkins
-      - fullname: Gareth Tyson
-      - fullname: Matthew Purver
-      - fullname: Ignacio Castro
-      - fullname: Richard G. Clegg
-    date: 2024
-    seriesinfo:
-      "Proceedings of the International AAAI Conference on Web and Social Media": "Volume 18, Number 1, pages 126-138"
-    target: https://doi.org/10.1609/icwsm.v18i1.31302
-
   MCQUISTIN2023:
     title: "Errare Humanum Est: What Do RFC Errata Say about Internet Standards?"
     author:
@@ -214,34 +206,13 @@ informative:
       "Proceedings of the 7th Network Traffic Measurement and Analysis Conference": "pages 169-177"
     target: https://doi.org/10.23919/TMA58422.2023.10198980
 
-  ZHANG2025:
-    title: "Two Decades of IETF Affiliations: Evolution and Impact"
+  MENLO:
+    title: The Menlo Report - Ethical Principles Guiding Information and
+           Communication Technology Research
     author:
-      - fullname: Yangjun Zhang
-      - fullname: Stephen McQuistin
-      - fullname: Vanja Karan
-      - fullname: Hugo Ramirez-Centeno
-      - fullname: Colin Perkins
-      - fullname: Gareth Tyson
-      - fullname: Ignacio Castro
-    date: 2025
-    seriesinfo:
-      "Proceedings of the 2025 Applied Networking Research Workshop": "pages 17-23"
-    target: https://doi.org/10.1145/3744200.3744757
-
-
-  WELZL2021:
-    title: "Collaboration in the IETF: An Initial Analysis of Two Decades in Email Discussions"
-    author:
-      - fullname: Michael Welzl
-      - fullname: Stephan Oepen
-      - fullname: Cezary Jaskula
-      - fullname: Carsten Griwodz
-      - fullname: Safiqul Islam
-    date: 2021
-    seriesinfo:
-      "ACM SIGCOMM Computer Communication Review": "Volume 51, Number 3, pages 29-32"
-    target: https://doi.org/10.1145/3477482.3477488
+     - org: US Department of Homeland Security Science and Technology Directorate
+    date: Aug, 2012
+    target: https://www.dhs.gov/sites/default/files/publications/CSD-MenloPrinciplesCORE-20120803_1.pdf
 
   NIEDERMAYER2017:
     title: "Information Mining from Public Mailing Lists: A Case Study on IETF Mailing Lists"
@@ -268,90 +239,75 @@ informative:
       "IEEE/ACM Transactions on Networking": "Volume 25, Number 5, pages 2858-2871"
     target: https://doi.org/10.1109/TNET.2017.2711642
 
-  CATHFLORIDI2017:
-    title: "The Design of the Internet's Architecture by the Internet Engineering Task Force (IETF) and Human Rights"
+  RFC2026:
+    title: "The Internet Standards Process -- Revision 3"
     author:
-      - fullname: Corinne Cath
-      - fullname: Luciano Floridi
-    date: 2017
-    seriesinfo:
-      "Science and Engineering Ethics": "Volume 23, Number 2, pages 449-468"
-    target: https://doi.org/10.1007/s11948-016-9793-y
+      - fullname: Scott Bradner
+    date: October 1996
+    target: https://doi.org/10.17487/RFC2026
 
-  CATH2021:
-    title: "The Technology We Choose to Create: Human Rights Advocacy in the Internet Engineering Task Force"
+  RFC5218:
+    title: What Makes for a Successful Protocol?
     author:
-      - fullname: Corinne Cath
-    date: 2021
-    seriesinfo:
-      "Telecommunications Policy": "Volume 45, Number 6, Article 102144"
-    target: https://doi.org/10.1016/j.telpol.2021.102144
+      - fullname: Dave Thaler
+      - fullname: Bernard Aboba
+    date: July 2008
+    target: https://doi.org/10.17487/RFC5218
 
-
-  CATH2021thesis:
-    title: "Changing Minds and Machines: A Case Study of Human Rights Advocacy in the Internet Engineering Task Force (IETF)"
+  RFC7282:
+    title: On Consensus and Humming in the IETF
     author:
-      - fullname: Corinne Cath
-    date: 2021
-    seriesinfo:
-      "PhD thesis": "University of Oxford"
-    target: https://ora.ox.ac.uk/objects/uuid:9b844ffb-d5bb-4388-bb2f-305ddedb8939
+      - fullname: Pete Resnick
+    date: June 2014
+    target: https://doi.org/10.17487/RFC7282
 
-  CATH2023:
-    title: "Loud Men Talking Loudly: Exclusionary Cultures of Internet Governance"
+  RFC8180:
+    title: Research into Human Rights Protocol Considerations
     author:
-      - fullname: Corinne Cath
-    date: 2023
-    seriesinfo:
-      "Critical Infrastructure Lab Document Series": "CIL003"
-    target: https://criticalinfralab.net/wp-content/uploads/2023/06/LoudMen-CorinneCath-CriticalInfraLab.pdf
+      - org: N. ten Oever
+      - org: C. Cath
+    date: October, 2017
+    target: https://datatracker.ietf.org/doc/html/rfc8180
 
-  SIMCOE2012:
-    title: "Standard Setting Committees: Consensus Governance for Shared Technology Platforms"
+  RFC8729:
+    title: The RFC Series and RFC Editor
     author:
-      - fullname: Timothy Simcoe
-    date: 2012
-    seriesinfo:
-      "American Economic Review": "Volume 102, Number 1, pages 305-336"
-    target: https://doi.org/10.1257/aer.102.1.305
+      - fullname: Russ Housley
+      - fullname: Leslie Daigle
+    date: February 2020
+    target: https://doi.org/10.17487/RFC8729
 
-  SIMCOEWAGUESPACK2011:
-    title: "Status, Quality, and Attention: What's in a (Missing) Name?"
+  RFC8963:
+    title: Evaluation of a Sample of RFCs Produced in 2018
     author:
-      - fullname: Timothy S. Simcoe
-      - fullname: Dave M. Waguespack
-    date: 2011
-    seriesinfo:
-      "Management Science": "Volume 57, Number 2, pages 274-290"
-    target: https://doi.org/10.1287/mnsc.1100.1270
+      - fullname: Christian Huitema
+    date: January 2021
+    target: https://doi.org/10.17487/RFC8963
 
-  SIMCOE2006:
-    title: "Delay and De Jure Standardization: Exploring the Slowdown in Internet Standards Development"
+  RFC8980:
+    title: "Report from the IAB Workshop on Design Expectations vs. Deployment Reality in Protocol Development"
     author:
-      - fullname: Timothy Simcoe
-    date: 2006
-    seriesinfo:
-      "Standards and Public Policy": "Chapter 8, pages 260-295"
-    target: https://doi.org/10.1017/CBO9780511493249.009
+      - fullname: Jari Arkko
+      - fullname: Ted Hardie
+    date: February 2021
+    target: https://doi.org/10.17487/RFC8980
 
-  SIMCOE2014:
-    title: "Governing the Anticommons: Institutional Design for Standard-Setting Organizations"
+  RFC9307:
+    title: "Report from the IAB Workshop on Analyzing IETF Data (AID), 2021"
     author:
-      - fullname: Timothy Simcoe
-    date: 2014
-    seriesinfo:
-      "Innovation Policy and the Economy": "Volume 14, Number 1, pages 99-128"
-    target: https://doi.org/10.1086/674022
+      - fullname: Christopher S. Wood
+      - fullname: Niels ten Oever
+      - fullname: Qin Wu
+      - fullname: Dhruv Dhody
+    date: October 2022
+    target: https://doi.org/10.17487/RFC9307
 
-  FARRELLSIMCOE2012:
-    title: Choosing the Rules for Consensus Standardization
+  RFC9518:
+    title: Centralization, Decentralization, and Internet Standards
     author:
-      - fullname: Joseph Farrell
-      - fullname: Timothy Simcoe
-    date: 2012
-    seriesinfo:
-      "The RAND Journal of Economics": "Volume 43, Number 2, pages 235-252"
-    target: https://doi.org/10.1111/j.1756-2171.2012.00164.x
+      - org:  M. Nottingham
+    date: December, 2023
+    target: https://datatracker.ietf.org/doc/html/rfc9518
 
   RYSMANSIMCOE2008:
     title: "Patents and the Performance of Voluntary Standard-Setting Organizations"
@@ -363,36 +319,72 @@ informative:
       "Management Science": "Volume 54, Number 11, pages 1920-1934"
     target: https://doi.org/10.1287/mnsc.1080.0919
 
-  GANGLMAIR2025:
-    title: "Learning When to Quit: An Empirical Model of Experimentation in Standards Development"
+  SIMCOE2006:
+    title: "Delay and De Jure Standardization: Exploring the Slowdown in Internet Standards Development"
     author:
-      - fullname: Bernhard Ganglmair
       - fullname: Timothy Simcoe
-      - fullname: Emanuele Tarantino
+    date: 2006
+    seriesinfo:
+      "Standards and Public Policy": "Chapter 8, pages 260-295"
+    target: https://doi.org/10.1017/CBO9780511493249.009
+
+  SIMCOE2012:
+    title: "Standard Setting Committees: Consensus Governance for Shared Technology Platforms"
+    author:
+      - fullname: Timothy Simcoe
+    date: 2012
+    seriesinfo:
+      "American Economic Review": "Volume 102, Number 1, pages 305-336"
+    target: https://doi.org/10.1257/aer.102.1.305
+
+  SIMCOE2014:
+    title: "Governing the Anticommons: Institutional Design for Standard-Setting Organizations"
+    author:
+      - fullname: Timothy Simcoe
+    date: 2014
+    seriesinfo:
+      "Innovation Policy and the Economy": "Volume 14, Number 1, pages 99-128"
+    target: https://doi.org/10.1086/674022
+
+  SIMCOEWAGUESPACK2011:
+    title: "Status, Quality, and Attention: What's in a (Missing) Name?"
+    author:
+      - fullname: Timothy S. Simcoe
+      - fullname: Dave M. Waguespack
+    date: 2011
+    seriesinfo:
+      "Management Science": "Volume 57, Number 2, pages 274-290"
+    target: https://doi.org/10.1287/mnsc.1100.1270
+
+  WELZL2021:
+    title: "Collaboration in the IETF: An Initial Analysis of Two Decades in Email Discussions"
+    author:
+      - fullname: Michael Welzl
+      - fullname: Stephan Oepen
+      - fullname: Cezary Jaskula
+      - fullname: Carsten Griwodz
+      - fullname: Safiqul Islam
+    date: 2021
+    seriesinfo:
+      "ACM SIGCOMM Computer Communication Review": "Volume 51, Number 3, pages 29-32"
+    target: https://doi.org/10.1145/3477482.3477488
+
+  ZHANG2025:
+    title: "Two Decades of IETF Affiliations: Evolution and Impact"
+    author:
+      - fullname: Yangjun Zhang
+      - fullname: Stephen McQuistin
+      - fullname: Vanja Karan
+      - fullname: Hugo Ramirez-Centeno
+      - fullname: Colin Perkins
+      - fullname: Gareth Tyson
+      - fullname: Ignacio Castro
     date: 2025
     seriesinfo:
-      "American Economic Journal: Microeconomics": "Volume 17, Number 3, pages 164-190"
-    target: https://doi.org/10.1257/mic.20190321
+      "Proceedings of the 2025 Applied Networking Research Workshop": "pages 17-23"
+    target: https://doi.org/10.1145/3744200.3744757
 
-  BARON2024:
-    title: "Representation Is Not Sufficient for Selecting Gender Diversity"
-    author:
-      - fullname: Justus A. Baron
-      - fullname: Bernhard Ganglmair
-      - fullname: Nicola Persico
-      - fullname: Timothy Simcoe
-      - fullname: Emanuele Tarantino
-    date: 2024
-    seriesinfo:
-      "Research Policy": "Volume 53, Number 6, Article 104994"
-    target: https://doi.org/10.1016/j.respol.2024.104994
 
-  HARES2022thesis:
-    title: Solidarity as an Antecedent of Consensus Decision-Making - A Mixed-Mode Study
-    author:
-      - fullname: Susan Hares
-    date: December 2024
-    target: http://www.hickoryhill-consulting.com/SusanHares-EditedManuscript.pdf
 ...
 
 <!-- informative: Add citation for Corrine Cath -->
