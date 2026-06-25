@@ -257,6 +257,14 @@ informative:
 
   RFC9518:
 
+  Rose1989:
+    title: "The Open Book: A Practical Perspective on OSI"
+    author:
+      - fullname: Marshall Rose
+    date: 1989
+    seriesinfo:
+      "Prentice Hall, Englewood Cliffs, NJ,"
+
   Rysman2008:
     title: "Patents and the Performance of Voluntary Standard-Setting Organizations"
     author:
@@ -892,25 +900,27 @@ when presenting results.
 
 # Recommendations
 
-Analysis of standards development data is useful to support transparency
-and provide insight into the health, structure, and evolution of standards
-ecosystems, including patterns of participation, collaboration,
-concentration, and the development of technologies. It can inform
-discussions within SDOs and provide indicators of how technical work
-progresses over time {{Simcoe2006}} {{Simcoe2012}} {{Ganglmair2025}}. It can also inform broader Internet governance
+Analysis of Internet standards development data is useful to support
+transparency and provide insight into the health, structure, and evolution
+of the Internet standards ecosystem, including patterns of participation,
+collaboration, concentration, and the development of technologies. It can
+inform discussions within SDOs and provide indicators of how technical work
+progresses over time {{Simcoe2006}} {{Simcoe2012}} {{Ganglmair2025}}. Such
+analysis can also inform broader Internet governance
 questions, such as how decision-making is structured, how participation is
-distributed, and the extent of centralisation in these processes {{RFC9518}},
-and can be useful to external stakeholders, including regulators, policy
-makers, and civil society, seeking to understand how standards are
-developed and governed.
+distributed, and the extent of centralisation in these processes {{RFC9518}}.
+This information can be useful to external stakeholders, including
+regulators, policy makers, and civil society, seeking to understand how
+standards are developed and governed.
 
 Analysis of standards development is constrained by what can be observed.
-Important aspects of the process such as  informal discussion, trust,
-institutional memory, cultural norms, and the exercise of influence may be
-only partially visible. In addition, the available data is often
-incomplete, inconsistently structured, and shaped by changes in tools and
-processes over time, with historical records in particular being sparse or
-unreliable.
+Important aspects of the Internet standards development process, such as
+informal discussions ("many fine lunches and dinners" {{Rose1989}}), trust
+relationships, institutional memory, cultural norms, and the exercise of
+influence may be only partially visible. In addition, available data is
+often incomplete, inconsistently structured, and shaped by changes in tools
+and processes over time, with historical records in particular being sparse
+or unreliable.
 
 As a result, analyses based on these data provide only a partial view of
 the process. Quantitative metrics such as message volume, authorship,
