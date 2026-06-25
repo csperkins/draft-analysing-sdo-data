@@ -162,8 +162,8 @@ Table of Contents
    time.  Standards do not emerge solely from technical design choices,
    nor solely from institutional processes; rather, they arise through
    structured collaboration among individuals and organisations
-   operating within formal [RFC2026] and informal rules Cath2017
-   [Simcoe2014] Simcoe2012 [Simcoe2011].
+   operating within formal [RFC2026] and informal rules [Cath2017]
+   [Simcoe2014] [Simcoe2012] [Simcoe2011].
 
    Technical outputs emerge from a socio-technical process in which
    engineering choices interact with expertise, incentives,
@@ -200,7 +200,7 @@ Table of Contents
       models may provide clearer institutional commitment and
       resourcing, but they can also limit participation to those acting
       through recognised organisations or membership categories
-      Cath2021a [Cath2023] [Baron2024].
+      [Cath2021a] [Cath2023] [Baron2024].
 
    *  *Organisations:* Participants are often affiliated with
       organisations such as companies, academic institutions,
@@ -274,7 +274,7 @@ Table of Contents
       structures therefore shape how decisions are made, how priorities
       are established, how disagreements are managed, and, ultimately,
       how influence is distributed within standards development
-      Farrell2012 [Simcoe2011] Simcoe2012 [RFC7282]Khare2022
+      [Farrell2012] [Simcoe2011] [Simcoe2012] [RFC7282] [Khare2022]
       [Barnes2024] [Zhang2025].
 
    *  *Standards Implementation and Deployment:* Implementation usually
@@ -290,7 +290,7 @@ Table of Contents
       and compatibility with existing systems.
 
       Data on implementation and operational use is often limited
-      RFC5218 [Nikkhah2017] McQuistin2021 [RFC8980].
+      [RFC5218] [Nikkhah2017] [McQuistin2021] [RFC8980].
 
    Measuring SDO activity is challenging.  Observable metrics such as
    publication counts, message volume, attendance figures, authorship,
@@ -299,7 +299,7 @@ Table of Contents
    from the collaboration infrastructure (e.g., analysis of mailing list
    messages) can provide more detail and nuance, at the expense of
    additional complexity, but even these do not provide a complete view
-   RFC9307 [Khare2022] Barnes2024 [McQuistin2021].
+   [RFC9307] [Khare2022] [Barnes2024][McQuistin2021].
 
    There are several reasons for this.  One is that critical aspects of
    standards development are hard to observe directly.  The culture of
@@ -307,7 +307,7 @@ Table of Contents
    setting, informal coordination, negotiation, and the practical
    exercise of power and authority may not be well represented by any
    single metric, or group of metrics, and are extremely challenging to
-   infer from collaboration infrastructure logs Simcoe2011 [Khare2022]
+   infer from collaboration infrastructure logs [Simcoe2011] [Khare2022]
    [Cath2021a].
 
    Another reason is that the available data is often limited.  Data
@@ -329,7 +329,7 @@ Table of Contents
    effect, and visible activity does not necessarily correspond to
    implementation, adoption, or wider impact.  Measures should therefore
    be interpreted cautiously and, where possible, considered alongside
-   complementary indicators RFC9307 [McQuistin2021].
+   complementary indicators [RFC9307] [McQuistin2021].
 
 3.  Analysing the IETF
 
@@ -343,14 +343,14 @@ Table of Contents
 
    The IETF has a hierarchical group structure, with technical working
    groups (that have working group chairs) organised into distinct areas
-   (that have area directors) Barnes2024 [Baron2024].
+   (that have area directors) [Barnes2024] [Baron2024].
 
    Reflecting its open participation model, much of the IETF's processes
    are publicly observable through open records and dedicated APIs.
    Mailing lists are a central forum for working group discussion,
    alongside meetings; some groups also use externally hosted
    repositories, for example on GitHub, to support drafting and issue
-   discussion Welzl2021 [Khare2022].
+   discussion [Welzl2021] [Khare2022].
 
 3.1.  Datatracker
 
@@ -442,8 +442,8 @@ Table of Contents
 
    The are significant data quality problems with older messages in the
    IETF mail archive, due to problems with the original messages rather
-   than the archive, that make them difficult to process Niedermayer2017
-   [McQuistin2023] [Khare2022].
+   than the archive, that make them difficult to process
+   [Niedermayer2017] [McQuistin2023] [Khare2022].
 
 3.4.  Session Recordings
 
@@ -483,7 +483,7 @@ Table of Contents
    within the W3C, 3GPP, ITU-T, and others.  Each organisation has its
    own governance model, participation structure, institutional culture,
    and data availability.  These differences affect both what can be
-   observed, and how observations should be interpreted Simcoe2014
+   observed, and how observations should be interpreted [Simcoe2014]
    [Cath2021a].
 
 4.1.  Data Availability Across SDOs
@@ -567,7 +567,7 @@ Table of Contents
    of May 2026, there are 282 variants of the name "Huawei" in the IETF
    Datatracker).  Information external to the Datatracker, and other
    data sources, is often needed to process organisational data
-   Khare2022 [McQuistin2021].
+   [Khare2022] [McQuistin2021].
 
    Participants may have more than one affiliation, including across the
    lifetime of a particular contribution (e.g., an Internet-Draft).
@@ -586,7 +586,7 @@ Table of Contents
    given group belonged to at a given time, requires the reconstruction
    of a timeline from historical event records held in the Datatracker.
    These records can be incomplete or inconsistently formatted
-   Barnes2024 [Baron2024].
+   [Barnes2024] [Baron2024].
 
    E-mail metadata and message content presents a number of challenges.
    A significant number of messages contain malformed or archaic header
@@ -597,7 +597,7 @@ Table of Contents
    requires contextualisation, with informal conventions, technical
    vocabulary, and the use of acronyms (all of which may evolve over
    time) presenting challenges that are unique to the dataset
-   Niedermayer2017 [Welzl2021].
+   [Niedermayer2017] [Welzl2021].
 
    As noted, the quality of the dataset degrades significantly for
    historical records.  Data that was not gathered by the Datatracker at
@@ -661,7 +661,7 @@ Table of Contents
    evolution of standards ecosystems, including patterns of
    participation, collaboration, concentration, and the development of
    technologies.  It can inform discussions within SDOs and provide
-   indicators of how technical work progresses over time Simcoe2006
+   indicators of how technical work progresses over time [Simcoe2006]
    [Simcoe2012] [Ganglmair2025].  It can also inform broader Internet
    governance questions, such as how decision-making is structured, how
    participation is distributed, and the extent of centralisation in
@@ -681,8 +681,8 @@ Table of Contents
    of the process.  Quantitative metrics such as message volume,
    authorship, participation counts, or leadership roles can be useful
    indicators, but do not directly capture influence, authority, or
-   impact Simcoe2011 [Khare2022].  They should therefore be interpreted
-   with care and in context, rather than in isolation.
+   impact [Simcoe2011] [Khare2022].  They should therefore be
+   interpreted with care and in context, rather than in isolation.
 
    Where data is derived or reconstructed (e.g., via entity resolution,
    affiliation inference, or automated extraction) it is important to
