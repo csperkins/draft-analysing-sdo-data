@@ -240,74 +240,22 @@ informative:
     target: https://doi.org/10.1109/TNET.2017.2711642
 
   RFC2026:
-    title: "The Internet Standards Process -- Revision 3"
-    author:
-      - fullname: Scott Bradner
-    date: October 1996
-    target: https://doi.org/10.17487/RFC2026
 
   RFC5218:
-    title: What Makes for a Successful Protocol?
-    author:
-      - fullname: Dave Thaler
-      - fullname: Bernard Aboba
-    date: July 2008
-    target: https://doi.org/10.17487/RFC5218
 
   RFC7282:
-    title: On Consensus and Humming in the IETF
-    author:
-      - fullname: Pete Resnick
-    date: June 2014
-    target: https://doi.org/10.17487/RFC7282
 
   RFC8180:
-    title: Research into Human Rights Protocol Considerations
-    author:
-      - org: N. ten Oever
-      - org: C. Cath
-    date: October, 2017
-    target: https://datatracker.ietf.org/doc/html/rfc8180
 
   RFC8729:
-    title: The RFC Series and RFC Editor
-    author:
-      - fullname: Russ Housley
-      - fullname: Leslie Daigle
-    date: February 2020
-    target: https://doi.org/10.17487/RFC8729
 
   RFC8963:
-    title: Evaluation of a Sample of RFCs Produced in 2018
-    author:
-      - fullname: Christian Huitema
-    date: January 2021
-    target: https://doi.org/10.17487/RFC8963
 
   RFC8980:
-    title: "Report from the IAB Workshop on Design Expectations vs. Deployment Reality in Protocol Development"
-    author:
-      - fullname: Jari Arkko
-      - fullname: Ted Hardie
-    date: February 2021
-    target: https://doi.org/10.17487/RFC8980
 
   RFC9307:
-    title: "Report from the IAB Workshop on Analyzing IETF Data (AID), 2021"
-    author:
-      - fullname: Christopher S. Wood
-      - fullname: Niels ten Oever
-      - fullname: Qin Wu
-      - fullname: Dhruv Dhody
-    date: October 2022
-    target: https://doi.org/10.17487/RFC9307
 
   RFC9518:
-    title: Centralization, Decentralization, and Internet Standards
-    author:
-      - org:  M. Nottingham
-    date: December, 2023
-    target: https://datatracker.ietf.org/doc/html/rfc9518
 
   RYSMANSIMCOE2008:
     title: "Patents and the Performance of Voluntary Standard-Setting Organizations"
