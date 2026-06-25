@@ -1075,16 +1075,6 @@ robustness and reproducibility of such work:
   how results are presented, particularly where they may be sensitive or
   open to misinterpretation.
 
-# Existing analyses of SDOs
-  There are a wealth of work that analyses SDOs, including the IETF.
-  This section presents non-exhaustive set of works, grouped by their
-  approaches.
-
-## Ethnographic Studies
-Developing standards is a highly social activity, which involve cultures.
-Cath investigated this specific aspects in the IETF {{Cath2021b}}.
-
-## Natural Language Processing (NLP)
 
 # Security Considerations
 
