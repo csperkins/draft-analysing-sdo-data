@@ -163,58 +163,59 @@ Table of Contents
    nor solely from institutional processes; rather, they arise through
    structured collaboration among individuals and organisations
    operating within formal [RFC2026] and informal rules [Cath2017]
-   [Simcoe2014] [Simcoe2012] [Simcoe2011].
+   [Simcoe2011] [Simcoe2012] [Simcoe2014].
 
-   Technical outputs emerge from a socio-technical process in which
-   engineering choices interact with expertise, incentives,
-   organisational structures, review processes, historical precedent,
-   deployment constraints, and the cultural norms and practises of the
-   standards community.  At the same time, the organisational and
-   cultural context is not fixed: governance structures, working
-   practises, and community norms evolve together over time and these
-   changes in turn shape future participation and technical decision-
-   making [Baron2024].
+   Technical outputs emerge from a process in which engineering choices
+   interact with expertise, incentives, organisational structures,
+   review processes, historical precedent, deployment constraints, and
+   the cultural norms and practises of the standards community.  At the
+   same time, the organisational and cultural context is not fixed:
+   governance structures, working practises, and community norms evolve
+   together over time and these changes in turn shape future
+   participation and technical decision-making [Baron2024].
 
-   For analytical purposes, standards development ecosystems can be
+   For analytical purposes, standards development organisations can be
    viewed as comprising several interacting components:
 
    *  *Participants:* Participants are the individuals who contribute to
-      standards development.  They may include engineers, researchers,
-      operators, implementers, academics, independent contributors,
-      civil society representatives, policy specialists, and others with
-      relevant expertise or interests.  Participation criteria differ
-      across SDOs.  Some use open participation, while others structure
-      participation through organisational- or state-based membership,
-      sometimes with additional exceptions or parallel open mechanisms.
+      standards development.  They may include engineers, implementers,
+      network operators, industry researchers, academics, independent
+      contributors, civil society representatives, policymakers, and
+      others with relevant expertise or interests.  Participation
+      criteria differ across SDOs.  Some permit open participation,
+      while others restrict and structure participation through
+      organisational- or state-based membership, sometimes with
+      additional exceptions or parallel open mechanisms.
 
       Participation models affect standards development by shaping both
       who is able to contribute, and how they are permitted to
       contribute.  Open participation can broaden the pool of
       contributors and make it easier for individuals to join without
-      prior institutional affiliation, which may increase diversity of
-      experience and viewpoints.  At the same time, openness does not
-      eliminate all the barriers to participation.  Effective
-      participation may still depend on having sufficient time, funding,
-      employer support, travel resources, and familiarity with the
-      processes, tools, and norms of the community.  Membership-based
-      models may provide clearer institutional commitment and
-      resourcing, but they can also limit participation to those acting
-      through recognised organisations or membership categories
-      [Cath2021a] [Cath2023] [Baron2024].
+      specific institutional affiliation, potentially increasing
+      diversity of experience and viewpoints.  At the same time,
+      openness does not eliminate all the barriers to participation.
+      Effective participation may still depend on having sufficient
+      time, funding, employer support, travel resources, and familiarity
+      with the processes, tools, and norms of the community.
+      Membership-based models can provide clearer institutional
+      commitment and resourcing, but they can also limit participation
+      to those acting through recognised organisations or membership
+      categories [Cath2021a] [Cath2023] [Baron2024].
 
    *  *Organisations:* Participants are often affiliated with
-      organisations such as companies, academic institutions,
-      governments, consultancies, or civil society groups.  These
-      organisations may provide forms of support including funding,
-      staff time, technical expertise, or implementation experience.
+      organisations such as companies, consultancies, academic
+      institutions, civil society groups, or governments.  These
+      organisations may provide support for participation, including but
+      not limited to funding, staff time, technical or other expertise,
+      and implementation or operational experience.
 
       The relationship between participants and organisations is not
       equally visible across SDOs.  In some models, participation is
-      individual, and so any recorded affiliation may be incomplete, and
-      reflect a specific contribution rather than the sustained view of
-      the participant.  In other models, where individuals participate
-      on behalf of a clearly indicated affiliation, the institutional
-      link is clearer.
+      individual and so any recorded affiliation may be incomplete, and
+      may reflect a specific contribution rather than the sustained view
+      of the participant.  In other models, where individuals
+      participate on behalf of a clearly indicated affiliation, there
+      may be a clearer link to an institutional position.
 
       Even where affiliations are recorded, they may not fully describe
       the organisational context.  A company may be a subsidiary of
@@ -222,9 +223,9 @@ Table of Contents
       consultants or contractors may work for clients whose interests
       are not directly visible in participation records.
 
-   *  *Technical Groups:* SDOs typically organise work through technical
-      groups such as working groups, research groups, study group,
-      committees, or similar bodies.  These groups define scope,
+   *  *Technical Groups:* SDOs typically organise their work through
+      technical groups such as working groups, research groups, study
+      group, committees, or similar bodies.  These groups define scope,
       coordinate discussion, and develop technical outputs.  They are
       not always organised as a single flat layer, with hierarchical and
       other structures in use.
@@ -234,28 +235,29 @@ Table of Contents
       oversight or broad technical areas; in others, they distinguish
       between different forms of technical development.
 
-   *  *Artefacts:* Standards processes generate artefacts such as
-      drafts, specifications, recommendations, reports, agendas,
+   *  *Artefacts:* Standards development processes generate artefacts
+      such as drafts, specifications, recommendations, reports, agendas,
       minutes, presentations, issue trackers, and final published
       standards.  These artefacts provide an observable record of
       technical development.  Revision histories, references, and
-      relationships between documents may help reveal aspects such as
+      relationships between artefacts may help reveal aspects such as
       participation dynamics, design iteration, and the evolution of the
       underlying technologies subject to standardisation.
 
       Different SDOs vary in how openly they make such information
       available and in how easily it can be accessed and reused.
-      artefact availability can support the work of participants,
+      Artefact availability can support the work of participants,
       researchers, and other observers, but collecting, maintaining,
       publishing, and organising this information also imposes costs on
       SDOs.
 
    *  *Collaboration Infrastructure:* Standards development requires
-      communication among participants to propose work, discuss
-      technical issues, review contributions, coordinate activity,
-      resolve disagreements, and build support for possible outcomes.
-      SDOs therefore rely on systems such as mailing lists, code
-      repositories, and meetings to facilitate this debate.
+      communication and collaboration among participants to propose
+      work, discuss technical issues, review contributions, coordinate
+      activity, resolve disagreements, and build support for possible
+      outcomes.  SDOs therefore rely on systems such as mailing lists,
+      messaging systems, code repositories, teleconferences, and
+      meetings to facilitate this debate.
 
       The mix of communication, collaboration, and coordination
       mechanisms differs across SDOs, often to support the other
@@ -283,23 +285,24 @@ Table of Contents
       jurisdictions.
 
       In many cases, publication of a standard does not by itself
-      require implementation.  Adoption may therefore vary widely: some
+      require implementation.  Adoption may therefore vary widely.  Some
       standards are widely deployed, while others see limited or no
       implementation.  Adoption may also be shaped by factors outside
       the standards process, including regulation, procurement, cost,
       and compatibility with existing systems.
 
-      Data on implementation and operational use is often limited
-      [RFC5218] [Nikkhah2017] [McQuistin2021] [RFC8980].
+      Data on implementation and operational use is often difficult to
+      find [RFC5218] [Nikkhah2017] [McQuistin2021] [RFC8980].
 
    Measuring SDO activity is challenging.  Observable metrics such as
    publication counts, message volume, attendance figures, authorship,
    or leadership roles can provide useful evidence, but each captures
-   only part of the standards process.  Analysis of artefacts and logs
-   from the collaboration infrastructure (e.g., analysis of mailing list
-   messages) can provide more detail and nuance, at the expense of
-   additional complexity, but even these do not provide a complete view
-   [RFC9307] [Khare2022] [Barnes2024][McQuistin2021].
+   only part of the standards process.  Analysis of artefacts and
+   patterns of communication from the collaboration infrastructure
+   (e.g., analysis of mailing list messages) can provide more detail and
+   nuance, at the expense of additional complexity, but even these
+   cannot provide a complete view [RFC9307] [Khare2022]
+   [Barnes2024][McQuistin2021].
 
    There are several reasons for this.  One is that critical aspects of
    standards development are hard to observe directly.  The culture of
@@ -307,21 +310,23 @@ Table of Contents
    setting, informal coordination, negotiation, and the practical
    exercise of power and authority may not be well represented by any
    single metric, or group of metrics, and are extremely challenging to
-   infer from collaboration infrastructure logs [Simcoe2011] [Khare2022]
-   [Cath2021a].
-
-   Another reason is that the available data is often limited.  Data
-   availability and quality vary across SDOs.  Different parts of the
-   process are not equally observable, and even within a single SDO some
-   information may be incomplete, difficult to access, inconsistently
-   structured, or unavailable.
+   infer from communication patterns or even the content of archived
+   messages [Simcoe2011] [Khare2022].  Further, the available context is
+   often limited.  Data availability and quality vary across SDOs, and
+   different parts of the process are not equally observable.  Even
+   within a single SDO, some information may be incomplete, difficult to
+   access, inconsistently structured, or unavailable.  Context and
+   insights from participant interviews may reveal more detail
+   [Cath2021a], but such ethnographic research requires specific
+   expertise to be effective.
 
    Combining multiple data sources introduces additional challenges.
-   Observations from different parts of the process may not share stable
-   identifiers, identifiers may change over time, and the same entity
-   may appear in different forms across records.  Voluntary
-   declarations, non-standard terminology, and organisational changes
-   such as mergers or acquisitions may further complicate linkage.
+   Observations from different SDOs, or from different parts of a single
+   SDO, may not share stable identifiers, identifiers may change over
+   time, and the same entity may appear in different forms across
+   records.  Voluntary declarations, non-standard terminology, and
+   organisational changes such as mergers or acquisitions may further
+   complicate linkage.
 
    Metrics, artefacts, and other data sources may also differ in
    accuracy, representativeness, and relevance.  Not all artefacts have
