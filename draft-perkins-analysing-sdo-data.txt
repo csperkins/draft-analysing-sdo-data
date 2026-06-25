@@ -5,11 +5,11 @@
 RASPRG                                                        C. Perkins
 Internet-Draft                                     University of Glasgow
 Intended status: Informational                                 I. Castro
-Expires: 21 December 2026                Queen Mary University of London
+Expires: 27 December 2026                Queen Mary University of London
                                                              R. Yanagida
                                                             S. McQuistin
                                                 University of St Andrews
-                                                            19 June 2026
+                                                            25 June 2026
 
 
        Analysing Internet Standards Development Organisation Data
@@ -64,7 +64,7 @@ Status of This Memo
    time.  It is inappropriate to use Internet-Drafts as reference
    material or to cite them other than as "work in progress."
 
-   This Internet-Draft will expire on 21 December 2026.
+   This Internet-Draft will expire on 27 December 2026.
 
 Copyright Notice
 
@@ -994,37 +994,43 @@ Table of Contents
               <https://doi.org/10.1109/TNET.2017.2711642>.
 
    [RFC2026]  Bradner, S., "The Internet Standards Process -- Revision
-              3", October 1996, <https://doi.org/10.17487/RFC2026>.
+              3", BCP 9, RFC 2026, DOI 10.17487/RFC2026, October 1996,
+              <https://www.rfc-editor.org/rfc/rfc2026>.
 
    [RFC5218]  Thaler, D. and B. Aboba, "What Makes for a Successful
-              Protocol?", July 2008, <https://doi.org/10.17487/RFC5218>.
+              Protocol?", RFC 5218, DOI 10.17487/RFC5218, July 2008,
+              <https://www.rfc-editor.org/rfc/rfc5218>.
 
-   [RFC7282]  Resnick, P., "On Consensus and Humming in the IETF", June
-              2014, <https://doi.org/10.17487/RFC7282>.
+   [RFC7282]  Resnick, P., "On Consensus and Humming in the IETF",
+              RFC 7282, DOI 10.17487/RFC7282, June 2014,
+              <https://www.rfc-editor.org/rfc/rfc7282>.
 
-   [RFC8180]  N. ten Oever and C. Cath, "Research into Human Rights
-              Protocol Considerations", October 2017,
-              <https://datatracker.ietf.org/doc/html/rfc8180>.
+   [RFC8180]  Vilajosana, X., Ed., Pister, K., and T. Watteyne, "Minimal
+              IPv6 over the TSCH Mode of IEEE 802.15.4e (6TiSCH)
+              Configuration", BCP 210, RFC 8180, DOI 10.17487/RFC8180,
+              May 2017, <https://www.rfc-editor.org/rfc/rfc8180>.
 
-   [RFC8729]  Housley, R. and L. Daigle, "The RFC Series and RFC
-              Editor", February 2020,
-              <https://doi.org/10.17487/RFC8729>.
+   [RFC8729]  Housley, R., Ed. and L. Daigle, Ed., "The RFC Series and
+              RFC Editor", RFC 8729, DOI 10.17487/RFC8729, February
+              2020, <https://www.rfc-editor.org/rfc/rfc8729>.
 
    [RFC8963]  Huitema, C., "Evaluation of a Sample of RFCs Produced in
-              2018", January 2021, <https://doi.org/10.17487/RFC8963>.
+              2018", RFC 8963, DOI 10.17487/RFC8963, January 2021,
+              <https://www.rfc-editor.org/rfc/rfc8963>.
 
    [RFC8980]  Arkko, J. and T. Hardie, "Report from the IAB Workshop on
               Design Expectations vs. Deployment Reality in Protocol
-              Development", February 2021,
-              <https://doi.org/10.17487/RFC8980>.
+              Development", RFC 8980, DOI 10.17487/RFC8980, February
+              2021, <https://www.rfc-editor.org/rfc/rfc8980>.
 
-   [RFC9307]  Wood, C. S., Oever, N. T., Wu, Q., and D. Dhody, "Report
-              from the IAB Workshop on Analyzing IETF Data (AID), 2021",
-              October 2022, <https://doi.org/10.17487/RFC9307>.
+   [RFC9307]  ten Oever, N., Cath, C., Kühlewind, M., and C. S. Perkins,
+              "Report from the IAB Workshop on Analyzing IETF Data (AID)
+              2021", RFC 9307, DOI 10.17487/RFC9307, September 2022,
+              <https://www.rfc-editor.org/rfc/rfc9307>.
 
-   [RFC9518]  M. Nottingham, "Centralization, Decentralization, and
-              Internet Standards", December 2023,
-              <https://datatracker.ietf.org/doc/html/rfc9518>.
+   [RFC9518]  Nottingham, M., "Centralization, Decentralization, and
+              Internet Standards", RFC 9518, DOI 10.17487/RFC9518,
+              December 2023, <https://www.rfc-editor.org/rfc/rfc9518>.
 
    [RYSMANSIMCOE2008]
               Rysman, M. and T. Simcoe, "Patents and the Performance of
