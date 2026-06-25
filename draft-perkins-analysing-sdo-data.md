@@ -993,13 +993,6 @@ participants.
   records. Providing a transparent mechanism for reporting and correcting
   errors, along with maintaining a record of changes, improves reliability.
 
-* **Separation of primary and inferred data:**
-  Some data useful for analysis (e.g., identity resolution, affiliation
-  inference) involves interpretation. Such data should be distinguishable
-  from primary records, with clear documentation of how it was produced.
-  * **TODO:** is this done by the IETF, by the researchers, or both?
-  * **RYO:** I believe this is to be done by anyone that produces/publishes the aggregated data. I don't think the IETF does this at the moment... (I could be completely wrong!)
-
 * **Impact of process and tooling changes:**
   Changes to tools and working practises affect what is recorded and how it
   can be analysed. Where such changes introduce differences in data
@@ -1040,6 +1033,11 @@ robustness and reproducibility of such work:
   available data may be incomplete or inconsistent, particularly for
   historical records. Analyses should account for these limitations and
   avoid over-interpreting gaps or trends.
+
+* **Separation of primary and inferred data:**
+  Some data useful for analysis (e.g., identity resolution, affiliation
+  inference) involves interpretation. Such data should be distinguishable
+  from primary records, with clear documentation of how it was produced.
 
 * **Be cautious in interpreting metrics:**
   Common metrics such as message volume, authorship, or participation
