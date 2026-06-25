@@ -355,21 +355,22 @@ not an IETF product and is not a standard.
 # Introduction
 
 Internet technologies are developed and standardised by a range of standards
-development organisations (SDOs), including the IETF, W3C, IEEE,
-3GPP, ITU-T, and others. The standards that these organisations produce underpin the interoperability
-and architectural evolution of the Internet and the Web.
+development organisations (SDOs), including the IETF, along with 3GPP, IEEE,
+ITU-T, W3C, and others. The standards these organisations produce underpin
+the interoperability and architectural evolution of the Internet and the Web.
 
-Understanding how standards are developed, including who participates in
-the standards process, what collaborations occur during the development of
-standards, how the process is organised and governed, and the technical
-outputs, can support analysis of standards ecosystems. Such analysis can
-assist with monitoring standards development organisations, evaluating the
-evolution of technical work, understanding technology deployment, and
-ultimately be used to inform community leadership and governance
+Understanding how Internet standards are developed, including, for example,
+who participates in the standards process, what collaborations occur during
+the development of standards, how the process is organised and governed,
+and how the technical outputs evolve prior to publication, is important to
+support analysis and development of the standards ecosystem. Such analysis
+can assist with monitoring standards development organisations, evaluating
+the evolution of technical work, and understanding technology deployment,
+and can ultimately be used to inform community leadership and governance
 discussions [RFC9307].
 
-This document outlines considerations for studying data from the Internet
-standards development ecosystem. It aims to:
+This document outlines issues to consider for studying data from the
+Internet standards development ecosystem. It aims to:
 
   * identify observable components of the Internet standards development
     ecosystem;
@@ -388,13 +389,6 @@ standards development ecosystem. It aims to:
 This document does not prescribe specific metrics, define evaluation
 criteria, or recommend approaches to comparative rankings of standards
 bodies, groups, or participants.
-
-
-**TODO**: Cite prior work. This document currently does a very poor job of
-citing prior work. This omission will be remedied in future versions.
-While it is not intended that this document forms the basis for a
-comprehensive literature survey, if you know of relevant prior work that
-should be cited please contact the authors.
 
 
 # Standards Development as a Socio-Technical System
