@@ -721,95 +721,122 @@ increasing for a number of years {{Khare2022}}.
 
 # Analysing Other SDOs
 
-Standards relevant to the Internet and the Web are also developed within the W3C, 3GPP, ITU-T, and others. Each
-organisation has its own governance model, participation structure, institutional culture, and data availability.
-These differences affect both what can be observed, and how observations should be interpreted {{Simcoe2014}} {{Cath2021a}}.
+Standards relevant to the Internet and the Web are also developed within
+the W3C, 3GPP, ITU-T, and others. Each organisation has its own governance
+model, participation structure, institutional culture, and data
+availability.  These differences affect both what can be observed, and how
+observations should be interpreted {{Simcoe2014}} {{Cath2021a}}.
 
 ## Data Availability Across SDOs
 
-SDOs vary considerably in terms of the data that they make publicly available about their activities, and in how
-easily that data can be accessed and processed.
+SDOs vary considerably in terms of the data that they make publicly
+available about their activities, and in how easily that data can be
+accessed and processed.
 
-The W3C provides a REST API at https://api.w3.org, covering metadata about documents, participants, affiliations, and
-groups, and maintains a public mailing list archive. W3C groups make extensive use of GitHub for document development
-and issue tracking. The W3C operates under a membership model, in which participation is primarily through affiliated
-organisations. This affects how data about participants and their contributions should be interpreted, particularly
-when being compared to data from the IETF and other SDOs with individual participation models.
+The W3C provides a REST API at https://api.w3.org, covering metadata about
+documents, participants, affiliations, and groups, and maintains a public
+mailing list archive. W3C groups make extensive use of GitHub for document
+development and issue tracking. The W3C operates under a membership model,
+in which participation is primarily through affiliated organisations. This
+affects how data about participants and their contributions should be
+interpreted, particularly when being compared to data from the IETF and
+other SDOs with individual participation models.
 
-The ITU-T and 3GPP both operate under membership-based models where access to documents, meeting records, and
-contribution data is typically restricted to member organisations. Some ITU-T Recommendations are made publicly
-available after publication, while the 3GPP makes its specifications available at https://www.3gpp.org/specifications.
-The working documents, contributions, and meeting records are generally not accessible to non-members.
+The ITU-T and 3GPP both operate under membership-based models where access
+to documents, meeting records, and contribution data is typically
+restricted to member organisations. Some ITU-T Recommendations are made
+publicly available after publication, while the 3GPP makes its
+specifications available at https://www.3gpp.org/specifications.  The
+working documents, contributions, and meeting records are generally not
+accessible to non-members.
 
-Differences in data availability mean that the methods applicable to the IETF, where rich longitudinal data is publicly
-available, may not be replicable across all SDOs. Any analyses should account for these availability differences {{RFC9307}}.
+Differences in data availability mean that the methods applicable to the
+IETF, where rich longitudinal data is publicly available, may not be
+replicable across all SDOs. Any analyses should account for these
+availability differences {{RFC9307}}.
 
 ## Integrating Data Across SDOs
 
-Efforts to understand the wider standardisation landscape requires combining data across multiple SDOs.
+Efforts to understand the wider standardisation landscape requires
+combining data across multiple SDOs.
 
-SDOs do not share common identifiers for participants, organisations, documents, or other metadata. An individual that
-participates across multiple SDOs may appear under different names, e-mail addresses, or usernames in the records of
-each SDO. Resolving these identifies requires suitable entity resolution mechanisms, and the risk of both incorrect
-matches (where two unrelated entities are linked together) and missed matches (where one entity has multiple, separate
-records in each SDO). The same risks apply to affiliations: companies may be recorded under different names,
-abbreviations, or subsidiary identities across SDOs.
+SDOs do not share common identifiers for participants, organisations,
+documents, or other metadata. An individual that participates across
+multiple SDOs may appear under different names, e-mail addresses, or
+usernames in the records of each SDO. Resolving these identifies requires
+suitable entity resolution mechanisms, and the risk of both incorrect
+matches (where two unrelated entities are linked together) and missed
+matches (where one entity has multiple, separate records in each SDO). The
+same risks apply to affiliations: companies may be recorded under different
+names, abbreviations, or subsidiary identities across SDOs.
 
-Standards developed within one organisation may reference, build upon, or be coordinated with work at another SDO, but
-these relationships are not captured in any shared record. Reconstructing these relationships requires either manual
-effort, or natural language processing of document content, introducing the risk of errors.
+Standards developed within one organisation may reference, build upon, or
+be coordinated with work at another SDO, but these relationships are not
+captured in any shared record. Reconstructing these relationships requires
+either manual effort, or natural language processing of document content,
+introducing the risk of errors.
 
-SDOs operate on different timescales and with different process structures. Comparing activity across organisations at
-a given point in time may not reflect equivalent stages of development.
+SDOs operate on different timescales and with different process structures.
+Comparing activity across organisations at a given point in time may not
+reflect equivalent stages of development.
 
-Finally, differences in governance and participation models affect which comparisons are meaningful. Data analyses, and
-the interpretation of them, must consider that apparent differences between SDOs may reflect structural factors (e.g.,
-open vs. membership-based participation) rather than substantive differences in behaviour or outcomes {{Simcoe2014}}.
+Finally, differences in governance and participation models affect which
+comparisons are meaningful. Data analyses, and the interpretation of them,
+must consider that apparent differences between SDOs may reflect structural
+factors (e.g., open vs. membership-based participation) rather than
+substantive differences in behaviour or outcomes {{Simcoe2014}}.
 
 # Data Processing
 
-Significant processing effort is required to clean, normalise, and link data records before
-they can be processed.
+Significant processing effort is required to clean, normalise, and link
+data records before they can be processed.
 
-The same individual participant may appear across each of the data sources with different
-identifiers, including names, e-mail addresses, usernames. These identifiers may change
-over time. Entity resolution (using exact and heuristic matching) is feasible in many
-instances, but requires careful validation to prevent the introduction of errors into
-later analyses. Entity resolution across organisations is similarly challenging, where
+The same individual participant may appear across each of the data sources
+with different identifiers, including names, e-mail addresses, usernames.
+These identifiers may change over time. Entity resolution (using exact and
+heuristic matching) is feasible in many instances, but requires careful
+validation to prevent the introduction of errors into later analyses.
+Entity resolution across organisations is similarly challenging, where
 companies may be subsidiaries of another, might merge or be acquired, or,
-given the unstructured nature of the dataset, appear under different names (to illustrate
-the scope of the entity resolution problem note that, as of May
-2026, there are 282 variants of the name "Huawei" in the IETF Datatracker). Information
-external to the Datatracker, and other data sources, is often needed to process organisational
-data {{Khare2022}} {{McQuistin2021}}.
+given the unstructured nature of the dataset, appear under different names
+(to illustrate the scope of the entity resolution problem note that, as of
+May 2026, there are 282 variants of the name "Huawei" in the IETF
+Datatracker). Information external to the Datatracker, and other data
+sources, is often needed to process organisational data {{Khare2022}}
+{{McQuistin2021}}.
 
-Participants may have more than one affiliation, including across the lifetime of a
-particular contribution (e.g., an Internet-Draft). Affiliation data is only recorded
-for a subset of activities, and may need to be inferred (e.g., from corporate domain names)
-in other cases. As a result, affiliation data, where recorded, indicates the participant's
-affiliation at moment in time for a particular contribution, making it difficult to form
-a continuous history.
+Participants may have more than one affiliation, including across the
+lifetime of a particular contribution (e.g., an Internet-Draft).
+Affiliation data is only recorded for a subset of activities, and may need
+to be inferred (e.g., from corporate domain names) in other cases. As a
+result, affiliation data, where recorded, indicates the participant's
+affiliation at moment in time for a particular contribution, making it
+difficult to form a continuous history.
 
-Document life cycles are non-linear, and documents might pass through multiple working groups,
-be replaced or updated by later drafts, and change authorship over time.
+Document life cycles are non-linear, and documents might pass through
+multiple working groups, be replaced or updated by later drafts, and change
+authorship over time.
 
-Working group leadership is difficult to reconstruct: knowing who chaired a working group during
-a particular period, or which area a given group belonged to at a given time, requires the
-reconstruction of a timeline from historical event records held in the Datatracker. These records
-can be incomplete or inconsistently formatted {{Barnes2024}} {{Baron2024}}.
+Working group leadership is difficult to reconstruct: knowing who chaired a
+working group during a particular period, or which area a given group
+belonged to at a given time, requires the reconstruction of a timeline from
+historical event records held in the Datatracker. These records can be
+incomplete or inconsistently formatted {{Barnes2024}} {{Baron2024}}.
 
-E-mail metadata and message content presents a number of challenges. A significant number of
-messages contain malformed or archaic header fields that break widely used email processing
-libraries and need correction.
-Mail clients perform the
-threading of messages in different ways, with the separation between new and quoted text becoming
-unclear. Natural language processing of message content requires contextualisation, with informal
-conventions, technical vocabulary, and the use of acronyms (all of which may evolve over time)
-presenting challenges that are unique to the dataset {{Niedermayer2017}} {{Welzl2021}}.
+E-mail metadata and message content presents a number of challenges. A
+significant number of messages contain malformed or archaic header fields
+that break widely used email processing libraries and need correction.
+Mail clients perform the threading of messages in different ways, with the
+separation between new and quoted text becoming unclear. Natural language
+processing of message content requires contextualisation, with informal
+conventions, technical vocabulary, and the use of acronyms (all of which
+may evolve over time) presenting challenges that are unique to the dataset
+{{Niedermayer2017}} {{Welzl2021}}.
 
-As noted, the quality of the dataset degrades significantly for historical records. Data that was not
-gathered by the Datatracker at the time, or that has been subject to partial backfilling later, must be
-treated with caution, both in terms of data processing and later analyses {{RFC9307}}.
+As noted, the quality of the dataset degrades significantly for historical
+records. Data that was not gathered by the Datatracker at the time, or that
+has been subject to partial backfilling later, must be treated with
+caution, both in terms of data processing and later analyses {{RFC9307}}.
 
 # Ethics and Data Protection
 
