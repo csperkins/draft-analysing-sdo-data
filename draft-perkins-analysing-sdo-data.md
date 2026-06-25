@@ -576,36 +576,37 @@ possible, considered alongside complementary indicators {{RFC9307}} {{McQuistin2
 
 # Analysing the IETF
 
-IETF participation is open with no formal
-membership. Individuals can participate by joining mailing lists,
+IETF participation is open to all, with no formal
+membership. Individuals can participate by joining the mailing lists,
 contributing to discussions, submitting Internet-Drafts, and attending
-meetings. Contributions ordinarily reflect the opinion of individual participants, and
-not necessarily their affiliation; exceptions to this norm exist for specific aspects
-such as draft authorship and intellectual property rights disclosures {{RFC2026}}.
+meetings. Contributions ordinarily reflect the opinion of participants,
+and not necessarily their affiliation {{RFC2026}}.
 
-The IETF has a hierarchical group structure, with technical working groups (that have working
-group chairs) organised into distinct areas (that have area directors) {{Barnes2024}} {{Baron2024}}.
+The IETF has a hierarchical group structure, comprising technical working
+groups organised into distinct areas, along with a corresponding hierarchy
+of management roles that individuals may fill including working group
+chairs and area directors {{Barnes2024}} {{Baron2024}}.
 
 
 Reflecting its open participation model, much of
 the IETF's processes are publicly observable through open records and dedicated APIs. Mailing lists
-are a central forum for working group discussion, alongside meetings; some groups also use
+are a central forum for working group discussion, alongside meetings. Some groups also use
 externally hosted repositories, for example on GitHub, to support
-drafting and issue discussion {{Welzl2021}} {{Khare2022}}.
+artefact preparation and issue discussion {{Welzl2021}} {{Khare2022}}.
 
 ## Datatracker
 
-The IETF Datatracker (https://datatracker.ietf.org/) is the main source of
+The IETF Datatracker (<https://datatracker.ietf.org/>) is the main source of
 day-to-day and historical data about the operation of the IETF. It can be
 accessed via the website or programmatically using a REST API and provides information about:
 
 * Participants including names, email addresses, pronouns,
-  biography, and photo, and external resources such as personal websites,
+  biographies, and photos, and external resources such as personal websites,
   GitHub usernames, and Orcid identifiers. The Datatracker maintains a
   record of the different names and email addresses used by individuals.
 
-* Artefacts such as RFCs, Internet-drafts, agendas, blue
-  sheets, working group charters, conflict reviews, shepherd write-ups,
+* Artefacts such as RFCs, Internet-drafts, meeting agendas, participation
+  records (blue sheets), working group charters, conflict reviews, shepherd write-ups,
   liaison statements, minutes, and presentation slides, including:
 
   * Metadata such as the title, name ("draft-ietf-..."), revision,
@@ -626,7 +627,7 @@ accessed via the website or programmatically using a REST API and provides infor
   * Relationships including normative and informative references,
     and document replaced, updated, or obsoleted.
 
-* Working groups, research groups, area, directorates,
+* Working groups, research groups, area directorates, review teams,
   and leadership bodies such as the IESG, IRSG, and IAB, including the
   group name and acronym, group state, relationships between groups (e.g.,
   working groups are organised in areas), the mailing list, charter text,
@@ -653,8 +654,8 @@ meeting registration), and so a number of active participants do not have a prof
 
 ## RFC Editor
 
-The RFC Editor makes the RFC index available in machine readable form at
-https://www.rfc-editor.org/rfc-index.xml. The RFC index includes title,
+The RFC Editor makes the RFCs, and the RFC index, available in machine readable form at
+<https://www.rfc-editor.org/rfc-index.xml>. The RFC index includes titles,
 authors, publication date, status, abstract, publication stream, name of
 the precursor Internet-Draft, and the IETF area and working group that
 developed the RFC, if appropriate. This information is also available
@@ -668,10 +669,10 @@ machine readable form {{McQuistin2023}}.
 
 ## Mailing List Archives
 
-The IETF maintains public mail archives at https://mailarchive.ietf.org/
+The IETF maintains public mail archives at <https://mailarchive.ietf.org/>
 that are also available in machine readable form via IMAP from
 imap.ietf.org. The recent mail archives are essentially complete, but some
-historical lists that were not originally hosted on ietf.org are missing.
+historical lists that were not originally hosted by the IETF are missing.
 Spam emails have largely, but not entirely, been removed from the archive.
 As of March 2026, the IETF mail archive contains approximately 3 million
 messages from almost 1400 mailing lists, around 40GB of data, with some
@@ -681,35 +682,42 @@ The are significant data quality problems with older messages in the IETF
 mail archive, due to problems with the original messages rather than the
 archive, that make them difficult to process {{Niedermayer2017}} {{McQuistin2023}} {{Khare2022}}.
 
-## Session Recordings
+## Meeting Recordings and Chat Archives
 
 The IETF makes video recordings of its plenary meetings available on
-YouTube (https://www.youtube.com/user/ietf). Audio recordings of IETF
-sessions from IETF 49 through to IETF 106 are available at
-https://get.ietf.org/archive/audio.
+YouTube (<https://www.youtube.com/user/ietf>). Auto-generated meeting
+transcripts are available, but with significant limitations on accuracy.
 
-## Chat Archives
+Audio recordings of IETF plenary meetings from IETF 49 through to IETF 106
+are available at <https://get.ietf.org/archive/audio>.
 
-The IETF makes chat logs available. Jabber was used prior to 2021, with
-archives at https://get.ietf.org/archive/jabber/. More recently, Zulip
-has been used accessible at zulip.ietf.org.
+The IETF makes use of interactive chat during meetings. Jabber was used
+prior to 2021, with archives at <https://get.ietf.org/archive/jabber/>.
+More recently, Zulip has been used accessible at zulip.ietf.org.
 
 
 ## GitHub
 
-Some IETF working groups, and some individuals, make extensive use of
-GitHub for document development and issue tracking. The IETF does not
-maintain a complete list of GitHub repositories associated with its
-work. The IETF Datatracker contains links to some repositories and user profiles.
+Some IETF working groups, and some participants, make extensive use of
+GitHub for artefact development and issue tracking. The IETF does not
+maintain a complete list of GitHub repositories associated with its work,
+but the IETF Datatracker contains links to a subset of GitHub repositories,
+organisations, and user profiles. Internet-drafts developed using some
+widely used tools also include links to the related GitHub repository in
+their boilerplate text.
 
-Using the GitHub API, the following information is available:
+The following information is available using the GitHub API:
 
 * Information about GitHub users that contribute (e.g., username,
   email address, and other biography information).
 
 * Contributions and changes, by way of Git commits, made by those users to documents.
 
-* Discussion that takes place through comments and issues {{Khare2022}}.
+* Discussion that takes place through comments and issues.
+
+At the time of writing, use of Github in the IETF has been steadily
+increasing for a number of years {{Khare2022}}.
+
 
 # Analysing Other SDOs
 
