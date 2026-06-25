@@ -1937,26 +1937,12 @@ records. Providing a transparent mechanism for reporting and correcting
 errors, along with maintaining a record of changes, improves reliability.<a href="#section-7.1-1.5.1" class="pilcrow">¶</a></p>
 </li>
           <li class="normal" id="section-7.1-1.6">
-            <p id="section-7.1-1.6.1"><strong>Separation of primary and inferred data:</strong>
-Some data useful for analysis (e.g., identity resolution, affiliation
-inference) involves interpretation. Such data should be distinguishable
-from primary records, with clear documentation of how it was produced.<a href="#section-7.1-1.6.1" class="pilcrow">¶</a></p>
-<ul class="normal">
-<li class="normal" id="section-7.1-1.6.2.1">
-                <p id="section-7.1-1.6.2.1.1"><strong>TODO:</strong> is this done by the IETF, by the researchers, or both?<a href="#section-7.1-1.6.2.1.1" class="pilcrow">¶</a></p>
-</li>
-              <li class="normal" id="section-7.1-1.6.2.2">
-                <p id="section-7.1-1.6.2.2.1"><strong>RYO:</strong> I believe this is to be done by anyone that produces/publishes the aggregated data. I don't think the IETF does this at the moment... (I could be completely wrong!)<a href="#section-7.1-1.6.2.2.1" class="pilcrow">¶</a></p>
-</li>
-            </ul>
-</li>
-          <li class="normal" id="section-7.1-1.7">
-            <p id="section-7.1-1.7.1"><strong>Impact of process and tooling changes:</strong>
+            <p id="section-7.1-1.6.1"><strong>Impact of process and tooling changes:</strong>
 Changes to tools and working practises affect what is recorded and how it
 can be analysed. Where such changes introduce differences in data
 structure or coverage (e.g., adoption of different collaboration
 platforms), these should be documented clearly, including their scope and
-implications, to preserve comparability across groups and over time.<a href="#section-7.1-1.7.1" class="pilcrow">¶</a></p>
+implications, to preserve comparability across groups and over time.<a href="#section-7.1-1.6.1" class="pilcrow">¶</a></p>
 </li>
         </ul>
 </section>
@@ -2004,43 +1990,49 @@ historical records. Analyses should account for these limitations and
 avoid over-interpreting gaps or trends.<a href="#section-7.2-2.5.1" class="pilcrow">¶</a></p>
 </li>
           <li class="normal" id="section-7.2-2.6">
-            <p id="section-7.2-2.6.1"><strong>Be cautious in interpreting metrics:</strong>
+            <p id="section-7.2-2.6.1"><strong>Separation of primary and inferred data:</strong>
+Some data useful for analysis (e.g., identity resolution, affiliation
+inference) involves interpretation. Such data should be distinguishable
+from primary records, with clear documentation of how it was produced.<a href="#section-7.2-2.6.1" class="pilcrow">¶</a></p>
+</li>
+          <li class="normal" id="section-7.2-2.7">
+            <p id="section-7.2-2.7.1"><strong>Be cautious in interpreting metrics:</strong>
 Common metrics such as message volume, authorship, or participation
 counts do not directly capture influence, authority, or impact. Results
 should be interpreted in context and, where possible, supported by
-complementary evidence.<a href="#section-7.2-2.6.1" class="pilcrow">¶</a></p>
+complementary evidence.<a href="#section-7.2-2.7.1" class="pilcrow">¶</a></p>
 </li>
-          <li class="normal" id="section-7.2-2.7">
-            <p id="section-7.2-2.7.1"><strong>Consider the impact of tooling and process changes:</strong>
+          <li class="normal" id="section-7.2-2.8">
+            <p id="section-7.2-2.8.1"><strong>Consider the impact of tooling and process changes:</strong>
 Changes in tools or working practises (e.g., use of different
 collaboration platforms) can affect what is recorded and how it is
 structured. These changes should be considered when interpreting
-longitudinal trends or comparing across groups.<a href="#section-7.2-2.7.1" class="pilcrow">¶</a></p>
-</li>
-          <li class="normal" id="section-7.2-2.8">
-            <p id="section-7.2-2.8.1"><strong>Engage with the community:</strong>
-Data alone provides an incomplete view of the standards process.
-Engagement with participants or domain experts can help interpret results
-and identify factors that are not visible in the data.<a href="#section-7.2-2.8.1" class="pilcrow">¶</a></p>
+longitudinal trends or comparing across groups.<a href="#section-7.2-2.8.1" class="pilcrow">¶</a></p>
 </li>
           <li class="normal" id="section-7.2-2.9">
-            <p id="section-7.2-2.9.1"><strong>Support reproducibility and reuse:</strong>
-Where possible, researchers should share datasets, code, and methods,
-subject to applicable policies and privacy considerations. This reduces
-duplication of effort and improves the reliability of results.<a href="#section-7.2-2.9.1" class="pilcrow">¶</a></p>
+            <p id="section-7.2-2.9.1"><strong>Engage with the community:</strong>
+Data alone provides an incomplete view of the standards process.
+Engagement with participants or domain experts can help interpret results
+and identify factors that are not visible in the data.<a href="#section-7.2-2.9.1" class="pilcrow">¶</a></p>
 </li>
           <li class="normal" id="section-7.2-2.10">
-            <p id="section-7.2-2.10.1"><strong>Contribute improvements where appropriate:</strong>
-Effort spent cleaning or structuring data may be of broader value. Where
-feasible, contributing corrections or improvements back to shared data
-sources can benefit the wider community.<a href="#section-7.2-2.10.1" class="pilcrow">¶</a></p>
+            <p id="section-7.2-2.10.1"><strong>Support reproducibility and reuse:</strong>
+Where possible, researchers should share datasets, code, and methods,
+subject to applicable policies and privacy considerations. This reduces
+duplication of effort and improves the reliability of results.<a href="#section-7.2-2.10.1" class="pilcrow">¶</a></p>
 </li>
           <li class="normal" id="section-7.2-2.11">
-            <p id="section-7.2-2.11.1"><strong>Consider ethical implications:</strong>
+            <p id="section-7.2-2.11.1"><strong>Contribute improvements where appropriate:</strong>
+Effort spent cleaning or structuring data may be of broader value. Where
+feasible, contributing corrections or improvements back to shared data
+sources can benefit the wider community.<a href="#section-7.2-2.11.1" class="pilcrow">¶</a></p>
+</li>
+          <li class="normal" id="section-7.2-2.12">
+            <p id="section-7.2-2.12.1"><strong>Consider ethical implications:</strong>
 As discussed in the Ethics and Data Protection section, analysis may have
 implications for individuals or organisations. Care should be taken in
 how results are presented, particularly where they may be sensitive or
-open to misinterpretation.<a href="#section-7.2-2.11.1" class="pilcrow">¶</a></p>
+open to misinterpretation.<a href="#section-7.2-2.12.1" class="pilcrow">¶</a></p>
 </li>
         </ul>
 </section>
