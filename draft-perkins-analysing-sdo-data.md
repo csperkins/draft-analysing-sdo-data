@@ -1,5 +1,5 @@
 ---
-title: "Analysing Internet Standards Development Organisation Data"
+title: "Analysing Internet Standards Data"
 abbrev: "Analysing Internet Standards"
 category: info
 
