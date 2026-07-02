@@ -5,11 +5,11 @@
 RASPRG                                                        C. Perkins
 Internet-Draft                                     University of Glasgow
 Intended status: Informational                                 I. Castro
-Expires: 28 December 2026                Queen Mary University of London
+Expires: 3 January 2027                  Queen Mary University of London
                                                              R. Yanagida
                                                             S. McQuistin
                                                 University of St Andrews
-                                                            26 June 2026
+                                                             2 July 2026
 
 
                    Analysing Internet Standards Data
@@ -64,7 +64,7 @@ Status of This Memo
    time.  It is inappropriate to use Internet-Drafts as reference
    material or to cite them other than as "work in progress."
 
-   This Internet-Draft will expire on 28 December 2026.
+   This Internet-Draft will expire on 3 January 2027.
 
 Copyright Notice
 
@@ -457,7 +457,8 @@ Table of Contents
    YouTube (https://www.youtube.com/user/ietf
    (https://www.youtube.com/user/ietf)).  Auto-generated meeting
    transcripts are available, but with significant limitations on
-   accuracy.
+   accuracy.  In recent years, a professional manual transcription is
+   available for plenaries and a limited number of meeting sessions.
 
    Audio recordings of IETF plenary meetings from IETF 49 through to
    IETF 106 are available at https://get.ietf.org/archive/audio
