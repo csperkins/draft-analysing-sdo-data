@@ -19,7 +19,7 @@ venue:
   type: Research Group
   mail: rasprg@irtf.org
   github: "csperkins/draft-analysing-sdo-data"
-  latest: "https://csperkins.github.io/draft-analysing-sdo-data/draft-perkins-analysing-sdo-data.html"
+  latest: "https://csperkins.github.io/draft-analysing-sdo-data/draft-irtf-rasprg-analysing-ietf-data.html"
 
 author:
  -
