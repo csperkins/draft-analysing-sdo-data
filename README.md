@@ -4,10 +4,10 @@
 
 This is the working area for the individual Internet-Draft, "Analysing Internet Standards Development Organisation Data".
 
-* [Editor's Copy](https://csperkins.github.io/draft-analysing-sdo-data/#go.draft-perkins-analysing-sdo-data.html)
-* [Datatracker Page](https://datatracker.ietf.org/doc/draft-perkins-analysing-sdo-data)
-* [Individual Draft](https://datatracker.ietf.org/doc/html/draft-perkins-analysing-sdo-data)
-* [Compare Editor's Copy to Individual Draft](https://csperkins.github.io/draft-analysing-sdo-data/#go.draft-perkins-analysing-sdo-data.diff)
+* [Editor's Copy](https://csperkins.github.io/draft-analysing-sdo-data/#go.draft-irtf-rasprg-analysing-ietf-data.html)
+* [Datatracker Page](https://datatracker.ietf.org/doc/draft-irtf-rasprg-analysing-ietf-data)
+* [Individual Draft](https://datatracker.ietf.org/doc/html/draft-irtf-rasprg-analysing-ietf-data)
+* [Compare Editor's Copy to Individual Draft](https://csperkins.github.io/draft-analysing-sdo-data/#go.draft-irtf-rasprg-analysing-ietf-data.diff)
 
 
 ## Contributing
