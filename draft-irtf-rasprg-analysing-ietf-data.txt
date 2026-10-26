@@ -5,15 +5,15 @@
 RASPRG                                                        C. Perkins
 Internet-Draft                                     University of Glasgow
 Intended status: Informational                                 I. Castro
-Expires: 3 January 2027                  Queen Mary University of London
+Expires: 29 April 2027                   Queen Mary University of London
                                                              R. Yanagida
                                                             S. McQuistin
                                                 University of St Andrews
-                                                             2 July 2026
+                                                         26 October 2026
 
 
                    Analysing Internet Standards Data
-                draft-perkins-analysing-sdo-data-latest
+              draft-irtf-rasprg-analysing-ietf-data-latest
 
 Abstract
 
@@ -38,8 +38,8 @@ About This Document
    The latest revision of this draft can be found at
    https://csperkins.github.io/draft-analysing-sdo-data/draft-perkins-
    analysing-sdo-data.html.  Status information for this document may be
-   found at https://datatracker.ietf.org/doc/draft-perkins-analysing-
-   sdo-data/.
+   found at https://datatracker.ietf.org/doc/draft-irtf-rasprg-
+   analysing-ietf-data/.
 
    Discussion of this document takes place on the RASPRG Research Group
    mailing list (mailto:rasprg@irtf.org), which is archived at
@@ -64,7 +64,7 @@ Status of This Memo
    time.  It is inappropriate to use Internet-Drafts as reference
    material or to cite them other than as "work in progress."
 
-   This Internet-Draft will expire on 3 January 2027.
+   This Internet-Draft will expire on 29 April 2027.
 
 Copyright Notice
 
