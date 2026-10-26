@@ -3,7 +3,7 @@ title: "Analysing Internet Standards Data"
 abbrev: "Analysing Internet Standards"
 category: info
 
-docname: draft-perkins-analysing-sdo-data-latest
+docname: draft-irtf-rasprg-analysing-ietf-data-latest
 submissiontype: IRTF  # also: "independent", "editorial", "IAB", or "IRTF"
 number:
 date:
