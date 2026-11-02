@@ -5,11 +5,11 @@
 RASPRG                                                        C. Perkins
 Internet-Draft                                     University of Glasgow
 Intended status: Informational                                 I. Castro
-Expires: 29 April 2027                   Queen Mary University of London
+Expires: 6 May 2027                      Queen Mary University of London
                                                              R. Yanagida
                                                             S. McQuistin
                                                 University of St Andrews
-                                                         26 October 2026
+                                                         2 November 2026
 
 
                    Analysing Internet Standards Data
@@ -64,7 +64,7 @@ Status of This Memo
    time.  It is inappropriate to use Internet-Drafts as reference
    material or to cite them other than as "work in progress."
 
-   This Internet-Draft will expire on 29 April 2027.
+   This Internet-Draft will expire on 6 May 2027.
 
 Copyright Notice
 
@@ -87,6 +87,7 @@ Table of Contents
      3.3.  Mailing List Archives
      3.4.  Meeting Recordings and Chat Archives
      3.5.  GitHub
+     3.6.  Surveys
    4.  Analysing Other SDOs
      4.1.  Data Availability Across SDOs
      4.2.  Integrating Data Across SDOs
@@ -492,6 +493,15 @@ Table of Contents
    At the time of writing, use of Github in the IETF has been steadily
    increasing for a number of years [Khare2022].
 
+3.6.  Surveys
+
+   The IETF LLC provides annual reports on its activities, and conducts
+   annual community surveys to understand demographics, participation
+   trends, and perceptions of the IETF, and post-meeting surveys to seek
+   operational feedback on the meetings.  These reports and survey
+   results are available at https://www.ietf.org/reports/
+   (https://www.ietf.org/reports/).
+
 4.  Analysing Other SDOs
 
    Standards relevant to the Internet and the Web are also developed
@@ -523,7 +533,9 @@ Table of Contents
    typically restricted to member organisations.  Some ITU-T
    Recommendations are made publicly available after publication, while
    the 3GPP makes its specifications available at https://www.3gpp.org/
-   specifications (https://www.3gpp.org/specifications).  The working
+   specifications (https://www.3gpp.org/specifications), and 3GPP and
+   ETSI mailing list archives are publicly archived at
+   https://list.etsi.org/ (https://list.etsi.org/) The working
    documents, contributions, and meeting records are generally not
    accessible to non-members.
 
@@ -1079,6 +1091,9 @@ Acknowledgments
    This document builds on work funded, in part, by the UK Engineering
    and Physical Sciences Research Council under grants EP/S033564/1 and
    EP/S036075/1.
+
+   The authors wish to thank Niels ten Oever and the other members of
+   the IRTF RASPRG for their helpful feedback.
 
 Authors' Addresses
 
