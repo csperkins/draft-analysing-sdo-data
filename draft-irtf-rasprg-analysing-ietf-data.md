@@ -727,6 +727,14 @@ The following information is available using the GitHub API:
 At the time of writing, use of Github in the IETF has been steadily
 increasing for a number of years {{Khare2022}}.
 
+## Surveys
+
+The IETF LLC provides annual reports on its activities, and conducts
+annual community surveys to understand demographics, participation
+trends, and perceptions of the IETF, and post-meeting surveys to
+seek operational feedback on the meetings. These reports and survey
+results are available at <https://www.ietf.org/reports/>.
+
 
 # Analysing Other SDOs
 
@@ -1102,3 +1110,8 @@ This document has no IANA actions.
 This document builds on work funded, in part, by the UK Engineering
 and Physical Sciences Research Council under grants EP/S033564/1 and
 EP/S036075/1.
+
+The authors wish to thank
+Niels ten Oever
+and the other members of the IRTF RASPRG for their helpful feedback.
+
