@@ -691,11 +691,14 @@ archive, that make them difficult to process {{Niedermayer2017}} {{McQuistin2023
 
 ## Meeting Recordings and Chat Archives
 
-The IETF makes video recordings of its plenary meetings available on
-YouTube (<https://www.youtube.com/user/ietf>). Auto-generated meeting
-transcripts are available, but with significant limitations on accuracy.
-In recent years, professional manual transcriptions are available for
-plenaries and a limited number of meeting sessions.
+The IETF makes video recordings of its plenary meetings, and many interim
+meetings, available on YouTube (<https://www.youtube.com/user/ietf>) and
+via the Meetecho player. The latter is linked from the meeting materials
+page in the Datatracker, and provides synchronised replay of the chat,
+polls, etc., in addition to the video. Auto-generated meeting transcripts
+are available, but with significant limitations on accuracy. In recent
+years, professional manual transcriptions are available for plenaries and
+a limited number of meeting sessions.
 
 Audio recordings of IETF plenary meetings from IETF 49 through to IETF 106
 are available at <https://get.ietf.org/archive/audio>.
@@ -1112,6 +1115,7 @@ and Physical Sciences Research Council under grants EP/S033564/1 and
 EP/S036075/1.
 
 The authors wish to thank
-Niels ten Oever
+Niels ten Oever,
+Kesara Rathnayake,
 and the other members of the IRTF RASPRG for their helpful feedback.
 
