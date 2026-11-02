@@ -755,8 +755,9 @@ The ITU-T and 3GPP both operate under membership-based models where access
 to documents, meeting records, and contribution data is typically
 restricted to member organisations. Some ITU-T Recommendations are made
 publicly available after publication, while the 3GPP makes its
-specifications available at <https://www.3gpp.org/specifications>.  The
-working documents, contributions, and meeting records are generally not
+specifications available at <https://www.3gpp.org/specifications>, and
+3GPP and ETSI mailing list archives are publicly archived at <https://list.etsi.org/>
+The working documents, contributions, and meeting records are generally not
 accessible to non-members.
 
 Differences in data availability mean that the methods applicable to the
