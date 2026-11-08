@@ -1,6 +1,6 @@
 {
   "magic": "E!vIA5L86J2I",
-  "timestamp": "2026-11-05T04:59:50.239090+00:00",
+  "timestamp": "2026-11-08T04:19:23.975885+00:00",
   "repo": "csperkins/draft-analysing-sdo-data",
   "labels": [
     {
@@ -49,6 +49,23 @@
       "color": "ffffff"
     }
   ],
-  "issues": [],
+  "issues": [
+    {
+      "number": 1,
+      "id": "I_kwDORciFP88AAAABdVIlxg",
+      "title": "draft-irtf-rasprg-analysing-ietf-data-01 comments",
+      "url": "https://github.com/csperkins/draft-analysing-sdo-data/issues/1",
+      "state": "OPEN",
+      "author": "gregbo",
+      "authorAssociation": "NONE",
+      "assignees": [],
+      "labels": [],
+      "body": "I found some nits, attached, in unified diff format.\n\n[draft-irtf-rasprg-analysing-ietf-data-01.diff.txt](https://github.com/user-attachments/files/34527139/draft-irtf-rasprg-analysing-ietf-data-01.diff.txt)\n\nAlso, here are a couple more comments:\n\nOrcid Identifiers are mentioned, but there is no citation.  I don't know offhand how well known Orcid is to those likely to read this draft if it is published as an RFC, but a citation, or at least a short description might be helpful.\n\nThere is no link to a copy of Marshall Rose's **_The Open Book_**.  It is available from the Internet Archive at https://archive.org/details/openbookpractica00rose/mode/2up.",
+      "createdAt": "2026-11-07T19:28:38Z",
+      "updatedAt": "2026-11-07T19:28:38Z",
+      "closedAt": null,
+      "comments": []
+    }
+  ],
   "pulls": []
 }
