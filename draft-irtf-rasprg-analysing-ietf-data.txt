@@ -47,7 +47,7 @@ About This Document
    https://www.ietf.org/mailman/listinfo/rasprg/.
 
    Source for this draft and an issue tracker can be found at
-   https://github.com/csperkins/draft-analysing-sdo-data.
+   https://github.com/irtf-rasprg/draft-analysing-sdo-data.
 
 Status of This Memo
 
