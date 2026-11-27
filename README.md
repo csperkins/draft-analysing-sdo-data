@@ -1,19 +1,19 @@
 <!-- regenerate: on (set to off if you edit this file) -->
 
-# Analysing Internet Standards Development Organisation Data
+# Analysing Internet Standards Data
 
-This is the working area for the individual Internet-Draft, "Analysing Internet Standards Development Organisation Data".
+This is the working area for the individual Internet-Draft, "Analysing Internet Standards Data".
 
-* [Editor's Copy](https://csperkins.github.io/draft-analysing-sdo-data/#go.draft-irtf-rasprg-analysing-ietf-data.html)
+* [Editor's Copy](https://irtf-rasprg.github.io/draft-analysing-sdo-data/#go.draft-irtf-rasprg-analysing-ietf-data.html)
 * [Datatracker Page](https://datatracker.ietf.org/doc/draft-irtf-rasprg-analysing-ietf-data)
 * [Individual Draft](https://datatracker.ietf.org/doc/html/draft-irtf-rasprg-analysing-ietf-data)
-* [Compare Editor's Copy to Individual Draft](https://csperkins.github.io/draft-analysing-sdo-data/#go.draft-irtf-rasprg-analysing-ietf-data.diff)
+* [Compare Editor's Copy to Individual Draft](https://irtf-rasprg.github.io/draft-analysing-sdo-data/#go.draft-irtf-rasprg-analysing-ietf-data.diff)
 
 
 ## Contributing
 
 See the
-[guidelines for contributions](https://github.com/csperkins/draft-analysing-sdo-data/blob/main/CONTRIBUTING.md).
+[guidelines for contributions](https://github.com/irtf-rasprg/draft-analysing-sdo-data/blob/main/CONTRIBUTING.md).
 
 The contributing file also has tips on how to make contributions, if you
 don't already know how to do that.
